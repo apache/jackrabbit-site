@@ -1,0 +1,9 @@
+org.apache.jackrabbit.rmi.client
+org.apache.jackrabbit.rmi.client.iterator
+org.apache.jackrabbit.rmi.iterator
+org.apache.jackrabbit.rmi.observation
+org.apache.jackrabbit.rmi.remote
+org.apache.jackrabbit.rmi.server
+org.apache.jackrabbit.rmi.server.iterator
+org.apache.jackrabbit.rmi.value
+org.apache.jackrabbit.rmi.xml

@@ -1,0 +1,164 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+body        { font-family: sans-serif;
+              font-size: 12pt;
+              background-color: #eee;
+              margin: 0;
+              padding: 0; }
+
+#page       { width: 980px;
+              height: 100%;
+              margin: 0 auto;
+              left: auto;
+              right: auto; }
+
+a:link      { color: #667C00; }
+a:visited   { color: #7C7C7C; }
+
+img         { border: 0; }
+
+/* HEADER */
+
+#header     { height: 120px;
+              margin-top: 20px;
+              padding-right: 20px;
+              background: url('header-bg.png') no-repeat; }
+
+
+#header p   { margin: 6px 0 2px 0; }
+
+#jcr        { float: left; }
+
+#asf        { float: right; }
+#header img { margin: 0;
+              padding: 6px; }
+#header a   { text-decoration: none; }
+
+/* BODY */
+
+#body       { background: url(content-bg.png) repeat-y;
+              padding-top: 1em;
+              padding-bottom: 1em;
+              padding-right: 20px;
+              height: 100%; }
+
+#end        { clear: both; }
+
+/* NAVIGATION */
+
+#navigation { padding: 10px 0;
+              width: 192px;
+              float: right;
+              font-size: 10pt; }
+
+#navigation ul
+            { margin: 0;
+              padding: 0 0 1ex 1ex;
+              list-style: none;
+              font-weight: bold; }
+
+#navigation ul ul
+            { font-weight: normal; }
+
+#navigation a
+            { text-decoration: none; }
+
+/* CONTENT */
+
+#content    { width: 740px;
+              float: left;
+              font-family: serif;
+              padding-top: 1ex;
+              padding-left: 20px; }
+
+#content p  { line-height: 1.5em; }
+
+#content li { margin-bottom: 1ex; }
+
+h1, h2      { color: #869900;
+              font-family: sans-serif; }
+              
+h1          { font-weight: bold;
+              margin: 0; }
+
+h2          { border-bottom: 1px dotted #999; }
+
+tt          { color: #869900; }
+
+pre         { background: #E0E0E0;
+              overflow: auto;
+              padding: 1em;
+              border: 1px dotted black; }
+
+table.noteMacro
+            { background: #eee;
+              border: 2px solid yellow; }
+
+table.warningMacro
+            { background: #ccc;
+              border: 2px solid red; }
+
+table.infoMacro
+            { background: #D8E4F1;
+              border: 2px solid #3c78b5; }
+
+table.tipMacro
+            { background: #dfd;
+              border: 2px solid #090; }
+
+table.confluenceTable
+            { margin: 1em auto;
+              border-collapse: collapse; }
+
+table.confluenceTable td, table.confluenceTable th
+            { border: 1px solid #ccc; 
+              padding: 5px 10px; }
+
+table.confluenceTable th
+            { background: #ccc; 
+              text-align: left; }
+
+.code-keyword
+            { color: #000091; }
+
+.code-object
+            { color: #910091; }
+
+.code-quote { color: #009100; }
+
+.code-comment
+            { color: #808080; }
+
+.code-xml .code-keyword
+            { font-weight: bold; }
+
+.code-tag   { color: #000091; }
+
+
+/* FOOTER */
+
+#footer     { height: 50px;
+              background: url('footer-bg.png') no-repeat;
+              padding-top: 3px;
+              padding-right: 20px;
+              font-size: x-small; }
+
+#footer p   { margin: 0;
+              text-align: center; }
+
+#footer a   { text-decoration: none; }

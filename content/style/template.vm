@@ -1,0 +1,75 @@
+#set($base = "http://jackrabbit.apache.org")
+#macro (simplify $content)
+  #set ($content = $content.replaceAll(" rel=\"nofollow\"", ""))
+  #set ($content = $content.replaceAll(" title=\"Visit page outside Confluence\"", ""))
+  #set ($content = $content.replaceAll("<sup><img class=\"rendericon\" src=\"http://cwiki.apache.org/confluence/images/icons/linkext7.gif\" height=\"7\" width=\"7\" align=\"absmiddle\" alt=\"\" border=\"0\"></sup></a>","</A><SUP><IMG class=\"rendericon\" src=\"http://cwiki.apache.org/confluence/images/icons/linkext7.gif\" height=\"7\" width=\"7\" align=\"absmiddle\" alt=\"\" border=\"0\"></SUP>"))
+  #set ($content = $content.replaceAll("<SUP><IMG class=\"rendericon\" src=\"http://cwiki.apache.org/confluence/images/icons/mail_small.gif\" height=\"12\" width=\"13\" align=\"absmiddle\" alt=\"\" border=\"0\"></SUP></A>","</A><SUP><IMG class=\"rendericon\" src=\"http://cwiki.apache.org/confluence/images/icons/mail_small.gif\" height=\"12\" width=\"13\" align=\"absmiddle\" alt=\"\" border=\"0\"></SUP>"))
+  $content
+#end
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- 
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License. 
+-->
+<html>
+  <head>
+    <title>$page.title</title>
+    <link type="text/css" rel="stylesheet" href="$base/style/site.css">
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+        <p id="jcr"><a href="$base/"><img src="$base/style/jlogo.gif" alt="Apache Jackrabbit" height="100" width="336"></a></p>
+        <p id="asf"><a href="http://www.apache.org/"><img src="$base/style/asf-logo.gif" alt="Apache Software Foundation" height="100" width="387"></a></p>
+      </div>
+      <div id="body">
+        <div id="navigation">
+#set($renderer = $action.getHelper().getWikiStyleRenderer())
+#set($child = $pageManager.getPage($page.space.key,"Navigation"))
+#set ($content = $renderer.convertWikiToXHtml($child.toPageContext(), $child.content).trim())
+#simplify($content)
+        </div>
+        <div id="content">
+          <h1>$page.title</h1>
+#simplify($body)
+        </div>
+        <div id="end"></div>
+      </div>
+      <div id="footer">
+        <p>
+          &copy; 2004-2010 The Apache Software Foundation.
+          - <a href="$base/privacy-policy.html">Privacy Policy</a> -
+          [<a href="$confluenceUri/pages/editpage.action?pageId=$page.id">edit this page</a>]
+          <br>
+          Apache Jackrabbit, Jackrabbit, Apache, the Apache feather logo, and the Apache
+          Jackrabbit project logo are trademarks of The Apache Software Foundation.
+        </p>
+      </div>
+    </div>
+<!-- JCR-1315: Add Google Analytics to Jackrabbit web site -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-837900-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+  </body>
+</html>
+
