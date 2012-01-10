@@ -1,0 +1,59 @@
+{HTMLcomment:hidden}[!Jackrabbit-Download-2.2.5.png|align=right!|Downloads]{HTMLcomment}
+The Apache Jackrabbit™ content repository is a fully conforming implementation of the Content Repository for Java Technology API (JCR, specified in [JSR 170|http://jcp.org/en/jsr/detail?id=170|Java Specification Request 170, JCR 1.0] and [283|http://jcp.org/en/jsr/detail?id=283|Java Specification Request 283, JCR 2.0]).
+
+A content repository is a hierarchical content store with support for structured and unstructured content, full text search, versioning, transactions, observation, and more.
+
+Apache Jackrabbit is a project of the [Apache Software Foundation|http://www.apache.org/].
+
+h2. Apache Jackrabbit News
+
+*January 2nd, 2012: Apache Jackrabbit 2.3.6 released*
+Apache Jackrabbit 2.3 is an unstable series of releases cut directly from Jackrabbit trunk, with a focus on new features and other improvements.
+See the [downloads page|Downloads#v23] for more details.
+
+*December 16th, 2011: Apache Jackrabbit 2.3.5 released*
+Apache Jackrabbit 2.3 is an unstable series of releases cut directly from Jackrabbit trunk, with a focus on new features and other improvements.
+
+*November 29th, 2011: Apache Jackrabbit 2.3.4 released*
+Apache Jackrabbit 2.3 is an unstable series of releases cut directly from Jackrabbit trunk, with a focus on new features and other improvements. 
+
+*November 22nd, 2011: Apache Jackrabbit 2.2.10 released*
+Apache Jackrabbit 2.2.10 is patch release that contains fixes and improvements over previous 2.2.x releases.  See the [downloads page|Downloads#v22] for more details.
+
+*November 15th, 2011: Apache Jackrabbit 2.3.3 released*
+Apache Jackrabbit 2.3 is an unstable series of releases cut directly from Jackrabbit trunk, with a focus on new features and other improvements.
+
+*November 2nd, 2011: Apache Jackrabbit 2.3.2 released*
+Apache Jackrabbit 2.3 is an unstable series of releases cut directly from Jackrabbit trunk, with a focus on new features and other improvements.
+
+*October 3rd, 2011: Apache Jackrabbit 2.3.0 released*
+Apache Jackrabbit 2.3 is an unstable series of releases cut directly from Jackrabbit trunk, with a focus on new features and other improvements.
+
+*October 3rd, 2011: End of life of Jackrabbit 1.x*
+The 1.6.5 patch release marks the end of active maintenance of Jackrabbit 1.x. All users are encouraged to upgrade to the more recent Jackrabbit 2.x versions.
+
+*October 3rd, 2011: Apache Jackrabbit 2.2.9, 2.1.6, 2.0.5 and 1.6.5 released*
+These patch releases contain fixes and improvements over previous releases. See the [downloads page|Downloads] for more details.
+
+*August 23, 2011: Apache Jackrabbit 2.2.8 released*
+Apache Jackrabbit 2.2.8 is patch release that contains fixes and improvements over previous 2.2.x releases. 
+
+*June 7, 2011: Apache Jackrabbit 2.2.7 released*
+Apache Jackrabbit 2.2.7 is patch release that contains fixes and improvements over previous 2.2.x releases.
+
+*June 7, 2011: Apache Jackrabbit 2.1.5 released*
+Apache Jackrabbit 2.1.5 is patch release that fixes issues reported against previous releases.
+
+*March 18, 2011: Apache Jackrabbit 2.2.5 released*
+Apache Jackrabbit 2.2.5 is patch release that contains fixes and improvements over previous 2.2.x releases.
+
+*February 15, 2011: Apache Jackrabbit 2.2.4 released*
+Apache Jackrabbit 2.2.4 is patch release that contains fixes and improvements over previous 2.2.x releases.
+
+*January 26, 2011: Apache Jackrabbit 2.2.2 released*
+Apache Jackrabbit 2.2.2 is patch release that contains fixes and improvements over previous 2.2.x releases.
+
+*January 11, 2011: Apache Jackrabbit 2.2.1 released*
+Apache Jackrabbit 2.2.1 is patch release that contains fixes and improvements over Jackrabbit 2.2.0.
+
+See the [news archive|News archive] for past news.

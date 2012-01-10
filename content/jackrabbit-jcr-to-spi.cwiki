@@ -1,0 +1,11 @@
+This is the JCR to SPI component of the Apache Jackrabbit project. It provides and exposes the JCR API to the application and is a consumer of an implementation of the [SPI interfaces|Jackrabbit SPI].
+
+Jackrabbit JCR to SPI is intended to act as a generic implementation of the transient component that is layered on top of the persistent state of the JCR repository. The latter is is represented by the SPI implementation.
+
+This means that JCR to SPI handles
+
+    * transient storage of pending changes.
+    * resolution of namespaces to prefixes.
+    * Session-local namespace mappings.
+    * Session-mediated XML import.
+    * XML export.

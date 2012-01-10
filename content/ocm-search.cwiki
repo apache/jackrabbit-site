@@ -1,0 +1,44 @@
+
+h2. Searching a single object
+
+{code}
+QueryManager queryManager = ocm.getQueryManager();
+
+// Build the search filter
+Filter filter = queryManager.createFilter(Paragraph.class);
+filter.addEqualTo("text", "Para 1");   // Text is an attribute in the class Paragraph
+
+// Build the query
+Query query = queryManager.createQuery(filter);
+Paragraph paragraph = (Paragraph) ocm.getObject(query);
+{code}
+
+h2. Searching a collection
+
+{code}
+QueryManager queryManager = ocm.getQueryManager();
+Filter filter = queryManager.createFilter(Paragraph.class);
+filter.setScope("/test/node1//");
+Query query = queryManager.createQuery(filter);
+Collection result = ocm.getObjects(query);
+{code}
+
+h2. Searching with an iterator
+
+{code}
+QueryManager queryManager = ocm.getQueryManager();
+Filter filter = queryManager.createFilter(Paragraph.class);
+filter.setScope("/test/node1//");
+Query query = queryManager.createQuery(filter);
+Iterator iterator = ocm.getObjectIterator(query);
+{code}
+
+h2. Remove objects based on a query
+
+{code}
+QueryManager queryManager = ocm.getQueryManager();
+Filter filter = queryManager.createFilter(Paragraph.class);
+filter.setScope("/test/node1//");
+Query query = queryManager.createQuery(filter);
+ocm.remove(query);
+{code}

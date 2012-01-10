@@ -1,0 +1,101 @@
+Right now, the OCM tools provides basic versioning features:
+
+* Check in, check out.
+* Retrieve version history (first version, last version, the complete history, ...).
+* Apply labels.
+
+Later, we would like to add more advanced versioning support like version compare, replace, revert, ... Each versioned object has to be mapped to a mix:versionable JCR node. It is possible to specify this node type in the xml class descriptor or with an annotation :
+
+h2. Check in - Check out
+
+{code}
+// Create a new page - first version
+Page page = new Page();
+page.setPath("/page");
+page.setTitle("Page Title");
+page.addParagraph(new Paragraph("para1"));
+page.addParagraph(new Paragraph("para2"));
+ocm.insert(page);
+ocm.save();
+
+// Update the page object and create a new version
+page.addParagraph(new Paragraph("para3"));
+ocm.checkout("/page");
+ocm.update(page);
+ocm.save();
+ocm.checkin("/page");
+
+// Update the page object and create a new version
+page.addParagraph(new Paragraph("para4"));
+ocm.checkout("/page");
+ocm.update(page);
+ocm.save();
+ocm.checkin("/page");
+{code}
+
+h2. Retrieve the version history
+
+{code}
+VersionIterator versionIterator = ocm.getAllVersions("/page");
+while (versionIterator.hasNext())
+{
+    Version version = (Version) versionIterator.next();
+    System.out.println("version found : "+ version.getName() + " - " +
+                          version.getPath() + " - " +  version.getCreated().getTime());
+}
+{code}
+
+h2. Retrieve version description
+
+{code}
+// Retrieve the first version description
+Version baseVersion = ocm.getBaseVersion("/page");
+System.out.println("Base version : " + baseVersion.getName());
+
+// Retrieve the latest version description
+Version rootVersion = ocm.getRootVersion("/page");
+System.out.println("Root version : " + rootVersion.getName());
+{code}
+
+h2. Retrieve the object state matching to a specific version
+
+{code}
+//Get the object matching to the first version
+Page  page = (Page) ocm.getObject( "/page", "1.0");
+{code}
+
+h2. Using version labels
+
+{code}
+Page page = new Page();
+page.setPath("/page");
+page.setTitle("Page Title");
+page.addParagraph(new Paragraph("para1"));
+page.addParagraph(new Paragraph("para2"));
+ocm.insert(page);
+ocm.save();
+
+// Checkin with some labels
+page.addParagraph(new Paragraph("para3"));
+ocm.checkout("/page");
+ocm.update(page);
+ocm.save();
+ocm.checkin("/page", new String[] {"A", "B"});
+
+// Checkin with some labels
+page.addParagraph(new Paragraph("para4"));
+ocm.checkout("/page");
+ocm.update(page);
+ocm.save();
+ocm.checkin("/page", new String[] {"C", "D"});
+
+// Retrieve all labels
+String[] allLabels = ocm.getAllVersionLabels("/page");
+assertTrue("Incorrect number of labels", allLabels.length == 4);
+
+// Retrieve labels assigned to the version 1.1
+String[] versionLabels = ocm.getVersionLabels("/page", "1.1");
+assertTrue("Incorrect number of labels", versionLabels.length == 2);
+assertTrue("Incorrect label", versionLabels[0].equals("C") || versionLabels[0].equals("D"));
+assertTrue("Incorrect label", versionLabels[1].equals("C") || versionLabels[0].equals("D"));
+{code}

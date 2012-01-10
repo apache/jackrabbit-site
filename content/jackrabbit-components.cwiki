@@ -1,0 +1,25 @@
+The Apache Jackrabbit project consists of a number of related components. The main components are:
+
+* [Jackrabbit API]
+* [Jackrabbit JCR Commons]
+* [Jackrabbit JCR Tests]
+* [Jackrabbit Core]
+* [Jackrabbit Text Extractors] (replaced by [Tika|http://lucene.apache.org/tika/] in Jackrabbit 2.x)
+* [Jackrabbit JCR-RMI]
+* [Jackrabbit WebDAV Library]
+* [Jackrabbit JCR Client]
+* [Jackrabbit JCR to DAV]
+* [Jackrabbit JCR Server]
+* [Jackrabbit JCR Servlet]
+* [Jackrabbit Web Application]
+* [Jackrabbit JCA Resource Adapter]
+* [Jackrabbit SPI]
+* [Jackrabbit SPI Commons]
+* [Jackrabbit JCR to SPI]
+* [Jackrabbit SPI to JCR]
+* [Jackrabbit SPI to DAV]
+* [Jackrabbit Standalone Server|Standalone Server]
+* [Jackrabbit OCM] ([Jackrabbit commons|http://jackrabbit.apache.org/commons/] component since Jackrabbit 1.6)
+* [Jackrabbit OCM Node Management] ([Jackrabbit commons|http://jackrabbit.apache.org/commons/] component since Jackrabbit 1.6)
+
+In addition there are a number of contributed components in the {{sandbox}} folder of the Jackrabbit project. These components are not yet considered stable enough to be included in the official Apache Jackrabbit releases.

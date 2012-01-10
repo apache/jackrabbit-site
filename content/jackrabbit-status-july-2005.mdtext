@@ -1,0 +1,16 @@
+Title: Jackrabbit Status July 2005
+_From the [minutes](http://www.apache.org/foundation/records/minutes/2005/board_minutes_2005_07_28.txt)
+ of the Apache board meeting on July 28th, 2005:_
+
+Jackrabbit has attracted public interest from many different projects, both
+open source and commercial in nature, and has over 250 people reading the
+developer list.  During the past quarter we added one new committer, Edgar
+Poce, and cleared the minimum threshold of three independent committers.
+
+The big news is that JCR, the Content Repository for Java Technology 1.0
+API, has been completed by the JSR 170 expert group and received final
+approval from the J2SE/EE executive committee at the end of May.  We are
+currently working on restructuring the Jackrabbit project directories in
+preparation of an eagerly anticipated first release candidate and passing
+the official TCK, at which point we are hoping to graduate from Incubator
+to TLP status for the 1.0 release.

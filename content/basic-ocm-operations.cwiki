@@ -1,0 +1,33 @@
+When you have created a new [Object Content Manager] in your application, you can use this component to insert, update, delete and retrieve objects. The class 'Folder' used in the following sections has to be annoted or defined in a xml file class descriptor.
+
+This page describes only the main [Object Content Manager] methods. You can see the javadoc to get more information on the API.
+You can also read the tutorial [5' with Jackrabbit OCM] to get more information on how to initialize the [Object Content Manager] (ocm).
+
+h2. Insert
+
+{code}
+Folder folder =  new Folder();
+folder.setPath("/myfolder");
+folder.set...(); // call the setter methods
+
+ocm.insert(myFolder);
+{code}
+
+h2. Retrieve and update an object
+
+{code}
+Folder folder = (Folder) persistenceManager.getObject(Folder.class, "/myfolder");
+folder.set...(); // call the setter methods
+
+ocm.update(myFolder);
+{code}
+
+h2. Delete
+
+{code}
+ocm.remove("/test");
+{code}
+
+h2. Save last changes
+
+After some inserts, deletes and/or updates, you can call the method *ocm.save()* to apply your changes into the JCR repository.

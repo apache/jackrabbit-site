@@ -1,0 +1,7 @@
+Apache Jackrabbit uses [Hudson|https://hudson.dev.java.net/] for continuous integration builds. The Jackrabbit builds are a part of the [Hudson zone|http://hudson.zones.apache.org/hudson/] in the Apache infrastructure. See the [Hudson wiki page|http://wiki.apache.org/general/Hudson] for more information about the Hudson installation at Apache. The wiki page also contains instructions on how to get an account if you're a member of the [Jackrabbit Team] and want to modify the continuous integration settings.
+
+h2. Build targets and schedule
+
+See the [Jackrabbit page|http://hudson.zones.apache.org/hudson/view/Jackrabbit/] on the Hudson server for the list of configured Jackrabbit builds and their current status.
+
+The builds are configured to hourly check the Subversion server for updates and to run builds whenever there are changes. Build and test errors are reported on the dev@ mailing list.

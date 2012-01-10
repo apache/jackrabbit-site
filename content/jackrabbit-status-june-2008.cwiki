@@ -1,0 +1,39 @@
+Apache Jackrabbit is a fully conforming implementation of the Content Repository for Java Technology API (JCR, specified in JSR 170).
+
+The Apache Jackrabbit project is in good shape. We have no board-level issues at this time.
+
+h2. Releases
+
+Since the last report we made a number of small component releases and one older maintenance release. The releases were:
+
+* March 26, 2008: jackrabbit-core 1.4.2
+* April 2, 2008: jackrabbit-jcr-commons 1.4.2
+* April 9, 2008: jakcrabbit-jcr-rmi 1.4.1
+* May 8, 2008: Apache Jackrabbit 1.3.4
+* May 8, 2008: jackrabbit-core 1.4.3
+* May 9, 2008: jackrabbit-core 1.4.4
+* June 9, 2008: jackrabbit-core 1.4.5
+
+h2. Legal
+
+The license issue noted in the previous report (external party using our code without proper attribution) has been resolved.
+
+We have been clarifying our LICENSE and NOTICE files based on recent discussions on legal-discuss@ and the incubating sling-dev@ mailing lists.
+
+h2. Community
+
+Esteban Franqueiro and Alexander Klimetschek became committers and PMC members of Apache Jackrabbit.
+
+Many members of our community attended ApacheCon EU and we also organized a free-for-everyone JCR community gathering along the conference.
+
+h2. Development
+
+We are working towards Jackrabbit 1.5 in near future and Jackrabbit 2.0 (and the JSR 283 reference implementation) later on.
+
+h2. Infrastructure
+
+We switched to Hudson for our CI builds.
+
+We requested and got FishEye indexing for our codebase.
+
+The svn.eu.apache.org mirror is much appreciated as most of our committers are based in Europe.
