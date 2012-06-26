@@ -11,17 +11,17 @@ body {
 }
 #container {
   width: 900px;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 #intro, #image, #left, #center, #right {
   float: left;
   margin: 10px;
 }
-#intro, #left, #center, #right {
-  width: 280px;
+#intro, #image {
+  width: 430px;
 }
-#image {
-  width: 580px;
+#left, #center, #right {
+  width: 280px;
 }
 #intro, #left {
   clear: both;
@@ -61,16 +61,48 @@ p {
         </p>
       </div>
       <div id="image">
-        <img src="oak.png" alt="Oak drawing"/>
+        <img src="oak.png" width="430" height="329" alt="Oak drawing"/>
       </div>
       <div id="left">
         <h2>Download</h2>
+        <p>
+          The latest Oak sources are available for checkout from
+          <a href="https://svn.apache.org/repos/asf/jackrabbit/oak/trunk">svn</a>,
+          or you can
+          <a href="https://github.com/apache/jackrabbit-oak">fork them</a>
+          on GitHub.
+        </p>
+        <p>
+          See also our monthly releases on the Jackrabbit
+          <a href="http://jackrabbit.apache.org/downloads.html">download page</a>
+          for slightly more stable versions of the codebase.
+        </p>
       </div>
       <div id="center">
         <h2>Learn</h2>
+        <p>
+          Many parts of Oak are still under construction, so it may be a bit
+          difficult to find your way around the codebase. The
+          <a href="https://github.com/apache/jackrabbit-oak/blob/trunk/README.md"
+            >README files</a>, the
+          <a href="http://wiki.apache.org/jackrabbit/Jackrabbit%203"
+            >Jackrabbit 3 wiki page</a>, and the
+          <a href="http://oak.markmail.org/">Oak mailing list archives</a>
+          are good places to start learning about Oak.
+        </p>
       </div>
       <div id="right">
         <h2>Participate</h2>
+        <p>
+          The best place for Oak-related discussions is the
+          <a href="mailto:oak-dev@jackrabbit.apache.org">oak-dev@</a>
+          mailing list. To subscribe, send a message to
+          <a href="mailto:oak-dev-subscribe@jackrabbit.apache.org">oak-dev-subscribe@</a>.
+        </p>
+        <p>
+          Use the <a href="https://issues.apache.org/jira/browse/OAK">OAK</a>
+          issue tracker to submit issues, comments or patches.
+        </p>
       </div>
     </div>
   </body>
