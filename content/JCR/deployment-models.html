@@ -1,0 +1,173 @@
+
+<!-- 
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE- 2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License. 
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+  <HEAD>
+    <TITLE>Deployment Models</TITLE>
+    <LINK type="text/css" rel="stylesheet" href="http://jackrabbit.apache.org/style/site.css">
+  <META http-equiv="Content-Type" content="text/html;charset=UTF-8"></HEAD>
+  <BODY>
+    <DIV id="page">
+      <DIV id="header">
+        <P id="jcr"><A href="http://jackrabbit.apache.org/"><IMG src="http://jackrabbit.apache.org/style/jlogo.gif" alt="Apache Jackrabbit" height="100" width="336"></A></P>
+        <P id="asf"><A href="http://www.apache.org/"><IMG src="http://jackrabbit.apache.org/style/asf-logo.gif" alt="Apache Software Foundation" height="100" width="387"></A></P>
+      </DIV>
+      <DIV id="body">
+        <DIV id="navigation">
+  <UL>
+	<LI>Apache Jackrabbit
+	<UL>
+		<LI><A href="welcome-to-apache-jackrabbit.html" title="Welcome to Apache Jackrabbit">Welcome</A></LI>
+		<LI><A href="downloads.html" title="Downloads">Downloads</A></LI>
+		<LI><A href="frequently-asked-questions.html" title="Frequently Asked Questions">FAQ</A></LI>
+		<LI><A href="http://wiki.apache.org/jackrabbit/FrontPage" class="external-link">Jackrabbit Wiki</A></LI>
+		<LI><A href="jackrabbit-history.html" title="Jackrabbit History">Jackrabbit History</A></LI>
+	</UL>
+	</LI>
+	<LI>Documentation
+	<UL>
+		<LI><A href="getting-started-with-apache-jackrabbit.html" title="Getting Started with Apache Jackrabbit">Getting Started</A></LI>
+		<LI><A href="standalone-server.html" title="Standalone Server">Standalone Server</A></LI>
+		<LI><A href="jackrabbit-components.html" title="Jackrabbit Components">Jackrabbit Components</A></LI>
+		<LI><A href="first-hops.html" title="First Hops">First Hops</A></LI>
+		<LI><A href="jcr-api.html" title="JCR & API">JCR &amp; API</A></LI>
+		<LI><A href="jackrabbit-architecture.html" title="Jackrabbit Architecture">Jackrabbit Architecture</A></LI>
+		<LI><A href="" title="Deployment Models">Deployment Models</A></LI>
+		<LI><A href="jackrabbit-configuration.html" title="Jackrabbit Configuration">Jackrabbit Configuration</A></LI>
+		<LI><A href="node-types.html" title="Node Types">Node Types</A></LI>
+		<LI><A href="object-content-mapping.html" title="Object Content Mapping">Object Content Mapping</A></LI>
+	</UL>
+	</LI>
+	<LI>Development
+	<UL>
+		<LI><A href="jackrabbit-team.html" title="Jackrabbit Team">Jackrabbit Team</A></LI>
+		<LI><A href="jackrabbit-roadmap.html" title="Jackrabbit Roadmap">Jackrabbit Roadmap</A></LI>
+		<LI><A href="building-jackrabbit.html" title="Building Jackrabbit">Building Jackrabbit</A></LI>
+		<LI><A href="mailing-lists.html" title="Mailing Lists">Mailing Lists</A></LI>
+		<LI><A href="issue-tracker.html" title="Issue Tracker">Issue Tracker</A></LI>
+		<LI><A href="source-repository.html" title="Source Repository">Source Repository</A></LI>
+		<LI><A href="continuous-integration.html" title="Continuous Integration">Continuous Integration</A></LI>
+		<LI><A href="website.html" title="Website">Website</A></LI>
+		<LI><A href="creating-releases.html" title="Creating Releases">Creating Releases</A></LI>
+		<LI><A href="supporting-software-attribution.html" title="Supporting software attribution">Attribution</A></LI>
+	</UL>
+	</LI>
+	<LI>Apache Software Foundation
+	<UL>
+		<LI><A href="http://www.apache.org/foundation/how-it-works.html" class="external-link">Introduction</A></LI>
+		<LI><A href="http://www.apache.org/foundation/sponsorship.html" class="external-link">Sponsorship</A></LI>
+		<LI><A href="http://www.apache.org/foundation/thanks.html" class="external-link">Current Sponsors</A></LI>
+	</UL>
+	</LI>
+</UL>
+        </DIV>
+        <DIV id="content">
+          <H1>Deployment Models</H1>
+  <P>JSR-170 explicitly allows for numerous different deployment models, meaning that it is entirely up to the repository implementation to suggest certain models.</P>
+
+<P>Jackrabbit is built to support a variety of different deployment models, some of the possibilities on how to deploy Jackrabbit will be outlined here.</P>
+
+<P>See also the following HOWTO documents for setting up and using the different deployment models:</P>
+
+<UL>
+	<LI><A href="jcr-client-application-howto.html" title="JCR client application HOWTO">JCR client application HOWTO</A></LI>
+	<LI>Model 1: <A href="application-bundle-howto.html" title="Application Bundle HOWTO">Application Bundle HOWTO</A></LI>
+	<LI>Model 2: <A href="shared-j2ee-resource-howto.html" title="Shared J2EE Resource HOWTO">Shared J2EE Resource HOWTO</A></LI>
+	<LI>Model 3: <A href="repository-server-howto.html" title="Repository Server HOWTO">Repository Server HOWTO</A></LI>
+</UL>
+
+
+<H2><A name="DeploymentModels-Model1%3AThe%28Web%29ApplicationBundle"></A>Model 1: The (Web-) Application Bundle</H2>
+
+<P>For many applications, usually applications that run in a closed context without interacting with other applications or data sources, it might be desirable to bundle a content repository with the application itself.</P>
+
+<P>Jackrabbit is built for this lightweight model and allows obviously through the abstraction provided by JSR-170 to move at any point in time to a different deployment model in case this should be desirable for the context that the application runs in.</P>
+
+<P>This makes Jackrabbit ideal to be packaged as a lightweight out-of-the-box content repository that allows an application vendor to make sure that there are no dependencies to a pre-installed content repository.</P>
+
+<P>The instance of Jackrabbit that is package with the application is running in-proc inside the same JVM and cannot be accessed by any other application.</P>
+
+<P>This deployment model is particularly lightweight and does not require a network layer.</P>
+
+<P>The individual repository instances are started and stopped with their containing applications, which means that the application is not only connecting to the repository but is also in charge of starting and stopping the repository.</P>
+
+<P>As an example of this deployment model we assume a WebApplication packaged into a .war file which is deployed into a WebContainer, which not only contains the application but also the actual content repository.</P>
+
+<DIV class="" align="center"><SPAN class="image-wrap" style=""><IMG src="deployment-models.data/deploy-1.png" style="border: 0px solid black"></SPAN></DIV>
+
+
+<P>Application1 and Application2 both contain their own instances of a Content Repository distributed as a part of their .war file and therefore loaded with the web application's class loader which makes it invisible to other applications.</P>
+
+<P>This deployment model of course also works for any stand-alone application and not just for web applications.</P>
+
+<H2><A name="DeploymentModels-Model2%3ASharedJ2EEResource"></A>Model 2: Shared J2EE Resource</H2>
+
+<P>A second way to deploy a repository is to make it visible as a resource to all the web applications that are running inside a Servlet Container by registering the Repository as a Resource Adapter to the Application Server.</P>
+
+<P>Similar to the first deployment model this deployment model does also not require a network layer and therefore would be considered in-proc and is running inside the same JVM.</P>
+
+<P>The repository is started and stopped with the Application Server but is visible to all the applications to connect to.</P>
+
+<DIV class="" align="center"><SPAN class="image-wrap" style=""><IMG src="deployment-models.data/deploy-2.png" style="border: 0px solid black"></SPAN></DIV>
+
+
+<P>This setup also allows to take advantage of the XA facilities of the Application Server and could use the application servers single sign-on mechanisms that are provided as part of the J2EE framework.</P>
+
+<H2><A name="DeploymentModels-Model3%3ATheRepositoryServer"></A>Model 3: The Repository Server</H2>
+
+<P>In enterprise environments the client/server deployment model is widely used for relational databases. While with relational databases this is probably the only deployment model that is supported by most RDBMS vendors for repositories, in particular for Jackrabbit, this is only on various options.</P>
+
+<P>The client/server deployment model will certainly be very popular in environments that where it is desirable to physically separate the content repository (or data) layer from the application or presentation layer, so the content repository can be used from many different applications, physically and can be scaled individually.</P>
+
+<DIV class="" align="center"><SPAN class="image-wrap" style=""><IMG src="deployment-models.data/deploy-3.png" style="border: 0px solid black"></SPAN></DIV>
+
+
+<P>This deployment model assumes that there is a network layer between the content repository server and the respective content repository client.</P>
+
+<P>While the applications communicate through the JSR-170 API with the content repository client. The content repository client then communicates through any form of transport protocol with the stand-alone content repository server.</P>
+
+<P>The transport protocol between the client and the server is subject to implementation and not mandated by JSR-170. Popular choices might include RMI over JRMP or IIOP or WebDAV and its extensions.</P>
+        </DIV>
+        <DIV id="end"></DIV>
+      </DIV>
+      <DIV id="footer">
+        <P>
+          &copy; 2004-2010 The Apache Software Foundation.
+          - <A href="http://jackrabbit.apache.org/privacy-policy.html">Privacy Policy</A> -
+          [<A href="https://cwiki.apache.org/confluence/pages/editpage.action?pageId=75317">edit this page</A>]
+          <BR>
+          Apache Jackrabbit, Jackrabbit, Apache, the Apache feather logo, and the Apache
+          Jackrabbit project logo are trademarks of The Apache Software Foundation.
+        </P>
+      </DIV>
+    </DIV>
+<!-- JCR- 1315: Add Google Analytics to Jackrabbit web site -->
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+<SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-837900-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+  </BODY>
+</HTML>

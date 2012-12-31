@@ -1,0 +1,148 @@
+
+<!-- 
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE- 2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License. 
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+  <HEAD>
+    <TITLE>Index readers</TITLE>
+    <LINK type="text/css" rel="stylesheet" href="http://jackrabbit.apache.org/style/site.css">
+  <META http-equiv="Content-Type" content="text/html;charset=UTF-8"></HEAD>
+  <BODY>
+    <DIV id="page">
+      <DIV id="header">
+        <P id="jcr"><A href="http://jackrabbit.apache.org/"><IMG src="http://jackrabbit.apache.org/style/jlogo.gif" alt="Apache Jackrabbit" height="100" width="336"></A></P>
+        <P id="asf"><A href="http://www.apache.org/"><IMG src="http://jackrabbit.apache.org/style/asf-logo.gif" alt="Apache Software Foundation" height="100" width="387"></A></P>
+      </DIV>
+      <DIV id="body">
+        <DIV id="navigation">
+  <UL>
+	<LI>Apache Jackrabbit
+	<UL>
+		<LI><A href="welcome-to-apache-jackrabbit.html" title="Welcome to Apache Jackrabbit">Welcome</A></LI>
+		<LI><A href="downloads.html" title="Downloads">Downloads</A></LI>
+		<LI><A href="frequently-asked-questions.html" title="Frequently Asked Questions">FAQ</A></LI>
+		<LI><A href="http://wiki.apache.org/jackrabbit/FrontPage" class="external-link">Jackrabbit Wiki</A></LI>
+		<LI><A href="jackrabbit-history.html" title="Jackrabbit History">Jackrabbit History</A></LI>
+	</UL>
+	</LI>
+	<LI>Documentation
+	<UL>
+		<LI><A href="getting-started-with-apache-jackrabbit.html" title="Getting Started with Apache Jackrabbit">Getting Started</A></LI>
+		<LI><A href="standalone-server.html" title="Standalone Server">Standalone Server</A></LI>
+		<LI><A href="jackrabbit-components.html" title="Jackrabbit Components">Jackrabbit Components</A></LI>
+		<LI><A href="first-hops.html" title="First Hops">First Hops</A></LI>
+		<LI><A href="jcr-api.html" title="JCR & API">JCR &amp; API</A></LI>
+		<LI><A href="jackrabbit-architecture.html" title="Jackrabbit Architecture">Jackrabbit Architecture</A></LI>
+		<LI><A href="deployment-models.html" title="Deployment Models">Deployment Models</A></LI>
+		<LI><A href="jackrabbit-configuration.html" title="Jackrabbit Configuration">Jackrabbit Configuration</A></LI>
+		<LI><A href="node-types.html" title="Node Types">Node Types</A></LI>
+		<LI><A href="object-content-mapping.html" title="Object Content Mapping">Object Content Mapping</A></LI>
+	</UL>
+	</LI>
+	<LI>Development
+	<UL>
+		<LI><A href="jackrabbit-team.html" title="Jackrabbit Team">Jackrabbit Team</A></LI>
+		<LI><A href="jackrabbit-roadmap.html" title="Jackrabbit Roadmap">Jackrabbit Roadmap</A></LI>
+		<LI><A href="building-jackrabbit.html" title="Building Jackrabbit">Building Jackrabbit</A></LI>
+		<LI><A href="mailing-lists.html" title="Mailing Lists">Mailing Lists</A></LI>
+		<LI><A href="issue-tracker.html" title="Issue Tracker">Issue Tracker</A></LI>
+		<LI><A href="source-repository.html" title="Source Repository">Source Repository</A></LI>
+		<LI><A href="continuous-integration.html" title="Continuous Integration">Continuous Integration</A></LI>
+		<LI><A href="website.html" title="Website">Website</A></LI>
+		<LI><A href="creating-releases.html" title="Creating Releases">Creating Releases</A></LI>
+		<LI><A href="supporting-software-attribution.html" title="Supporting software attribution">Attribution</A></LI>
+	</UL>
+	</LI>
+	<LI>Apache Software Foundation
+	<UL>
+		<LI><A href="http://www.apache.org/foundation/how-it-works.html" class="external-link">Introduction</A></LI>
+		<LI><A href="http://www.apache.org/foundation/sponsorship.html" class="external-link">Sponsorship</A></LI>
+		<LI><A href="http://www.apache.org/foundation/thanks.html" class="external-link">Current Sponsors</A></LI>
+	</UL>
+	</LI>
+</UL>
+        </DIV>
+        <DIV id="content">
+          <H1>Index readers</H1>
+  <P>Jackrabbit uses Lucene as the underlying index implementation and provides several extensions and customizations that help improve performance in an environment where changes to the index are frequent. The extensions also cover features that are not supported by Lucene, like hierarchical queries.</P>
+
+<DIV class="" align="center"><SPAN class="image-wrap" style=""><IMG src="index-readers.data/index-readers-per-segment.jpg" style="border: 0px solid black"></SPAN></DIV>
+
+
+<H2><A name="Indexreaders-CachingIndexReader"></A>CachingIndexReader</H2>
+
+<P>The CachingIndexReader is at the very bottom of the index reader stack in Jackrabbit. It's main purpose is to cache the parent relationship of a node. Each node is represented with a document in the index and one of the fields is _:PARENT. The value of this field is the string representation of the parent nodes UUID. In case of the root node the the parent field contains an empty string as its value. Several queries in Jackrabbit are hierarchical and check whether a node is a descendant of another node. For the very simple case, where one needs to know if a node is the child of another node, we can just look up both nodes (lucene documents) in the index and compare the parent field on one node with the _:UUID field of the other. If they match the one is the child of the other node. When it comes to evaluating a descendant axis, this becomes much more expensive and will cause lots of document lookups in lucene. By caching the parent child relationship of documents, hierarchical operations can be executed much faster.</P>
+
+<P>The cache consists of an array of DocId instances. The length of this array corresponds to the number of documents accessible through the index reader. That is every document in the index has a corresponding cache entry in the array. Initially the cache is empty and is filled as it is accessed. There are two kinds of DocIds: PlainDocId and UUIDDocId. When the parent of a node resides in the same index segment a PlainDocId is created, which simply contains the document number of the parent. If the parent resides in a different index segment a UUIDDocId is created, which contains the UUID of the parent node. When a UUIDDocId is resolved it is passed an index reader, which allows it to get the document number for the UUID and cache it for later reuse.</P>
+
+<H2><A name="Indexreaders-OverwritingDocId"></A>Overwriting DocId</H2>
+
+<P>It may happen that a PlainDocId is present in the cache of a CachingIndexReader but must be considered invalid in the context of a call. CachingIndexReader.getParent() may be called from a ReadOnlyIndexReader instance which has the target of the PlainDocId in the set of deleted document. This indicates that the nodes has been deleted or modified. Thus it has traveled to another index segment. In this case the PlainDocId is overwritten with a UUIDDocId. The opposite never happens. A UUIDDocId is never overwritten with a PlainDocId because when a document is added to an index a new CachingIndexReader is created.</P>
+
+<H2><A name="Indexreaders-SharedIndexReader"></A>SharedIndexReader</H2>
+
+<P>The SharedIndexReader wraps a CachingIndexReader and adds a reference count facility. A SharedIndexReader is kept open for the entire lifetime of a PersistentIndex. Even if documents are marked deleted in the underlying index (by another thread through CommittableIndexReader), the SharedIndexReader will still be kept open and considers the documents as valid. The reference counting is needed because it may happen that a client of the SharedIndexReader is still in use while the underlying PersistentIndex is closed. This may happen when the index merger replaces indexes while a query still operates on the indexes to be deleted. Using reference counts, closing the SharedIndexReader is delayed until all clients are finished with the  SharedIndexReader.</P>
+
+<H2><A name="Indexreaders-ReadOnlyIndexReader"></A>ReadOnlyIndexReader</H2>
+
+<P>The inconsistency introduced by the SharedIndexReader (considers deleted documents as still valid) is corrected by the ReadOnlyIndexReader. Whenever a new instance of this reader is created it copies the currently marked deleted documents from the CommittableIndexReader. At the same time all methods that attempt delete documents will throw a UnsupportedOperationException.</P>
+
+<H2><A name="Indexreaders-CommittableIndexReader"></A>CommittableIndexReader</H2>
+
+<P>This is the index reader where documents are marked deleted in a PersistentIndex. As with the SharedIndexReader the CommittableIndexReader is kept open for the entire lifetime of the PersistentIndex. To achieve this the CommittableIndexReader exposes a method commitDeleted, which forces the underlying native lucene index reader to commit changes. Only committing changes whithout closing the index reader is otherwise not possible using the plain lucene index reader.</P>
+
+<H2><A name="Indexreaders-Combiningtheindexsegments"></A>Combining the index segments</H2>
+
+<DIV class="" align="center"><SPAN class="image-wrap" style=""><IMG src="index-readers.data/index-readers-per-query-handler.jpg" style="border: 0px solid black"></SPAN></DIV>
+
+
+<H2><A name="Indexreaders-CachingMultiIndexReader"></A>CachingMultiIndexReader</H2>
+
+<P>The index for the content of a workspace consists of multiple segments, that is multiple ReadOnlyIndexReaders. They are combined in a MultiIndex using a CachingMultiIndexReader. In order to speed up lookups by UUID the CachingMultiIndexReader also has a DocNumberCache. This cache uses a LRU algorithm to keep a limitted amount of UUID to document number mappings.</P>
+
+<H2><A name="Indexreaders-CombinedIndexReader"></A>CombinedIndexReader</H2>
+
+<P>This index reader is similar to the CachingMultiIndexReader, in fact both implement MultiIndexReader and HierarchyResolver. A CombinedIndexReader is created when a query needs an index reader that spans both the workspace index as well as the jcr:system index, where the version store resides.</P>
+        </DIV>
+        <DIV id="end"></DIV>
+      </DIV>
+      <DIV id="footer">
+        <P>
+          &copy; 2004-2010 The Apache Software Foundation.
+          - <A href="http://jackrabbit.apache.org/privacy-policy.html">Privacy Policy</A> -
+          [<A href="https://cwiki.apache.org/confluence/pages/editpage.action?pageId=75338">edit this page</A>]
+          <BR>
+          Apache Jackrabbit, Jackrabbit, Apache, the Apache feather logo, and the Apache
+          Jackrabbit project logo are trademarks of The Apache Software Foundation.
+        </P>
+      </DIV>
+    </DIV>
+<!-- JCR- 1315: Add Google Analytics to Jackrabbit web site -->
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+<SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-837900-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+  </BODY>
+</HTML>

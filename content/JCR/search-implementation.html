@@ -1,0 +1,147 @@
+
+<!-- 
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE- 2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License. 
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+  <HEAD>
+    <TITLE>Search implementation</TITLE>
+    <LINK type="text/css" rel="stylesheet" href="http://jackrabbit.apache.org/style/site.css">
+  <META http-equiv="Content-Type" content="text/html;charset=UTF-8"></HEAD>
+  <BODY>
+    <DIV id="page">
+      <DIV id="header">
+        <P id="jcr"><A href="http://jackrabbit.apache.org/"><IMG src="http://jackrabbit.apache.org/style/jlogo.gif" alt="Apache Jackrabbit" height="100" width="336"></A></P>
+        <P id="asf"><A href="http://www.apache.org/"><IMG src="http://jackrabbit.apache.org/style/asf-logo.gif" alt="Apache Software Foundation" height="100" width="387"></A></P>
+      </DIV>
+      <DIV id="body">
+        <DIV id="navigation">
+  <UL>
+	<LI>Apache Jackrabbit
+	<UL>
+		<LI><A href="welcome-to-apache-jackrabbit.html" title="Welcome to Apache Jackrabbit">Welcome</A></LI>
+		<LI><A href="downloads.html" title="Downloads">Downloads</A></LI>
+		<LI><A href="frequently-asked-questions.html" title="Frequently Asked Questions">FAQ</A></LI>
+		<LI><A href="http://wiki.apache.org/jackrabbit/FrontPage" class="external-link">Jackrabbit Wiki</A></LI>
+		<LI><A href="jackrabbit-history.html" title="Jackrabbit History">Jackrabbit History</A></LI>
+	</UL>
+	</LI>
+	<LI>Documentation
+	<UL>
+		<LI><A href="getting-started-with-apache-jackrabbit.html" title="Getting Started with Apache Jackrabbit">Getting Started</A></LI>
+		<LI><A href="standalone-server.html" title="Standalone Server">Standalone Server</A></LI>
+		<LI><A href="jackrabbit-components.html" title="Jackrabbit Components">Jackrabbit Components</A></LI>
+		<LI><A href="first-hops.html" title="First Hops">First Hops</A></LI>
+		<LI><A href="jcr-api.html" title="JCR & API">JCR &amp; API</A></LI>
+		<LI><A href="jackrabbit-architecture.html" title="Jackrabbit Architecture">Jackrabbit Architecture</A></LI>
+		<LI><A href="deployment-models.html" title="Deployment Models">Deployment Models</A></LI>
+		<LI><A href="jackrabbit-configuration.html" title="Jackrabbit Configuration">Jackrabbit Configuration</A></LI>
+		<LI><A href="node-types.html" title="Node Types">Node Types</A></LI>
+		<LI><A href="object-content-mapping.html" title="Object Content Mapping">Object Content Mapping</A></LI>
+	</UL>
+	</LI>
+	<LI>Development
+	<UL>
+		<LI><A href="jackrabbit-team.html" title="Jackrabbit Team">Jackrabbit Team</A></LI>
+		<LI><A href="jackrabbit-roadmap.html" title="Jackrabbit Roadmap">Jackrabbit Roadmap</A></LI>
+		<LI><A href="building-jackrabbit.html" title="Building Jackrabbit">Building Jackrabbit</A></LI>
+		<LI><A href="mailing-lists.html" title="Mailing Lists">Mailing Lists</A></LI>
+		<LI><A href="issue-tracker.html" title="Issue Tracker">Issue Tracker</A></LI>
+		<LI><A href="source-repository.html" title="Source Repository">Source Repository</A></LI>
+		<LI><A href="continuous-integration.html" title="Continuous Integration">Continuous Integration</A></LI>
+		<LI><A href="website.html" title="Website">Website</A></LI>
+		<LI><A href="creating-releases.html" title="Creating Releases">Creating Releases</A></LI>
+		<LI><A href="supporting-software-attribution.html" title="Supporting software attribution">Attribution</A></LI>
+	</UL>
+	</LI>
+	<LI>Apache Software Foundation
+	<UL>
+		<LI><A href="http://www.apache.org/foundation/how-it-works.html" class="external-link">Introduction</A></LI>
+		<LI><A href="http://www.apache.org/foundation/sponsorship.html" class="external-link">Sponsorship</A></LI>
+		<LI><A href="http://www.apache.org/foundation/thanks.html" class="external-link">Current Sponsors</A></LI>
+	</UL>
+	</LI>
+</UL>
+        </DIV>
+        <DIV id="content">
+          <H1>Search implementation</H1>
+  <P>Jackrabbit implements both the mandatory XPath and optional SQL query syntax. Its design follows the goal of the JSR-170 specification that all the mandatory query features can be expressed either in XPath or in SQL. Thus, the actual implementation of the query engine is independent of the query syntax used, though Jackrabbit's query internals are closer to XPath than SQL, because of the hierarchical structure of a JCR.</P>
+
+<P>The major parts of the query implementation are:</P>
+
+<UL>
+	<LI>XPath Parser</LI>
+	<LI>SQL Parser</LI>
+	<LI>Abstract Query Tree</LI>
+	<LI>Query engine</LI>
+	<LI>Utilities</LI>
+</UL>
+
+
+<H2><A name="Searchimplementation-XPathParser"></A>XPath Parser</H2>
+
+<P>The XPath query parser is based on the W3C XQuery grammar definition which is not yet final but can be downloaded as draft here. The reason why Jackrabbit uses the XQuery grammar, rather than the XPath grammar, is, that JSR-170 specifies an 'order by' clause for the XPath query syntax. This 'order by' clause is borrowed from the XQuery FLWOR expression syntax. Before parsing the XPath query in Jackrabbit, the statement is surrounded with dummy code, to form a valid XQuery FLWOR expression and is then passed to the XQuery parser. The actual parser is a class generated by JavaCC, which uses the grammar that can be found in src/grammar/xpath. The parsed XPath statement is then translated into an Abstract Query Tree. See class: org.apache.jackrabbit.core.query.xpath.XPathQueryBuilder</P>
+
+<H2><A name="Searchimplementation-SQLParser"></A>SQL Parser</H2>
+
+<P>The SQL query parser is generated from a grammar definition located in src/grammar/sql. After parsing, the Abstract Syntax Tree is translated into the Jackrabbit internal Abstract Query Tree. See class: org.apache.jackrabbit.core.query.sql.JCRSQLQueryBuilder</P>
+
+<H2><A name="Searchimplementation-AbstractQueryTree"></A>Abstract Query Tree</H2>
+
+<P>The Abstract Query Tree (AQT) is the common query description format that allows Jackrabbit to implement a query engine which is (to a certain extent) independent of the query syntax used (XPath or SQL). The AQT consists of the classes that are derived from: org.apache.jackrabbit.core.query.QueryNode</P>
+
+<P>Please note that the AQT is Jackrabbit internal and not exposed to a client using the JCR API!</P>
+
+<H2><A name="Searchimplementation-QueryEngine"></A>Query Engine</H2>
+
+<P>Now this is where the meat is. The actual implementation of the query engine is configurable. One needs to implement the interface: org.apache.jackrabbit.core.query.QueryHandler. Jackrabbit comes with an implementation that uses a Lucene index: org.apache.jackrabbit.core.query.lucene.SearchIndex This index is independent of the persistence manager in use. However it is also possible to write a QueryHandler implementation which is aware of the underlying storage (e.g. a database) and executes the query on the 'native' storage.</P>
+
+<P>The class org.apache.core.query.lucene.LuceneQueryBuilder translates the Abstract Query Tree into a query that can be executed against the Lucene index. Jackrabbit implements a couple of extensions to the standard Lucene classes, primarily to improve performance in an environment with incremental indexing like Jackrabbit. Instead of a single index, Jackrabbit uses generations of indexes to circumvent costly IndexReader / IndexWriter creation. See: org.apache.jackrabbit.core.query.lucene.MultiIndex. The most recent generation of the search index is held completely in memory. See: org.apache.jackrabbit.core.query.lucene.VolatileIndex. It is comparable with the garbage collection in Java, where generations are used to move living objects from the young into the old generation over time. Queries are then executed on a MultiReader that spans all the indexes. Every now and then (depending on the configuration parameters in workspace.xml) indexes are merged and nodes marked as deleted in the index are removed. This happens similar to how Lucene merges its internal segments.</P>
+
+<H2><A name="Searchimplementation-Utilities"></A>Utilities</H2>
+
+<P>The class org.apache.jackrabbit.core.query.QueryParser allows you to translate a query statement into an Abstract Query Tree and vice versa. It's a nice tool to see how a query in XPath looks like in SQL or the other way round.</P>
+
+<P>The class org.apache.jackrabbit.core.query.PropertyTypeRegistry provides fast access to the type information based on property names. The Jackrabbit QueryHandler implementation uses this class to coerce value literals into other value types.</P>
+        </DIV>
+        <DIV id="end"></DIV>
+      </DIV>
+      <DIV id="footer">
+        <P>
+          &copy; 2004-2010 The Apache Software Foundation.
+          - <A href="http://jackrabbit.apache.org/privacy-policy.html">Privacy Policy</A> -
+          [<A href="https://cwiki.apache.org/confluence/pages/editpage.action?pageId=75337">edit this page</A>]
+          <BR>
+          Apache Jackrabbit, Jackrabbit, Apache, the Apache feather logo, and the Apache
+          Jackrabbit project logo are trademarks of The Apache Software Foundation.
+        </P>
+      </DIV>
+    </DIV>
+<!-- JCR- 1315: Add Google Analytics to Jackrabbit web site -->
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+<SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-837900-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+  </BODY>
+</HTML>

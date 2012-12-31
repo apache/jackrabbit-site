@@ -1,0 +1,175 @@
+
+<!-- 
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE- 2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License. 
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+  <HEAD>
+    <TITLE>Jackrabbit Architecture</TITLE>
+    <LINK type="text/css" rel="stylesheet" href="http://jackrabbit.apache.org/style/site.css">
+  <META http-equiv="Content-Type" content="text/html;charset=UTF-8"></HEAD>
+  <BODY>
+    <DIV id="page">
+      <DIV id="header">
+        <P id="jcr"><A href="http://jackrabbit.apache.org/"><IMG src="http://jackrabbit.apache.org/style/jlogo.gif" alt="Apache Jackrabbit" height="100" width="336"></A></P>
+        <P id="asf"><A href="http://www.apache.org/"><IMG src="http://jackrabbit.apache.org/style/asf-logo.gif" alt="Apache Software Foundation" height="100" width="387"></A></P>
+      </DIV>
+      <DIV id="body">
+        <DIV id="navigation">
+  <UL>
+	<LI>Apache Jackrabbit
+	<UL>
+		<LI><A href="welcome-to-apache-jackrabbit.html" title="Welcome to Apache Jackrabbit">Welcome</A></LI>
+		<LI><A href="downloads.html" title="Downloads">Downloads</A></LI>
+		<LI><A href="frequently-asked-questions.html" title="Frequently Asked Questions">FAQ</A></LI>
+		<LI><A href="http://wiki.apache.org/jackrabbit/FrontPage" class="external-link">Jackrabbit Wiki</A></LI>
+		<LI><A href="jackrabbit-history.html" title="Jackrabbit History">Jackrabbit History</A></LI>
+	</UL>
+	</LI>
+	<LI>Documentation
+	<UL>
+		<LI><A href="getting-started-with-apache-jackrabbit.html" title="Getting Started with Apache Jackrabbit">Getting Started</A></LI>
+		<LI><A href="standalone-server.html" title="Standalone Server">Standalone Server</A></LI>
+		<LI><A href="jackrabbit-components.html" title="Jackrabbit Components">Jackrabbit Components</A></LI>
+		<LI><A href="first-hops.html" title="First Hops">First Hops</A></LI>
+		<LI><A href="jcr-api.html" title="JCR & API">JCR &amp; API</A></LI>
+		<LI><A href="" title="Jackrabbit Architecture">Jackrabbit Architecture</A></LI>
+		<LI><A href="deployment-models.html" title="Deployment Models">Deployment Models</A></LI>
+		<LI><A href="jackrabbit-configuration.html" title="Jackrabbit Configuration">Jackrabbit Configuration</A></LI>
+		<LI><A href="node-types.html" title="Node Types">Node Types</A></LI>
+		<LI><A href="object-content-mapping.html" title="Object Content Mapping">Object Content Mapping</A></LI>
+	</UL>
+	</LI>
+	<LI>Development
+	<UL>
+		<LI><A href="jackrabbit-team.html" title="Jackrabbit Team">Jackrabbit Team</A></LI>
+		<LI><A href="jackrabbit-roadmap.html" title="Jackrabbit Roadmap">Jackrabbit Roadmap</A></LI>
+		<LI><A href="building-jackrabbit.html" title="Building Jackrabbit">Building Jackrabbit</A></LI>
+		<LI><A href="mailing-lists.html" title="Mailing Lists">Mailing Lists</A></LI>
+		<LI><A href="issue-tracker.html" title="Issue Tracker">Issue Tracker</A></LI>
+		<LI><A href="source-repository.html" title="Source Repository">Source Repository</A></LI>
+		<LI><A href="continuous-integration.html" title="Continuous Integration">Continuous Integration</A></LI>
+		<LI><A href="website.html" title="Website">Website</A></LI>
+		<LI><A href="creating-releases.html" title="Creating Releases">Creating Releases</A></LI>
+		<LI><A href="supporting-software-attribution.html" title="Supporting software attribution">Attribution</A></LI>
+	</UL>
+	</LI>
+	<LI>Apache Software Foundation
+	<UL>
+		<LI><A href="http://www.apache.org/foundation/how-it-works.html" class="external-link">Introduction</A></LI>
+		<LI><A href="http://www.apache.org/foundation/sponsorship.html" class="external-link">Sponsorship</A></LI>
+		<LI><A href="http://www.apache.org/foundation/thanks.html" class="external-link">Current Sponsors</A></LI>
+	</UL>
+	</LI>
+</UL>
+        </DIV>
+        <DIV id="content">
+          <H1>Jackrabbit Architecture</H1>
+  <UL>
+	<LI><A href="how-jackrabbit-works.html" title="How Jackrabbit works">How Jackrabbit works</A></LI>
+	<LI><A href="repository-lifecycle.html" title="Repository lifecycle">Repository lifecycle</A></LI>
+	<LI><A href="search-implementation.html" title="Search implementation">Search implementation</A></LI>
+	<LI><A href="index-readers.html" title="Index readers">Index readers</A></LI>
+	<LI><A href="concurrency-control.html" title="Concurrency control">Concurrency control</A></LI>
+</UL>
+
+
+<P>The general architecture of Jackrabbit can be described in three Layers: A Content Application Layer, an API Layer and a Content Repository Implementation Layer.</P>
+
+<P><SPAN class="image-wrap" style=""><IMG src="jackrabbit-architecture.data/overview.png" style="border: 0px solid black"></SPAN></P>
+
+<H2><A name="JackrabbitArchitecture-ContentApplications"></A>Content Applications</H2>
+
+<P>Content Applications interact through the JSR-170 API with the Content Repository Implementation. There are numerous applications that are available for JSR-170 repositories, some of them are very generic (like a WebDAV server) other applications can be very specific and make use of the content repository as a store for the information that is used by the applications. Java Applications can use a JSR-170 content repository as a replacement for anything from property-files, XML-configuration, certain portions of relational database functionality to straight file system or blob-management. Using a content repository allows an application to deal with an arbitrarily large hierarchical space in a scalable manner automatically profiting from the repository services such as versioning, query, transactions or namespaces which make a content repository an ideal data store for many applications.</P>
+
+<P>A &quot;Generic Content Application&quot; (an application that has no particular functional focus but just allows for generic introspection and manipulation of the repository) uses the capabilities of the node types, access control and other facilities to display a user interface or a network protocol to the end user, seemingly independent from the content that is stored in the repository. Examples of such generic applications are &quot;The Content Explorer&quot;, &quot;WebDAV Server&quot; or a &quot;Subversion Server&quot;. (Or generic Portal, CMS or DMS applications).</P>
+
+<P>A &quot;Specialized Content Application&quot; operates under the assumption that there are certain node types that it operates on, and that it is familiar at least partially with the data model exposed by defined node types. Mostly these node types are defined by the application itself and ship with the application. These applications use a content repository as their persistence layer as a natural evolution from the use of an RDBMS or a file system. Examples of &quot;Specialized Content Applications&quot; have a very wide range from a &quot;DVD Collection Management&quot;, to a &quot;Message Board&quot;, to &quot;Workflow and BPM&quot; but also possibly complete next generation &quot;Enterprise Resource Planning Systems&quot;.</P>
+
+<H2><A name="JackrabbitArchitecture-ContentRepositoryAPI"></A>Content Repository API</H2>
+
+<P>The Content Repository API Layer is split into two major sections.</P>
+
+<UL>
+	<LI>The Content Repository API defined by JSR-170</LI>
+	<LI>A number features of a content repository, that have been removed from the JSR-170 specification since they are difficult to implement on existing non-java-based content repositories and administrational Repository tasks that have also been deliberately excluded from JSR-170</LI>
+</UL>
+
+
+<P>There are only very few (mostly administrational) applications which make use of the non-JSR-170 APIs provided by Jackrabbit.</P>
+
+<P>The boxes in the architecture chart do not symbolize package names or class names directly but mostly semantically grouped blocks of functionality.</P>
+
+<H2><A name="JackrabbitArchitecture-ContentRepositoryImplementation"></A>Content Repository Implementation</H2>
+
+<P>The content Repository Implementation portion of the architecture chart reflects the major building blocks of the jackrabbit content repository implementation.</P>
+
+<P>The size of the blocks symbolizes roughly the amount of code and therefore the complexity of the individual functional block. Again the functional blocks do not directly map to package or class names.</P>
+
+<P>There are three scopes in a content repository: A repository scope, a workspace scope and a session scope.</P>
+
+<P>Every function that is operated against a repository can be attributed to at least one of these scopes, some functions can operate on more than one scope.</P>
+
+<UL>
+	<LI>Repository</LI>
+	<LI>Nodetype</LI>
+	<LI>Version</LI>
+	<LI>NamespaceRegistry</LI>
+	<LI>Workspace</LI>
+	<LI>Query</LI>
+	<LI>Observation</LI>
+	<LI>State</LI>
+	<LI>Xml</LI>
+	<LI>Session</LI>
+	<LI>Path</LI>
+	<LI>HierarchyManager</LI>
+	<LI>QName</LI>
+	<LI>ItemImpl, PropertyImpl, NodeImpl</LI>
+	<LI>ItemId, PropertyId, NodeId</LI>
+	<LI>ItemManager</LI>
+</UL>
+
+
+<P>This is not a complete list but includes some of the most important component of the content repository implementation.</P>
+        </DIV>
+        <DIV id="end"></DIV>
+      </DIV>
+      <DIV id="footer">
+        <P>
+          &copy; 2004-2010 The Apache Software Foundation.
+          - <A href="http://jackrabbit.apache.org/privacy-policy.html">Privacy Policy</A> -
+          [<A href="https://cwiki.apache.org/confluence/pages/editpage.action?pageId=75329">edit this page</A>]
+          <BR>
+          Apache Jackrabbit, Jackrabbit, Apache, the Apache feather logo, and the Apache
+          Jackrabbit project logo are trademarks of The Apache Software Foundation.
+        </P>
+      </DIV>
+    </DIV>
+<!-- JCR- 1315: Add Google Analytics to Jackrabbit web site -->
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+<SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-837900-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+  </BODY>
+</HTML>

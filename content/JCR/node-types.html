@@ -1,0 +1,218 @@
+
+<!-- 
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE- 2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License. 
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+  <HEAD>
+    <TITLE>Node Types</TITLE>
+    <LINK type="text/css" rel="stylesheet" href="http://jackrabbit.apache.org/style/site.css">
+  <META http-equiv="Content-Type" content="text/html;charset=UTF-8"></HEAD>
+  <BODY>
+    <DIV id="page">
+      <DIV id="header">
+        <P id="jcr"><A href="http://jackrabbit.apache.org/"><IMG src="http://jackrabbit.apache.org/style/jlogo.gif" alt="Apache Jackrabbit" height="100" width="336"></A></P>
+        <P id="asf"><A href="http://www.apache.org/"><IMG src="http://jackrabbit.apache.org/style/asf-logo.gif" alt="Apache Software Foundation" height="100" width="387"></A></P>
+      </DIV>
+      <DIV id="body">
+        <DIV id="navigation">
+  <UL>
+	<LI>Apache Jackrabbit
+	<UL>
+		<LI><A href="welcome-to-apache-jackrabbit.html" title="Welcome to Apache Jackrabbit">Welcome</A></LI>
+		<LI><A href="downloads.html" title="Downloads">Downloads</A></LI>
+		<LI><A href="frequently-asked-questions.html" title="Frequently Asked Questions">FAQ</A></LI>
+		<LI><A href="http://wiki.apache.org/jackrabbit/FrontPage" class="external-link">Jackrabbit Wiki</A></LI>
+		<LI><A href="jackrabbit-history.html" title="Jackrabbit History">Jackrabbit History</A></LI>
+	</UL>
+	</LI>
+	<LI>Documentation
+	<UL>
+		<LI><A href="getting-started-with-apache-jackrabbit.html" title="Getting Started with Apache Jackrabbit">Getting Started</A></LI>
+		<LI><A href="standalone-server.html" title="Standalone Server">Standalone Server</A></LI>
+		<LI><A href="jackrabbit-components.html" title="Jackrabbit Components">Jackrabbit Components</A></LI>
+		<LI><A href="first-hops.html" title="First Hops">First Hops</A></LI>
+		<LI><A href="jcr-api.html" title="JCR & API">JCR &amp; API</A></LI>
+		<LI><A href="jackrabbit-architecture.html" title="Jackrabbit Architecture">Jackrabbit Architecture</A></LI>
+		<LI><A href="deployment-models.html" title="Deployment Models">Deployment Models</A></LI>
+		<LI><A href="jackrabbit-configuration.html" title="Jackrabbit Configuration">Jackrabbit Configuration</A></LI>
+		<LI><A href="" title="Node Types">Node Types</A></LI>
+		<LI><A href="object-content-mapping.html" title="Object Content Mapping">Object Content Mapping</A></LI>
+	</UL>
+	</LI>
+	<LI>Development
+	<UL>
+		<LI><A href="jackrabbit-team.html" title="Jackrabbit Team">Jackrabbit Team</A></LI>
+		<LI><A href="jackrabbit-roadmap.html" title="Jackrabbit Roadmap">Jackrabbit Roadmap</A></LI>
+		<LI><A href="building-jackrabbit.html" title="Building Jackrabbit">Building Jackrabbit</A></LI>
+		<LI><A href="mailing-lists.html" title="Mailing Lists">Mailing Lists</A></LI>
+		<LI><A href="issue-tracker.html" title="Issue Tracker">Issue Tracker</A></LI>
+		<LI><A href="source-repository.html" title="Source Repository">Source Repository</A></LI>
+		<LI><A href="continuous-integration.html" title="Continuous Integration">Continuous Integration</A></LI>
+		<LI><A href="website.html" title="Website">Website</A></LI>
+		<LI><A href="creating-releases.html" title="Creating Releases">Creating Releases</A></LI>
+		<LI><A href="supporting-software-attribution.html" title="Supporting software attribution">Attribution</A></LI>
+	</UL>
+	</LI>
+	<LI>Apache Software Foundation
+	<UL>
+		<LI><A href="http://www.apache.org/foundation/how-it-works.html" class="external-link">Introduction</A></LI>
+		<LI><A href="http://www.apache.org/foundation/sponsorship.html" class="external-link">Sponsorship</A></LI>
+		<LI><A href="http://www.apache.org/foundation/thanks.html" class="external-link">Current Sponsors</A></LI>
+	</UL>
+	</LI>
+</UL>
+        </DIV>
+        <DIV id="content">
+          <H1>Node Types</H1>
+  <P>Each node in a Jackrabbit workspace tree has a node type that defines the child nodes and properties it may (or must) have. Developers can use node types to define a custom content model for their application domain and have Jackrabbit enforce the constraints of that model at the repository level.</P>
+
+<H2><A name="NodeTypes-PrimaryvsMixin"></A>Primary vs Mixin</H2>
+
+<P>There are two categories of node types, <B>primary</B> and <B>mixin</B>. Every node has a primary node type assigned to it upon creation (see <TT>Node.addNode</TT> in the JCR API). In addition, a mixin node type may be added to a node later in its lifecycle (see <TT>Node.addMixin</TT>).</P>
+
+<P>The primary node type of a node usually defines node structure (i.e., allowed and required child nodes and properties) related to the problem domain being modeled. For example, a node used in storing content about business contacts might have the primary type <TT>myapp:Contact</TT> which defines properties such as <TT>myapp:givenName</TT>, <TT>myapp:familyName</TT> and so forth.</P>
+
+<P>Mixin node types usually specify additional properties or child nodes related to a capability being added to the node. These capabilities may include generic repository-level functions as in the case of the built-in mixins <TT>mix:versionable</TT> and <TT>mix:lockable</TT>, for example, or domain-level capabilities such as a (hypothetical) <TT>myapp:Emailable</TT> mixin type that adds the property <TT>myapp:emailAddress</TT> to a node.</P>
+
+<H2><A name="NodeTypes-Inheritance"></A>Inheritance</H2>
+
+<P>Primary node types are arranged in an inheritance hierarchy. Every primary node type must be the subtype of at least one existing node type. The built-in node type <TT>nt:base</TT> serves as the root of this hierarchy. Jackrabbit supports multiple inheritance of node types so node types can have more than one supertype.</P>
+
+<P>Mixin node types do not have to have supertypes.</P>
+
+<P>The JSR 170 specification and the current public review draft of the JSR 283 specification (section 4.7.7) leave it up to the implementation whether e.g. the orderable child nodes setting is inherited from supertypes. Inheritance semantics, especially with multiple inheritance, are non-trivial at best and up to a certain degree arbitrary. Jackrabbit therefore, in compliance with the spec, doesn't support inheritance of node type attributes such as orderable.</P>
+
+<H2><A name="NodeTypes-NodeTypeDefinition"></A>Node Type Definition</H2>
+
+<P>A node type definition has the following attributes:</P>
+
+<UL>
+	<LI><B>Name</B> Every node type registered with the repository has a unique name. The naming conventions for node                     types are the same as for items (i.e., they may have a colon delimited prefix).</LI>
+	<LI><B>Supertypes</B> A primary node type (with the exception of <TT>nt:base</TT>) must extend another node type (and may extend more than one node type). A mixin node type may extend another node type.</LI>
+	<LI><B>Mixin Status</B> A node type may be either primary or mixin.</LI>
+	<LI><B>Orderable Child Nodes Status</B> A primary node type may specify that child nodes are client-orderable. If this status is set to true, then <TT>Node.orderBefore</TT> can be used to set the order of child nodes. Only primary node types control a node's status in this regard. This setting on a mixin node type will not have                     any effect on the node.</LI>
+	<LI><B>Property Definitions</B> A node type contains a set of definitions specifying the properties that nodes of this node type are allowed (or required) to have and the characteristics of those properties (see below).</LI>
+	<LI><B>Child Node Definitions</B> A node type contains a set of definitions specifying the child nodes that nodes of this node type are allowed (or required) to have and the characteristics of those child nodes (including, in turn, their node types, see below).</LI>
+	<LI><B>Primary Item Name</B> A node type may specify one child item (property or node) by name as the primary item. This indicator is used by the method <TT>Node.getPrimaryItem()</TT>.</LI>
+</UL>
+
+
+<H2><A name="NodeTypes-PropertyDefinition"></A>Property Definition</H2>
+
+<P>A property definition (within a node type definition) contains the the following information:</P>
+
+<UL>
+	<LI><B>Name</B> The name of the property to which this definition applies, or &quot;<TT>*</TT>&quot; if this definition is                         a &quot;residual definition', meaning that it applies to any additional properties with any names apart from those otherwise defined in this node type.</LI>
+	<LI><B>Required Type</B> The required type of the property. One of
+	<UL>
+		<LI><TT>STRING</TT></LI>
+		<LI><TT>BINARY</TT></LI>
+		<LI><TT>LONG</TT></LI>
+		<LI><TT>DOUBLE</TT></LI>
+		<LI><TT>BOOLEAN</TT></LI>
+		<LI><TT>DATE</TT></LI>
+		<LI><TT>PATH</TT></LI>
+		<LI><TT>NAME</TT></LI>
+		<LI><TT>REFERENCE</TT></LI>
+		<LI><TT>UNDEFINED</TT> (the property can be of any type)</LI>
+	</UL>
+	</LI>
+	<LI><B>Value Constraints</B> The value constraints on the property define the range of values that may be assigned                         to this property.</LI>
+	<LI><B>Default Value</B> The value that the property will have if it is auto-created.</LI>
+	<LI><B>Auto-create Status</B> Whether this property will be auto-created when its parent node is created. Only properties with a default value can be auto-created.</LI>
+	<LI><B>Mandatory Status</B> A mandatory property is one that must exist. If a node of a type that specifies a                         mandatory property is created then any attempt to save that node without adding the mandatory property will fail. Since single-value properties either have a value or do not exist (there being no concept of the null value) this implies that a mandatory single-value property must have a value. A mandatory multi-value property on the other hand may have zero or more values.</LI>
+	<LI><B>On-Parent-Version Status</B> The <TT>onParentVersion</TT> status of specifies what happens to this property if a                         new version of its parent node is created (i.e. a checked-in is done on it).</LI>
+	<LI><B>Protected Status</B> A protected property is one which cannot be modified (i.e. have child nodes or properties added or removed) or removed from its parent through the JCR API.</LI>
+	<LI><B>Multiple Values Status</B> Whether this property can have multiple values, meaning that it stores an array of values, not just one. Note that this &quot;multiple values&quot; flag is special in that a given node type may have two property definitions that are identical in every respect except for the their &quot;multiple values&quot; status. For example, a node type can specify two string properties both called X, one of which is multi-valued and the other that is not. An example of such a node type is <TT>nt:unstructured</TT>.</LI>
+</UL>
+
+
+<H2><A name="NodeTypes-ChildNodeDefinition"></A>Child Node Definition</H2>
+
+<P>A child node definition (within a node type definition) contains the the following information:</P>
+
+<UL>
+	<LI><B>Name</B> The name of the child node to which this definition applies or &quot;<TT>*</TT>&quot; if this definition is                         a &quot;residual definition', meaning that it applies to any additional child nodes with any                         names apart from those otherwise defined in this node type.</LI>
+	<LI><B>Required Primary Types</B> If it specifies only a single node type N then the primary node type of this child node must be N or a subtype of N. If this attribute specifies multiple node types N1, N2,..., Nm then the primary node type of this child node must be a subtype of all the types N1, N2, ... Nm. Note that this                         is possible because Jackrabbit supports multiple inheritance among node types and that each node still has one and only one primary node type.</LI>
+	<LI><B>Default Primary Type</B> This is the primary node type automatically assigned if no node type information is specified when the node is created.</LI>
+	<LI><B>Auto-create Status</B> Governs whether this child node will be auto-created when its parent node is created.</LI>
+	<LI><B>Mandatory Status</B> Governs whether the child node is mandatory. A mandatory child node is one that must exist. If a mandatory child node is missing from a parent node then save on the parent node will fail.</LI>
+	<LI><B>On-Parent-Version Status</B> This specifies what to do with the child node if its parent node is versioned.</LI>
+	<LI><B>Protected Status</B> This governs whether the child node is protected. A protected node is one which cannot be modified (have child node or properties added to it or removed from it) or be removed from its                         parent through the JCR API.</LI>
+	<LI><B>Same-Name Siblings Status</B> This governs whether this child node can have same-name siblings, meaning that the parent node can have more than one child node of this name.</LI>
+</UL>
+
+
+<H2><A name="NodeTypes-RegisteringNodeTypes"></A>Registering Node Types</H2>
+
+<P>Each Jackrabbit instance has a <TT>NodeTypeRegistry</TT> which is created on start-up and populated with the set of built-in node types (these include both those required by the JCR specification and others required by the Jackrabbit implementation).</P>
+
+<P>First you define your node types in a text file using the &quot;Compact Namespace and Node Type Definition&quot; (CND) notation, then register them using the  <A href="http://jackrabbit.apache.org/api/1.5/org/apache/jackrabbit/api/JackrabbitNodeTypeManager.html" class="external-link"><TT>JackrabbitNodeTypeManager</TT></A>. The following code gives an example:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+<SPAN class="code-keyword">import</SPAN> javax.jcr.Session;
+<SPAN class="code-keyword">import</SPAN> org.apache.jackrabbit.api.JackrabbitNodeTypeManager;
+<SPAN class="code-keyword">import</SPAN> java.io.FileInputStream;
+
+<SPAN class="code-keyword">public</SPAN> class CustomNodeTypeExample {
+    <SPAN class="code-keyword">public</SPAN> <SPAN class="code-keyword">static</SPAN> void RegisterCustomNodeTypes(Session session, <SPAN class="code-object">String</SPAN> cndFileName)
+        <SPAN class="code-keyword">throws</SPAN> Exception {
+
+        <SPAN class="code-comment">// Get the JackrabbitNodeTypeManager from the Workspace.
+</SPAN>        <SPAN class="code-comment">// Note that it must be <SPAN class="code-keyword">cast</SPAN> from the <SPAN class="code-keyword">generic</SPAN> JCR NodeTypeManager to the
+</SPAN>        <SPAN class="code-comment">// Jackrabbit-specific implementation.
+</SPAN>        JackrabbitNodeTypeManager manager = (JackrabbitNodeTypeManager)
+               session.getWorkspace().getNodeTypeManager();
+        <SPAN class="code-comment">// Register the custom node types defined in the CND file
+</SPAN>        manager.registerNodeTypes(<SPAN class="code-keyword">new</SPAN> FileInputStream(cndFileName),
+               JackrabbitNodeTypeManager.TEXT_X_JCR_CND);
+    }
+}
+</PRE>
+</DIV></DIV>
+
+<P>Continue to <A href="node-type-notation.html" title="Node Type Notation">Node Type Notation</A> or <A href="node-type-visualization.html" title="Node Type Visualization">Node Type Visualization</A></P>
+        </DIV>
+        <DIV id="end"></DIV>
+      </DIV>
+      <DIV id="footer">
+        <P>
+          &copy; 2004-2010 The Apache Software Foundation.
+          - <A href="http://jackrabbit.apache.org/privacy-policy.html">Privacy Policy</A> -
+          [<A href="https://cwiki.apache.org/confluence/pages/editpage.action?pageId=75299">edit this page</A>]
+          <BR>
+          Apache Jackrabbit, Jackrabbit, Apache, the Apache feather logo, and the Apache
+          Jackrabbit project logo are trademarks of The Apache Software Foundation.
+        </P>
+      </DIV>
+    </DIV>
+<!-- JCR- 1315: Add Google Analytics to Jackrabbit web site -->
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+<SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-837900-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+  </BODY>
+</HTML>

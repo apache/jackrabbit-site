@@ -1,0 +1,714 @@
+
+<!-- 
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE- 2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License. 
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+  <HEAD>
+    <TITLE>Node Type Notation</TITLE>
+    <LINK type="text/css" rel="stylesheet" href="http://jackrabbit.apache.org/style/site.css">
+  <META http-equiv="Content-Type" content="text/html;charset=UTF-8"></HEAD>
+  <BODY>
+    <DIV id="page">
+      <DIV id="header">
+        <P id="jcr"><A href="http://jackrabbit.apache.org/"><IMG src="http://jackrabbit.apache.org/style/jlogo.gif" alt="Apache Jackrabbit" height="100" width="336"></A></P>
+        <P id="asf"><A href="http://www.apache.org/"><IMG src="http://jackrabbit.apache.org/style/asf-logo.gif" alt="Apache Software Foundation" height="100" width="387"></A></P>
+      </DIV>
+      <DIV id="body">
+        <DIV id="navigation">
+  <UL>
+	<LI>Apache Jackrabbit
+	<UL>
+		<LI><A href="welcome-to-apache-jackrabbit.html" title="Welcome to Apache Jackrabbit">Welcome</A></LI>
+		<LI><A href="downloads.html" title="Downloads">Downloads</A></LI>
+		<LI><A href="frequently-asked-questions.html" title="Frequently Asked Questions">FAQ</A></LI>
+		<LI><A href="http://wiki.apache.org/jackrabbit/FrontPage" class="external-link">Jackrabbit Wiki</A></LI>
+		<LI><A href="jackrabbit-history.html" title="Jackrabbit History">Jackrabbit History</A></LI>
+	</UL>
+	</LI>
+	<LI>Documentation
+	<UL>
+		<LI><A href="getting-started-with-apache-jackrabbit.html" title="Getting Started with Apache Jackrabbit">Getting Started</A></LI>
+		<LI><A href="standalone-server.html" title="Standalone Server">Standalone Server</A></LI>
+		<LI><A href="jackrabbit-components.html" title="Jackrabbit Components">Jackrabbit Components</A></LI>
+		<LI><A href="first-hops.html" title="First Hops">First Hops</A></LI>
+		<LI><A href="jcr-api.html" title="JCR & API">JCR &amp; API</A></LI>
+		<LI><A href="jackrabbit-architecture.html" title="Jackrabbit Architecture">Jackrabbit Architecture</A></LI>
+		<LI><A href="deployment-models.html" title="Deployment Models">Deployment Models</A></LI>
+		<LI><A href="jackrabbit-configuration.html" title="Jackrabbit Configuration">Jackrabbit Configuration</A></LI>
+		<LI><A href="node-types.html" title="Node Types">Node Types</A></LI>
+		<LI><A href="object-content-mapping.html" title="Object Content Mapping">Object Content Mapping</A></LI>
+	</UL>
+	</LI>
+	<LI>Development
+	<UL>
+		<LI><A href="jackrabbit-team.html" title="Jackrabbit Team">Jackrabbit Team</A></LI>
+		<LI><A href="jackrabbit-roadmap.html" title="Jackrabbit Roadmap">Jackrabbit Roadmap</A></LI>
+		<LI><A href="building-jackrabbit.html" title="Building Jackrabbit">Building Jackrabbit</A></LI>
+		<LI><A href="mailing-lists.html" title="Mailing Lists">Mailing Lists</A></LI>
+		<LI><A href="issue-tracker.html" title="Issue Tracker">Issue Tracker</A></LI>
+		<LI><A href="source-repository.html" title="Source Repository">Source Repository</A></LI>
+		<LI><A href="continuous-integration.html" title="Continuous Integration">Continuous Integration</A></LI>
+		<LI><A href="website.html" title="Website">Website</A></LI>
+		<LI><A href="creating-releases.html" title="Creating Releases">Creating Releases</A></LI>
+		<LI><A href="supporting-software-attribution.html" title="Supporting software attribution">Attribution</A></LI>
+	</UL>
+	</LI>
+	<LI>Apache Software Foundation
+	<UL>
+		<LI><A href="http://www.apache.org/foundation/how-it-works.html" class="external-link">Introduction</A></LI>
+		<LI><A href="http://www.apache.org/foundation/sponsorship.html" class="external-link">Sponsorship</A></LI>
+		<LI><A href="http://www.apache.org/foundation/thanks.html" class="external-link">Current Sponsors</A></LI>
+	</UL>
+	</LI>
+</UL>
+        </DIV>
+        <DIV id="content">
+          <H1>Node Type Notation</H1>
+  <P>The Compact Namespace and Node Type Definition (CND) notation provides a compact standardized syntax for defining node types and making namespace declarations. The notation is intended both for documentation and for programmatically registering node types (if you are unfamiliar with JCR node types, you may want to read the general Node Types section first).</P>
+
+<P>Here is a &quot;worst-case scenario&quot; example that demonstrates all the features of the notation:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+/*  An example node type definition */
+
+<SPAN class="code-comment">// The namespace declaration
+</SPAN>&lt;ns = 'http:<SPAN class="code-comment">//namespace.com/ns'&gt;
+</SPAN>
+<SPAN class="code-comment">// Node type name
+</SPAN>[ns:NodeType]
+
+<SPAN class="code-comment">// Supertypes
+</SPAN>&gt; ns:ParentType1, ns:ParentType2
+
+<SPAN class="code-comment">// This node type supports orderable child nodes
+</SPAN>orderable
+
+<SPAN class="code-comment">// This is a mixin node type
+</SPAN>mixin
+
+<SPAN class="code-comment">// Nodes of <SPAN class="code-keyword">this</SPAN> node type have a property called 'ex:property' of type STRING
+</SPAN>- ex:property (string)
+
+<SPAN class="code-comment">// The <SPAN class="code-keyword">default</SPAN> values <SPAN class="code-keyword">for</SPAN> <SPAN class="code-keyword">this</SPAN>
+</SPAN><SPAN class="code-comment">// (multi-value) property are...
+</SPAN>= 'default1', 'default2'
+
+<SPAN class="code-comment">// This property is the primary item
+</SPAN>primary
+
+<SPAN class="code-comment">// and it is...
+</SPAN>mandatory autocreated <SPAN class="code-keyword">protected</SPAN>
+
+<SPAN class="code-comment">// and multi-valued
+</SPAN>multiple
+
+<SPAN class="code-comment">// It has an on-parent-version setting of ...
+</SPAN>version
+
+<SPAN class="code-comment">// The constraint settings are...
+</SPAN>&lt; 'constraint1', 'constraint2'
+
+<SPAN class="code-comment">// Nodes of <SPAN class="code-keyword">this</SPAN> node type have a child node called ns:node which must be of
+</SPAN><SPAN class="code-comment">// at least the node types ns:reqType1 and ns:reqType2
+</SPAN>+ ns:node (ns:reqType1, ns:reqType2)
+
+<SPAN class="code-comment">// and the <SPAN class="code-keyword">default</SPAN> primary node type of the child node is...
+</SPAN>= ns:defaultType
+
+<SPAN class="code-comment">// This child node is...
+</SPAN>mandatory autocreated <SPAN class="code-keyword">protected</SPAN>
+
+<SPAN class="code-comment">// and supports same name siblings
+</SPAN>multiple
+
+<SPAN class="code-comment">// and has an on-parent-version setting of ...
+</SPAN>version
+</PRE>
+</DIV></DIV>
+
+<P>This definition can be written more compactly and with indentation:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+/*  An example node type definition */
+&lt;ns = 'http:<SPAN class="code-comment">//namespace.com/ns'&gt;
+</SPAN>[ns:NodeType] &gt; ns:ParentType1, ns:ParentType2
+  orderable mixin
+  - ex:property (string)
+  = 'default1', 'default2'
+    primary mandatory autocreated <SPAN class="code-keyword">protected</SPAN> multiple
+    version
+    &lt; 'constraint1', 'constraint2'
+  + ns:node (ns:reqType1, ns:reqType2)
+    = ns:defaultType
+    mandatory autocreated <SPAN class="code-keyword">protected</SPAN> multiple version
+</PRE>
+</DIV></DIV>
+
+<P>or, using short forms for the attributes, even like this:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+&lt;ns='http:<SPAN class="code-comment">//namespace.com/ns'&gt;
+</SPAN>[ns:NodeType]&gt;ns:ParentType1, ns:ParentType2 o m
+-ex:property='default1','default2' ! m a p * version
+ &lt;'constraint1', 'constraint2'
++ns:node(ns:reqType1,ns:reqType2)=ns:defaultType
+ m a p *  version
+</PRE>
+</DIV></DIV>
+
+<H2><A name="NodeTypeNotation-Grammar"></A>Grammar</H2>
+
+<P>The following grammar defines the CND notation. Terminal symbols are in double quotes.</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+cnd ::= {ns_mapping | node_type_def}
+
+ns_mapping ::= <SPAN class="code-quote">&quot;&lt;&quot;</SPAN> prefix <SPAN class="code-quote">&quot;=&quot;</SPAN> uri <SPAN class="code-quote">&quot;&gt;&quot;</SPAN>
+
+prefix ::= string
+
+uri ::= string
+
+node_type_def ::= node_type_name [supertypes] [options]
+                  {property_def | child_node_def}
+
+node_type_name ::= <SPAN class="code-quote">&quot;[&quot;</SPAN> string <SPAN class="code-quote">&quot;]&quot;</SPAN>
+
+supertypes ::= <SPAN class="code-quote">&quot;&gt;&quot;</SPAN> string_list
+
+options ::= orderable_opt | mixin_opt | orderable_opt
+            mixin_opt | mixin_opt orderable_opt
+
+orderable_opt ::= <SPAN class="code-quote">&quot;orderable&quot;</SPAN> | <SPAN class="code-quote">&quot;ord&quot;</SPAN> | <SPAN class="code-quote">&quot;o&quot;</SPAN>
+
+mixin_opt ::= <SPAN class="code-quote">&quot;mixin&quot;</SPAN> | <SPAN class="code-quote">&quot;mix&quot;</SPAN> | <SPAN class="code-quote">&quot;m&quot;</SPAN>
+
+property_def ::= <SPAN class="code-quote">&quot;-&quot;</SPAN> property_name [property_type_decl]
+                 [default_values] [attributes]
+                 [value_constraints]
+
+property_name ::= string
+
+property_type_decl ::= <SPAN class="code-quote">&quot;(&quot;</SPAN> property_type <SPAN class="code-quote">&quot;)&quot;</SPAN>
+
+property_type ::= <SPAN class="code-quote">&quot;STRING&quot;</SPAN> | <SPAN class="code-quote">&quot;<SPAN class="code-object">String</SPAN>&quot;</SPAN> |<SPAN class="code-quote">&quot;string&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;BINARY&quot;</SPAN> | <SPAN class="code-quote">&quot;Binary&quot;</SPAN> | <SPAN class="code-quote">&quot;binary&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;LONG&quot;</SPAN> | <SPAN class="code-quote">&quot;<SPAN class="code-object">Long</SPAN>&quot;</SPAN> | <SPAN class="code-quote">&quot;<SPAN class="code-object">long</SPAN>&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;DOUBLE&quot;</SPAN> | <SPAN class="code-quote">&quot;<SPAN class="code-object">Double</SPAN>&quot;</SPAN> | <SPAN class="code-quote">&quot;<SPAN class="code-object">double</SPAN>&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;BOOLEAN&quot;</SPAN> | <SPAN class="code-quote">&quot;<SPAN class="code-object">Boolean</SPAN>&quot;</SPAN> | <SPAN class="code-quote">&quot;<SPAN class="code-object">boolean</SPAN>&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;DATE&quot;</SPAN> | <SPAN class="code-quote">&quot;Date&quot;</SPAN> | <SPAN class="code-quote">&quot;date&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;NAME | &quot;</SPAN>Name | <SPAN class="code-quote">&quot;name&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;PATH&quot;</SPAN> | <SPAN class="code-quote">&quot;Path&quot;</SPAN> | <SPAN class="code-quote">&quot;path&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;REFERENCE&quot;</SPAN> | <SPAN class="code-quote">&quot;Reference&quot;</SPAN> |
+                     <SPAN class="code-quote">&quot;reference&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;UNDEFINED&quot;</SPAN> | <SPAN class="code-quote">&quot;Undefined&quot;</SPAN> |
+                     <SPAN class="code-quote">&quot;undefined&quot;</SPAN> | <SPAN class="code-quote">&quot;*&quot;</SPAN>
+
+default_values ::= <SPAN class="code-quote">&quot;=&quot;</SPAN> string_list
+
+value_constraints ::= <SPAN class="code-quote">&quot;&lt;&quot;</SPAN> string_list
+
+node_def ::= <SPAN class="code-quote">&quot;+&quot;</SPAN> node_name [required_types]
+             [default_type] [attributes]
+
+node_name ::= string
+
+required_types ::= <SPAN class="code-quote">&quot;(&quot;</SPAN> string_list <SPAN class="code-quote">&quot;)&quot;</SPAN>
+
+default_type ::= <SPAN class="code-quote">&quot;=&quot;</SPAN> string
+
+attributes ::= <SPAN class="code-quote">&quot;primary&quot;</SPAN> | <SPAN class="code-quote">&quot;pri&quot;</SPAN> | <SPAN class="code-quote">&quot;!&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;autocreated&quot;</SPAN> | <SPAN class="code-quote">&quot;aut&quot;</SPAN> | <SPAN class="code-quote">&quot;a&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;mandatory&quot;</SPAN> | <SPAN class="code-quote">&quot;man&quot;</SPAN> | <SPAN class="code-quote">&quot;m&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;<SPAN class="code-keyword">protected</SPAN>&quot;</SPAN> | <SPAN class="code-quote">&quot;pro&quot;</SPAN> | <SPAN class="code-quote">&quot;p&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;multiple&quot;</SPAN> | <SPAN class="code-quote">&quot;mul&quot;</SPAN> | <SPAN class="code-quote">&quot;*&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;COPY&quot;</SPAN> | <SPAN class="code-quote">&quot;Copy&quot;</SPAN> | <SPAN class="code-quote">&quot;copy&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;VERSION&quot;</SPAN> | <SPAN class="code-quote">&quot;Version&quot;</SPAN> | <SPAN class="code-quote">&quot;version&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;INITIALIZE&quot;</SPAN> | <SPAN class="code-quote">&quot;Initialize&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;initialize&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;COMPUTE&quot;</SPAN> | <SPAN class="code-quote">&quot;Compute&quot;</SPAN> | <SPAN class="code-quote">&quot;compute&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;IGNORE&quot;</SPAN> | <SPAN class="code-quote">&quot;Ignore&quot;</SPAN> | <SPAN class="code-quote">&quot;ignore&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;ABORT&quot;</SPAN> | <SPAN class="code-quote">&quot;Abort&quot;</SPAN> | <SPAN class="code-quote">&quot;abort&quot;</SPAN>
+
+string_list ::= string {<SPAN class="code-quote">&quot;,&quot;</SPAN> string}
+
+string ::= quoted_string | unquoted_string
+
+quoted_string :: = <SPAN class="code-quote">&quot;'&quot;</SPAN> unquoted_string <SPAN class="code-quote">&quot;'&quot;</SPAN>
+
+unquoted_string ::= [A-Za-z0-9:_]+
+</PRE>
+</DIV></DIV>
+
+<H2><A name="NodeTypeNotation-CNDNotationinDetail"></A>CND Notation in Detail</H2>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+cnd ::= {ns_mapping | node_type_def}
+</PRE>
+</DIV></DIV>
+
+<P>A CND consists of zero or more blocks, each of which is either namespace declaration or a node type definition. Namespace prefixes referenced in a node type definition block must be declared in a preceding namespace declaration block.</P>
+
+<H3><A name="NodeTypeNotation-NamespaceDeclaration"></A>Namespace Declaration</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+ns_mapping ::= <SPAN class="code-quote">&quot;&lt;&quot;</SPAN> prefix <SPAN class="code-quote">&quot;=&quot;</SPAN> uri <SPAN class="code-quote">&quot;&gt;&quot;</SPAN>
+
+prefix ::= string
+
+uri ::= string
+</PRE>
+</DIV></DIV>
+
+<P>A namespace declaration consists of prefix/URI pair. The prefix must be a valid JCR namespace prefix, which is the same as a valid XML namespace prefix. The URI can in fact be any string. Just as in XML, it need not actually be a URI, though adhering to that convention is recommended.</P>
+
+<H3><A name="NodeTypeNotation-NodeTypeDefinition"></A>Node Type Definition</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+node_type_def ::= node_type_name [super_types] [options]
+                  {property_def | child_node_def}
+</PRE>
+</DIV></DIV>
+
+<P>A node type definition consists of a node type name followed by an optional supertypes block, an optional options block and zero or more blocks, each either a property or node definition.</P>
+
+<H3><A name="NodeTypeNotation-NodeTypeName"></A>Node Type Name</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+node_type_name ::= <SPAN class="code-quote">&quot;[&quot;</SPAN> string <SPAN class="code-quote">&quot;]&quot;</SPAN>
+</PRE>
+</DIV></DIV>
+
+<P>The node type name is delimited by square brackets and must be a valid JCR name. It may be single-quoted (see Quoting, below). This element is the only strictly required element within a node type definition, though a definition consisting only of a node type name would simply define a new node type identical to nt:base.</P>
+
+<H3><A name="NodeTypeNotation-Supertypes"></A>Supertypes</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+supertypes ::= <SPAN class="code-quote">&quot;&gt;&quot;</SPAN> string_list
+</PRE>
+</DIV></DIV>
+
+<P>After the node type name comes the optional list of supertypes. If this element is not present and the node type is not a mixin (see ?1.3.5 Options), then a supertype of nt:base is assumed. If present, the element consists of a greater-than sign followed by a comma delimited list of node type names, each of which may optionally be single-quoted (see Quoting below). In Jackrabbit, multiple inheritance of node types is supported, so this list can be greater than one item in length.</P>
+
+<H3><A name="NodeTypeNotation-Options"></A>Options</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+options ::= orderable_opt | mixin_opt | orderable_opt
+            mixin_opt | mixin_opt orderable_opt
+
+orderable_opt ::= <SPAN class="code-quote">&quot;orderable&quot;</SPAN> | <SPAN class="code-quote">&quot;ord&quot;</SPAN> | <SPAN class="code-quote">&quot;o&quot;</SPAN>
+
+mixin_opt ::= <SPAN class="code-quote">&quot;mixin&quot;</SPAN> | <SPAN class="code-quote">&quot;mix&quot;</SPAN> | <SPAN class="code-quote">&quot;m&quot;</SPAN>
+</PRE>
+</DIV></DIV>
+
+<P>The option indicators follow the node type name and optional supertype list.</P>
+
+<P>If the keyword orderable (or a short form) is present, then the orderable child node setting of the node type is true. If the keyword is missing, then the setting is false.</P>
+
+<P>If the keyword mixin (or a short form) is present, then this is a mixin node type. If the keyword is missing, then this is a primary node type.</P>
+
+<H3><A name="NodeTypeNotation-PropertyDefinition"></A>Property Definition</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+property_def ::= <SPAN class="code-quote">&quot;-&quot;</SPAN> property_name [property_type_decl]
+                 [default_values] [attributes]
+                 [value_constraints]
+</PRE>
+</DIV></DIV>
+
+<P>A property definition consists of a minus sign followed by a property name, followed in turn by optional elements defining the property type, the default values, the property attributes and the value constraints.</P>
+
+<H3><A name="NodeTypeNotation-PropertyName"></A>Property Name</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+property_name ::= string
+</PRE>
+</DIV></DIV>
+
+<P>The property name must be a valid JCR name or *, to indicate a residual property definition. It may be single-quoted.</P>
+
+<H3><A name="NodeTypeNotation-PropertyType"></A>Property Type</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+property_type_decl ::= <SPAN class="code-quote">&quot;(&quot;</SPAN> property_type <SPAN class="code-quote">&quot;)&quot;</SPAN>
+
+property_type ::= <SPAN class="code-quote">&quot;STRING&quot;</SPAN> | <SPAN class="code-quote">&quot;<SPAN class="code-object">String</SPAN> |&quot;</SPAN>string&quot; |
+                  <SPAN class="code-quote">&quot;BINARY&quot;</SPAN> | <SPAN class="code-quote">&quot;Binary&quot;</SPAN> | <SPAN class="code-quote">&quot;binary&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;LONG&quot;</SPAN> | <SPAN class="code-quote">&quot;<SPAN class="code-object">Long</SPAN>&quot;</SPAN> | <SPAN class="code-quote">&quot;<SPAN class="code-object">long</SPAN>&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;DOUBLE&quot;</SPAN> | <SPAN class="code-quote">&quot;<SPAN class="code-object">Double</SPAN>&quot;</SPAN> | <SPAN class="code-quote">&quot;<SPAN class="code-object">double</SPAN>&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;BOOLEAN&quot;</SPAN> | <SPAN class="code-quote">&quot;<SPAN class="code-object">Boolean</SPAN>&quot;</SPAN> | <SPAN class="code-quote">&quot;<SPAN class="code-object">boolean</SPAN>&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;DATE&quot;</SPAN> | <SPAN class="code-quote">&quot;Date&quot;</SPAN> | <SPAN class="code-quote">&quot;date&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;NAME | &quot;</SPAN>Name | <SPAN class="code-quote">&quot;name&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;PATH&quot;</SPAN> | <SPAN class="code-quote">&quot;Path&quot;</SPAN> | <SPAN class="code-quote">&quot;path&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;REFERENCE&quot;</SPAN> | <SPAN class="code-quote">&quot;Reference&quot;</SPAN> | <SPAN class="code-quote">&quot;reference&quot;</SPAN> |
+                  <SPAN class="code-quote">&quot;UNDEFINED&quot;</SPAN> | <SPAN class="code-quote">&quot;Undefined&quot;</SPAN> | <SPAN class="code-quote">&quot;undefined&quot;</SPAN> | <SPAN class="code-quote">&quot;*&quot;</SPAN>
+</PRE>
+</DIV></DIV>
+
+<P>The property type is indicated by a keyword delimited by parentheses. If the property type declaration is missing a type of STRING is assumed.</P>
+
+<H3><A name="NodeTypeNotation-DefaultValues"></A>Default Values</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+default_values ::= <SPAN class="code-quote">&quot;=&quot;</SPAN> string_list
+</PRE>
+</DIV></DIV>
+
+<P>The default value or values, in the case of a multi-value property, are indicated by an equal sign followed by either a single value in string form or a comma-delimited list of values. The values may be single-quoted. If the default value definition is missing then no default value is set.</P>
+
+<H3><A name="NodeTypeNotation-Attributes"></A>Attributes</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+attributes ::= <SPAN class="code-quote">&quot;primary&quot;</SPAN> | <SPAN class="code-quote">&quot;pri&quot;</SPAN> | <SPAN class="code-quote">&quot;!&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;autocreated&quot;</SPAN> | <SPAN class="code-quote">&quot;aut&quot;</SPAN> | <SPAN class="code-quote">&quot;a&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;mandatory&quot;</SPAN> | <SPAN class="code-quote">&quot;man&quot;</SPAN> | <SPAN class="code-quote">&quot;m&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;<SPAN class="code-keyword">protected</SPAN>&quot;</SPAN> | <SPAN class="code-quote">&quot;pro&quot;</SPAN> | <SPAN class="code-quote">&quot;p&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;multiple&quot;</SPAN> | <SPAN class="code-quote">&quot;mul&quot;</SPAN> | <SPAN class="code-quote">&quot;*&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;COPY&quot;</SPAN> | <SPAN class="code-quote">&quot;Copy&quot;</SPAN> | <SPAN class="code-quote">&quot;copy&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;VERSION&quot;</SPAN> | <SPAN class="code-quote">&quot;Version&quot;</SPAN> | <SPAN class="code-quote">&quot;version&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;INITIALIZE&quot;</SPAN> | <SPAN class="code-quote">&quot;Initialize&quot;</SPAN> | <SPAN class="code-quote">&quot;initialize&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;COMPUTE&quot;</SPAN> | <SPAN class="code-quote">&quot;Compute&quot;</SPAN> | <SPAN class="code-quote">&quot;compute&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;IGNORE&quot;</SPAN> | <SPAN class="code-quote">&quot;Ignore&quot;</SPAN> | <SPAN class="code-quote">&quot;ignore&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;ABORT&quot;</SPAN> | <SPAN class="code-quote">&quot;Abort&quot;</SPAN> | <SPAN class="code-quote">&quot;abort&quot;</SPAN>
+</PRE>
+</DIV></DIV>
+
+<P>The attribute indicators describe the characteristics of the property. The presence of an attribute keyword indicates that the corresponding characteristic applies to this property. It's absence indicates that the corresponding characteristic does not apply.</P>
+
+<P>The primary keyword indicates that this property is the primary item. It may appear on a maximum of one property or child node definition within a node type definition.</P>
+
+<P>The multiple keyword indicates that this property is multi-valued.</P>
+
+<P>A maximum of one on-version indicator may be present. If none is present then an on-version setting of COPY is assumed.</P>
+
+<H3><A name="NodeTypeNotation-ValueConstraints"></A>Value Constraints</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+value_constraints ::= <SPAN class="code-quote">&quot;&lt;&quot;</SPAN> string_list
+</PRE>
+</DIV></DIV>
+
+<P>Value constraint are specified by a less-than sign followed by a comma-delimited list of constraint strings, each optionally single-quoted.</P>
+
+<H3><A name="NodeTypeNotation-ChildNodeDefinition"></A>Child Node Definition</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+child_node_def ::= <SPAN class="code-quote">&quot;+&quot;</SPAN> node_name [required_types]
+             [default_type] [attributes]
+</PRE>
+</DIV></DIV>
+
+<P>A child node definition consists of a plus sign followed by a property name, followed in turn by optional elements defining the required primary node types, the default node type, and the node attributes.</P>
+
+<H3><A name="NodeTypeNotation-NodeName"></A>Node Name</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+node_name ::= string
+</PRE>
+</DIV></DIV>
+
+<P>The node name must be a valid JCR name or *, to indicate a residual child node definition. It may be single-quoted.</P>
+
+<H3><A name="NodeTypeNotation-RequiredPrimaryNodeTypes"></A>Required Primary Node Types</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+required_types ::= <SPAN class="code-quote">&quot;(&quot;</SPAN> string_list <SPAN class="code-quote">&quot;)&quot;</SPAN>
+</PRE>
+</DIV></DIV>
+
+<P>The required node types of the child node are indicated by a comma-delimited list of node types, within parentheses. If this element is missing then a required primary node type of nt:base is assumed. This is the least restrictive setting possible.</P>
+
+<H3><A name="NodeTypeNotation-DefaultPrimaryNodeType"></A>Default Primary Node Type</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+default_type ::= <SPAN class="code-quote">&quot;=&quot;</SPAN> string
+</PRE>
+</DIV></DIV>
+
+<P>The default primary node type is indicated by an equals-sign followed by a node type name, which may be single-quoted. If this element is missing then no default primary node type is set.</P>
+
+<H3><A name="NodeTypeNotation-Attributes"></A>Attributes</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+attributes ::= <SPAN class="code-quote">&quot;primary&quot;</SPAN> | <SPAN class="code-quote">&quot;pri&quot;</SPAN> | <SPAN class="code-quote">&quot;!&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;autocreated&quot;</SPAN> | <SPAN class="code-quote">&quot;aut&quot;</SPAN> | <SPAN class="code-quote">&quot;a&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;mandatory&quot;</SPAN> | <SPAN class="code-quote">&quot;man&quot;</SPAN> | <SPAN class="code-quote">&quot;m&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;<SPAN class="code-keyword">protected</SPAN>&quot;</SPAN> | <SPAN class="code-quote">&quot;pro&quot;</SPAN> | <SPAN class="code-quote">&quot;p&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;multiple&quot;</SPAN> | <SPAN class="code-quote">&quot;mul&quot;</SPAN> | <SPAN class="code-quote">&quot;*&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;COPY&quot;</SPAN> | <SPAN class="code-quote">&quot;Copy&quot;</SPAN> | <SPAN class="code-quote">&quot;copy&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;VERSION&quot;</SPAN> | <SPAN class="code-quote">&quot;Version&quot;</SPAN> | <SPAN class="code-quote">&quot;version&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;INITIALIZE&quot;</SPAN> | <SPAN class="code-quote">&quot;Initialize&quot;</SPAN> | <SPAN class="code-quote">&quot;initialize&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;COMPUTE&quot;</SPAN> | <SPAN class="code-quote">&quot;Compute&quot;</SPAN> | <SPAN class="code-quote">&quot;compute&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;IGNORE&quot;</SPAN> | <SPAN class="code-quote">&quot;Ignore&quot;</SPAN> | <SPAN class="code-quote">&quot;ignore&quot;</SPAN> |
+               <SPAN class="code-quote">&quot;ABORT&quot;</SPAN> | <SPAN class="code-quote">&quot;Abort&quot;</SPAN> | <SPAN class="code-quote">&quot;abort&quot;</SPAN>
+</PRE>
+</DIV></DIV>
+
+<P>The attribute indicators describe the characteristics of the child node. The presence of an attribute keyword indicates that the corresponding characteristic applies to this child node. It's absence indicates that the corresponding characteristic does not apply.</P>
+
+<P>The primary keyword indicates that this child node is the primary item. It may appear on a maximum of one property or child node definition within a node type definition.</P>
+
+<P>The multiple keyword indicates that this child node may have same-name siblings.</P>
+
+<P>A maximum of one on-version indicator may be present. If none is present then an on-version setting of COPY is assumed.</P>
+
+<H3><A name="NodeTypeNotation-Quoting"></A>Quoting</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+string_list ::= string {<SPAN class="code-quote">&quot;,&quot;</SPAN> string}
+
+string ::= quoted_string | unquoted_string
+
+quoted_string :: = <SPAN class="code-quote">&quot;'&quot;</SPAN> unquoted_string <SPAN class="code-quote">&quot;'&quot;</SPAN>
+
+unquoted_string ::= /* a string */
+</PRE>
+</DIV></DIV>
+
+<P>Single quotes (') are used to allow for strings (i.e., names, prefixes, URIs, values or constraint strings) with characters that would otherwise be interpreted as delimiters.</P>
+
+<H3><A name="NodeTypeNotation-Escaping"></A>Escaping</H3>
+
+<P>The standard Java escape sequences are also supported:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+\n newline
+\t tab
+\b backspace
+\f form feed
+\r <SPAN class="code-keyword">return</SPAN>
+\&quot; <SPAN class="code-object">double</SPAN> quote
+\' single quote
+\\ back slash
+\uHHHH Unicode character in hexadecimal
+</PRE>
+</DIV></DIV>
+
+<H3><A name="NodeTypeNotation-Comments"></A>Comments</H3>
+
+<P>Comment can also be included in the notation using either of the standard Java forms:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+<SPAN class="code-comment">// A comment
+</SPAN>
+/* Another comment */
+</PRE>
+</DIV></DIV>
+
+<H3><A name="NodeTypeNotation-WhitespaceandShortForms"></A>Whitespace and Short Forms</H3>
+
+<P>The notation can be compacted by taking advantage of the following the fact that spacing around keychars ([ ] &gt; , - ( ) = &lt;), newlines and indentation are not required. So, the following is also well-formed:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+[x]&gt;y,z orderable mixin -p(date)=a,b primary mandatory autocreated <SPAN class="code-keyword">protected</SPAN> multiple version &lt;c,d
+</PRE>
+</DIV></DIV>
+
+<P>Additionally, though spaces are required around the keywords (orderable, mixin, date, mandatory, etc.), short forms for keywords can be used. So, this:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+[x]&gt;y,z o m-p(date)=a,b ! m a p * version &lt;c,d
+</PRE>
+</DIV></DIV>
+
+<P>is well-formed (but perhaps not recommended!).</P>
+
+<H3><A name="NodeTypeNotation-WhythisWeirdNotation%3F"></A>Why this Weird Notation?</H3>
+
+<P>Here's why:</P>
+
+<P>Old Documentation Notation</P>
+
+<P>Here is the definition of the built-in node type nt:resource using the old documentation notation (used in v1.0 of the JCR specification, for example):</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+NodeTypeName
+  nt:resource
+Supertypes
+  nt:base
+  mix:referenceable
+IsMixin
+  <SPAN class="code-keyword">false</SPAN>
+HasOrderableChildNodes
+  <SPAN class="code-keyword">false</SPAN>
+PrimaryItemName
+  jcr:data
+PropertyDefinition
+  Name jcr:encoding
+  RequiredType STRING
+  ValueConstraints []
+  DefaultValues <SPAN class="code-keyword">null</SPAN>
+  AutoCreated <SPAN class="code-keyword">false</SPAN>
+  Mandatory <SPAN class="code-keyword">false</SPAN>
+  OnParentVersion COPY
+  Protected <SPAN class="code-keyword">false</SPAN>
+  Multiple <SPAN class="code-keyword">false</SPAN>
+PropertyDefinition
+  Name jcr:mimeType
+  RequiredType STRING
+  ValueConstraints []
+  DefaultValues <SPAN class="code-keyword">null</SPAN>
+  AutoCreated <SPAN class="code-keyword">false</SPAN>
+  Mandatory <SPAN class="code-keyword">true</SPAN>
+  OnParentVersion COPY
+  Protected <SPAN class="code-keyword">false</SPAN>
+  Multiple <SPAN class="code-keyword">false</SPAN>
+PropertyDefinition
+  Name jcr:data
+  RequiredType BINARY
+  ValueConstraints []
+  DefaultValues <SPAN class="code-keyword">null</SPAN>
+  AutoCreated <SPAN class="code-keyword">false</SPAN>
+  Mandatory <SPAN class="code-keyword">true</SPAN>
+  OnParentVersion COPY
+  Protected <SPAN class="code-keyword">false</SPAN>
+  Multiple <SPAN class="code-keyword">false</SPAN>
+PropertyDefinition
+  Name jcr:lastModified
+  RequiredType DATE
+  ValueConstraints []
+  DefaultValues <SPAN class="code-keyword">null</SPAN>
+  AutoCreated <SPAN class="code-keyword">false</SPAN>
+  Mandatory <SPAN class="code-keyword">true</SPAN>
+  OnParentVersion IGNORE
+  Protected <SPAN class="code-keyword">false</SPAN>
+  Multiple <SPAN class="code-keyword">false</SPAN>
+</PRE>
+</DIV></DIV>
+
+<P>Old Configuration Notation</P>
+
+<P>Here is the same node type in the standard XML notation (used in configuration files in the Jackrabbit project, for example):</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+&lt;nodeType name=<SPAN class="code-quote">&quot;nt:resource&quot;</SPAN>
+          isMixin=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">false</SPAN>&quot;</SPAN>
+          hasOrderableChildNodes=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">false</SPAN>&quot;</SPAN>
+          primaryItemName=<SPAN class="code-quote">&quot;jcr:data&quot;</SPAN>&gt;
+    &lt;supertypes&gt;
+        &lt;supertype&gt;nt:base&lt;/supertype&gt;
+        &lt;supertype&gt;mix:referenceable&lt;/supertype&gt;
+    &lt;/supertypes&gt;
+    &lt;propertyDefinition name=<SPAN class="code-quote">&quot;jcr:encoding&quot;</SPAN>
+                        requiredType=<SPAN class="code-quote">&quot;<SPAN class="code-object">String</SPAN>&quot;</SPAN>
+                        autoCreated=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">false</SPAN>&quot;</SPAN>
+                        mandatory=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">false</SPAN>&quot;</SPAN>
+                        onParentVersion=<SPAN class="code-quote">&quot;COPY&quot;</SPAN>
+                        <SPAN class="code-keyword">protected</SPAN>=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">false</SPAN>&quot;</SPAN>
+                        multiple=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">false</SPAN>&quot;</SPAN>/&gt;
+    &lt;propertyDefinition name=<SPAN class="code-quote">&quot;jcr:mimeType&quot;</SPAN>
+                        requiredType=<SPAN class="code-quote">&quot;<SPAN class="code-object">String</SPAN>&quot;</SPAN>
+                        autoCreated=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">false</SPAN>&quot;</SPAN>
+                        mandatory=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">true</SPAN>&quot;</SPAN>
+                        onParentVersion=<SPAN class="code-quote">&quot;COPY&quot;</SPAN>
+                        <SPAN class="code-keyword">protected</SPAN>=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">false</SPAN>&quot;</SPAN>
+                        multiple=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">false</SPAN>&quot;</SPAN>/&gt;
+    &lt;propertyDefinition name=<SPAN class="code-quote">&quot;jcr:data&quot;</SPAN>
+                        requiredType=<SPAN class="code-quote">&quot;Binary&quot;</SPAN>
+                        autoCreated=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">false</SPAN>&quot;</SPAN>
+                        mandatory=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">true</SPAN>&quot;</SPAN>
+                        onParentVersion=<SPAN class="code-quote">&quot;COPY&quot;</SPAN>
+                        <SPAN class="code-keyword">protected</SPAN>=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">false</SPAN>&quot;</SPAN>
+                        multiple=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">false</SPAN>&quot;</SPAN>/&gt;
+    &lt;propertyDefinition name=<SPAN class="code-quote">&quot;jcr:lastModified&quot;</SPAN>
+                        requiredType=<SPAN class="code-quote">&quot;Date&quot;</SPAN>
+                        autoCreated=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">false</SPAN>&quot;</SPAN>
+                        mandatory=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">true</SPAN>&quot;</SPAN>
+                        onParentVersion=<SPAN class="code-quote">&quot;IGNORE&quot;</SPAN>
+                        <SPAN class="code-keyword">protected</SPAN>=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">false</SPAN>&quot;</SPAN>
+                        multiple=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">false</SPAN>&quot;</SPAN>/&gt;
+&lt;/nodeType&gt;
+</PRE>
+</DIV></DIV>
+
+<P>New Format</P>
+
+<P>And, here it is in the new CND notation:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+[nt:resource] &gt; mix:referenceable
+- jcr:encoding
+- jcr:mimeType mandatory
+- jcr:data (binary) mandatory
+- jcr:lastModified (date) mandatory ignore
+</PRE>
+</DIV></DIV>
+
+<P>Case closed.</P>
+
+<H2><A name="NodeTypeNotation-Syntaxhightlightingfortexteditors"></A>Syntax hightlighting for text editors</H2>
+
+<P>Here is a TextMate bundle for CND syntax highlighting: <A href="node-type-notation.data/CND.zip">CND.zip</A></P>
+        </DIV>
+        <DIV id="end"></DIV>
+      </DIV>
+      <DIV id="footer">
+        <P>
+          &copy; 2004-2010 The Apache Software Foundation.
+          - <A href="http://jackrabbit.apache.org/privacy-policy.html">Privacy Policy</A> -
+          [<A href="https://cwiki.apache.org/confluence/pages/editpage.action?pageId=75305">edit this page</A>]
+          <BR>
+          Apache Jackrabbit, Jackrabbit, Apache, the Apache feather logo, and the Apache
+          Jackrabbit project logo are trademarks of The Apache Software Foundation.
+        </P>
+      </DIV>
+    </DIV>
+<!-- JCR- 1315: Add Google Analytics to Jackrabbit web site -->
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+<SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-837900-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+  </BODY>
+</HTML>

@@ -1,0 +1,231 @@
+
+<!-- 
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE- 2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License. 
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+  <HEAD>
+    <TITLE>5' with Jackrabbit OCM</TITLE>
+    <LINK type="text/css" rel="stylesheet" href="http://jackrabbit.apache.org/style/site.css">
+  <META http-equiv="Content-Type" content="text/html;charset=UTF-8"></HEAD>
+  <BODY>
+    <DIV id="page">
+      <DIV id="header">
+        <P id="jcr"><A href="http://jackrabbit.apache.org/"><IMG src="http://jackrabbit.apache.org/style/jlogo.gif" alt="Apache Jackrabbit" height="100" width="336"></A></P>
+        <P id="asf"><A href="http://www.apache.org/"><IMG src="http://jackrabbit.apache.org/style/asf-logo.gif" alt="Apache Software Foundation" height="100" width="387"></A></P>
+      </DIV>
+      <DIV id="body">
+        <DIV id="navigation">
+  <UL>
+	<LI>Apache Jackrabbit
+	<UL>
+		<LI><A href="welcome-to-apache-jackrabbit.html" title="Welcome to Apache Jackrabbit">Welcome</A></LI>
+		<LI><A href="downloads.html" title="Downloads">Downloads</A></LI>
+		<LI><A href="frequently-asked-questions.html" title="Frequently Asked Questions">FAQ</A></LI>
+		<LI><A href="http://wiki.apache.org/jackrabbit/FrontPage" class="external-link">Jackrabbit Wiki</A></LI>
+		<LI><A href="jackrabbit-history.html" title="Jackrabbit History">Jackrabbit History</A></LI>
+	</UL>
+	</LI>
+	<LI>Documentation
+	<UL>
+		<LI><A href="getting-started-with-apache-jackrabbit.html" title="Getting Started with Apache Jackrabbit">Getting Started</A></LI>
+		<LI><A href="standalone-server.html" title="Standalone Server">Standalone Server</A></LI>
+		<LI><A href="jackrabbit-components.html" title="Jackrabbit Components">Jackrabbit Components</A></LI>
+		<LI><A href="first-hops.html" title="First Hops">First Hops</A></LI>
+		<LI><A href="jcr-api.html" title="JCR & API">JCR &amp; API</A></LI>
+		<LI><A href="jackrabbit-architecture.html" title="Jackrabbit Architecture">Jackrabbit Architecture</A></LI>
+		<LI><A href="deployment-models.html" title="Deployment Models">Deployment Models</A></LI>
+		<LI><A href="jackrabbit-configuration.html" title="Jackrabbit Configuration">Jackrabbit Configuration</A></LI>
+		<LI><A href="node-types.html" title="Node Types">Node Types</A></LI>
+		<LI><A href="object-content-mapping.html" title="Object Content Mapping">Object Content Mapping</A></LI>
+	</UL>
+	</LI>
+	<LI>Development
+	<UL>
+		<LI><A href="jackrabbit-team.html" title="Jackrabbit Team">Jackrabbit Team</A></LI>
+		<LI><A href="jackrabbit-roadmap.html" title="Jackrabbit Roadmap">Jackrabbit Roadmap</A></LI>
+		<LI><A href="building-jackrabbit.html" title="Building Jackrabbit">Building Jackrabbit</A></LI>
+		<LI><A href="mailing-lists.html" title="Mailing Lists">Mailing Lists</A></LI>
+		<LI><A href="issue-tracker.html" title="Issue Tracker">Issue Tracker</A></LI>
+		<LI><A href="source-repository.html" title="Source Repository">Source Repository</A></LI>
+		<LI><A href="continuous-integration.html" title="Continuous Integration">Continuous Integration</A></LI>
+		<LI><A href="website.html" title="Website">Website</A></LI>
+		<LI><A href="creating-releases.html" title="Creating Releases">Creating Releases</A></LI>
+		<LI><A href="supporting-software-attribution.html" title="Supporting software attribution">Attribution</A></LI>
+	</UL>
+	</LI>
+	<LI>Apache Software Foundation
+	<UL>
+		<LI><A href="http://www.apache.org/foundation/how-it-works.html" class="external-link">Introduction</A></LI>
+		<LI><A href="http://www.apache.org/foundation/sponsorship.html" class="external-link">Sponsorship</A></LI>
+		<LI><A href="http://www.apache.org/foundation/thanks.html" class="external-link">Current Sponsors</A></LI>
+	</UL>
+	</LI>
+</UL>
+        </DIV>
+        <DIV id="content">
+          <H1>5' with Jackrabbit OCM</H1>
+  <P>This very small tutorial describes how to create an application with Jackrabbit OCM.<BR>
+In short, you have to :</P>
+<UL>
+	<LI>Create one or more persistent classes.</LI>
+	<LI>Instantiate an <A href="object-content-manager.html" title="Object Content Manager">Object Content Manager</A> component.</LI>
+	<LI>Use the <A href="object-content-manager.html" title="Object Content Manager">Object Content Manager</A> to persist your data.</LI>
+</UL>
+
+
+
+<H2><A name="5%27withJackrabbitOCM-Createapersistentclass"></A>Create a persistent class</H2>
+
+<P>This tutorial is using the annotation support to define a persistent class. Your data objects are simple pojos with some OCM annotations. <BR>
+Here is a example of a PressRelease class. </P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+<SPAN class="code-keyword">package</SPAN> org.apache.jackrabbit.ocm.model;
+
+<SPAN class="code-keyword">import</SPAN> java.util.Date;
+
+<SPAN class="code-keyword">import</SPAN> org.apache.jackrabbit.ocm.mapper.impl.annotation.Field;
+<SPAN class="code-keyword">import</SPAN> org.apache.jackrabbit.ocm.mapper.impl.annotation.Node;
+
+@Node
+<SPAN class="code-keyword">public</SPAN> class PressRelease 
+{
+	@Field(path=<SPAN class="code-keyword">true</SPAN>) <SPAN class="code-object">String</SPAN> path;
+	@Field <SPAN class="code-object">String</SPAN> title; 
+	@Field Date pubDate; 
+	@Field <SPAN class="code-object">String</SPAN> content;
+	
+	<SPAN class="code-keyword">public</SPAN> <SPAN class="code-object">String</SPAN> getPath() {
+		<SPAN class="code-keyword">return</SPAN> path;
+	}
+	<SPAN class="code-keyword">public</SPAN> void setPath(<SPAN class="code-object">String</SPAN> path) {
+		<SPAN class="code-keyword">this</SPAN>.path = path;
+	}
+	<SPAN class="code-keyword">public</SPAN> <SPAN class="code-object">String</SPAN> getContent() {
+		<SPAN class="code-keyword">return</SPAN> content;
+	}
+	<SPAN class="code-keyword">public</SPAN> void setContent(<SPAN class="code-object">String</SPAN> content) {
+		<SPAN class="code-keyword">this</SPAN>.content = content;
+	}
+	<SPAN class="code-keyword">public</SPAN> Date getPubDate() {
+		<SPAN class="code-keyword">return</SPAN> pubDate;
+	}
+	<SPAN class="code-keyword">public</SPAN> void setPubDate(Date pubDate) {
+		<SPAN class="code-keyword">this</SPAN>.pubDate = pubDate;
+	}
+	<SPAN class="code-keyword">public</SPAN> <SPAN class="code-object">String</SPAN> getTitle() {
+		<SPAN class="code-keyword">return</SPAN> title;
+	}
+	<SPAN class="code-keyword">public</SPAN> void setTitle(<SPAN class="code-object">String</SPAN> title) {
+		<SPAN class="code-keyword">this</SPAN>.title = title;
+	}
+	
+	
+}
+</PRE>
+</DIV></DIV>
+
+<P>The annotation </P>
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">@Node</PRE>
+</DIV></DIV>
+<P> has to be added on the top of the class.<BR>
+Each persistent class must have a <B>path field</B> which will be mapped into the JCR Node path. This can be specify with the annotation. </P>
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">@Field(path=<SPAN class="code-keyword">true</SPAN>)</PRE>
+</DIV></DIV>
+<P>Other persistent fields can be defined with the annotation </P>
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">@Field</PRE>
+</DIV></DIV>
+
+<P>That's all for the class definition. In other tutorials, we will see how to map advanced fields like collections or custom objects. </P>
+
+
+
+
+<H2><A name="5%27withJackrabbitOCM-InstantiateanObjectContentManagercomponent"></A>Instantiate an Object Content Manager component</H2>
+<P>In order to save a PressRelease object, you have to instantiate an <A href="object-content-manager.html" title="Object Content Manager">Object Content Manager</A> component : </P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+List&lt;<SPAN class="code-object">Class</SPAN>&gt; classes = <SPAN class="code-keyword">new</SPAN> ArrayList&lt;<SPAN class="code-object">Class</SPAN>&gt;();	
+classes.add(PressRelease.class); <SPAN class="code-comment">// Call <SPAN class="code-keyword">this</SPAN> method <SPAN class="code-keyword">for</SPAN> each persistent class
+</SPAN>		
+Mapper mapper = <SPAN class="code-keyword">new</SPAN> AnnotationMapperImpl(classes);
+ObjectContentManager ocm =  <SPAN class="code-keyword">new</SPAN> ObjectContentManagerImpl(session, mapper);	
+</PRE>
+</DIV></DIV>
+
+<H2><A name="5%27withJackrabbitOCM-UsetheObjectContentManagertopersistyourdata"></A>Use the Object Content Manager to persist your data</H2>
+
+<P>Now, you are ready to create a new PressRelease and use the <A href="object-content-manager.html" title="Object Content Manager">Object Content Manager</A> to persist it into the JCR repository. </P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+<SPAN class="code-comment">// Insert an object
+</SPAN><SPAN class="code-object">System</SPAN>.out.println(<SPAN class="code-quote">&quot;Insert a press release in the repository&quot;</SPAN>);
+PressRelease pressRelease = <SPAN class="code-keyword">new</SPAN> PressRelease();
+pressRelease.setPath(<SPAN class="code-quote">&quot;/newtutorial&quot;</SPAN>);
+pressRelease.setTitle(<SPAN class="code-quote">&quot;This is the first tutorial on OCM&quot;</SPAN>);
+pressRelease.setPubDate(<SPAN class="code-keyword">new</SPAN> Date());
+pressRelease.setContent(<SPAN class="code-quote">&quot;Many Jackrabbit users ask to the dev team to make a tutorial on OCM&quot;</SPAN>);
+			
+ocm.insert(pressRelease);
+ocm.save();
+			
+<SPAN class="code-comment">// Retrieve 
+</SPAN><SPAN class="code-object">System</SPAN>.out.println(<SPAN class="code-quote">&quot;Retrieve a press release from the repository&quot;</SPAN>);
+pressRelease = (PressRelease) ocm.getObject(<SPAN class="code-quote">&quot;/newtutorial&quot;</SPAN>);
+<SPAN class="code-object">System</SPAN>.out.println(<SPAN class="code-quote">&quot;PressRelease title : &quot;</SPAN> + pressRelease.getTitle());
+			
+<SPAN class="code-comment">// Delete
+</SPAN><SPAN class="code-object">System</SPAN>.out.println(<SPAN class="code-quote">&quot;Remove a press release from the repository&quot;</SPAN>);
+ocm.remove(pressRelease);
+ocm.save();
+</PRE>
+</DIV></DIV>
+        </DIV>
+        <DIV id="end"></DIV>
+      </DIV>
+      <DIV id="footer">
+        <P>
+          &copy; 2004-2010 The Apache Software Foundation.
+          - <A href="http://jackrabbit.apache.org/privacy-policy.html">Privacy Policy</A> -
+          [<A href="https://cwiki.apache.org/confluence/pages/editpage.action?pageId=75934">edit this page</A>]
+          <BR>
+          Apache Jackrabbit, Jackrabbit, Apache, the Apache feather logo, and the Apache
+          Jackrabbit project logo are trademarks of The Apache Software Foundation.
+        </P>
+      </DIV>
+    </DIV>
+<!-- JCR- 1315: Add Google Analytics to Jackrabbit web site -->
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+<SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-837900-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+  </BODY>
+</HTML>

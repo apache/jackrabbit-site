@@ -1,0 +1,243 @@
+
+<!-- 
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE- 2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License. 
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+  <HEAD>
+    <TITLE>Standalone Server</TITLE>
+    <LINK type="text/css" rel="stylesheet" href="http://jackrabbit.apache.org/style/site.css">
+  <META http-equiv="Content-Type" content="text/html;charset=UTF-8"></HEAD>
+  <BODY>
+    <DIV id="page">
+      <DIV id="header">
+        <P id="jcr"><A href="http://jackrabbit.apache.org/"><IMG src="http://jackrabbit.apache.org/style/jlogo.gif" alt="Apache Jackrabbit" height="100" width="336"></A></P>
+        <P id="asf"><A href="http://www.apache.org/"><IMG src="http://jackrabbit.apache.org/style/asf-logo.gif" alt="Apache Software Foundation" height="100" width="387"></A></P>
+      </DIV>
+      <DIV id="body">
+        <DIV id="navigation">
+  <UL>
+	<LI>Apache Jackrabbit
+	<UL>
+		<LI><A href="welcome-to-apache-jackrabbit.html" title="Welcome to Apache Jackrabbit">Welcome</A></LI>
+		<LI><A href="downloads.html" title="Downloads">Downloads</A></LI>
+		<LI><A href="frequently-asked-questions.html" title="Frequently Asked Questions">FAQ</A></LI>
+		<LI><A href="http://wiki.apache.org/jackrabbit/FrontPage" class="external-link">Jackrabbit Wiki</A></LI>
+		<LI><A href="jackrabbit-history.html" title="Jackrabbit History">Jackrabbit History</A></LI>
+	</UL>
+	</LI>
+	<LI>Documentation
+	<UL>
+		<LI><A href="getting-started-with-apache-jackrabbit.html" title="Getting Started with Apache Jackrabbit">Getting Started</A></LI>
+		<LI><A href="" title="Standalone Server">Standalone Server</A></LI>
+		<LI><A href="jackrabbit-components.html" title="Jackrabbit Components">Jackrabbit Components</A></LI>
+		<LI><A href="first-hops.html" title="First Hops">First Hops</A></LI>
+		<LI><A href="jcr-api.html" title="JCR & API">JCR &amp; API</A></LI>
+		<LI><A href="jackrabbit-architecture.html" title="Jackrabbit Architecture">Jackrabbit Architecture</A></LI>
+		<LI><A href="deployment-models.html" title="Deployment Models">Deployment Models</A></LI>
+		<LI><A href="jackrabbit-configuration.html" title="Jackrabbit Configuration">Jackrabbit Configuration</A></LI>
+		<LI><A href="node-types.html" title="Node Types">Node Types</A></LI>
+		<LI><A href="object-content-mapping.html" title="Object Content Mapping">Object Content Mapping</A></LI>
+	</UL>
+	</LI>
+	<LI>Development
+	<UL>
+		<LI><A href="jackrabbit-team.html" title="Jackrabbit Team">Jackrabbit Team</A></LI>
+		<LI><A href="jackrabbit-roadmap.html" title="Jackrabbit Roadmap">Jackrabbit Roadmap</A></LI>
+		<LI><A href="building-jackrabbit.html" title="Building Jackrabbit">Building Jackrabbit</A></LI>
+		<LI><A href="mailing-lists.html" title="Mailing Lists">Mailing Lists</A></LI>
+		<LI><A href="issue-tracker.html" title="Issue Tracker">Issue Tracker</A></LI>
+		<LI><A href="source-repository.html" title="Source Repository">Source Repository</A></LI>
+		<LI><A href="continuous-integration.html" title="Continuous Integration">Continuous Integration</A></LI>
+		<LI><A href="website.html" title="Website">Website</A></LI>
+		<LI><A href="creating-releases.html" title="Creating Releases">Creating Releases</A></LI>
+		<LI><A href="supporting-software-attribution.html" title="Supporting software attribution">Attribution</A></LI>
+	</UL>
+	</LI>
+	<LI>Apache Software Foundation
+	<UL>
+		<LI><A href="http://www.apache.org/foundation/how-it-works.html" class="external-link">Introduction</A></LI>
+		<LI><A href="http://www.apache.org/foundation/sponsorship.html" class="external-link">Sponsorship</A></LI>
+		<LI><A href="http://www.apache.org/foundation/thanks.html" class="external-link">Current Sponsors</A></LI>
+	</UL>
+	</LI>
+</UL>
+        </DIV>
+        <DIV id="content">
+          <H1>Standalone Server</H1>
+  <P>Each Jackrabbit release comes with a pre-built and runnable standalone server jar. It's the easiest way to get started with Jackrabbit, simply <A href="downloads.html" title="Downloads">download</A> and start the jar to get a fully functional JCR content repository. The rest of this page documents what else you can do with the standalone server.</P>
+
+<DIV>
+<UL>
+    <LI><A href="#StandaloneServer-Runningthestandaloneserver">Running the standalone server</A></LI>
+    <LI><A href="#StandaloneServer-Commandlineoptions">Command line options</A></LI>
+    <LI><A href="#StandaloneServer-Webinterface">Web interface</A></LI>
+    <LI><A href="#StandaloneServer-WebDAVaccess">WebDAV access</A></LI>
+    <LI><A href="#StandaloneServer-RMIaccess">RMI access</A></LI>
+    <LI><A href="#StandaloneServer-Backupandmigration">Backup and migration</A></LI>
+    <LI><A href="#StandaloneServer-Drawbacks">Drawbacks</A></LI>
+</UL></DIV>
+
+<H2><A name="StandaloneServer-Runningthestandaloneserver"></A>Running the standalone server</H2>
+
+<P>You need Java version 5 or higher to run the Jackrabbit standalone server. To start the server, double-click on the standalone jar file, or invoke it on the command line.</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-none">
+$ java -jar jackrabbit-standalone-1.6.0.jar
+Welcome to Apache Jackrabbit!
+-------------------------------
+Using repository directory jackrabbit
+Writing log messages to jackrabbit/log
+Starting the server...
+Apache Jackrabbit is now running at http://localhost:8080/
+^C
+Shutting down the server...
+-------------------------------
+Goodbye from Apache Jackrabbit!
+</PRE>
+</DIV></DIV>
+
+<P>After staring the server, you can point your browser to <A href="http://localhost:8080/" class="external-link">http://localhost:8080/</A> to see Jackrabbit in action. Use the <TT>--port</TT> command line option to specify an alternative if the default port 8080 is already used by another program.<BR>
+This is what the server should look like in your browser:</P>
+
+<P><SPAN class="image-wrap" style="display: block; text-align: center"><IMG src="standalone-server.data/standalone500.png" style="border: 0px solid black"></SPAN></P>
+
+<P>By default the server will look for a content repository in the <TT>./jackrabbit</TT> directory and a repository configuration file in a <TT>repository.xml</TT> file within the repository directory. The repository directory is automatically created if it does not already exist, and a configuration file with the default configuration is created if no configuration is found.</P>
+
+<P>Server, access, and repository log messages are written to log files in the <TT>log</TT> subdirectory within the repository directory.</P>
+
+<P>You can stop the server by pressing <TT>Ctrl-C</TT> or by sending it a standard termination signal. The server will then close the content repository and exit cleanly.</P>
+
+<H2><A name="StandaloneServer-Commandlineoptions"></A>Command line options</H2>
+
+<P>You can customize the operation of the standalone server with the following command line options (with defaults in parenthesis).</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-none">
+$ java -jar jackrabbit-standalone-1.6.0.jar --help
+usage: java -jar jackrabbit-standalone-1.6.0.jar [-?] [-b] [-c &lt;arg&gt;] [-C
+       &lt;arg&gt;] [-d] [-f &lt;arg&gt;] [-h &lt;arg&gt;] [-l] [-n] [-p &lt;arg&gt;] [-q] [-r &lt;arg&gt;] [-R
+       &lt;arg&gt;]
+ -?,--help                print this message
+ -b,--backup              create a backup of the repository
+ -c,--conf &lt;arg&gt;          repository configuration file
+ -C,--backup-conf &lt;arg&gt;   backup repository configuration file
+ -d,--debug               enable debug logging
+ -f,--file &lt;arg&gt;          location of this jar file
+ -h,--host &lt;arg&gt;          IP address of the HTTP server
+ -l,--license             print license information
+ -n,--notice              print copyright notices
+ -p,--port &lt;arg&gt;          TCP port of the HTTP server (8080)
+ -q,--quiet               disable console output
+ -r,--repo &lt;arg&gt;          repository directory (jackrabbit)
+ -R,--backup-repo &lt;arg&gt;   backup repository directory (jackrabbit-backupN)
+</PRE>
+</DIV></DIV>
+
+<P>You may want to increase the maximum amount of heap memory available to the Java virtual machine especially if you plan to have lots of concurrent clients accessing the repository or want to perform large batch operations.</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-none">
+$ java -Xmx256m -jar jackrabbit-standalone-1.6.0.jar
+</PRE>
+</DIV></DIV>
+
+<H2><A name="StandaloneServer-Webinterface"></A>Web interface</H2>
+
+<P>The web interface you see at <A href="http://localhost:8080/" class="external-link">http://localhost:8080/</A> is a simple web application built on top of the content repository. It contains some basic instructions on how to access the repository and comes with the following utility tools:</P>
+
+<UL>
+	<LI>Populate (<A href="http://localhost:8080/populate.jsp" class="external-link">http://localhost:8080/populate.jsp</A>)<BR>
+  This tool populates the default workspace with example documents found on the web based on a Google search. This is an easy way to get some semi-random test content into the repository.</LI>
+	<LI>Search (<A href="http://localhost:8080/search.jsp" class="external-link">http://localhost:8080/search.jsp</A>)<BR>
+  This tool uses the full text search feature to find content within the default workspace of the repository. To see the search feature in action, first add some content to the repository with the Populate tool and then try to search for the documents with the Search tool.</LI>
+	<LI>Browse (<A href="http://localhost:8080/repository/default/" class="external-link">http://localhost:8080/repository/default/</A>)<BR>
+  The built-in WebDAV feature allows you to browse the file (<TT>nt:file</TT>) and folder (<TT>nt:folder</TT>) nodes within the repository. See the WebDAV section below for all the other things you can do with this tool! Note that the server will by default accept any username and password combination.</LI>
+</UL>
+
+
+<H2><A name="StandaloneServer-WebDAVaccess"></A>WebDAV access</H2>
+
+<P>The simple repository browser you can see at <A href="http://localhost:8080/repository/default/" class="external-link">http://localhost:8080/repository/default/</A> is actually a fully featured WebDAV server backed by the content repository. You can mount this address as a WebDAV share to your normal filesystem and treat it as you would any shared network folder. This feature is especially useful for copying large amounts of files or folders to or from the repository. Note that this feature is limited to standard files and folders, any more fine-grained JCR content will simply not be visible.</P>
+
+<P>The repository also exposes an alternative WebDAV access point at <A href="http://localhost:8080/server/" class="external-link">http://localhost:8080/server/</A> for more fine-grained content access. This access point implements a number of advanced WebDAV features that are not normally seen in plain file-based WebDAV servers. You will need a feature-rich WebDAV or HTTP client to access the full power of this interface. With the Jackrabbit spi2dav component you can even get full remote JCR access over the WebDAV features and some custom extensions available through this access point.</P>
+
+<H2><A name="StandaloneServer-RMIaccess"></A>RMI access</H2>
+
+<P>In addition to the WebDAV access points, the standalone server also supports remote JCR access over RMI. After adding the JCR API and the jackrabbit-jcr-rmi jars to your classpath, you can access the repository remotely with the following code:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+<SPAN class="code-keyword">import</SPAN> org.apache.jackrabbit.rmi.repository.URLRemoteRepository;
+
+Repository repository =
+    <SPAN class="code-keyword">new</SPAN> URLRemoteRepository(<SPAN class="code-quote">&quot;http:<SPAN class="code-comment">//localhost:8080/rmi&quot;</SPAN>);</SPAN>
+</PRE>
+</DIV></DIV>
+
+<H2><A name="StandaloneServer-Backupandmigration"></A>Backup and migration</H2>
+
+<P>You can also use the standalone server jar to backup existing repositories or to migrate them to a different configuration. The backup mode is activated with the <TT>--backup</TT> command line option. The essential command line options and their default values for the backup mode are:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-none">
+$ java -jar jackrabbit-standalone-1.6.0.jar --backup \
+       --repo=jackrabbit \
+       --conf=jackrabbit/repository.xml \
+       --backup-repo=jackrabbit-backupN \
+       --backup-conf=jackrabbit-backupN/repository.xml
+</PRE>
+</DIV></DIV>
+
+<P>Note that the source repository must not be running when you use this feature. If the target repository already exist, then all content inside it is overwritten. Note also that the search indexes of the target repository will be generated only when the repository is next started. This keeps the disk size of the backup smaller, but causes a notable startup delay especially for large repositories if you need to restore that backup.</P>
+
+<P>To migrate a repository to a different configuration, simply point the <TT>--backup-conf</TT> option to a custom repository configuration file. Note that by default the backups are made using the default Jackrabbit repository configuration, regardless of the configuration of the source repository.</P>
+
+<H2><A name="StandaloneServer-Drawbacks"></A>Drawbacks</H2>
+
+<P>The Jackrabbit Standalone server is designed primarily as a quick and easy way to get a content repository up and running for testing and development purposes. For more complex deployment scenarios and configuration options you should look at the <A href="jackrabbit-web-application.html" title="Jackrabbit Web Application">Jackrabbit Web Application</A> and <A href="jackrabbit-jca-resource-adapter.html" title="Jackrabbit JCA Resource Adapter">Jackrabbit JCA Resource Adapter</A> packages.</P>
+
+<P>Note also that RMI remoting layer has not been optimized for performance, so currently the recommendation for accessing the JCR API in performance critical applications is to have the repository running locally in the same process as the client application.</P>
+        </DIV>
+        <DIV id="end"></DIV>
+      </DIV>
+      <DIV id="footer">
+        <P>
+          &copy; 2004-2010 The Apache Software Foundation.
+          - <A href="http://jackrabbit.apache.org/privacy-policy.html">Privacy Policy</A> -
+          [<A href="https://cwiki.apache.org/confluence/pages/editpage.action?pageId=104533">edit this page</A>]
+          <BR>
+          Apache Jackrabbit, Jackrabbit, Apache, the Apache feather logo, and the Apache
+          Jackrabbit project logo are trademarks of The Apache Software Foundation.
+        </P>
+      </DIV>
+    </DIV>
+<!-- JCR- 1315: Add Google Analytics to Jackrabbit web site -->
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+<SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-837900-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+  </BODY>
+</HTML>

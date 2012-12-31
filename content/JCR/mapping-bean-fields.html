@@ -1,0 +1,258 @@
+
+<!-- 
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE- 2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License. 
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+  <HEAD>
+    <TITLE>Mapping Bean Fields</TITLE>
+    <LINK type="text/css" rel="stylesheet" href="http://jackrabbit.apache.org/style/site.css">
+  <META http-equiv="Content-Type" content="text/html;charset=UTF-8"></HEAD>
+  <BODY>
+    <DIV id="page">
+      <DIV id="header">
+        <P id="jcr"><A href="http://jackrabbit.apache.org/"><IMG src="http://jackrabbit.apache.org/style/jlogo.gif" alt="Apache Jackrabbit" height="100" width="336"></A></P>
+        <P id="asf"><A href="http://www.apache.org/"><IMG src="http://jackrabbit.apache.org/style/asf-logo.gif" alt="Apache Software Foundation" height="100" width="387"></A></P>
+      </DIV>
+      <DIV id="body">
+        <DIV id="navigation">
+  <UL>
+	<LI>Apache Jackrabbit
+	<UL>
+		<LI><A href="welcome-to-apache-jackrabbit.html" title="Welcome to Apache Jackrabbit">Welcome</A></LI>
+		<LI><A href="downloads.html" title="Downloads">Downloads</A></LI>
+		<LI><A href="frequently-asked-questions.html" title="Frequently Asked Questions">FAQ</A></LI>
+		<LI><A href="http://wiki.apache.org/jackrabbit/FrontPage" class="external-link">Jackrabbit Wiki</A></LI>
+		<LI><A href="jackrabbit-history.html" title="Jackrabbit History">Jackrabbit History</A></LI>
+	</UL>
+	</LI>
+	<LI>Documentation
+	<UL>
+		<LI><A href="getting-started-with-apache-jackrabbit.html" title="Getting Started with Apache Jackrabbit">Getting Started</A></LI>
+		<LI><A href="standalone-server.html" title="Standalone Server">Standalone Server</A></LI>
+		<LI><A href="jackrabbit-components.html" title="Jackrabbit Components">Jackrabbit Components</A></LI>
+		<LI><A href="first-hops.html" title="First Hops">First Hops</A></LI>
+		<LI><A href="jcr-api.html" title="JCR & API">JCR &amp; API</A></LI>
+		<LI><A href="jackrabbit-architecture.html" title="Jackrabbit Architecture">Jackrabbit Architecture</A></LI>
+		<LI><A href="deployment-models.html" title="Deployment Models">Deployment Models</A></LI>
+		<LI><A href="jackrabbit-configuration.html" title="Jackrabbit Configuration">Jackrabbit Configuration</A></LI>
+		<LI><A href="node-types.html" title="Node Types">Node Types</A></LI>
+		<LI><A href="object-content-mapping.html" title="Object Content Mapping">Object Content Mapping</A></LI>
+	</UL>
+	</LI>
+	<LI>Development
+	<UL>
+		<LI><A href="jackrabbit-team.html" title="Jackrabbit Team">Jackrabbit Team</A></LI>
+		<LI><A href="jackrabbit-roadmap.html" title="Jackrabbit Roadmap">Jackrabbit Roadmap</A></LI>
+		<LI><A href="building-jackrabbit.html" title="Building Jackrabbit">Building Jackrabbit</A></LI>
+		<LI><A href="mailing-lists.html" title="Mailing Lists">Mailing Lists</A></LI>
+		<LI><A href="issue-tracker.html" title="Issue Tracker">Issue Tracker</A></LI>
+		<LI><A href="source-repository.html" title="Source Repository">Source Repository</A></LI>
+		<LI><A href="continuous-integration.html" title="Continuous Integration">Continuous Integration</A></LI>
+		<LI><A href="website.html" title="Website">Website</A></LI>
+		<LI><A href="creating-releases.html" title="Creating Releases">Creating Releases</A></LI>
+		<LI><A href="supporting-software-attribution.html" title="Supporting software attribution">Attribution</A></LI>
+	</UL>
+	</LI>
+	<LI>Apache Software Foundation
+	<UL>
+		<LI><A href="http://www.apache.org/foundation/how-it-works.html" class="external-link">Introduction</A></LI>
+		<LI><A href="http://www.apache.org/foundation/sponsorship.html" class="external-link">Sponsorship</A></LI>
+		<LI><A href="http://www.apache.org/foundation/thanks.html" class="external-link">Current Sponsors</A></LI>
+	</UL>
+	</LI>
+</UL>
+        </DIV>
+        <DIV id="content">
+          <H1>Mapping Bean Fields</H1>
+  <P> The bean-descriptor maps a bean attribute into one JCR node           (or a set of properties). Generally, this attribute is an           object based on a custom class.</P>
+
+<P> Based on our model defined here,           the following bean-descriptor is used to map the bean field           &quot;pageInfo&quot; (PageInfo class) into the JCR node called &quot;pageInfo&quot;.</P>
+
+<P> The PageInfo class has a corresponding class-descriptor in the           mapping file. By this way, the Persistence Manager can map each           PageInfo attributes. It is not necessary to specify the type in           the bean-descriptor. The Persistence Manager uses the Java           introspection to get information on the each bean fields.</P>
+
+<H2><A name="MappingBeanFields-TheJCRStructure"></A>The JCR Structure</H2>
+
+<P>Following our example, the resulting JCR structure is:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+/mysite/page1
+  /mysite/page1/pageInfo
+       my:title = <SPAN class="code-quote">&quot;This is my page title&quot;</SPAN>
+       my:description = <SPAN class="code-quote">&quot;This is my page description&quot;</SPAN>
+  ... other subnodes <SPAN class="code-keyword">for</SPAN> page1 ...
+</PRE>
+</DIV></DIV>
+
+<P>By default, the persistence manager will create a subnode           (/mysite/page1/pageInfo) for the bean-descriptor pageInfo.</P>
+
+<H2><A name="MappingBeanFields-UsingAnotherBeanConverter"></A>Using Another Bean Converter</H2>
+
+<P>The OCM framework gives you the freedom to choose another kind            of mapping for bean fields. For example, you can use a custom            bean converter to access to the parent node (see the next            section below).</P>
+
+<P>This can be done by writing your own bean converter class and            reference this class in the bean-descriptor.</P>
+
+<H3><A name="MappingBeanFields-PredefinedBeanConverters"></A>Predefined Bean Converters</H3>
+
+<P> Here is the list of existing custom  bean converters:</P>
+<DIV class="table-wrap">
+<TABLE class="confluenceTable"><TBODY>
+<TR>
+<TH class="confluenceTh"> Custom Bean Converter Class </TH>
+<TH class="confluenceTh"> Description </TH>
+</TR>
+<TR>
+<TD class="confluenceTd"> org.apache.jackrabbit.ocm.persistence.beanconverter.impl.ParentBeanConverterImpl </TD>
+<TD class="confluenceTd"> Map a bean field to the parent node. it is used to access to the               parent object in read-only mode. See below the example based on               a Folder object. </TD>
+</TR>
+<TR>
+<TD class="confluenceTd"> org.apache.jackrabbit.ocm.persistence.beanconverter.impl.InlineBeanConverterImpl </TD>
+<TD class="confluenceTd"> Bean converter used to map some node properties into one nested               bean field. The corresponding bean field is not associated to a               subnode. </TD>
+</TR>
+</TBODY></TABLE>
+</DIV>
+
+
+<P>If you want to use one of this bean converter, you have to           reference it into a bean-field descriptor.</P>
+
+<P>The following descriptor bean-descriptor contains a reference to           its parent folder (parentFolder attribute). Now the CmsObjectImpl           object has an attribute (parentFolder) that contains a reference           to the parent node.</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+&lt;class-descriptor
+    className=<SPAN class="code-quote">&quot;org.apache.jackrabbit.ocm.testmodel.inheritance.impl.CmsObjectImpl&quot;</SPAN>
+    jcrType=<SPAN class="code-quote">&quot;my:cmsobjectimpl&quot;</SPAN> &gt;
+  &lt;field-descriptor fieldName=<SPAN class="code-quote">&quot;path&quot;</SPAN> path=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">true</SPAN>&quot;</SPAN> /&gt;
+  &lt;field-descriptor fieldName=<SPAN class="code-quote">&quot;name&quot;</SPAN> jcrName=<SPAN class="code-quote">&quot;my:name&quot;</SPAN> id=<SPAN class="code-quote">&quot;<SPAN class="code-keyword">true</SPAN>&quot;</SPAN> /&gt;
+  &lt;bean-descriptor
+      fieldName=<SPAN class="code-quote">&quot;parentFolder&quot;</SPAN>
+      converter=<SPAN class="code-quote">&quot;org.apache.jackrabbit.ocm.persistence.beanconverter.impl.ParentBeanConverterImpl&quot;</SPAN> /&gt;
+&lt;/class-descriptor&gt;
+</PRE>
+</DIV></DIV>
+
+<H3><A name="MappingBeanFields-BuildingyourownBeanConverters"></A>Building your own Bean Converters</H3>
+
+<P>Here is the different steps used to create a new bean converter :</P>
+
+<P>First, specify the converter class in the bean descriptor:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+&lt;class-descriptor
+    className=<SPAN class="code-quote">&quot;org.apache.jackrabbit.ocm.testmodel.inheritance.impl.CmsObjectImpl&quot;</SPAN>
+    jcrType=<SPAN class="code-quote">&quot;my:cmsobjectimpl&quot;</SPAN> &gt;
+  &lt;bean-descriptor
+      fieldName=<SPAN class="code-quote">&quot;parentFolder&quot;</SPAN>
+      converter=<SPAN class="code-quote">&quot;org.apache.jackrabbit.ocm.persistence.beanconverter.impl.ParentBeanConverterImpl&quot;</SPAN> /&gt;
+&lt;/class-descriptor&gt;
+</PRE>
+</DIV></DIV>
+
+<P>Then, implement the converter class (based on the interface           org.apache.jackrabbit.ocm.persistence.beanconverter.BeanConverter).</P>
+
+<P>Your bean converter class can also extends the class           AbstractBeanConverterImpl to have a default implementation for           some methods.</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;"><B>ParentBeanConverterImpl.java</B></DIV><DIV class="codeContent panelContent">
+<PRE class="code-java">
+<SPAN class="code-keyword">import</SPAN> javax.jcr.Node;
+<SPAN class="code-keyword">import</SPAN> javax.jcr.Session;
+
+<SPAN class="code-keyword">import</SPAN> org.apache.commons.logging.Log;
+<SPAN class="code-keyword">import</SPAN> org.apache.commons.logging.LogFactory;
+<SPAN class="code-keyword">import</SPAN> org.apache.jackrabbit.ocm.exception.JcrMappingException;
+<SPAN class="code-keyword">import</SPAN> org.apache.jackrabbit.ocm.exception.PersistenceException;
+<SPAN class="code-keyword">import</SPAN> org.apache.jackrabbit.ocm.exception.RepositoryException;
+<SPAN class="code-keyword">import</SPAN> org.apache.jackrabbit.ocm.mapper.Mapper;
+<SPAN class="code-keyword">import</SPAN> org.apache.jackrabbit.ocm.mapper.model.BeanDescriptor;
+<SPAN class="code-keyword">import</SPAN> org.apache.jackrabbit.ocm.mapper.model.ClassDescriptor;
+<SPAN class="code-keyword">import</SPAN> org.apache.jackrabbit.ocm.persistence.atomictypeconverter.AtomicTypeConverterProvider;
+<SPAN class="code-keyword">import</SPAN> org.apache.jackrabbit.ocm.persistence.beanconverter.BeanConverter;
+<SPAN class="code-keyword">import</SPAN> org.apache.jackrabbit.ocm.persistence.objectconverter.ObjectConverter;
+/**
+ *
+ * Bean converter used to access to the parent object.
+ *
+ *
+ * @author &lt;a href=<SPAN class="code-quote">&quot;mailto:christophe.lombart@gmail.com&quot;</SPAN>&gt;Lombart Christophe &lt;/a&gt;
+ *
+ */
+<SPAN class="code-keyword">public</SPAN> class ParentBeanConverterImpl <SPAN class="code-keyword">extends</SPAN> AbstractBeanConverterImpl  <SPAN class="code-keyword">implements</SPAN> BeanConverter {
+
+  <SPAN class="code-keyword">private</SPAN> <SPAN class="code-keyword">final</SPAN> <SPAN class="code-keyword">static</SPAN> Log log = LogFactory.getLog(ParentBeanConverterImpl.class);
+
+  <SPAN class="code-keyword">public</SPAN> ParentBeanConverterImpl(Mapper mapper, ObjectConverter objectConverter, AtomicTypeConverterProvider atomicTypeConverterProvider)
+  {
+    <SPAN class="code-keyword">super</SPAN>(mapper, objectConverter, atomicTypeConverterProvider);
+  }
+
+  <SPAN class="code-keyword">public</SPAN> void insert(Session session, Node parentNode, BeanDescriptor beanDescriptor, ClassDescriptor beanClassDescriptor, <SPAN class="code-object">Object</SPAN> object, ClassDescriptor parentClassDescriptor, <SPAN class="code-object">Object</SPAN> parent)
+      <SPAN class="code-keyword">throws</SPAN> PersistenceException, RepositoryException,   JcrMappingException {
+
+      <SPAN class="code-comment">// Add code to insert the object
+</SPAN>  }
+
+  <SPAN class="code-keyword">public</SPAN> void update(Session session, Node parentNode, BeanDescriptor beanDescriptor, ClassDescriptor beanClassDescriptor, <SPAN class="code-object">Object</SPAN> object, ClassDescriptor parentClassDescriptor, <SPAN class="code-object">Object</SPAN> parent)
+      <SPAN class="code-keyword">throws</SPAN> PersistenceException, RepositoryException,  JcrMappingException {
+
+      <SPAN class="code-comment">// Add code to update the object
+</SPAN>  }
+
+  <SPAN class="code-keyword">public</SPAN> <SPAN class="code-object">Object</SPAN> getObject(Session session, Node parentNode, BeanDescriptor beanDescriptor, ClassDescriptor beanClassDescriptor, <SPAN class="code-object">Class</SPAN> beanClass, <SPAN class="code-object">Object</SPAN> parent)
+      <SPAN class="code-keyword">throws</SPAN> PersistenceException, RepositoryException,JcrMappingException {
+
+      <SPAN class="code-comment">// Add code to retrieve the object
+</SPAN>  }
+
+  <SPAN class="code-keyword">public</SPAN> void remove(Session session, Node parentNode, BeanDescriptor beanDescriptor, ClassDescriptor beanClassDescriptor, <SPAN class="code-object">Object</SPAN> object, ClassDescriptor parentClassDescriptor, <SPAN class="code-object">Object</SPAN> parent)
+            <SPAN class="code-keyword">throws</SPAN> PersistenceException,  RepositoryException, JcrMappingException {
+
+      <SPAN class="code-comment">// Add the code to remove the object
+</SPAN>  }
+
+}
+</PRE>
+</DIV></DIV>
+        </DIV>
+        <DIV id="end"></DIV>
+      </DIV>
+      <DIV id="footer">
+        <P>
+          &copy; 2004-2010 The Apache Software Foundation.
+          - <A href="http://jackrabbit.apache.org/privacy-policy.html">Privacy Policy</A> -
+          [<A href="https://cwiki.apache.org/confluence/pages/editpage.action?pageId=75361">edit this page</A>]
+          <BR>
+          Apache Jackrabbit, Jackrabbit, Apache, the Apache feather logo, and the Apache
+          Jackrabbit project logo are trademarks of The Apache Software Foundation.
+        </P>
+      </DIV>
+    </DIV>
+<!-- JCR- 1315: Add Google Analytics to Jackrabbit web site -->
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+<SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-837900-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+  </BODY>
+</HTML>

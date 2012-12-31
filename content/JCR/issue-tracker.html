@@ -1,0 +1,199 @@
+
+<!-- 
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE- 2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License. 
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+  <HEAD>
+    <TITLE>Issue Tracker</TITLE>
+    <LINK type="text/css" rel="stylesheet" href="http://jackrabbit.apache.org/style/site.css">
+  <META http-equiv="Content-Type" content="text/html;charset=UTF-8"></HEAD>
+  <BODY>
+    <DIV id="page">
+      <DIV id="header">
+        <P id="jcr"><A href="http://jackrabbit.apache.org/"><IMG src="http://jackrabbit.apache.org/style/jlogo.gif" alt="Apache Jackrabbit" height="100" width="336"></A></P>
+        <P id="asf"><A href="http://www.apache.org/"><IMG src="http://jackrabbit.apache.org/style/asf-logo.gif" alt="Apache Software Foundation" height="100" width="387"></A></P>
+      </DIV>
+      <DIV id="body">
+        <DIV id="navigation">
+  <UL>
+	<LI>Apache Jackrabbit
+	<UL>
+		<LI><A href="welcome-to-apache-jackrabbit.html" title="Welcome to Apache Jackrabbit">Welcome</A></LI>
+		<LI><A href="downloads.html" title="Downloads">Downloads</A></LI>
+		<LI><A href="articles.html" title="Articles">Articles</A></LI>
+		<LI><A href="frequently-asked-questions.html" title="Frequently Asked Questions">FAQ</A></LI>
+		<LI><A href="http://wiki.apache.org/jackrabbit/FrontPage" class="external-link">Jackrabbit Wiki</A></LI>
+		<LI><A href="jackrabbit-history.html" title="Jackrabbit History">Jackrabbit History</A></LI>
+	</UL>
+	</LI>
+	<LI>Documentation
+	<UL>
+		<LI><A href="getting-started-with-apache-jackrabbit.html" title="Getting Started with Apache Jackrabbit">Getting Started</A></LI>
+		<LI><A href="standalone-server.html" title="Standalone Server">Standalone Server</A></LI>
+		<LI><A href="jackrabbit-components.html" title="Jackrabbit Components">Jackrabbit Components</A></LI>
+		<LI><A href="first-hops.html" title="First Hops">First Hops</A></LI>
+		<LI><A href="jcr-api.html" title="JCR & API">JCR &amp; API</A></LI>
+		<LI><A href="jackrabbit-architecture.html" title="Jackrabbit Architecture">Jackrabbit Architecture</A></LI>
+		<LI><A href="deployment-models.html" title="Deployment Models">Deployment Models</A></LI>
+		<LI><A href="jackrabbit-configuration.html" title="Jackrabbit Configuration">Jackrabbit Configuration</A></LI>
+		<LI><A href="node-types.html" title="Node Types">Node Types</A></LI>
+		<LI><A href="object-content-mapping.html" title="Object Content Mapping">Object Content Mapping</A></LI>
+	</UL>
+	</LI>
+	<LI>Development
+	<UL>
+		<LI><A href="jackrabbit-team.html" title="Jackrabbit Team">Jackrabbit Team</A></LI>
+		<LI><A href="jackrabbit-roadmap.html" title="Jackrabbit Roadmap">Jackrabbit Roadmap</A></LI>
+		<LI><A href="building-jackrabbit.html" title="Building Jackrabbit">Building Jackrabbit</A></LI>
+		<LI><A href="mailing-lists.html" title="Mailing Lists">Mailing Lists</A></LI>
+		<LI><A href="" title="Issue Tracker">Issue Tracker</A></LI>
+		<LI><A href="source-repository.html" title="Source Repository">Source Repository</A></LI>
+		<LI><A href="continuous-integration.html" title="Continuous Integration">Continuous Integration</A></LI>
+		<LI><A href="website.html" title="Website">Website</A></LI>
+		<LI><A href="creating-releases.html" title="Creating Releases">Creating Releases</A></LI>
+		<LI><A href="supporting-software-attribution.html" title="Supporting software attribution">Attribution</A></LI>
+	</UL>
+	</LI>
+	<LI>Apache Software Foundation
+	<UL>
+		<LI><A href="http://www.apache.org/foundation/how-it-works.html" class="external-link">Introduction</A></LI>
+		<LI><A href="http://www.apache.org/foundation/sponsorship.html" class="external-link">Sponsorship</A></LI>
+		<LI><A href="http://www.apache.org/foundation/thanks.html" class="external-link">Current Sponsors</A></LI>
+	</UL>
+	</LI>
+</UL>
+        </DIV>
+        <DIV id="content">
+          <H1>Issue Tracker</H1>
+  <P>Apache Jackrabbit uses Jira for tracking bug reports and requests for improvements, new features, and other changes.</P>
+
+<P>The issue tracker is available at <A href="https://issues.apache.org/jira/browse/JCR" class="external-link">https://issues.apache.org/jira/browse/JCR</A> and is readable by everyone. A Jira account is needed to create new issues and to comment on existing issues. Use the <A href="https://issues.apache.org/jira/secure/Signup!default.jspa" class="external-link">registration form</A> to request an account if you do not already have one.</P>
+
+<H2><A name="IssueTracker-Issueworkflow"></A>Issue workflow</H2>
+
+<P>When an issue is created, it's in the <B>Open</B> state. This is the time for describing the issue and discussing possible ways of solving it. If a proposed patch is attached, then the issue can optionally be moved to the <B>Patch available</B> state to give it more visibility. If the patch is cancelled because more work is needed, the issue moves back to the <B>Open</B> state.</P>
+
+<P>Once the issue is solved, the committer who committed the changes marks the issue as <B>Resolved</B> with resolution type <EM>Fixed</EM>. Other resolution types like <EM>Duplicate</EM>, <EM>Invalid</EM> or <EM>Won't Fix</EM> are used when resolving issues that for one reason or another require no changes in the codebase. An issue can be <B>Reopened</B> if the committed fix is found to be not good enough.</P>
+
+<P>When an issue is resolved as fixed, the committer should set the &quot;Fix Version(s)&quot; field to the next trunk version to mark that the change will be included in that release. If the fix is also backported to one or more of the maintenance branches (for backporting, use &quot;svn merge -c <EM>revision</EM> ^/jackrabbit/trunk&quot; in the root of the branch) the version numbers of the relevant next maintenance releases should also be included in the &quot;Fix Version(s)&quot; field.</P>
+
+<P>Finally, once a release containing the change has been made, the release manager will mark the issue <B>Closed</B>, after which the issue can no longer be reopened (since the release can obviously no longer be changed). Potential regressions or other related problems should be tracked in separate followup issues.</P>
+
+<H2><A name="IssueTracker-Issuecontents"></A>Issue contents</H2>
+
+<P>See below for guidelines on how to use the various fields in an issue.</P>
+
+<H3><A name="IssueTracker-Issuetype"></A>Issue type</H3>
+
+<P>When creating a new issue, select the issue type based as follows:</P>
+
+<DIV class="table-wrap">
+<TABLE class="confluenceTable"><TBODY>
+<TR>
+<TH class="confluenceTh"> Issue type     </TH>
+<TH class="confluenceTh"> Description </TH>
+</TR>
+<TR>
+<TD class="confluenceTd">  <B>Bug</B>          </TD>
+<TD class="confluenceTd">  Bug reports are used for cases where Jackrabbit fails not function as it should (as defined by the JCR specification or some other documentation). If you are not certain whether the issue you've found is actually a bug, please ask the Jackrabbit <A href="mailing-lists.html" title="Mailing Lists">Mailing Lists</A> first for help. </TD>
+</TR>
+<TR>
+<TD class="confluenceTd">  <B>New Feature</B>  </TD>
+<TD class="confluenceTd">  Use a feature request when Jackrabbit does not have some functionality you need. </TD>
+</TR>
+<TR>
+<TD class="confluenceTd">  <B>Improvement</B>  </TD>
+<TD class="confluenceTd">  Use an improvement request to suggest improvements to existing features. Typical improvement requests are about updating documentation, increasing stability and performance, simplifying the implementation, or other such changes that make Jackrabbit better without introducing new features or fixing existing bugs. </TD>
+</TR>
+<TR>
+<TD class="confluenceTd">  <B>Test</B>         </TD>
+<TD class="confluenceTd">  Use this type when contributing test cases for existing features. Normally test cases should be contributed as a part of the original feature request or as regression tests associated with bug reports, but sometimes you just want to extend test coverage by introducing new test cases. This issue type is for such cases. </TD>
+</TR>
+<TR>
+<TD class="confluenceTd">  <B>Task</B>         </TD>
+<TD class="confluenceTd">  Used only for issues related to project infrastructure. </TD>
+</TR>
+</TBODY></TABLE>
+</DIV>
+
+
+<H3><A name="IssueTracker-Issuesummary%2Cenvironmentanddescription"></A>Issue summary, environment and description</H3>
+
+<P>The issue summary should be a short and clear statement that indicates the scope of the issue. You are probably being too verbose if you exceed the length of the text field. Use the Environment and Description fields to provide more detailed information.</P>
+
+<H3><A name="IssueTracker-Issuepriority"></A>Issue priority</H3>
+
+<P>Issue priority should be set according to the following:</P>
+
+<DIV class="table-wrap">
+<TABLE class="confluenceTable"><TBODY>
+<TR>
+<TH class="confluenceTh"> Issue priority </TH>
+<TH class="confluenceTh"> Description </TH>
+</TR>
+<TR>
+<TD class="confluenceTd">  <B>Blocker</B>      </TD>
+<TD class="confluenceTd">  Legal or other fundamental issue that makes it impossible to release Jackrabbit code </TD>
+</TR>
+<TR>
+<TD class="confluenceTd">  <B>Critical</B>     </TD>
+<TD class="confluenceTd">  Major loss of functionality that affects many Jackrabbit users </TD>
+</TR>
+<TR>
+<TD class="confluenceTd">  <B>Major</B>        </TD>
+<TD class="confluenceTd">  Important issue that should be resolved soon </TD>
+</TR>
+<TR>
+<TD class="confluenceTd">  <B>Minor</B>        </TD>
+<TD class="confluenceTd">  Nice to have issues </TD>
+</TR>
+<TR>
+<TD class="confluenceTd">  <B>Trivial</B>      </TD>
+<TD class="confluenceTd">  Trivial changes that can be applied whenever someone has extra time </TD>
+</TR>
+</TBODY></TABLE>
+</DIV>
+
+        </DIV>
+        <DIV id="end"></DIV>
+      </DIV>
+      <DIV id="footer">
+        <P>
+          &copy; 2004-2010 The Apache Software Foundation.
+          - <A href="http://jackrabbit.apache.org/privacy-policy.html">Privacy Policy</A> -
+          [<A href="https://cwiki.apache.org/confluence/pages/editpage.action?pageId=77286">edit this page</A>]
+          <BR>
+          Apache Jackrabbit, Jackrabbit, Apache, the Apache feather logo, and the Apache
+          Jackrabbit project logo are trademarks of The Apache Software Foundation.
+        </P>
+      </DIV>
+    </DIV>
+<!-- JCR- 1315: Add Google Analytics to Jackrabbit web site -->
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+<SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-837900-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+  </BODY>
+</HTML>

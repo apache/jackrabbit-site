@@ -1,0 +1,267 @@
+
+<!-- 
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE- 2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License. 
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+  <HEAD>
+    <TITLE>Mapping Atomic Fields</TITLE>
+    <LINK type="text/css" rel="stylesheet" href="http://jackrabbit.apache.org/style/site.css">
+  <META http-equiv="Content-Type" content="text/html;charset=UTF-8"></HEAD>
+  <BODY>
+    <DIV id="page">
+      <DIV id="header">
+        <P id="jcr"><A href="http://jackrabbit.apache.org/"><IMG src="http://jackrabbit.apache.org/style/jlogo.gif" alt="Apache Jackrabbit" height="100" width="336"></A></P>
+        <P id="asf"><A href="http://www.apache.org/"><IMG src="http://jackrabbit.apache.org/style/asf-logo.gif" alt="Apache Software Foundation" height="100" width="387"></A></P>
+      </DIV>
+      <DIV id="body">
+        <DIV id="navigation">
+  <UL>
+	<LI>Apache Jackrabbit
+	<UL>
+		<LI><A href="welcome-to-apache-jackrabbit.html" title="Welcome to Apache Jackrabbit">Welcome</A></LI>
+		<LI><A href="downloads.html" title="Downloads">Downloads</A></LI>
+		<LI><A href="frequently-asked-questions.html" title="Frequently Asked Questions">FAQ</A></LI>
+		<LI><A href="http://wiki.apache.org/jackrabbit/FrontPage" class="external-link">Jackrabbit Wiki</A></LI>
+		<LI><A href="jackrabbit-history.html" title="Jackrabbit History">Jackrabbit History</A></LI>
+	</UL>
+	</LI>
+	<LI>Documentation
+	<UL>
+		<LI><A href="getting-started-with-apache-jackrabbit.html" title="Getting Started with Apache Jackrabbit">Getting Started</A></LI>
+		<LI><A href="standalone-server.html" title="Standalone Server">Standalone Server</A></LI>
+		<LI><A href="jackrabbit-components.html" title="Jackrabbit Components">Jackrabbit Components</A></LI>
+		<LI><A href="first-hops.html" title="First Hops">First Hops</A></LI>
+		<LI><A href="jcr-api.html" title="JCR & API">JCR &amp; API</A></LI>
+		<LI><A href="jackrabbit-architecture.html" title="Jackrabbit Architecture">Jackrabbit Architecture</A></LI>
+		<LI><A href="deployment-models.html" title="Deployment Models">Deployment Models</A></LI>
+		<LI><A href="jackrabbit-configuration.html" title="Jackrabbit Configuration">Jackrabbit Configuration</A></LI>
+		<LI><A href="node-types.html" title="Node Types">Node Types</A></LI>
+		<LI><A href="object-content-mapping.html" title="Object Content Mapping">Object Content Mapping</A></LI>
+	</UL>
+	</LI>
+	<LI>Development
+	<UL>
+		<LI><A href="jackrabbit-team.html" title="Jackrabbit Team">Jackrabbit Team</A></LI>
+		<LI><A href="jackrabbit-roadmap.html" title="Jackrabbit Roadmap">Jackrabbit Roadmap</A></LI>
+		<LI><A href="building-jackrabbit.html" title="Building Jackrabbit">Building Jackrabbit</A></LI>
+		<LI><A href="mailing-lists.html" title="Mailing Lists">Mailing Lists</A></LI>
+		<LI><A href="issue-tracker.html" title="Issue Tracker">Issue Tracker</A></LI>
+		<LI><A href="source-repository.html" title="Source Repository">Source Repository</A></LI>
+		<LI><A href="continuous-integration.html" title="Continuous Integration">Continuous Integration</A></LI>
+		<LI><A href="website.html" title="Website">Website</A></LI>
+		<LI><A href="creating-releases.html" title="Creating Releases">Creating Releases</A></LI>
+		<LI><A href="supporting-software-attribution.html" title="Supporting software attribution">Attribution</A></LI>
+	</UL>
+	</LI>
+	<LI>Apache Software Foundation
+	<UL>
+		<LI><A href="http://www.apache.org/foundation/how-it-works.html" class="external-link">Introduction</A></LI>
+		<LI><A href="http://www.apache.org/foundation/sponsorship.html" class="external-link">Sponsorship</A></LI>
+		<LI><A href="http://www.apache.org/foundation/thanks.html" class="external-link">Current Sponsors</A></LI>
+	</UL>
+	</LI>
+</UL>
+        </DIV>
+        <DIV id="content">
+          <H1>Mapping Atomic Fields</H1>
+  <P>The field-descriptor maps a bean attribute based on a Java primitive           type into a JCR property. By default, the persistence manager uses           the correct mapping in function of the attribute type (see below           the section &quot;Supported Types&quot;).</P>
+
+<P>Based on our model defined here,           the following field-descriptor maps the bean field &quot;title&quot;           (String type) into the JCR property &quot;my:title&quot;.</P>
+
+<H2><A name="MappingAtomicFields-SupportedTypes"></A>Supported Types</H2>
+
+<P> It is not necessary to specify the type in the field-descriptor.           The Persistence Manager uses the java introspection to get           information on each atomic field.</P>
+<DIV class="table-wrap">
+<TABLE class="confluenceTable"><TBODY>
+<TR>
+<TH class="confluenceTh"> Java Type </TH>
+<TH class="confluenceTh"> Jcr Type </TH>
+</TR>
+<TR>
+<TD class="confluenceTd"> String </TD>
+<TD class="confluenceTd"> STRING </TD>
+</TR>
+<TR>
+<TD class="confluenceTd"> Boolean, boolean </TD>
+<TD class="confluenceTd"> BOOLEAN </TD>
+</TR>
+<TR>
+<TD class="confluenceTd"> Double, double </TD>
+<TD class="confluenceTd"> DOUBLE </TD>
+</TR>
+<TR>
+<TD class="confluenceTd"> Integer, int </TD>
+<TD class="confluenceTd"> DOUBLE </TD>
+</TR>
+<TR>
+<TD class="confluenceTd"> Long, long </TD>
+<TD class="confluenceTd"> LONG </TD>
+</TR>
+<TR>
+<TD class="confluenceTd"> byte[] </TD>
+<TD class="confluenceTd"> BINARY </TD>
+</TR>
+<TR>
+<TD class="confluenceTd"> java.io.InputStream </TD>
+<TD class="confluenceTd"> BINARY </TD>
+</TR>
+<TR>
+<TD class="confluenceTd"> java.util.Calendar </TD>
+<TD class="confluenceTd"> LONG (corresponding to Calendar.getTimeInMillis() </TD>
+</TR>
+<TR>
+<TD class="confluenceTd"> java.sql.Timestamp </TD>
+<TD class="confluenceTd"> LONG (corresponding to Timestamp.getTime() </TD>
+</TR>
+<TR>
+<TD class="confluenceTd"> java.util.Date </TD>
+<TD class="confluenceTd"> LONG (corresponding to java.util.Date.getTime() </TD>
+</TR>
+</TBODY></TABLE>
+</DIV>
+
+
+<P> Due to some issues with Jackrabbit (mainly with xpath queries),           Calendar, Timestamp and date are converted into JCR LONG.           We plan to add other converters for those types in the next release.</P>
+
+<H2><A name="MappingAtomicFields-UsingAnotherAtomicTypeConverter"></A>Using Another Atomic Type Converter</H2>
+
+<P>The OCM framework gives you the freedom to choose another kind of          mapping for atomic fields. For example, you can convert          java.util.Date bean field into a JCR Date type instead of a          JCR Long type. This can be done by writing your own atomic type          converter class.</P>
+
+<P>Let's start with a simple example. If you want to use a mapping           strategy which convert a boolean bean field into a JCR Long type,           you have to make the following steps:</P>
+
+<H3><A name="MappingAtomicFields-Specifytheconverterclassinthefielddescriptor"></A>Specify the converter class in the field descriptor</H3>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+&lt;class-descriptor
+    className=<SPAN class="code-quote">&quot;org.apache.jackrabbit.ocm.testmodel.Atomic&quot;</SPAN>
+    jcrType=<SPAN class="code-quote">&quot;nt:unstructured&quot;</SPAN>&gt;
+  &lt;field-descriptor
+      fieldName=<SPAN class="code-quote">&quot;int2boolean&quot;</SPAN> jcrName=<SPAN class="code-quote">&quot;int2boolean&quot;</SPAN>
+      converter=<SPAN class="code-quote">&quot;org.apache.jackrabbit.ocm.persistence.atomic.Int2BooleanTypeConverterImpl&quot;</SPAN> /&gt;
+&lt;/class-descriptor&gt;
+</PRE>
+</DIV></DIV>
+
+<H3><A name="MappingAtomicFields-Implementtheconverterclass"></A>Implement the converter class</H3>
+
+<P>Use the interface             org.apache.jackrabbit.ocm.persistence.atomic.AtomicTypeConverter</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;"><B>Int2BooleanTypeConverterImpl.java</B></DIV><DIV class="codeContent panelContent">
+<PRE class="code-java">
+<SPAN class="code-keyword">package</SPAN> org.apache.jackrabbit.ocm.persistence.atomic;
+
+<SPAN class="code-keyword">import</SPAN> javax.jcr.Value;
+<SPAN class="code-keyword">import</SPAN> javax.jcr.ValueFactory;
+
+<SPAN class="code-keyword">import</SPAN> org.apache.jackrabbit.ocm.exception.IncorrectAtomicTypeException;
+<SPAN class="code-keyword">import</SPAN> org.apache.jackrabbit.ocm.persistence.atomictypeconverter.AtomicTypeConverter;
+
+/**
+ * This is a simple converter which convert a <SPAN class="code-object">boolean</SPAN> field value into a jcr <SPAN class="code-object">long</SPAN> property.
+ *
+ * @author &lt;a href=<SPAN class="code-quote">&quot;mailto:christophe.lombart@gmail.com&quot;</SPAN>&gt;Christophe Lombart&lt;/a&gt;
+ */
+<SPAN class="code-keyword">public</SPAN> class Int2BooleanTypeConverterImpl <SPAN class="code-keyword">implements</SPAN> AtomicTypeConverter
+{
+  /**
+   *
+   * @see org.apache.jackrabbit.ocm.persistence.atomictypeconverter.AtomicTypeConverter#getValue(java.lang.<SPAN class="code-object">Object</SPAN>)
+   */
+  <SPAN class="code-keyword">public</SPAN> Value getValue(ValueFactory valueFactory, <SPAN class="code-object">Object</SPAN> propValue)
+  {
+    <SPAN class="code-keyword">if</SPAN> (propValue == <SPAN class="code-keyword">null</SPAN>)
+    {
+      <SPAN class="code-keyword">return</SPAN> <SPAN class="code-keyword">null</SPAN>;
+    }
+    <SPAN class="code-object">boolean</SPAN> value = ((<SPAN class="code-object">Boolean</SPAN>) propValue).booleanValue();
+    <SPAN class="code-object">int</SPAN> jcrValue = 0;
+
+    <SPAN class="code-keyword">if</SPAN> (value)
+    {
+      jcrValue = 1;
+    }
+    <SPAN class="code-keyword">return</SPAN> valueFactory.createValue(jcrValue);
+  }
+
+
+    /**
+     *
+     * @see org.apache.jackrabbit.ocm.persistence.atomictypeconverter.AtomicTypeConverter#getObject(javax.jcr.Value)
+     */
+  <SPAN class="code-keyword">public</SPAN> <SPAN class="code-object">Object</SPAN> getObject(Value value)
+    {
+      <SPAN class="code-keyword">try</SPAN>
+      {
+        <SPAN class="code-object">long</SPAN> jcrValue = value.getLong();
+        <SPAN class="code-keyword">if</SPAN> (jcrValue == 1)
+        {
+           <SPAN class="code-keyword">return</SPAN> <SPAN class="code-keyword">new</SPAN> <SPAN class="code-object">Boolean</SPAN>(<SPAN class="code-keyword">true</SPAN>);
+        }
+        <SPAN class="code-keyword">else</SPAN>
+        {
+           <SPAN class="code-keyword">return</SPAN> <SPAN class="code-keyword">new</SPAN> <SPAN class="code-object">Boolean</SPAN>(<SPAN class="code-keyword">false</SPAN>);
+        }
+    }
+    <SPAN class="code-keyword">catch</SPAN> (Exception e)
+    {
+      <SPAN class="code-keyword">throw</SPAN> <SPAN class="code-keyword">new</SPAN> IncorrectAtomicTypeException(<SPAN class="code-quote">&quot;Impossible to convert the value : &quot;</SPAN> + value.toString()  , e);
+    }
+    }
+
+  /**
+   *
+   * @see org.apache.jackrabbit.ocm.persistence.atomictypeconverter.AtomicTypeConverter#getStringValue(java.lang.<SPAN class="code-object">Object</SPAN>)
+   */
+  <SPAN class="code-keyword">public</SPAN> <SPAN class="code-object">String</SPAN> getStringValue(<SPAN class="code-object">Object</SPAN> object)
+  {
+
+    <SPAN class="code-keyword">return</SPAN> ((<SPAN class="code-object">Boolean</SPAN>) object).booleanValue() ? <SPAN class="code-quote">&quot;1&quot;</SPAN> : <SPAN class="code-quote">&quot;0&quot;</SPAN>;
+  }
+
+}
+</PRE>
+</DIV></DIV>
+        </DIV>
+        <DIV id="end"></DIV>
+      </DIV>
+      <DIV id="footer">
+        <P>
+          &copy; 2004-2010 The Apache Software Foundation.
+          - <A href="http://jackrabbit.apache.org/privacy-policy.html">Privacy Policy</A> -
+          [<A href="https://cwiki.apache.org/confluence/pages/editpage.action?pageId=75359">edit this page</A>]
+          <BR>
+          Apache Jackrabbit, Jackrabbit, Apache, the Apache feather logo, and the Apache
+          Jackrabbit project logo are trademarks of The Apache Software Foundation.
+        </P>
+      </DIV>
+    </DIV>
+<!-- JCR- 1315: Add Google Analytics to Jackrabbit web site -->
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+<SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-837900-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+  </BODY>
+</HTML>

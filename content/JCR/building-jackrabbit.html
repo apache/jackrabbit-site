@@ -1,0 +1,143 @@
+
+<!-- 
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE- 2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License. 
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+  <HEAD>
+    <TITLE>Building Jackrabbit</TITLE>
+    <LINK type="text/css" rel="stylesheet" href="http://jackrabbit.apache.org/style/site.css">
+  <META http-equiv="Content-Type" content="text/html;charset=UTF-8"></HEAD>
+  <BODY>
+    <DIV id="page">
+      <DIV id="header">
+        <P id="jcr"><A href="http://jackrabbit.apache.org/"><IMG src="http://jackrabbit.apache.org/style/jlogo.gif" alt="Apache Jackrabbit" height="100" width="336"></A></P>
+        <P id="asf"><A href="http://www.apache.org/"><IMG src="http://jackrabbit.apache.org/style/asf-logo.gif" alt="Apache Software Foundation" height="100" width="387"></A></P>
+      </DIV>
+      <DIV id="body">
+        <DIV id="navigation">
+  <UL>
+	<LI>Apache Jackrabbit
+	<UL>
+		<LI><A href="welcome-to-apache-jackrabbit.html" title="Welcome to Apache Jackrabbit">Welcome</A></LI>
+		<LI><A href="downloads.html" title="Downloads">Downloads</A></LI>
+		<LI><A href="frequently-asked-questions.html" title="Frequently Asked Questions">FAQ</A></LI>
+		<LI><A href="http://wiki.apache.org/jackrabbit/FrontPage" class="external-link">Jackrabbit Wiki</A></LI>
+		<LI><A href="jackrabbit-history.html" title="Jackrabbit History">Jackrabbit History</A></LI>
+	</UL>
+	</LI>
+	<LI>Documentation
+	<UL>
+		<LI><A href="getting-started-with-apache-jackrabbit.html" title="Getting Started with Apache Jackrabbit">Getting Started</A></LI>
+		<LI><A href="standalone-server.html" title="Standalone Server">Standalone Server</A></LI>
+		<LI><A href="jackrabbit-components.html" title="Jackrabbit Components">Jackrabbit Components</A></LI>
+		<LI><A href="first-hops.html" title="First Hops">First Hops</A></LI>
+		<LI><A href="jcr-api.html" title="JCR & API">JCR &amp; API</A></LI>
+		<LI><A href="jackrabbit-architecture.html" title="Jackrabbit Architecture">Jackrabbit Architecture</A></LI>
+		<LI><A href="deployment-models.html" title="Deployment Models">Deployment Models</A></LI>
+		<LI><A href="jackrabbit-configuration.html" title="Jackrabbit Configuration">Jackrabbit Configuration</A></LI>
+		<LI><A href="node-types.html" title="Node Types">Node Types</A></LI>
+		<LI><A href="object-content-mapping.html" title="Object Content Mapping">Object Content Mapping</A></LI>
+	</UL>
+	</LI>
+	<LI>Development
+	<UL>
+		<LI><A href="jackrabbit-team.html" title="Jackrabbit Team">Jackrabbit Team</A></LI>
+		<LI><A href="jackrabbit-roadmap.html" title="Jackrabbit Roadmap">Jackrabbit Roadmap</A></LI>
+		<LI><A href="" title="Building Jackrabbit">Building Jackrabbit</A></LI>
+		<LI><A href="mailing-lists.html" title="Mailing Lists">Mailing Lists</A></LI>
+		<LI><A href="issue-tracker.html" title="Issue Tracker">Issue Tracker</A></LI>
+		<LI><A href="source-repository.html" title="Source Repository">Source Repository</A></LI>
+		<LI><A href="continuous-integration.html" title="Continuous Integration">Continuous Integration</A></LI>
+		<LI><A href="website.html" title="Website">Website</A></LI>
+		<LI><A href="creating-releases.html" title="Creating Releases">Creating Releases</A></LI>
+		<LI><A href="supporting-software-attribution.html" title="Supporting software attribution">Attribution</A></LI>
+	</UL>
+	</LI>
+	<LI>Apache Software Foundation
+	<UL>
+		<LI><A href="http://www.apache.org/foundation/how-it-works.html" class="external-link">Introduction</A></LI>
+		<LI><A href="http://www.apache.org/foundation/sponsorship.html" class="external-link">Sponsorship</A></LI>
+		<LI><A href="http://www.apache.org/foundation/thanks.html" class="external-link">Current Sponsors</A></LI>
+	</UL>
+	</LI>
+</UL>
+        </DIV>
+        <DIV id="content">
+          <H1>Building Jackrabbit</H1>
+  <P>The easiest way to use Jackrabbit is to <A href="http://jackrabbit.apache.org/download.cgi" class="external-link">download</A> a binary release, but if you want to access the latest development version, you need to get the Jackrabbit sources and build them using the <A href="http://maven.apache.org/" class="external-link">Maven 2</A> build environment.</P>
+
+<P>The first step in building Jackrabbit is to check out the Jackrabbit sources from the <A href="http://subversion.tigris.org/" class="external-link">Subversion</A> source repository at <A href="http://svn.apache.org/repos/asf/jackrabbit/" class="external-link">http://svn.apache.org/repos/asf/jackrabbit/</A>. The source tree is divided in standard parts: <A href="http://svn.apache.org/repos/asf/jackrabbit/trunk/" class="external-link">trunk</A>, <A href="http://svn.apache.org/repos/asf/jackrabbit/branches/" class="external-link">branches</A>, <A href="http://svn.apache.org/repos/asf/jackrabbit/tags/" class="external-link">tags</A> and <A href="http://svn.apache.org/repos/asf/jackrabbit/commons/" class="external-link">commons</A> (<A href="http://jackrabbit.apache.org/commons/" class="external-link">more info about commons</A>). The latest development version is found within trunk, while the other parts are used to keep track of the source code of the Jackrabbit releases.</P>
+
+<P>The trunk contains the top-level build environment and a number of <A href="jackrabbit-components.html" title="Jackrabbit Components">component projects</A> within subdirectories. See the README.txt files within each subdirectory for a brief description of the component project. There is also a <A href="http://svn.apache.org/repos/asf/jackrabbit/sandbox/" class="external-link">sandbox</A> directory with miscellaneous contributions that are not yet a part of the official Jackrabbit releases.</P>
+
+
+<H2><A name="BuildingJackrabbit-CheckingoutthesourceswithSubversion"></A>Checking out the sources with Subversion</H2>
+
+<P>You need a <A href="http://subversion.tigris.org/" class="external-link">Subversion</A> client to access the Jackrabbit source repository. Take a look at the <A href="http://subversion.tigris.org/project_links.html#clients" class="external-link">Subversion client list</A> unless you already have a one installed. Once you have the Subversion client installed you can checkout the main Jackrabbit source tree with the following command or its equivalent in the client you are using:</P>
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+svn checkout http:<SPAN class="code-comment">//svn.apache.org/repos/asf/jackrabbit/trunk jackrabbit</SPAN>
+</PRE>
+</DIV></DIV>
+<P>The above checkout will create a subdirectory named jackrabbit that contains the latest Jackrabbit sources. See the <A href="http://svnbook.red-bean.com/" class="external-link">Subversion book</A> or the documentation of your Subversion client for more information on how to manage your source tree and keep it up to date with latest development.</P>
+
+
+<H2><A name="BuildingJackrabbit-BuildingthesourceswithMaven"></A>Building the sources with Maven</H2>
+
+<P>Jackrabbit uses <A href="http://maven.apache.org/" class="external-link">Maven 2</A> as the build system and the component sources are mostly organized according to the Maven <A href="http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html" class="external-link">Standard Directory Layout</A>.<BR>
+The standard build environment is Maven 2 with the Java Development Kit (JDK) 1.5 (but the build is known to work also with Java 6).</P>
+
+<DIV class="panelMacro"><TABLE class="infoMacro"><COLGROUP><COL width="24"><COL></COLGROUP><TR><TD valign="top"><IMG src="https://cwiki.apache.org/confluence/images/icons/emoticons/information.gif" width="16" height="16" align="absmiddle" alt="" border="0"></TD><TD><B>Jackrabbit 1.x</B><BR>The standard build environment for 1.x versions is Maven 2 with the Java Development Kit (JDK) <B>1.4</B> (but the build is known to work also with Java 5 and 6).</TD></TR></TABLE></DIV>
+
+<P>See the <A href="http://maven.apache.org/run-maven/index.html" class="external-link">Running Maven</A> page and the related documentation on the Maven web site for instructions on how to use Maven. You may also want to check for Maven 2 integration with your favourite Integrated Development Environment (IDE).</P>
+
+<P>There are Maven project descriptors (POMs) within both the top level jackrabbit directory you checked out above and all the jackrabbit&#45;<EM>something</EM> component subdirectories. The easiest way to build Jackrabbit is to use the &quot;multimodule&quot; setup within the top level directory:</P>
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+$ cd /path/to/jackrabbit; mvn install
+</PRE>
+</DIV></DIV>
+<P>This will build and package all the component projects and place the resulting artifacts within your local Maven 2 repository. You can also find the artifacts within the created target subdirectories of the component projects.</P>
+        </DIV>
+        <DIV id="end"></DIV>
+      </DIV>
+      <DIV id="footer">
+        <P>
+          &copy; 2004-2010 The Apache Software Foundation.
+          - <A href="http://jackrabbit.apache.org/privacy-policy.html">Privacy Policy</A> -
+          [<A href="https://cwiki.apache.org/confluence/pages/editpage.action?pageId=70734">edit this page</A>]
+          <BR>
+          Apache Jackrabbit, Jackrabbit, Apache, the Apache feather logo, and the Apache
+          Jackrabbit project logo are trademarks of The Apache Software Foundation.
+        </P>
+      </DIV>
+    </DIV>
+<!-- JCR- 1315: Add Google Analytics to Jackrabbit web site -->
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+<SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-837900-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+  </BODY>
+</HTML>

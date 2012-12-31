@@ -1,0 +1,177 @@
+
+<!-- 
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE- 2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License. 
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+  <HEAD>
+    <TITLE>Jackrabbit JCR-RMI</TITLE>
+    <LINK type="text/css" rel="stylesheet" href="http://jackrabbit.apache.org/style/site.css">
+  <META http-equiv="Content-Type" content="text/html;charset=UTF-8"></HEAD>
+  <BODY>
+    <DIV id="page">
+      <DIV id="header">
+        <P id="jcr"><A href="http://jackrabbit.apache.org/"><IMG src="http://jackrabbit.apache.org/style/jlogo.gif" alt="Apache Jackrabbit" height="100" width="336"></A></P>
+        <P id="asf"><A href="http://www.apache.org/"><IMG src="http://jackrabbit.apache.org/style/asf-logo.gif" alt="Apache Software Foundation" height="100" width="387"></A></P>
+      </DIV>
+      <DIV id="body">
+        <DIV id="navigation">
+  <UL>
+	<LI>Apache Jackrabbit
+	<UL>
+		<LI><A href="welcome-to-apache-jackrabbit.html" title="Welcome to Apache Jackrabbit">Welcome</A></LI>
+		<LI><A href="downloads.html" title="Downloads">Downloads</A></LI>
+		<LI><A href="frequently-asked-questions.html" title="Frequently Asked Questions">FAQ</A></LI>
+		<LI><A href="http://wiki.apache.org/jackrabbit/FrontPage" class="external-link">Jackrabbit Wiki</A></LI>
+		<LI><A href="jackrabbit-history.html" title="Jackrabbit History">Jackrabbit History</A></LI>
+	</UL>
+	</LI>
+	<LI>Documentation
+	<UL>
+		<LI><A href="getting-started-with-apache-jackrabbit.html" title="Getting Started with Apache Jackrabbit">Getting Started</A></LI>
+		<LI><A href="standalone-server.html" title="Standalone Server">Standalone Server</A></LI>
+		<LI><A href="jackrabbit-components.html" title="Jackrabbit Components">Jackrabbit Components</A></LI>
+		<LI><A href="first-hops.html" title="First Hops">First Hops</A></LI>
+		<LI><A href="jcr-api.html" title="JCR & API">JCR &amp; API</A></LI>
+		<LI><A href="jackrabbit-architecture.html" title="Jackrabbit Architecture">Jackrabbit Architecture</A></LI>
+		<LI><A href="deployment-models.html" title="Deployment Models">Deployment Models</A></LI>
+		<LI><A href="jackrabbit-configuration.html" title="Jackrabbit Configuration">Jackrabbit Configuration</A></LI>
+		<LI><A href="node-types.html" title="Node Types">Node Types</A></LI>
+		<LI><A href="object-content-mapping.html" title="Object Content Mapping">Object Content Mapping</A></LI>
+	</UL>
+	</LI>
+	<LI>Development
+	<UL>
+		<LI><A href="jackrabbit-team.html" title="Jackrabbit Team">Jackrabbit Team</A></LI>
+		<LI><A href="jackrabbit-roadmap.html" title="Jackrabbit Roadmap">Jackrabbit Roadmap</A></LI>
+		<LI><A href="building-jackrabbit.html" title="Building Jackrabbit">Building Jackrabbit</A></LI>
+		<LI><A href="mailing-lists.html" title="Mailing Lists">Mailing Lists</A></LI>
+		<LI><A href="issue-tracker.html" title="Issue Tracker">Issue Tracker</A></LI>
+		<LI><A href="source-repository.html" title="Source Repository">Source Repository</A></LI>
+		<LI><A href="continuous-integration.html" title="Continuous Integration">Continuous Integration</A></LI>
+		<LI><A href="website.html" title="Website">Website</A></LI>
+		<LI><A href="creating-releases.html" title="Creating Releases">Creating Releases</A></LI>
+		<LI><A href="supporting-software-attribution.html" title="Supporting software attribution">Attribution</A></LI>
+	</UL>
+	</LI>
+	<LI>Apache Software Foundation
+	<UL>
+		<LI><A href="http://www.apache.org/foundation/how-it-works.html" class="external-link">Introduction</A></LI>
+		<LI><A href="http://www.apache.org/foundation/sponsorship.html" class="external-link">Sponsorship</A></LI>
+		<LI><A href="http://www.apache.org/foundation/thanks.html" class="external-link">Current Sponsors</A></LI>
+	</UL>
+	</LI>
+</UL>
+        </DIV>
+        <DIV id="content">
+          <H1>Jackrabbit JCR-RMI</H1>
+  <P>This is the JCR-RMI component of the Apache Jackrabbit project. JCR-RMI is a transparent Remote Method Invocation (RMI) layer for the Content Repository for Java Technology API (JCR). The layer makes it possible to remotely access JCR content repositories and is compatible with all JCR implementations.</P>
+
+<H3><A name="JackrabbitJCR-RMI-Settinguparemoterepository"></A>Setting up a remote repository</H3>
+
+<P>Setting up the server part of the JCR-RMI layer is quite straightforward. After instantiating a local JCR repository you need to wrap it into a remote adapter and create an RMI binding for the repository. A variation of the following code is usually all that is needed in addition to the standard RMI setup (starting rmiregistry, etc.):</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+Repository repository = ...; <SPAN class="code-comment">// The local repository
+</SPAN><SPAN class="code-object">String</SPAN> name = ...; <SPAN class="code-comment">// The RMI URL <SPAN class="code-keyword">for</SPAN> the repository
+</SPAN>    
+RemoteAdapterFactory factory = <SPAN class="code-keyword">new</SPAN> ServerAdapterFactory();
+RemoteRepository remote = factory.getRemoteRepository(repository);
+Naming.bind(name, remote);  <SPAN class="code-comment">// Make the RMI binding using java.rmi.Naming</SPAN>
+</PRE>
+</DIV></DIV>
+
+<H3><A name="JackrabbitJCR-RMI-Accessingaremoterepository"></A>Accessing a remote repository</H3>
+
+<P>The ClientRepositoryFactory class provides a convenient mechanism for looking up a remote JCR-RMI repository. The factory can be used either directly or as a JNDI object factory.</P>
+
+<P>The following example shows how to use the ClientRepositoryFactory directly:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+<SPAN class="code-object">String</SPAN> name = ...; <SPAN class="code-comment">// The RMI URL of the repository
+</SPAN>    
+ClientRepositoryFactory factory = <SPAN class="code-keyword">new</SPAN> ClientRepositoryFactory();
+Repository repository = factory.getRepository(name);
+</PRE>
+</DIV></DIV>
+
+<P>The ClientRepositoryFactory can also be used via JNDI. The following example settings and code demonstrate how to configure and use the transparent JCR-RMI layer in a Tomcat 5.5 web application:</P>
+
+<P>context.xml:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+&lt;Resource name=<SPAN class="code-quote">&quot;jcr/Repository&quot;</SPAN> auth=<SPAN class="code-quote">&quot;Container&quot;</SPAN>
+          type=<SPAN class="code-quote">&quot;javax.jcr.Repository&quot;</SPAN>
+          factory=<SPAN class="code-quote">&quot;org.apache.jackrabbit.rmi.client.ClientRepositoryFactory&quot;</SPAN>
+          url=<SPAN class="code-quote">&quot;...&quot;</SPAN>/&gt;
+</PRE>
+</DIV></DIV>
+
+<P>web.xml:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+&lt;resource-env-ref&gt;
+  &lt;description&gt;The external content repository&lt;/description&gt;
+  &lt;resource-env-ref-name&gt;jcr/Repository&lt;/resource-env-ref-name&gt;
+  &lt;resource-env-ref-type&gt;javac.jcr.Repository&lt;/resource-env-ref-type&gt;
+&lt;/resource-env-ref&gt;
+</PRE>
+</DIV></DIV>
+
+<P>...SomeServlet.java:</P>
+
+<DIV class="code panel" style="border-width: 1px;"><DIV class="codeContent panelContent">
+<PRE class="code-java">
+Context initial = <SPAN class="code-keyword">new</SPAN> InitialContext();
+Context context = (Context) initial.lookup(<SPAN class="code-quote">&quot;java:comp/env&quot;</SPAN>);
+Repository repository = (Repository) context.lookup(<SPAN class="code-quote">&quot;jcr/Repository&quot;</SPAN>);
+</PRE>
+</DIV></DIV>
+
+<P>Note that in the example above only the context.xml configuration file contains a direct references to the JCR-RMI layer. All other parts of the web application can be implemented using the standard JCR interfaces. </P>
+        </DIV>
+        <DIV id="end"></DIV>
+      </DIV>
+      <DIV id="footer">
+        <P>
+          &copy; 2004-2010 The Apache Software Foundation.
+          - <A href="http://jackrabbit.apache.org/privacy-policy.html">Privacy Policy</A> -
+          [<A href="https://cwiki.apache.org/confluence/pages/editpage.action?pageId=75199">edit this page</A>]
+          <BR>
+          Apache Jackrabbit, Jackrabbit, Apache, the Apache feather logo, and the Apache
+          Jackrabbit project logo are trademarks of The Apache Software Foundation.
+        </P>
+      </DIV>
+    </DIV>
+<!-- JCR- 1315: Add Google Analytics to Jackrabbit web site -->
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+<SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-837900-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+  </BODY>
+</HTML>
