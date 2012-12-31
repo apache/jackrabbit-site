@@ -1,0 +1,18 @@
+RewriteEngine on
+RewriteBase /
+
+# Redirect common pre-Confluence entry pages
+RewriteRule ^index.html        http://jackrabbit.apache.org/ [R,L]
+RewriteRule ^faq.html          http://jackrabbit.apache.org/frequently-asked-questions.html [R,L]
+RewriteRule ^downloads.cgi     http://jackrabbit.apache.org/downloads.html [R,L]
+
+# Hide the JCR subdirectory used by the Confluence export
+RewriteRule ^$                 welcome-to-apache-jackrabbit.html
+RewriteRule ^([^/]+\.html)    JCR/$1
+RewriteRule ^([^/]+\.data/.+) JCR/$1
+
+# JCRSITE-18: Broken rendering of code examples
+# The code macro creates a local reference to a css file that's only
+# available on the cwiki.apache.org server.
+RewriteRule ^confluence/(.*)  http://cwiki.apache.org/confluence/$1
+
