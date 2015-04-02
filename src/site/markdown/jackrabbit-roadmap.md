@@ -1,0 +1,53 @@
+Title: Jackrabbit Roadmap
+This is a roadmap of future Apache Jackrabbit releases and features. See [the dev@ list](mailing-lists.html)
+ for the latest status.
+
+<a name="JackrabbitRoadmap-Unstable/stablereleasemodel"></a>
+## Unstable/stable release model
+
+Starting with Jackrabbit 2.3 we are adopting a "Linux-style"
+unstable/stable release model with odd/even minor version numbers used to
+mark the status of a release.
+
+* [Jackrabbit 2.3 (trunk)](https://svn.apache.org/repos/asf/jackrabbit/trunk/)
+ ([download|Downloads#v23])
+
+Unstable 2.3.x releases will be cut fairly frequently directly from
+Jackrabbit trunk, and a stable 2.4 release branch will be created later on.
+At current rate it looks like the 2.4 branch can be created before the end
+of 2011.
+
+Once the 2.4 branch has been created, trunk will switch to 2.5.x and
+continue progressing towards 2.6, etc.
+
+<a name="JackrabbitRoadmap-Maintenancebranches"></a>
+## Maintenance branches
+
+We currently support the following maintenance branches:
+
+* [Jackrabbit 2.2](https://svn.apache.org/repos/asf/jackrabbit/branches/2.2/)
+ ([download|Downloads#v22])
+* [Jackrabbit 2.1](https://svn.apache.org/repos/asf/jackrabbit/branches/2.1/)
+ ([download|Downloads#v21])
+* [Jackrabbit 2.0](https://svn.apache.org/repos/asf/jackrabbit/branches/2.0/)
+ ([download|Downloads#v20])
+
+<a name="JackrabbitRoadmap-Endoflife"></a>
+## End of life
+
+The Jackrabbit 1.6 maintenance branch has reached its end of life status.
+No more patch releases will be cut from the 1.6 branch, and the latest
+1.6.5 release will be archived in December 2011.
+
+* [Jackrabbit 1.6](https://svn.apache.org/repos/asf/jackrabbit/branches/1.6/)
+ ([download|Downloads#v16])
+
+There is currently no schedule for declaring the end of life of any of the
+stable 2.x maintenance branches.
+
+<a name="JackrabbitRoadmap-Prototypingthefuture"></a>
+## Prototyping the future
+
+The ongoing microkernel work in the Jackrabbit sandbox is being used to
+prototype a possible next generation architecture for a future major new
+Jackrabbit release.
