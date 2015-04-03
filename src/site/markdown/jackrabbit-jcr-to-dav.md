@@ -1,7 +1,0 @@
-Title: Jackrabbit JCR to DAV
-This is the JCR2DAV component of the Apache Jackrabbit project.
-
-<a name="JackrabbitJCRtoDAV-APIdocumentation"></a>
-## API documentation
-
-* [jackrabbit-jcr2dav 2.2](http://jackrabbit.apache.org/api/2.2/org/apache/jackrabbit/jcr2dav/package-summary.html)
