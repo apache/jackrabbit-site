@@ -61,3 +61,16 @@ a.anchor {
     margin-top: -80px;
     position: absolute;
 }
+.section p {
+    margin-left: 0;
+}
+
+h2 {
+    padding-top: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+h5 {
+    margin-bottom: 0;
+    font-size: 15px;
+}
