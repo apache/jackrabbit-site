@@ -27,7 +27,7 @@ The general architecture of Jackrabbit can be described in three Layers: A
 Content Application Layer, an API Layer and a Content Repository
 Implementation Layer.
 
-![Jackrabbit Architecture Overview](jackrabbit-architecture/overview.png)
+![Jackrabbit Architecture Overview](jackrabbit-architecture.png)
 
 Content Applications
 --------------------

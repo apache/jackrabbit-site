@@ -22,7 +22,7 @@ several extensions and customizations that help improve performance in an
 environment where changes to the index are frequent. The extensions also
 cover features that are not supported by Lucene, like hierarchical queries.
 
-![Per Index Segment](index-readers/index-readers-per-segment.jpg)
+![Per Index Segment](index-readers-per-segment.jpg)
 
 
 CachingIndexReader
@@ -108,7 +108,7 @@ possible using the plain lucene index reader.
 Combining the index segments
 ----------------------------
 
-![Per Query Handler](index-readers/index-readers-per-query-handler.jpg)
+![Per Query Handler](index-readers-per-query-handler.jpg)
 
 
 CachingMultiIndexReader

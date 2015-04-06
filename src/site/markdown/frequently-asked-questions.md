@@ -186,7 +186,7 @@ Query
 
 ### I've configured textFilterClasses but my query still doesn't work, what's wrong?
 Make sure you changed existing workspace.xml files as well. The workspace
-element in repository.xml only acts as a template for new workspaces.
+element in `repository.xml only` acts as a template for new workspaces.
 
 Verify that you also put the jar files into the classpath that jackrabbit
 depends on for text extraction. You can find all required jar files inside

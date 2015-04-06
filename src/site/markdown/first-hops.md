@@ -107,10 +107,10 @@ and run it with java FirstHop to get the following output.
 
 
 In addition to producing the above status line the application copies a
-default repository configuration file to repository.xml and creates an
+default repository configuration file to `repository.xml` and creates an
 initial Jackrabbit content repository in the repository subdirectory. You
-can use the system properties *org.apache.jackrabbit.repository.conf* and
-*org.apache.jackrabbit.repository.home* to set alternative configuration
+can use the system properties `org.apache.jackrabbit.repository.conf` and
+`org.apache.jackrabbit.repository.home` to set alternative configuration
 file and repository directory locations. 
 
 Read on for a detailed breakdown of the FirstHop application: 

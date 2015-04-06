@@ -29,7 +29,7 @@ can be used to build and deploy a web site as follows:
    $ mvn site
    ````
 
-2. Review the site at `vault-doc/target/site`
+2. Review the site at `target/site/index.html`
 
 3. Deploy the site to `http://jackrabbit.apache.org/` using:
 

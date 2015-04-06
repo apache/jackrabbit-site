@@ -24,7 +24,7 @@ the components in the Jackrabbit implementation. Please keep in mind that
 this implementation architecture is not mandated by JCR, but has been
 designed from scratch based on JCR.
 
-![Item State Manager](how-jackrabbit-works/jackrabbit-ism_small.jpg)
+![Item State Manager](how-jackrabbit-works-ism.jpg)
 
 The used components and their respective functions in the order of their
 appearance in the use case of writing or modifying content in the content

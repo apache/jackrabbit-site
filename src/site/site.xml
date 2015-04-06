@@ -35,7 +35,7 @@
             <item name="Standalone Server" href="standalone-server.html"/>
             <item name="Jackrabbit Components" href="jackrabbit-components.html"/>
             <item name="First Hops" href="first-hops.html"/>
-            <item name="JCR &amp; API" href="jcr--api.html"/>
+            <item name="JCR &amp; API" href="jcr-api.html"/>
             <item name="Jackrabbit Architecture" href="jackrabbit-architecture.html"/>
             <item name="Deployment Models" href="deployment-models.html"/>
             <item name="Jackrabbit Configuration" href="jackrabbit-configuration.html"/>
@@ -53,6 +53,7 @@
             <item name="Website" href="website.html"/>
             <item name="Creating Releases" href="creating-releases.html"/>
             <item name="Attribution" href="supporting-software-attribution.html"/>
+            <item name="Privacy" href="privacy-policy.html"/>
         </menu>
         <menu name="Apache Software Foundation">
             <item name="Introduction" href="http://www.apache.org/foundation/how-it-works.html"/>

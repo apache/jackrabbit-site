@@ -21,9 +21,9 @@ Visualizing the Node Type Hierarchy is non-trivial, even in the case of a
 repository containing only the default Jackrabbit node types. Here,
 GraphViz can help:
 
-![Jackrabbit Nodetypes](node-type-visualization/jackrabbit-nodetypes.png)
+![Jackrabbit Nodetypes](jackrabbit-nodetypes.png)
 
-Node Type Hierarchy for Jackrabbit ([SVG version](node-type-visualization/jackrabbit-nodetypes.svg))
+Node Type Hierarchy for Jackrabbit ([SVG version](jackrabbit-nodetypes.svg))
 
 In this diagram, the rounded boxes represent node types (green for mixins,
 gold for primrary types), with the arrows indicating the node inheritance.

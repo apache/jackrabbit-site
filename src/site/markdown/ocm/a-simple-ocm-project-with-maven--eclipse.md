@@ -34,7 +34,7 @@ If it is not the case, here is the instructions to install both products :
 
 Download the OCM project
 ------------------------
-You can download the OCM project from [here|^5minutes.zip].
+You can download the OCM project from [here](5minutes.zip).
 
 
 Install the project

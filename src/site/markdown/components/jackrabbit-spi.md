@@ -24,7 +24,7 @@ top of the persistent component ("repository server") as a consumer of the
 SPI and, in turn, exposes the JCR API to the application. The SPI is not
 intended to be used by the application directly.
 
-![Jackrabbit SPI](jackrabbit-spi/jackrabbit-spi.jpg)
+![Jackrabbit SPI](jackrabbit-spi.jpg)
 
 Primary Goals
 -------------
@@ -102,4 +102,4 @@ Other SPI implementations can be found in the _sandbox_ folder of the Jackrabbit
 See the image below for a overview over existing and planned SPI
 implementations.
 
-![Jackrabbit SPI Overview](jackrabbit-spi/jackrabbit-spi-overview.gif)
+![Jackrabbit SPI Overview](jackrabbit-spi-overview.gif)

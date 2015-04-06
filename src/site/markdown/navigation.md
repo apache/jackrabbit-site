@@ -11,7 +11,7 @@ Title: Navigation
 ** [Standalone Server](standalone-server.html)
 ** [Jackrabbit Components](jackrabbit-components.html)
 ** [First Hops](first-hops.html)
-** [JCR & API](jcr--api.html)
+** [JCR & API](jcr-api.html)
 ** [Jackrabbit Architecture](jackrabbit-architecture.html)
 ** [Deployment Models](deployment-models.html)
 ** [Jackrabbit Configuration](jackrabbit-configuration.html)

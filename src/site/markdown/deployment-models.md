@@ -65,7 +65,7 @@ As an example of this deployment model we assume a WebApplication packaged
 into a .war file which is deployed into a WebContainer, which not only
 contains the application but also the actual content repository.
 
-![Webapp Deployment](deployment-models/deploy-1.png)
+![Webapp Deployment](deployment-models-webapp.png)
 
 Application1 and Application2 both contain their own instances of a Content
 Repository distributed as a part of their .war file and therefore loaded
@@ -89,7 +89,7 @@ running inside the same JVM.
 The repository is started and stopped with the Application Server but is
 visible to all the applications to connect to.
 
-![Shared Deployment](deployment-models/deploy-2.png)
+![Shared Deployment](deployment-models-j2ee.png)
 
 This setup also allows to take advantage of the XA facilities of the
 Application Server and could use the application servers single sign-on
@@ -110,7 +110,7 @@ repository (or data) layer from the application or presentation layer, so
 the content repository can be used from many different applications,
 physically and can be scaled individually.
 
-![Standalone Deployment](deployment-models/deploy-3.png)
+![Standalone Deployment](deployment-models-server.png)
 
 This deployment model assumes that there is a network layer between the
 content repository server and the respective content repository client.

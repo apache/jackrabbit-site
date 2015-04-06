@@ -170,13 +170,13 @@ code.
 This creates a repository instance that starts up when the first session is
 created and automatically shuts down when the last session is closed. By
 default the repository will be created in a "jackrabbit" subdirectory using
-a default configuration file in "jackrabbit/repository.xml". See the
+a default configuration file in `jackrabbit/repository.xml`. See the
 TransientRepository javadocs for the ways to override these defaults.
     
 
 Enabling remote access
 ----------------------
-    Even if you mostly use the content repository in embedded mode within your
+Even if you mostly use the content repository in embedded mode within your
 application, it may occasionally be useful to be able to access the
 repository for example from an external administration tool while your
 application is still running. You can use the jackrabbit-jcr-rmi library to

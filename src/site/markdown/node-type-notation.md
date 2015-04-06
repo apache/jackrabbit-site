@@ -553,4 +553,4 @@ Case closed.
 
 Syntax highlighting for text editors
 ------------------------------------
-Here is a TextMate bundle for CND syntax highlighting: [CND.zip](node-type-notation/cnd.zip)
+Here is a TextMate bundle for CND syntax highlighting: [CND.zip](CND.zip)

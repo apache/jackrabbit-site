@@ -21,7 +21,7 @@ How to map associations between objects
 Overview
 --------
 This tutorial explains how to map associations between objects (1:1 and
-1:n). You can find the tutorial code sample from [here](^beans_and_collections.zip.html)
+1:n). You can find the tutorial code sample from [here](Beans_and_collections.zip)
 . It is based on Maven and ready to be used inside Eclipse. If you have
 some configuration issues, please review the tutorial "[A simple OCM
 project with Maven & Eclipse]". 
@@ -140,5 +140,5 @@ Here is an example of the correspoding JCR structure :
 
 Download the tutorial code
 --------------------------
-You can download the OCM project from [here](^beans_and_collections.zip.html)
+You can download the OCM project from [here](Beans_and_collections.zip)
 

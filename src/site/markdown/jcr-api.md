@@ -55,7 +55,7 @@ The Scope of Level 1 of JSR-170 to cover a large number of simple  Applications,
 need to read  from repositories. Level 1 specifies a read-only API that allows to  introspect Node and Property-types
 and offers hierarchical read access to content stored in a repository.
 
-![Level 1](jcr--api/level-1.jpg)
+![Level 1](jcr-level-1.jpg)
 
 Level 1 of JSR-170 is geared to allow people to write  applications such as search and display Portlets,
 CMS-Templates, Reports, Exports or other applications  that harvest, search, present or display information  from one
@@ -65,7 +65,7 @@ or multiple repositories.
 Level 2 of JSR-170 specifies all the writing  capabilities need to bi-directionally interact with a content repository
 in a fine and coarse grained  fashion.
 
-![Level 2](jcr--api/level-2.jpg)
+![Level 2](jcr-level-2.jpg)
 
 Applications written against Level 2 of JSR-170 include management applications or generally speaking any  application
 that generates data, information or content for both structured and unstructured information.
@@ -74,7 +74,7 @@ that generates data, information or content for both structured and unstructured
 On top of Level 1 or Level 2 a number of functional  block serve for more advanced repository functionality. This
 includes functions like: Versioning, (JTA) Transactions, Query using SQL, Explicit  Locking and Content Observation.
 
-![Advanced](jcr--api/level-adv.jpg)
+![Advanced](jcr-level-adv.jpg)
 
 A fully JSR-170 compliant repository like Jackrabbit encompasses all the functionality and therefore lends itself as
 general purpose, off-the-shelf  infrastructure for Content-, Document- and Source Code Management or for just about any

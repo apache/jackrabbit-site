@@ -113,7 +113,7 @@ The repository configuration elements are:
 * [Cluster](#cluster-configuration): Clustering configuration.
 * [DataStore](#data-store-configuration): Data store configuration.
 
-See the Jackrabbit 1.5 [default configuration](^repository.xml.html) , for an example repository configuration file.
+See the Jackrabbit 1.5 [default configuration](repository.xml) , for an example repository configuration file.
 
 > It is a good idea to place the `repository.xml` file _inside_ the
 > repository home directory. This keeps your repository and its configuration

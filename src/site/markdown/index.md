@@ -26,6 +26,12 @@ A content repository is a hierarchical content store with support for
 structured and unstructured content, full text search, versioning,
 transactions, observation, and more.
 
+[Jackrabbit Oak](/oak) is a complementary implementation of the JCR specification. 
+It is an effort to implement a scalable and performant hierarchical content 
+repository for use as the foundation of modern world-class web sites and 
+other demanding content applications. See the [Jackrabbit Oak](/oak) website for 
+more information.
+
 Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.apache.org/)
 
 Apache Jackrabbit News
@@ -33,15 +39,15 @@ Apache Jackrabbit News
 
 ##### March 26th, 2015: Apache Jackrabbit 2.10.0 released
 Apache Jackrabbit 2.10 is an incremental feature release based on and compatible with earlier stable Jackrabbit 2.x releases. 
-See the downloads page for more details.
+See the [downloads](downloads.html#v2.10) page for more details.
 
 ##### March 10th, 2015: Apache Jackrabbit Oak 1.0.12 released
 Jackrabbit Oak 1.0.12 is a patch release that contains fixes and improvements over the previous 1.0.11 release. 
-See the downloads page for more details.
+See the [downloads](downloads.html#oak) page for more details.
 
 ##### March 9th, 2015: Apache Jackrabbit Oak 1.1.7 released
 Jackrabbit Oak 1.1.7 is an unstable release cut directly from trunk, with a focus on new features and other improvements. 
-See the downloads page for more details.
+See the  [downloads](downloads.html#oaktrunk) page for more details.
 
 ##### February 25th, 2015: Apache Jackrabbit FileVault 3.1.16 released
 Jackrabbit FileVault 3.1.16 is current stable release of the recently donated repository content synchronization tool. 

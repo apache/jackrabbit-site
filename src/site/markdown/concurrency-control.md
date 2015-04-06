@@ -33,7 +33,7 @@ This review is based on Jackrabbit version 1.5 in default configuration.
 
 Architectural background
 ------------------------
-![Architecture](concurrency-control/arch.jpg)
+![Architecture](concurrency-control-arch.jpg)
 
 In terms of concurrency control, the Jackrabbit
 architecture can roughly be divided to five main layers:
@@ -107,7 +107,7 @@ the context of an XA transaction.
 
 Main synchronization mechanisms
 -------------------------------
-![Lock](concurrency-control/lock.jpg)
+![Lock](concurrency-control-lock.jpg)
 
 The main synchronization mechanisms in Jackrabbit
 are the read-write locks in the SharedItemStateManager and
@@ -329,7 +329,7 @@ version back to the workspace. Finally the changes are persisted with a
 The nested locks above are discussed in the section on the save operation.
 
 ### Transaction commit
-![Deadlock](concurrency-control/deadlock.jpg)
+![Deadlock](concurrency-control-deadlock.jpg)
 
 As discussed in the architecture section above,
 a transaction context overrides all the other write operations in favor of

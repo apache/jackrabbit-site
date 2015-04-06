@@ -47,7 +47,7 @@ alternative if the default port 8080 is already used by another program.
 
 This is what the server should look like in your browser:
 
-![Standalone Server Screenshot](standalone-server/standalone500.png)
+![Standalone Server Screenshot](standalone-server-homepage.png)
 
 By default the server will look for a content repository in the
 `./jackrabbit` directory and a repository configuration file in a
