@@ -108,6 +108,10 @@
                     <include>**/*.jpg</include>
                     <include>**/*.jpeg</include>
                     <include>**/*.gif</include>
+                    <include>**/*.zip</include>
+                    <include>**/*.xml</include>
+                    <include>**/*.dtd</include>
+                    <include>**/*.svg</include>
                 </includes>
             </resource>
         </resources>

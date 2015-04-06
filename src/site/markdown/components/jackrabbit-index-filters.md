@@ -15,16 +15,7 @@
    limitations under the License.
 -->
 
-Website
-=======
-TODO: Explain new pubsub mechanism
-
-
-The [Apache Jackrabbit website](http://jackrabbit.apache.org/)
-is managed using svnpubsub.
-
-Only [Jackrabbit committers](jackrabbit-team.html) are allowed to modify the site content.
-
-This content is managed using the [site tree](https://svn.apache.org/repos/asf/jackrabbit/site/)
-in Subversion.
-
+Jackrabbit Index Filters
+========================
+The Jackrabbit Index Filters component has been replaced by the new [Jackrabbit Text Extractors](jackrabbit-text-extractors.html)
+component.

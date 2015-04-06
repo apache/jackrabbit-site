@@ -1,4 +1,22 @@
-Title: Deployment Models
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+Deployment Models
+=================
 JSR-170 explicitly allows for numerous different deployment models, meaning
 that it is entirely up to the repository implementation to suggest certain
 models.
@@ -15,9 +33,9 @@ different deployment models:
 * Model 2: [Shared J2EE Resource HOWTO](shared-j2ee-resource-howto.html)
 * Model 3: [Repository Server HOWTO](repository-server-howto.html)
 
-<a name="DeploymentModels-Model1:The(Web-)ApplicationBundle"></a>
-## Model 1: The (Web-) Application Bundle
 
+Model 1: The (Web-) Application Bundle
+--------------------------------------
 For many applications, usually applications that run in a closed context
 without interacting with other applications or data sources, it might be
 desirable to bundle a content repository with the application itself.
@@ -47,7 +65,7 @@ As an example of this deployment model we assume a WebApplication packaged
 into a .war file which is deployed into a WebContainer, which not only
 contains the application but also the actual content repository.
 
-{center}!deploy-1.png!{center}
+![Webapp Deployment](deployment-models/deploy-1.png)
 
 Application1 and Application2 both contain their own instances of a Content
 Repository distributed as a part of their .war file and therefore loaded
@@ -57,9 +75,9 @@ applications.
 This deployment model of course also works for any stand-alone application
 and not just for web applications.
 
-<a name="DeploymentModels-Model2:SharedJ2EEResource"></a>
-## Model 2: Shared J2EE Resource
 
+Model 2: Shared J2EE Resource
+-----------------------------
 A second way to deploy a repository is to make it visible as a resource to
 all the web applications that are running inside a Servlet Container by
 registering the Repository as a Resource Adapter to the Application Server.
@@ -71,15 +89,15 @@ running inside the same JVM.
 The repository is started and stopped with the Application Server but is
 visible to all the applications to connect to.
 
-{center}!deploy-2.png!{center}
+![Shared Deployment](deployment-models/deploy-2.png)
 
 This setup also allows to take advantage of the XA facilities of the
 Application Server and could use the application servers single sign-on
 mechanisms that are provided as part of the J2EE framework.
 
-<a name="DeploymentModels-Model3:TheRepositoryServer"></a>
-## Model 3: The Repository Server
 
+Model 3: The Repository Server
+------------------------------
 In enterprise environments the client/server deployment model is widely
 used for relational databases. While with relational databases this is
 probably the only deployment model that is supported by most RDBMS vendors
@@ -92,7 +110,7 @@ repository (or data) layer from the application or presentation layer, so
 the content repository can be used from many different applications,
 physically and can be scaled individually.
 
-{center}!deploy-3.png!{center}
+![Standalone Deployment](deployment-models/deploy-3.png)
 
 This deployment model assumes that there is a network layer between the
 content repository server and the respective content repository client.

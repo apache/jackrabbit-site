@@ -1,4 +1,22 @@
-Title: Object Content Manager
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+Object Content Manager
+======================
 The main component in the OCM framework is the ObjectContentManager. It
 converts an object graph into JCR nodes and properties and vice versa. The
 ObjectContentManager is always associated with a JCR Session. It is used to
@@ -8,9 +26,9 @@ Usually there is one ObjectContentManager per user session.
 This page describes how an ObjectContentManager is working and how it can
 be initialised in your applications. 
 
-<a name="ObjectContentManager-HowdoestheObjectContentManagerwork?"></a>
-## How does the Object Content Manager work ?
 
+How does the Object Content Manager work ?
+------------------------------------------
 Thanks to a Mapping Descriptor, the ObjectContentManager is able to use the
 appropriate mapping strategy for each persistent object (pojo). The Mapping
 Descriptor contains one Class Descriptor per persistent class. Each Class
@@ -22,48 +40,49 @@ object injected into the ObjectContentManager (see the interface
 org.apache.jackrabbit.ocm.mapper.Mapper). Right now, there are 2 different
 Mapping Descriptor implementations:
 
-    * Annotation : each persistent object is annoted in order to provide to
-the ObjectContentManager all the required information on its mapping
-strategy (see the class
-org.apache.jackrabbit.ocm.mapper.impl.annotation.AnnotationMapperImpl).
-    * XML configuration file : the class descriptors are defined in one or
-more XML config files used by the ObjectContentManager when it is
-instantiated (see the class
-org.apache.jackrabbit.ocm.mapper.impl.digester.DigesterMapperImpl). 
+* Annotation : each persistent object is annoted in order to provide to
+    the ObjectContentManager all the required information on its mapping
+    strategy (see the class
+    org.apache.jackrabbit.ocm.mapper.impl.annotation.AnnotationMapperImpl).
+* XML configuration file : the class descriptors are defined in one or
+    more XML config files used by the ObjectContentManager when it is
+    instantiated (see the class
+    org.apache.jackrabbit.ocm.mapper.impl.digester.DigesterMapperImpl). 
 
 For a business developer, it is not necessary to know how the
 ObjectContentManager is using the Class Descriptors. He has to make only a
-choice between annoted classes or XML files. Below, you can see how to
+choice between annotated classes or XML files. Below, you can see how to
 setup correctly an ObjectContentManager. 
 
-<a name="ObjectContentManager-HowdoesanobjectispersistedintoaJCRrepository?"></a>
-## How does an object is persisted into a JCR repository ?
 
+How does an object is persisted into a JCR repository ?
+-------------------------------------------------------
 In all cases, a persistent object (a pojo) is mapped into a JCR node and
 its fields are mapped into subnodes or properties depending on their types.
 
 There are 3 "field types":
 
-* Atomic fields
+* Atomic fields  
     Primitive data types and simple objects (String, Long, Double, ...) .
-Those fields are mapped into JCR properties. 
+    Those fields are mapped into JCR properties. 
 
-* Bean fields
+* Bean fields  
     One class can contain an 1..1 association to another bean. In this
-case, the field is a custom object. Those fields are mapped into JCR
-subnodes or a referenced node. 
+    case, the field is a custom object. Those fields are mapped into JCR
+    subnodes or a referenced node. 
 
-* Collection fields
+* Collection fields  
     One class can contain an 1..n association to a collection of beans (or
-Map). Those fields are mapped into a collection of JCR subnodes or a
-collection of referenced nodes. It is also possible to map a java
-collection into a multivalue property. 
+    Map). Those fields are mapped into a collection of JCR subnodes or a
+    collection of referenced nodes. It is also possible to map a java
+    collection into a multivalue property. 
 
 The Mapping descriptor contains also information on inheritances, interface
 mapping strategy, lazy loading, custom converter, cache strategy, etc. 
-<a name="ObjectContentManager-Basicsetup(withannotedpersistentclasses)"></a>
-## Basic setup (with annoted persistent classes)
 
+
+Basic setup (with annotated persistent classes)
+---------------------------------------------
 When you start your application, you need the following code to initialize
 correctly the Object Content Manager.
 
@@ -73,8 +92,7 @@ correctly the Object Content Manager.
     		      
     import org.apache.jackrabbit.ocm.manager.impl.ObjectContentManagerImpl;
     import org.apache.jackrabbit.ocm.mapper.Mapper;
-    import
-org.apache.jackrabbit.ocm.mapper.impl.annotation.AnnotationMapperImpl;
+    import org.apache.jackrabbit.ocm.mapper.impl.annotation.AnnotationMapperImpl;
     
     		      
     // 1. Instantiate a JCR session
@@ -91,9 +109,8 @@ org.apache.jackrabbit.ocm.mapper.impl.annotation.AnnotationMapperImpl;
     ObjectContentManager ocm = new ObjectContentManagerImpl(session, mapper);
 
 
-<a name="ObjectContentManager-Basicsetup(withoneormoreXMLMappingDescriptorfiles)"></a>
-## Basic setup (with one or more XML Mapping Descriptor files)
-
+Basic setup (with one or more XML Mapping Descriptor files)
+-----------------------------------------------------------
 When you start your application, you need the following code to initialize
 correctly the Object Content Manager.
 
@@ -104,13 +121,10 @@ correctly the Object Content Manager.
     import org.apache.jackrabbit.ocm.mapper.impl.digester.DigesterMapperImpl;
     import org.apache.jackrabbit.ocm.manager.ObjectContentManager;
     import org.apache.jackrabbit.ocm.manager.impl.ObjectContentManagerImpl;
-    import
-org.apache.jackrabbit.ocm.manager.atomictypeconverter.AtomicTypeConverterProvider;
-    import
-org.apache.jackrabbit.ocm.manager.atomictypeconverter.impl.DefaultAtomicTypeConverterProvider;
+    import org.apache.jackrabbit.ocm.manager.atomictypeconverter.AtomicTypeConverterProvider;
+    import org.apache.jackrabbit.ocm.manager.atomictypeconverter.impl.DefaultAtomicTypeConverterProvider;
     import org.apache.jackrabbit.ocm.manager.objectconverter.ObjectConverter;
-    import
-org.apache.jackrabbit.ocm.manager.objectconverter.impl.ObjectConverterImpl;
+    import org.apache.jackrabbit.ocm.manager.objectconverter.impl.ObjectConverterImpl;
     import org.apache.jackrabbit.ocm.query.QueryManager;
     import org.apache.jackrabbit.ocm.query.impl.QueryManagerImpl;
     
@@ -119,8 +133,7 @@ org.apache.jackrabbit.ocm.manager.objectconverter.impl.ObjectConverterImpl;
     Session session = repository.login(...);
     
     // 2. Specify the different mapping files
-    String[]
- files = {
+    String[] files = {
           "./src/test-config/jcrmapping.xml",
           "./src/test-config/jcrmapping-atomic.xml",
           "./src/test-config/jcrmapping-beandescriptor.xml"
@@ -131,20 +144,13 @@ org.apache.jackrabbit.ocm.manager.objectconverter.impl.ObjectConverterImpl;
     
 
 
-
-<a name="ObjectContentManager-APIOverview"></a>
-## API Overview
-
+API Overview
+------------
 With the current Object Manager API, it is possible to:
 
-* Manage the object life cycle (insert, update, delete, retrieve). See [Basic OCM operations](basic-ocm-operations.html)
-.
-* Search single object or collections with criteria. See [OCM Search](ocm-search.html)
-.
-* Lock objects. See [OCM Locking](ocm-locking.html)
-.
-* Manage versions (check int, check out, create a new version, show
-history). See [OCM Version Management](ocm-version-management.html)
-.
+* Manage the object life cycle (insert, update, delete, retrieve). See [Basic OCM operations](basic-ocm-operations.html) .
+* Search single object or collections with criteria. See [OCM Search](ocm-search.html) .
+* Lock objects. See [OCM Locking](ocm-locking.html) .
+* Manage versions (check int, check out, create a new version, show history). See [OCM Version Management](ocm-version-management.html) .
 
 We plan to add other features in a future release. 

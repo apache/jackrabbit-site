@@ -1,42 +1,60 @@
-Title: Mapping Atomic Fields
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+Mapping Atomic Fields
+=====================
 The field-descriptor maps a bean attribute based on a Java primitive	   
-   type into a JCR property. By default, the persistence manager uses	   
-    the correct mapping in function of the attribute type (see below	   
-   the section "Supported Types").
+type into a JCR property. By default, the persistence manager uses	   
+the correct mapping in function of the attribute type (see below	   
+the section "Supported Types").
 
 Based on our model defined here,	   the following field-descriptor
 maps the bean field "title"	      (String type) into the JCR property
 "my:title".
 
-<a name="MappingAtomicFields-SupportedTypes"></a>
-## Supported Types
 
+Supported Types
+---------------
  It is not necessary to specify the type in the field-descriptor.	   
 The Persistence Manager uses the java introspection to get	    
 information on each atomic field.
 
-    <table>
-    <tr><th> Java Type </th><th> Jcr Type </th></tr>
-    <tr><td> String </td><td> STRING </td></tr>
-    <tr><td> Boolean, boolean </td><td> BOOLEAN </td></tr>
-    <tr><td> Double, double </td><td> DOUBLE </td></tr>
-    <tr><td> Integer, int </td><td> DOUBLE </td></tr>
-    <tr><td> Long, long </td><td> LONG </td></tr>
-    <tr><td> byte\[\](\.html)
-     </td><td> BINARY </td></tr>
-    <tr><td> java.io.InputStream </td><td> BINARY </td></tr>
-    <tr><td> java.util.Calendar </td><td> LONG (corresponding to Calendar.getTimeInMillis() </td></tr>
-    <tr><td> java.sql.Timestamp </td><td> LONG (corresponding to Timestamp.getTime() </td></tr>
-    <tr><td> java.util.Date </td><td> LONG (corresponding to java.util.Date.getTime() </td></tr>
-    </table>
+<table>
+<tr><th> Java Type </th><th> Jcr Type </th></tr>
+<tr><td> String </td><td> STRING </td></tr>
+<tr><td> Boolean, boolean </td><td> BOOLEAN </td></tr>
+<tr><td> Double, double </td><td> DOUBLE </td></tr>
+<tr><td> Integer, int </td><td> DOUBLE </td></tr>
+<tr><td> Long, long </td><td> LONG </td></tr>
+<tr><td> byte\[\](\.html)
+ </td><td> BINARY </td></tr>
+<tr><td> java.io.InputStream </td><td> BINARY </td></tr>
+<tr><td> java.util.Calendar </td><td> LONG (corresponding to Calendar.getTimeInMillis() </td></tr>
+<tr><td> java.sql.Timestamp </td><td> LONG (corresponding to Timestamp.getTime() </td></tr>
+<tr><td> java.util.Date </td><td> LONG (corresponding to java.util.Date.getTime() </td></tr>
+</table>
 
  Due to some issues with Jackrabbit (mainly with xpath queries),	  
 Calendar, Timestamp and date are converted into JCR LONG.	    We plan
 to add other converters for those types in the next release.
 
-<a name="MappingAtomicFields-UsingAnotherAtomicTypeConverter"></a>
-## Using Another Atomic Type Converter
 
+Using Another Atomic Type Converter
+-----------------------------------
 The OCM framework gives you the freedom to choose another kind of	  
 mapping for atomic fields. For example, you can convert 	
 java.util.Date bean field into a JCR Date type instead of a	     JCR
@@ -47,7 +65,7 @@ Let's start with a simple example. If you want to use a mapping
 strategy which convert a boolean bean field into a JCR Long type,	   
 you have to make the following steps:
 
-<a name="MappingAtomicFields-Specifytheconverterclassinthefielddescriptor"></a>
+
 ### Specify the converter class in the field descriptor
 
 
@@ -62,7 +80,6 @@ you have to make the following steps:
     </class-descriptor>
 
 
-<a name="MappingAtomicFields-Implementtheconverterclass"></a>
 ### Implement the converter class
 
 Use the interface org.apache.jackrabbit.ocm.persistence.atomic.AtomicTypeConverter

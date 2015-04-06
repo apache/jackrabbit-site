@@ -1,9 +1,26 @@
-Title: OCM Version Management
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+OCM Version Management
+======================
 Right now, the OCM tools provides basic versioning features:
 
 * Check in, check out.
-* Retrieve version history (first version, last version, the complete
-history, ...).
+* Retrieve version history (first version, last version, the complete history, ...).
 * Apply labels.
 
 Later, we would like to add more advanced versioning support like version
@@ -11,9 +28,9 @@ compare, replace, revert, ... Each versioned object has to be mapped to a
 mix:versionable JCR node. It is possible to specify this node type in the
 xml class descriptor or with an annotation :
 
-<a name="OCMVersionManagement-Checkin-Checkout"></a>
-## Check in - Check out
 
+Check in - Check out
+--------------------
 
     // Create a new page - first version
     Page page = new Page();
@@ -39,23 +56,21 @@ xml class descriptor or with an annotation :
     ocm.checkin("/page");
 
 
-<a name="OCMVersionManagement-Retrievetheversionhistory"></a>
-## Retrieve the version history
 
+Retrieve the version history
+----------------------------
 
     VersionIterator versionIterator = ocm.getAllVersions("/page");
     while (versionIterator.hasNext())
     {
         Version version = (Version) versionIterator.next();
         System.out.println("version found : "+ version.getName() + " - " +
-    			  version.getPath() + " - " + 
-version.getCreated().getTime());
+    			  version.getPath() + " - " + version.getCreated().getTime());
     }
 
 
-<a name="OCMVersionManagement-Retrieveversiondescription"></a>
-## Retrieve version description
-
+Retrieve version description
+----------------------------
 
     // Retrieve the first version description
     Version baseVersion = ocm.getBaseVersion("/page");
@@ -66,17 +81,15 @@ version.getCreated().getTime());
     System.out.println("Root version : " + rootVersion.getName());
 
 
-<a name="OCMVersionManagement-Retrievetheobjectstatematchingtoaspecificversion"></a>
-## Retrieve the object state matching to a specific version
-
+Retrieve the object state matching to a specific version
+--------------------------------------------------------
 
     //Get the object matching to the first version
     Page  page = (Page) ocm.getObject( "/page", "1.0");
 
 
-<a name="OCMVersionManagement-Usingversionlabels"></a>
-## Using version labels
-
+Using version labels
+--------------------
 
     Page page = new Page();
     page.setPath("/page");
@@ -91,28 +104,22 @@ version.getCreated().getTime());
     ocm.checkout("/page");
     ocm.update(page);
     ocm.save();
-    ocm.checkin("/page", new String[]
- {"A", "B"});
+    ocm.checkin("/page", new String[]{"A", "B"});
     
     // Checkin with some labels
     page.addParagraph(new Paragraph("para4"));
     ocm.checkout("/page");
     ocm.update(page);
     ocm.save();
-    ocm.checkin("/page", new String[]
- {"C", "D"});
+    ocm.checkin("/page", new String[]{"C", "D"});
     
     // Retrieve all labels
-    String[]
- allLabels = ocm.getAllVersionLabels("/page");
+    String[] allLabels = ocm.getAllVersionLabels("/page");
     assertTrue("Incorrect number of labels", allLabels.length == 4);
     
     // Retrieve labels assigned to the version 1.1
-    String[]
- versionLabels = ocm.getVersionLabels("/page", "1.1");
+    String[] versionLabels = ocm.getVersionLabels("/page", "1.1");
     assertTrue("Incorrect number of labels", versionLabels.length == 2);
-    assertTrue("Incorrect label", versionLabels[0]
-.equals("C") || versionLabels[0].equals("D"));
-    assertTrue("Incorrect label", versionLabels[1]
-.equals("C") || versionLabels[0].equals("D"));
+    assertTrue("Incorrect label", versionLabels[0].equals("C") || versionLabels[0].equals("D"));
+    assertTrue("Incorrect label", versionLabels[1].equals("C") || versionLabels[0].equals("D"));
 

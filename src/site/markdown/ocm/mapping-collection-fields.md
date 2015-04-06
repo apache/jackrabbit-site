@@ -1,4 +1,22 @@
-Title: Mapping Collection Fields
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+Mapping Collection Fields
+=========================
 The collection-descriptor maps a collection attribute into JCR nodes or in
 a multivalue property.
 
@@ -27,9 +45,9 @@ The collection-descriptor contains the elementClassName attribute which
 specify the collection element class. A class descriptor for the element
 class has also to be defined.
 
-<a name="MappingCollectionFields-TheJCRStructure"></a>
-## The JCR Structure
 
+The JCR Structure
+-----------------
 Following our example, the resulting JCR structure is:
 
 
@@ -50,31 +68,31 @@ As explained in the following sections, it is possible to map to another
 JCR structure. It is also possible to use another name for the jcr node
 names (see above).
 
-<a name="MappingCollectionFields-SupportedCollectionandMapTypes"></a>
-## Supported Collection and Map Types
 
+Supported Collection and Map Types
+----------------------------------
 The OCM framework is supporting the following java types:
 
 * *Collections* Collection, List, Set, ArrayList, Vector, HashSet
 * *Maps* Map, HashMap
 
-<a name="MappingCollectionFields-UsingAnotherCollectionorMap"></a>
-## Using Another Collection or Map
 
+Using Another Collection or Map
+-------------------------------
 It is possible to support other Collection or Map types with the
 ManageableCollection interface.
 
-<a name="MappingCollectionFields-UsingAnotherCollectionConverter"></a>
-## Using Another Collection Converter
 
+Using Another Collection Converter
+----------------------------------
 TODO
 
-<a name="MappingCollectionFields-PredefinedCollectionConverters"></a>
-## Predefined Collection Converters
 
+Predefined Collection Converters
+--------------------------------
 TODO
 
-<a name="MappingCollectionFields-BuildingyourownCollectionConverters"></a>
-## Building your own Collection Converters
 
+Building your own Collection Converters
+---------------------------------------
 TODO

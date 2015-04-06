@@ -1,24 +1,42 @@
-Title: Index readers
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+Index readers
+=============
 Jackrabbit uses Lucene as the underlying index implementation and provides
 several extensions and customizations that help improve performance in an
 environment where changes to the index are frequent. The extensions also
 cover features that are not supported by Lucene, like hierarchical queries.
 
-{center}!index-readers-per-segment.jpg!{center}
+![Per Index Segment](index-readers/index-readers-per-segment.jpg)
 
-<a name="Indexreaders-CachingIndexReader"></a>
-## CachingIndexReader
 
-The CachingIndexReader is at the very bottom of the index reader stack in
+CachingIndexReader
+------------------
+The `CachingIndexReader` is at the very bottom of the index reader stack in
 Jackrabbit. It's main purpose is to cache the parent relationship of a
 node. Each node is represented with a document in the index and one of the
-fields is _:PARENT. The value of this field is the string representation of
+fields is `_:PARENT`. The value of this field is the string representation of
 the parent nodes UUID. In case of the root node the the parent field
 contains an empty string as its value. Several queries in Jackrabbit are
 hierarchical and check whether a node is a descendant of another node. For
 the very simple case, where one needs to know if a node is the child of
 another node, we can just look up both nodes (lucene documents) in the
-index and compare the parent field on one node with the _:UUID field of the
+index and compare the parent field on one node with the `_:UUID` field of the
 other. If they match the one is the child of the other node. When it comes
 to evaluating a descendant axis, this becomes much more expensive and will
 cause lots of document lookups in lucene. By caching the parent child
@@ -37,12 +55,12 @@ of the parent node. When a UUIDDocId is resolved it is passed an index
 reader, which allows it to get the document number for the UUID and cache
 it for later reuse.
 
-<a name="Indexreaders-OverwritingDocId"></a>
-## Overwriting DocId
 
+Overwriting DocId
+-----------------
 It may happen that a PlainDocId is present in the cache of a
-CachingIndexReader but must be considered invalid in the context of a call.
-CachingIndexReader.getParent() may be called from a ReadOnlyIndexReader
+`CachingIndexReader` but must be considered invalid in the context of a call.
+`CachingIndexReader.getParent()` may be called from a ReadOnlyIndexReader
 instance which has the target of the PlainDocId in the set of deleted
 document. This indicates that the nodes has been deleted or modified. Thus
 it has traveled to another index segment. In this case the PlainDocId is
@@ -50,9 +68,9 @@ overwritten with a UUIDDocId. The opposite never happens. A UUIDDocId is
 never overwritten with a PlainDocId because when a document is added to an
 index a new CachingIndexReader is created.
 
-<a name="Indexreaders-SharedIndexReader"></a>
-## SharedIndexReader
 
+SharedIndexReader
+-----------------
 The SharedIndexReader wraps a CachingIndexReader and adds a reference count
 facility. A SharedIndexReader is kept open for the entire lifetime of a
 PersistentIndex. Even if documents are marked deleted in the underlying
@@ -65,9 +83,9 @@ indexes while a query still operates on the indexes to be deleted. Using
 reference counts, closing the SharedIndexReader is delayed until all
 clients are finished with the  SharedIndexReader.
 
-<a name="Indexreaders-ReadOnlyIndexReader"></a>
-## ReadOnlyIndexReader
 
+ReadOnlyIndexReader
+-------------------
 The inconsistency introduced by the SharedIndexReader (considers deleted
 documents as still valid) is corrected by the ReadOnlyIndexReader. Whenever
 a new instance of this reader is created it copies the currently marked
@@ -75,9 +93,9 @@ deleted documents from the CommittableIndexReader. At the same time all
 methods that attempt delete documents will throw a
 UnsupportedOperationException.
 
-<a name="Indexreaders-CommittableIndexReader"></a>
-## CommittableIndexReader
 
+CommittableIndexReader
+----------------------
 This is the index reader where documents are marked deleted in a
 PersistentIndex. As with the SharedIndexReader the CommittableIndexReader
 is kept open for the entire lifetime of the PersistentIndex. To achieve
@@ -86,23 +104,24 @@ forces the underlying native lucene index reader to commit changes. Only
 committing changes whithout closing the index reader is otherwise not
 possible using the plain lucene index reader.
 
-<a name="Indexreaders-Combiningtheindexsegments"></a>
-## Combining the index segments
 
-{center}!index-readers-per-query-handler.jpg!{center}
+Combining the index segments
+----------------------------
 
-<a name="Indexreaders-CachingMultiIndexReader"></a>
-## CachingMultiIndexReader
+![Per Query Handler](index-readers/index-readers-per-query-handler.jpg)
 
+
+CachingMultiIndexReader
+-----------------------
 The index for the content of a workspace consists of multiple segments,
 that is multiple ReadOnlyIndexReaders. They are combined in a MultiIndex
 using a CachingMultiIndexReader. In order to speed up lookups by UUID the
 CachingMultiIndexReader also has a DocNumberCache. This cache uses a LRU
-algorithm to keep a limitted amount of UUID to document number mappings.
+algorithm to keep a limited amount of UUID to document number mappings.
 
-<a name="Indexreaders-CombinedIndexReader"></a>
-## CombinedIndexReader
 
+CombinedIndexReader
+-------------------
 This index reader is similar to the CachingMultiIndexReader, in fact both
 implement MultiIndexReader and HierarchyResolver. A CombinedIndexReader is
 created when a query needs an index reader that spans both the workspace
