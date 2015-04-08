@@ -34,7 +34,7 @@ the signatures and checksums available from this page.
 
 Apache Jackrabbit releases are available under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0). 
 See the `NOTICE.txt` file contained in each release artifact for applicable copyright attribution notices. 
-Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies|http://www.apache.org/legal/resolved.html]. 
+Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](http://www.apache.org/legal/resolved.html). 
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
 <a class='anchor' name='oak'></a>
