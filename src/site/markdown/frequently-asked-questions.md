@@ -77,7 +77,7 @@ features, please	   see section 8.1 Transactions of the JCR
 specification.
 
 ### How do I create new workspaces in Jackrabbit?
-The JCR 2.0 API has two [Workspace.createWorkspace()](http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Workspace.html#createWorkspace(java.lang.String)) methods for that.
+The JCR 2.0 API has two [Workspace.createWorkspace\(\)](http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Workspace.html#createWorkspace\(java.lang.String\)) methods for that.
 
 The JCR 1.0 API does not contain features for creating or managing
 workspaces, so you need to use Jackrabbit-specific functionality for
@@ -104,7 +104,7 @@ repository instance is not running.
 ### How do I deploy Jackrabbit into Tomcat?
 * Download [jcr-1.0.jar](http://www.day.com/maven/javax.jcr/jars/jcr-1.0.jar) and put it into `<tomcat-install-dir>/shared/lib`.
 * Get the WAR distribution from the [Downloads](downloads.html) page and deploy it into Tomcat.
-* Point your browser to `http://**localhost:8080/jackrabbit-webapp-<version>`
+* Point your browser to `http://localhost:8080/jackrabbit-webapp-<version>`
 
 
 Access control

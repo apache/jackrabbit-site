@@ -50,4 +50,4 @@ Interviews
 
 Presentations
 -------------
-* Michael Marth and David Nuescheler, "[Kickstarting JCR: TheServerSide.com as a Content Application](http://www.slideshare.net/uncled/theserverside-kickstarting-jcr)" (March 27, 2008) [TSSJS'08|http://javasymposium.techtarget.com/lasvegas/persistence.html#DNueschelerJCR]
+* Michael Marth and David Nuescheler, "[Kickstarting JCR: TheServerSide.com as a Content Application](http://www.slideshare.net/uncled/theserverside-kickstarting-jcr)" (March 27, 2008) [TSSJS'08](http://javasymposium.techtarget.com/lasvegas/persistence.html#DNueschelerJCR)
