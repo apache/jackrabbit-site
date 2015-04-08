@@ -18,8 +18,11 @@
 Jackrabbit Site Generation
 ==========================
 The Jackrabbit site lives as Markdown files in `src/site/markdown` such
-that it easy to view e.g. from GitHub. Alternatively the Maven site plugin
-can be used to build and deploy a web site as follows:
+that it easy to view e.g. from GitHub. This project only generates the
+content below `https://svn.apache.org/repos/asf/jackrabbit/site/live/jcr`, otherwise
+the scm-publish mechanism is too slow, checking out the entire site.
+
+The Maven site plugin can be used to build and deploy a web site as follows:
 
 1. From the reactor build the site with javadoc:
 
@@ -29,7 +32,7 @@ can be used to build and deploy a web site as follows:
 
 2. Review the site at `target/site/index.html`
 
-3. Deploy the site to `http://jackrabbit.apache.org/` using:
+3. Deploy the site to `http://jackrabbit.apache.org/jcr` using:
 
    ````
    $ mvn site-deploy
@@ -37,14 +40,14 @@ can be used to build and deploy a web site as follows:
 
 4. Finally review the site at `http://jackrabbit.apache.org/`.
 
-
 Note: To skip the final commit use `-Dscmpublish.skipCheckin=true`. You can then
 review all pending changes in `target/scmpublish-checkout` and follow
 up with `svn commit` manually.
 
+
 Note: Every committer should be able to deploy the site. No fiddling with
 credentials needed since deployment is done via svn commit to
-`https://svn.apache.org/repos/asf/jackrabbit/site/live`.
+`https://svn.apache.org/repos/asf/jackrabbit/site/live/jcr`.
 
 Note: The current scm-publish plugin can't exclude the some scm paths properly, that is why the checkout takes some
 time.

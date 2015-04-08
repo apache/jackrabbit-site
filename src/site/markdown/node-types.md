@@ -24,6 +24,7 @@ have Jackrabbit enforce the constraints of that model at the repository
 level.
 
 also see:
+
 * [Node Type Notation](node-type-notation.html) 
 * [Node Type Visualization](node-type-visualization.html)
 

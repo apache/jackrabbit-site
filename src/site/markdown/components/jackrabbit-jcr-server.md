@@ -73,4 +73,4 @@ and [Jackrabbit JCR Client], respectively.
 
 Further reading:
 
-* http://jackrabbit.apache.org/JCR_Webdav_Protocol.doc
+* [JCR_Webdav_Protocol.doc](../JCR_Webdav_Protocol.doc)

@@ -89,6 +89,10 @@
                     <content>target/site</content>
                     <checkinComment>@trivial: Site checkin for project ${project.name}-${project.version}
                     </checkinComment>
+                    <!--
+
+                    this is not needed right now, since we deploy to site/jcr
+
                     <ignorePathsToDelete>
                         <ignorePathToDelete>analytics/**</ignorePathToDelete>
                         <ignorePathToDelete>api/**</ignorePathToDelete>
@@ -98,6 +102,7 @@
                         <ignorePathToDelete>oak/**</ignorePathToDelete>
                     </ignorePathsToDelete>
                     <excludes>analytics,api,api-1,dev,filevault,oak</excludes>
+                    -->
                 </configuration>
             </plugin>
             <plugin>
@@ -150,7 +155,7 @@
     <distributionManagement>
         <site>
             <id>jackrabbit.site-deploy</id>
-            <url>scm:svn:https://svn.apache.org/repos/asf/jackrabbit/site/staging-test</url>
+            <url>scm:svn:https://svn.apache.org/repos/asf/jackrabbit/site/live/jcr</url>
         </site>
     </distributionManagement>
 

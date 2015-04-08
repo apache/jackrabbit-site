@@ -1,8 +1,0 @@
-RewriteEngine on
-RewriteBase /
-
-DirectoryIndex index.html
-
-RewriteRule ^index.html        http://jackrabbit.apache.org/ [R,L]
-RewriteRule ^faq.html          http://jackrabbit.apache.org/frequently-asked-questions.html [R,L]
-RewriteRule ^downloads.cgi     http://jackrabbit.apache.org/downloads.html [R,L]
