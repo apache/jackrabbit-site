@@ -49,5 +49,3 @@ Note: Every committer should be able to deploy the site. No fiddling with
 credentials needed since deployment is done via svn commit to
 `https://svn.apache.org/repos/asf/jackrabbit/site/live/jcr`.
 
-Note: The current scm-publish plugin can't exclude the some scm paths properly, that is why the checkout takes some
-time.
