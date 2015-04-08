@@ -1,8 +1,0 @@
-_From the [minutes|http://www.apache.org/foundation/records/minutes/2004/board_minutes_2004_10_20.txt] of the Apache board meeting on October 20th, 2004:_
-
-
-The Jackrabbit project has completed all of the Incubator checklist items in terms of moving to Apache and getting the IP transfer done. With the help of Maven, we have a full website set up at
-
-* http://incubator.apache.org/jackrabbit/
-
-with a few link bugs due to the svn/viewcvs integration. Our big task from now to graduation is to get the community more involved in development, planning features, integrating with some of the DB projects, and scoping out interesting applications to build on top of the interface. 

@@ -1,9 +1,0 @@
-Title: Jackrabbit SPI Commons
-This is the SPI Commons component of the Apache Jackrabbit project. This
-component contains a number of general-purpose classes for use with SPI
-implementations: This also includes default implementations for the various
-*Info interfaces and for those interfaces that define the internal
-representation of JCR names, paths and Item identifiers.
-
-In addition this component provides utilities used to convert JCR name and
-path Strings as well as values to their corresponding SPI representation.
