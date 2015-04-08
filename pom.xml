@@ -51,15 +51,26 @@
     <!-- ====================================================================== -->
     <build>
         <plugins>
+            <!-- ====================================================================== -->
+            <!-- S I T E    P L U G I N                                                 -->
+            <!-- ====================================================================== -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.3</version>
                 <configuration>
+                    <skipDeploy>true</skipDeploy>
                     <generateReports>true</generateReports>
                     <skip>false</skip>
                     <relativizeDecorationLinks>false</relativizeDecorationLinks>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.maven.doxia</groupId>
+                        <artifactId>doxia-module-markdown</artifactId>
+                        <version>1.5</version>
+                    </dependency>
+                </dependencies>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -79,8 +90,14 @@
                     <checkinComment>@trivial: Site checkin for project ${project.name}-${project.version}
                     </checkinComment>
                     <ignorePathsToDelete>
-                        <ignorePathToDelete>apidocs</ignorePathToDelete>
+                        <ignorePathToDelete>analytics/**</ignorePathToDelete>
+                        <ignorePathToDelete>api/**</ignorePathToDelete>
+                        <ignorePathToDelete>api-1/**</ignorePathToDelete>
+                        <ignorePathToDelete>dev/**</ignorePathToDelete>
+                        <ignorePathToDelete>filevault/**</ignorePathToDelete>
+                        <ignorePathToDelete>oak/**</ignorePathToDelete>
                     </ignorePathsToDelete>
+                    <excludes>analytics,api,api-1,dev,filevault,oak</excludes>
                 </configuration>
             </plugin>
             <plugin>
@@ -133,7 +150,7 @@
     <distributionManagement>
         <site>
             <id>jackrabbit.site-deploy</id>
-            <url>scm:svn:https://svn.apache.org/repos/asf/jackrabbit/site/live/JCR</url>
+            <url>scm:svn:https://svn.apache.org/repos/asf/jackrabbit/site/staging-test</url>
         </site>
     </distributionManagement>
 

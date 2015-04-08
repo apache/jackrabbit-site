@@ -15,8 +15,6 @@
    limitations under the License.
   -->
 
-**WORK IN PROGRESS**
-
 Jackrabbit Site Generation
 ==========================
 The Jackrabbit site lives as Markdown files in `src/site/markdown` such
@@ -37,7 +35,7 @@ can be used to build and deploy a web site as follows:
    $ mvn site-deploy
    ````
 
-4. Finally review the site at `http://jackrabbit.apache.org/index.html`.
+4. Finally review the site at `http://jackrabbit.apache.org/`.
 
 
 Note: To skip the final commit use `-Dscmpublish.skipCheckin=true`. You can then
@@ -46,4 +44,7 @@ up with `svn commit` manually.
 
 Note: Every committer should be able to deploy the site. No fiddling with
 credentials needed since deployment is done via svn commit to
-`https://svn.apache.org/repos/asf/jackrabbit/site/live/JCR`.
+`https://svn.apache.org/repos/asf/jackrabbit/site/live`.
+
+Note: The current scm-publish plugin can't exclude the some scm paths properly, that is why the checkout takes some
+time.
