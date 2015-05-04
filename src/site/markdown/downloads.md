@@ -21,7 +21,7 @@ mirrors. You should [verify the integrity](#verify.html) of the files using
 the signatures and checksums available from this page.
 
 * Latest stable release: [Apache Jackrabbit 2.10.0](#v2.10)
-* Jackrabbit Oak release: [Apache Jackrabbit Oak 1.2.1](#oak)
+* Jackrabbit Oak release: [Apache Jackrabbit Oak 1.2.2](#oak)
 * Maintenance releases:
     [Apache Jackrabbit Oak 1.0.12](#oak1.0)
     [Apache Jackrabbit 2.8.0](#v2.8), 
@@ -38,19 +38,19 @@ Some Jackrabbit components contain external code with licenses that meet [Apache
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
 <a class='anchor' name='oak'></a>
-Apache Jackrabbit Oak 1.2.1 (April 20th, 2015)
+Apache Jackrabbit Oak 1.2.2 (May 4th, 2015)
 ----------------------------------------------
-Jackrabbit Oak 1.2.1 is patch release that contains fixes and improvements over
-the previous 1.2.0 release. 
+Jackrabbit Oak 1.2.2 is patch release that contains fixes and improvements over
+the previous 1.2.1 release. 
 Jackrabbit Oak 1.2.x releases are considered stable and targeted for
 production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.1/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.2/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.2.1-src.zip](http://www.apache.org/dyn/closer.cgi/jackrabbit/oak/1.2.1/jackrabbit-oak-1.2.1-src.zip)
-    (5.7M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.1/jackrabbit-oak-1.2.1-src.zip.asc))
-    <br/>SHA1 checksum: `13fa420f0286b6177bf5a61dfddcac8283d50715`
-    <br/>MD5  checksum: `afd480f5b856ff25c1d06529c2cb777d`
+* [jackrabbit-oak-1.2.2-src.zip](http://www.apache.org/dyn/closer.cgi/jackrabbit/oak/1.2.2/jackrabbit-oak-1.2.2-src.zip)
+    (5.7M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.2/jackrabbit-oak-1.2.2-src.zip.asc))
+    <br/>SHA1 checksum: `5dfca8cf1c4ed26879e8b9af44bc7a14ed74d56f`
+    <br/>MD5  checksum: `09fb8240d0e8ecd38e72fccf10bda508`
   
 
 <a class='anchor' name='oak1.0'></a>
