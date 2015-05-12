@@ -24,7 +24,7 @@ the scm-publish mechanism is too slow, checking out the entire site.
 
 The Maven site plugin can be used to build and deploy a web site as follows:
 
-1. From the reactor build the site with javadoc:
+1. In this project build the site with:
 
    ````
    $ mvn site

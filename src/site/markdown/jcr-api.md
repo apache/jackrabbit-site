@@ -28,6 +28,10 @@ repository  but are not (yet) specified by JCR. (see [Jackrabbit Architecture](j
 See the javadoc documentation of the JCR API and Apache Jackrabbit releases:
 
 * [JCR 2.0](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/)
+* [Apache Jackrabbit 2.10](http://jackrabbit.apache.org/api/2.10/)
+* [Apache Jackrabbit 2.8](http://jackrabbit.apache.org/api/2.8/)
+* [Apache Jackrabbit 2.6](http://jackrabbit.apache.org/api/2.6/)
+* [Apache Jackrabbit 2.4](http://jackrabbit.apache.org/api/2.4/)
 * [Apache Jackrabbit 2.2](http://jackrabbit.apache.org/api/2.2/)
 * [Apache Jackrabbit 2.1](http://jackrabbit.apache.org/api/2.1/)
 * [Apache Jackrabbit 2.0](http://jackrabbit.apache.org/api/2.0/)
