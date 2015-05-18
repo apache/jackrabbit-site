@@ -23,7 +23,7 @@ the signatures and checksums available from this page.
 * Latest stable release: [Apache Jackrabbit 2.10.0](#v2.10)
 * Jackrabbit Oak release: [Apache Jackrabbit Oak 1.2.2](#oak)
 * Maintenance releases:
-    [Apache Jackrabbit Oak 1.0.12](#oak1.0)
+    [Apache Jackrabbit Oak 1.0.14](#oak1.0)
     [Apache Jackrabbit 2.8.0](#v2.8), 
     [Apache Jackrabbit 2.6.5](#v2.6), 
     [Apache Jackrabbit 2.4.5](#v2.4), 
@@ -54,7 +54,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.2/REL
   
 
 <a class='anchor' name='oak1.0'></a>
-Apache Jackrabbit Oak 1.0.14 (March 10th, 2015)
+Apache Jackrabbit Oak 1.0.14 (May 18th, 2015)
 -----------------------------------------------
 Jackrabbit Oak 1.0.14 is patch release that contains fixes and improvements over the previous 1.0.13 release. 
 Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
