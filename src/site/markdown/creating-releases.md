@@ -84,6 +84,8 @@ Release management tasks
     5. close all the issues included in the release: Jira Project Home -> Change Log -> Choose the released version. From the issue list you have the option to bulk update all of the included issues. Just 'Transition Issues' from 'Resolved' to 'Closed' and you are done!
 
 9. Update the Jackrabbit web site to point to the new release.
+    1. index.md
+    2. downloads.md
 10. Send the release announcement once the web site and download mirrors have been synced. Please note the announce mails needs to be sent from an @apache.org address.
 
 
