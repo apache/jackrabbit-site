@@ -37,6 +37,13 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 Apache Jackrabbit News
 ----------------------
 
+##### May 21st, 2015: Apache Jackrabbit 2.10.1 released
+Apache Jackrabbit 2.10.1 is a patch release that contains fixes and improvements 
+over the previous 2.10.0 release.
+This release also contains an important security fix in the jackrabbit-webdav 
+module. Users of this module are advised to immediately update to this release.
+See the [downloads](downloads.html#v2.10) page and the [release notes](http://www.apache.org/dist/jackrabbit/2.10.1/RELEASE-NOTES.txt) for more details.
+
 ##### May 18th, 2015: Apache Jackrabbit Oak 1.0.14 released
 Jackrabbit Oak 1.0.14 is a patch release that contains fixes and improvements over the previous 1.0.13 release.
 See the [downloads](downloads.html#oak1.0) page for more details.
@@ -63,7 +70,7 @@ See the downloads page for more details.
 
 ##### March 26th, 2015: Apache Jackrabbit 2.10.0 released
 Apache Jackrabbit 2.10 is an incremental feature release based on and compatible with earlier stable Jackrabbit 2.x releases. 
-See the [downloads](downloads.html#v2.10) page for more details.
+See the downloads page for more details.
 
 ##### March 10th, 2015: Apache Jackrabbit Oak 1.0.12 released
 Jackrabbit Oak 1.0.12 is a patch release that contains fixes and improvements over the previous 1.0.11 release. 
