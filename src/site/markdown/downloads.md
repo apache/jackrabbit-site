@@ -75,22 +75,22 @@ Jackrabbit 2.10.x releases are considered stable and targeted for production use
 
 See the [full release notes](http://www.apache.org/dist/jackrabbit/2.10.1/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-2.10.1-src.zip](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.10.1/jackrabbit-2.10.1-src.zip)
+* [jackrabbit-2.10.1-src.zip](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.10.1/jackrabbit-2.10.1-src.zip?update=201505210925)
     (13M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.1/jackrabbit-2.10.1-src.zip.asc))
     <br/>SHA1 checksum: `0468f349d82aaca9ddbc13bfff0e44629be36f30`
     <br/>MD5  checksum: `73083d72ce59002f11f7cf503ec3e261`
 
-* [jackrabbit-standalone-2.10.1.jar](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.10.1/jackrabbit-standalone-2.10.1.jar) 
+* [jackrabbit-standalone-2.10.1.jar](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.10.1/jackrabbit-standalone-2.10.1.jar?update=201505210925) 
     (75M, standalone server, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.1/jackrabbit-standalone-2.10.1.jar.asc))
     <br/>SHA1 checksum: `18fc2ee3518cc6ffbe6c0604622de4a6f9cef6ec`
     <br/>MD5  checksum: `ce7cbeda32ee8fdda7ab14e23b833701`
 
-* [jackrabbit-webapp-2.10.1.war](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.10.1/jackrabbit-webapp-2.10.1.war)
+* [jackrabbit-webapp-2.10.1.war](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.10.1/jackrabbit-webapp-2.10.1.war?update=201505210925)
     (32M, web application, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.1/jackrabbit-webapp-2.10.1.war.asc))
     <br/>SHA1 checksum: `cc44fa77d3dd54e4da3772cdc0d01e9b12e21313`
     <br/>MD5  checksum: `ec615edafaca7e60339b98c5e226a72f`
 
-* [jackrabbit-jca-2.10.1.rar](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.10.1/jackrabbit-jca-2.10.1.rar) 
+* [jackrabbit-jca-2.10.1.rar](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.10.1/jackrabbit-jca-2.10.1.rar?update=201505210925) 
     (25M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.1/jackrabbit-jca-2.10.1.rar.asc))
     <br/>SHA1 checksum: `77e774c3f04f0bdff5d3009271a2a64b5996de4c`
     <br/>MD5  checksum: `d4818172a939a314369afb9e66b4a83c`
