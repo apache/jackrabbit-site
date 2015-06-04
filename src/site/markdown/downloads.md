@@ -24,7 +24,7 @@ the signatures and checksums available from this page.
 * Jackrabbit Oak release: [Apache Jackrabbit Oak 1.2.2](#oak)
 * Maintenance releases:
     [Apache Jackrabbit Oak 1.0.14](#oak1.0)
-    [Apache Jackrabbit 2.8.0](#v2.8), 
+    [Apache Jackrabbit 2.8.1](#v2.8), 
     [Apache Jackrabbit 2.6.5](#v2.6), 
     [Apache Jackrabbit 2.4.5](#v2.4), 
     [Apache Jackrabbit 2.2.13](#v2.2)
@@ -97,32 +97,32 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.10.1/RELEAS
 
 
 <a class='anchor' name='v2.8'></a>
-Apache Jackrabbit 2.8 (May 12, 2014)
-------------------------------------
-Apache Jackrabbit 2.8.0 is an incremental feature release based on and compatible with earlier 
+Apache Jackrabbit 2.8 (June 4th, 2015)
+--------------------------------------
+Apache Jackrabbit 2.8.1 is an incremental feature release based on and compatible with earlier 
 stable Jackrabbit 2.x releases. Jackrabbit 2.8.x releases are considered stable and targeted for production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/2.8.0/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/2.8.1/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-2.8.0-src.zip](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.8.0/jackrabbit-2.8.0-src.zip) 
-    (13M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/2.8.0/jackrabbit-2.8.0-src.zip.asc))
-    <br/>SHA1 checksum: `664045527ebd663e4bd7536658fb18c9b639375b`
-    <br/>MD5  checksum: `9ceb32fe06d852d739b5b2b4cc0a45d0`
+* [jackrabbit-2.8.1-src.zip](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.8.1/jackrabbit-2.8.1-src.zip) 
+    (13M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/2.8.1/jackrabbit-2.8.1-src.zip.asc))
+    <br/>SHA1 checksum: `04daebcf1c95044852239a00e85de6996e1b8bd2`
+    <br/>MD5  checksum: `dae98714b1a55e6868a197e820dc939c`
 
-* [jackrabbit-standalone-2.8.0.jar](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.8.0/jackrabbit-standalone-2.8.0.jar) 
-    (73M, standalone server, [PGP signature](http://www.apache.org/dist/jackrabbit/2.8.0/jackrabbit-standalone-2.8.0.jar.asc))
+* [jackrabbit-standalone-2.8.1.jar](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.8.1/jackrabbit-standalone-2.8.1.jar) 
+    (73M, standalone server, [PGP signature](http://www.apache.org/dist/jackrabbit/2.8.1/jackrabbit-standalone-2.8.1.jar.asc))
     <br/>SHA1 checksum: `6b6ad5db662094d0b4a95df3fc29ec00d0fda5ca`
-    <br/>MD5  checksum: `171e3c8f25cfe8a02472fada8f887e0c`
+    <br/>MD5  checksum: `1e08dd5c0dfbe5ea1b04c28969f2ed56`
 
-* [jackrabbit-webapp-2.8.0.war](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.8.0/jackrabbit-webapp-2.8.0.war) 
-    (31M, web application, [PGP signature](http://www.apache.org/dist/jackrabbit/2.8.0/jackrabbit-webapp-2.8.0.war.asc))
-    <br/>SHA1 checksum: `e67c62452b67ac910cd804a188c4dd12bb128ad8`
-    <br/>MD5  checksum: `e5dbcac39bb706681a96cdd599632396`
+* [jackrabbit-webapp-2.8.1.war](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.8.1/jackrabbit-webapp-2.8.1.war) 
+    (31M, web application, [PGP signature](http://www.apache.org/dist/jackrabbit/2.8.1/jackrabbit-webapp-2.8.1.war.asc))
+    <br/>SHA1 checksum: `5d62cf68bc245638f6b0eda4bdfa0c6f59c16f37`
+    <br/>MD5  checksum: `479552fe26e827c97f32ff666262d93e`
 
-* [jackrabbit-jca-2.8.0.rar](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.8.0/jackrabbit-jca-2.8.0.rar) 
-    (26M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.8.0/jackrabbit-jca-2.8.0.rar.asc))
-    <br/>SHA1 checksum: `5b49a2d8f60c0d8100aaff219f20cfb21382f4c7`
-    <br/>MD5  checksum: `0ce6a6a052d722064ffc41362b056ed9`
+* [jackrabbit-jca-2.8.1.rar](http://www.apache.org/dyn/closer.cgi/jackrabbit/2.8.1/jackrabbit-jca-2.8.1.rar) 
+    (26M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.8.1/jackrabbit-jca-2.8.1.rar.asc))
+    <br/>SHA1 checksum: `260c97fbe2880da9ec8d5105330d54fd4b5baf3f`
+    <br/>MD5  checksum: `e06cfba81d8e111d5409af4fe72f11a5`
 
 
 <a class='anchor' name='v2.6'></a>
