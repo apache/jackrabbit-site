@@ -37,6 +37,10 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 Apache Jackrabbit News
 ----------------------
 
+##### June 16th, 2015: Apache Jackrabbit Oak 1.0.15 released
+Jackrabbit Oak 1.0.15 is a patch release that contains fixes and improvements over the previous 1.0.14 release.
+See the [downloads](downloads.html#oak1.0) page for more details.
+
 ##### June 4th, 2015: Apache Jackrabbit 2.8.1 released
 Apache Jackrabbit 2.8.1 is an incremental feature release based on and compatible with earlier stable Jackrabbit 2.x releases. 
 See the [downloads](downloads.html#v2.8) page for more details.
@@ -50,7 +54,6 @@ See the [downloads](downloads.html#v2.10) page and the [release notes](http://ww
 
 ##### May 18th, 2015: Apache Jackrabbit Oak 1.0.14 released
 Jackrabbit Oak 1.0.14 is a patch release that contains fixes and improvements over the previous 1.0.13 release.
-See the [downloads](downloads.html#oak1.0) page for more details.
 
 ##### May the 4th be with you, 2015: Apache Jackrabbit Oak 1.2.2 released
 Jackrabbit Oak 1.2.2 is a patch release that contains fixes and improvements over the previous 1.2.1 release. 
@@ -58,11 +61,9 @@ See the [downloads](downloads.html#oak) page for more details.
 
 ##### April 20th, 2015: Apache Jackrabbit Oak 1.2.1 released
 Jackrabbit Oak 1.2.1 is a patch release that contains fixes and improvements over the previous 1.2.0 release. 
-See the downloads page for more details.
 
 ##### April 13th, 2015: Apache Jackrabbit Oak 1.2 released
 Apache Jackrabbit Oak 1.2 is an incremental feature release based on and compatible with earlier stable Jackrabbit Oak 1.x releases. 
-See the downloads page for more details.
 
 ##### April 7th, 2015: Apache Jackrabbit FileVault 3.1.18 released
 Jackrabbit FileVault 3.1.18 is current stable release of the recently donated repository content synchronization tool. 
@@ -78,7 +79,6 @@ See the downloads page for more details.
 
 ##### March 10th, 2015: Apache Jackrabbit Oak 1.0.12 released
 Jackrabbit Oak 1.0.12 is a patch release that contains fixes and improvements over the previous 1.0.11 release. 
-See the [downloads](downloads.html#oak1.0) page for more details.
 
 ##### March 9th, 2015: Apache Jackrabbit Oak 1.1.7 released
 Jackrabbit Oak 1.1.7 is an unstable release cut directly from trunk, with a focus on new features and other improvements. 
