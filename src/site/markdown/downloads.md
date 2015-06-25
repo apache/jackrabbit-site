@@ -38,18 +38,17 @@ Some Jackrabbit components contain external code with licenses that meet [Apache
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
 <a class='anchor' name='oak1.3'></a>
-Apache Jackrabbit Oak 1.3.0 (Jun 15th, 2015)
+Apache Jackrabbit Oak 1.3.1 (Jun 25th, 2015)
 ----------------------------------------------
-Apache Jackrabbit Oak 1.3.0 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements. 
+Apache Jackrabbit Oak 1.3.1 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements. 
 For production use we recommend the latest stable 1.2.x release.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.3.0/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.3.1/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.3.0-src.zip](http://www.apache.org/dyn/closer.cgi/jackrabbit/oak/1.3.0/jackrabbit-oak-1.3.0-src.zip)
-    (5.7M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.3.0/jackrabbit-oak-1.3.0-src.zip.asc))
-    <br/>SHA1 checksum: `b66b9730f5418d97c721ff987c6505dfba90e8fe`
-    <br/>MD5  checksum: `5457307cc89e296dd8a935ae483ba633`
-  
+* [jackrabbit-oak-1.3.1-src.zip](http://www.apache.org/dyn/closer.cgi/jackrabbit/oak/1.3.1/jackrabbit-oak-1.3.1-src.zip)
+    (5.7M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.3.1/jackrabbit-oak-1.3.1-src.zip.asc))
+    <br/>SHA1 checksum: `38d63c3050e909525ca6e077124f29eed04f421b`
+    <br/>MD5  checksum: `62aface1c728ddf5b60156a70a3acc66`
 
 <a class='anchor' name='oak'></a>
 Apache Jackrabbit Oak 1.2.2 (May 4th, 2015)
