@@ -23,7 +23,7 @@ the signatures and checksums available from this page.
 * Latest stable release: [Apache Jackrabbit 2.10.1](#v2.10)
 * Jackrabbit Oak release: [Apache Jackrabbit Oak 1.2.2](#oak)
 * Maintenance releases:
-    [Apache Jackrabbit Oak 1.0.15](#oak1.0),
+    [Apache Jackrabbit Oak 1.0.16](#oak1.0),
     [Apache Jackrabbit 2.8.1](#v2.8), 
     [Apache Jackrabbit 2.6.5](#v2.6), 
     [Apache Jackrabbit 2.4.5](#v2.4), 
@@ -67,17 +67,17 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.2/REL
   
 
 <a class='anchor' name='oak1.0'></a>
-Apache Jackrabbit Oak 1.0.15 (June 16th, 2015)
+Apache Jackrabbit Oak 1.0.16 (June 29th, 2015)
 -----------------------------------------------
-Jackrabbit Oak 1.0.15 is patch release that contains fixes and improvements over the previous 1.0.14 release. 
+Jackrabbit Oak 1.0.16 is patch release that contains fixes and improvements over the previous 1.0.15 release. 
 Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.15/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.16/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.0.15-src.zip](http://www.apache.org/dyn/closer.cgi/jackrabbit/oak/1.0.15/jackrabbit-oak-1.0.15-src.zip)
-    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.15/jackrabbit-oak-1.0.15-src.zip.asc))
-    <br/>SHA1 checksum: `6c23cbea8ca5d7b10b94d43c1c970e8e9e4917e5`
-    <br/>MD5  checksum: `bf6bcbdce6ea492ddf0a72f60fb78689`
+* [jackrabbit-oak-1.0.16-src.zip](http://www.apache.org/dyn/closer.cgi/jackrabbit/oak/1.0.16/jackrabbit-oak-1.0.16-src.zip)
+    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.16/jackrabbit-oak-1.0.16-src.zip.asc))
+    <br/>SHA1 checksum: `e2a0192a6374c841bff1b531e3e0ba0cd6defc94`
+    <br/>MD5  checksum: `1b552ff261c6a3b60dd5bd31cea0d69b`
 
 
 <a class='anchor' name='v2.10'></a>
