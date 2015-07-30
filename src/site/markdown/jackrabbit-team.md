@@ -44,6 +44,7 @@ Jackrabbit committers
 | clombart        | Christophe Lombart  | &nbsp; |
 | davide          | Davide Giannella  |  [Adobe](http://www.adobe.com/)  |
 | dbrosius        | David Brosius  | &nbsp; |
+| dj              | Dominique J&auml;ggi  |  [Adobe](http://www.adobe.com/)  |
 | dpfister        | Dominique Pfister  |  [Adobe](http://www.adobe.com/)  |
 | draier          | Thomas Draier  | &nbsp; |
 | eaf             | Esteban Franqueiro  |  [BEA](http://www.bea.com/)  |
