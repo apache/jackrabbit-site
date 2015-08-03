@@ -23,7 +23,7 @@ the signatures and checksums available from this page.
 * Latest stable release: [Apache Jackrabbit 2.10.1](#v2.10)
 * Jackrabbit Oak release: [Apache Jackrabbit Oak 1.2.2](#oak)
 * Maintenance releases:
-    [Apache Jackrabbit Oak 1.0.17](#oak1.0),
+    [Apache Jackrabbit Oak 1.0.18](#oak1.0),
     [Apache Jackrabbit 2.8.1](#v2.8), 
     [Apache Jackrabbit 2.6.5](#v2.6), 
     [Apache Jackrabbit 2.4.5](#v2.4), 
@@ -67,18 +67,17 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.3/REL
   
 
 <a class='anchor' name='oak1.0'></a>
-Apache Jackrabbit Oak 1.0.17 (July 13th, 2015)
+Apache Jackrabbit Oak 1.0.18 (August 3rd, 2015)
 -----------------------------------------------
-Jackrabbit Oak 1.0.17 is patch release that contains fixes and improvements over the previous 1.0.16 release. 
+Jackrabbit Oak 1.0.18 is patch release that contains fixes and improvements over the previous 1.0.17 release. 
 Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.17/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.18/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.0.17-src.zip](http://www.apache.org/dyn/closer.cgi/jackrabbit/oak/1.0.17/jackrabbit-oak-1.0.17-src.zip)
-    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.17/jackrabbit-oak-1.0.17-src.zip.asc))
-    <br/>SHA1 checksum: `89a6aa9d00aab0fe7a82eab3582010b90c715592`
-    <br/>MD5  checksum: `c09b86cc2b3117e77fcb721e1a928f56`
-
+* [jackrabbit-oak-1.0.18-src.zip](http://www.apache.org/dyn/closer.cgi/jackrabbit/oak/1.0.18/jackrabbit-oak-1.0.18-src.zip)
+    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.18/jackrabbit-oak-1.0.18-src.zip.asc))
+    <br/>SHA1 checksum: `ef8e68edfef9b0c1470fe9de4d10d127f741633b`
+    <br/>MD5  checksum: `54755a8d10775a54de9fc9ee2f37fe41`
 
 <a class='anchor' name='v2.10'></a>
 Apache Jackrabbit 2.10.1 (May 21st, 2015)
