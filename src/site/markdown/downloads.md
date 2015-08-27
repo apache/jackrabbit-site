@@ -21,7 +21,7 @@ mirrors. You should [verify the integrity](#verify.html) of the files using
 the signatures and checksums available from this page.
 
 * Latest stable release: [Apache Jackrabbit 2.10.1](#v2.10)
-* Jackrabbit Oak release: [Apache Jackrabbit Oak 1.2.3](#oak)
+* Jackrabbit Oak release: [Apache Jackrabbit Oak 1.2.4](#oak)
 * Maintenance releases:
     [Apache Jackrabbit Oak 1.0.19](#oak1.0),
     [Apache Jackrabbit 2.8.1](#v2.8), 
@@ -51,19 +51,19 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.3.4/REL
     <br/>MD5  checksum: `94363631bb4c9b4f8f36a7ec7667c5d6`
 
 <a class='anchor' name='oak'></a>
-Apache Jackrabbit Oak 1.2.3 (Jul 24th, 2015)
+Apache Jackrabbit Oak 1.2.4 (August 27th, 2015)
 ----------------------------------------------
-Jackrabbit Oak 1.2.3 is patch release that contains fixes and improvements over
-the previous 1.2.2 release. 
+Jackrabbit Oak 1.2.4 is patch release that contains fixes and improvements over
+the previous 1.2.3 release. 
 Jackrabbit Oak 1.2.x releases are considered stable and targeted for
 production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.3/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.4/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.2.3-src.zip](http://www.apache.org/dyn/closer.cgi/jackrabbit/oak/1.2.3/jackrabbit-oak-1.2.3-src.zip)
-    (5.7M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.3/jackrabbit-oak-1.2.3-src.zip.asc))
-    <br/>SHA1 checksum: `d8f467b0b02d5a2f182764dd2efd5d877c5d6e68`
-    <br/>MD5  checksum: `0589c76c849fa707097c1fc74181cc0e`
+* [jackrabbit-oak-1.2.4-src.zip](http://www.apache.org/dyn/closer.cgi/jackrabbit/oak/1.2.4/jackrabbit-oak-1.2.4-src.zip)
+    (5.7M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.4/jackrabbit-oak-1.2.4-src.zip.asc))
+    <br/>SHA1 checksum: `24c667100a89553bd4689cd0fbd580bc1af3bc57`
+    <br/>MD5  checksum: `b7d7619ded2d74838dc5f0454238cbac`
   
 
 <a class='anchor' name='oak1.0'></a>
