@@ -51,7 +51,9 @@ Jackrabbit committers
 | edgarpoce       | [Edgar Poce](mailto:edgarpoce@gmail.com)  | &nbsp; |
 | fielding        | Roy T. Fielding  |  [Adobe](http://www.adobe.com/)  |
 | fmeschbe        | Felix Meschberger  |  [Adobe](http://www.adobe.com/)  |
+| frm             | Francesco Mari  |  [Adobe](http://www.adobe.com/)  | 
 | halderen        | Berry van Halderen  | &nbsp; |
+| jsedding        | Julian Sedding | &nbsp |
 | jukka           | [Jukka Zitting](mailto:jukka.zitting@gmail.com) |  [Adobe](http://www.adobe.com/)  |
 | justin          | Justin Edelson  |  [Adobe](http://www.adobe.com/)  |
 | martijnh        | Martijn Hendriks  |  [GX](http://www.gx.nl/)  |
@@ -65,6 +67,7 @@ Jackrabbit committers
 | rhauch          | Randall Hauch  | &nbsp; |
 | schans          | Bart van der Schans  |  [Hippo](http://www.hippo.nl/)  |
 | sebastien       | S&eacute;bastien Launay  |  [Anyware Technologies](http://www.anyware-tech.com/)  |
+| shashank        | Shashank Gupta  |  [Adobe](http://www.adobe.com/)  |
 | shuber          | Serge Huber  | &nbsp; |
 | stefan          | Stefan Guggisberg  |  [Adobe](http://www.adobe.com/)  |
 | sylvain         | Sylvain Wallez  | &nbsp; |
