@@ -38,7 +38,7 @@ Some Jackrabbit components contain external code with licenses that meet [Apache
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
 <a class='anchor' name='oak1.3'></a>
-Apache Jackrabbit Oak 1.3.5 (Aug 21st, 2015)
+Apache Jackrabbit Oak 1.3.5 (Sep 4th, 2015)
 ----------------------------------------------
 Apache Jackrabbit Oak 1.3.5 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements. 
 For production use we recommend the latest stable 1.2.x release.
