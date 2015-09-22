@@ -37,21 +37,29 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 Apache Jackrabbit News
 ----------------------
 
+##### September 22nd, 2015: Apache Jackrabbit Oak 1.2.6 released
+Jackrabbit Oak 1.2.6 is a patch release that contains fixes and improvements over the previous 1.2.4 release. 
+See the [downloads](downloads.html#oak) page for more details.
+
+##### September 22nd, 2015: Apache Jackrabbit Oak 1.0.21 released
+Jackrabbit Oak 1.0.21 is a patch release that contains fixes and improvements over the previous 1.0.x release.
+See the [downloads](downloads.html#oak1.0) page for more details
+
+##### September 22nd, 2015: Apache Jackrabbit Oak 1.3.6 released
+Jackrabbit Oak 1.3.6 is an unstable release cut directly from trunk, with a focus on new features and other improvements. 
+See the [downloads](downloads.html#oak1.3) page for more details.
+
 ##### September 4th, 2015: Apache Jackrabbit Oak 1.3.5 released
 Jackrabbit Oak 1.3.5 is an unstable release cut directly from trunk, with a focus on new features and other improvements. 
-See the [downloads](downloads.html#oak1.3) page for more details.
 
 ##### August 27th, 2015: Apache Jackrabbit Oak 1.2.4 released
 Jackrabbit Oak 1.2.4 is a patch release that contains fixes and improvements over the previous 1.2.3 release. 
-See the [downloads](downloads.html#oak) page for more details.
 
 ##### August 24th, 2015: Apache Jackrabbit Oak 1.0.19 released
 Jackrabbit Oak 1.0.19 is a patch release that contains fixes and improvements over the previous 1.0.x release.
-See the [downloads](downloads.html#oak1.0) page for more details
 
 ##### August 21st, 2015: Apache Jackrabbit Oak 1.3.4 released
 Jackrabbit Oak 1.3.4 is an unstable release cut directly from trunk, with a focus on new features and other improvements. 
-See the [downloads](downloads.html#oak1.3) page for more details.
 
 ##### August 17th, 2015: Apache Jackrabbit 2.11.0 released
 Jackrabbit 2.11.0 is an unstable release cut directly from trunk, with a focus on new features and other improvements. 
