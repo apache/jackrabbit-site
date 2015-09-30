@@ -231,7 +231,7 @@ Jan Peter Stotz<br/>
 Jarle B. Hjortland<br/>
 Jason Gritman<br/>
 Jason Thrasher<br/>
-Jason Wagggoner<br/>
+Jason Waggoner<br/>
 Jeremi Joslin<br/>
 Jim Cross<br/>
 John Brodeur<br/>
@@ -242,7 +242,7 @@ Joseph Chen<br/>
 Joseph Toth<br/>
 Joshua Levy<br/>
 Jozef Wagner<br/>
-Juan Jose Vazquez Delgado<br/>
+Juan Jos&eacute; V&aacute;zquez Delgado<br/>
 Julian Klein<br/>
 Julian Sedding<br/>
 Julio Castillo<br/>
@@ -268,7 +268,7 @@ Mark Moales<br/>
 Mark Slater<br/>
 Markus Joschko<br/>
 Mark Waschkowski<br/>
-Martin Koci<br/>
+Martin Ko&#269;&iacute;<br/>
 Martin Perez<br/>
 Martin Schreiber<br/>
 Martin van den Bemt<br/>
@@ -339,7 +339,7 @@ Philipp Koch<br/>
 Philipp Salzgeber<br/>
 Piotr Przybylak<br/>
 Prakash Reddy<br/>
-RafaÅ‚ KwiecieÅ„<br/>
+Rafa&#322; Kwiecie&#324;<br/>
 Raffaele Sena<br/>
 Ragy Eleish<br/>
 Rajesh Upadhyay<br/>
