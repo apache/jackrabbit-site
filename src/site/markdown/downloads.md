@@ -82,7 +82,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.21/RE
 
 
 <a class='anchor' name='2.11'></a>
-## Apache Jackrabbit 2.11.1 (August 17th, 2015)
+## Apache Jackrabbit 2.11.1 (October 5th, 2015)
 
 Apache Jackrabbit 2.11.1 is an unstable release cut directly from
 Jackrabbit trunk, with a focus on new features and other
