@@ -23,7 +23,7 @@ the signatures and checksums available from this page.
 * Latest stable release: [Apache Jackrabbit 2.10.1](#v2.10)
 * Jackrabbit Oak release: [Apache Jackrabbit Oak 1.2.6](#oak)
 * Maintenance releases:
-    [Apache Jackrabbit Oak 1.0.21](#oak1.0),
+    [Apache Jackrabbit Oak 1.0.22](#oak1.0),
     [Apache Jackrabbit 2.8.1](#v2.8), 
     [Apache Jackrabbit 2.6.5](#v2.6), 
     [Apache Jackrabbit 2.4.5](#v2.4), 
@@ -67,18 +67,18 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.6/REL
   
 
 <a class='anchor' name='oak1.0'></a>
-Apache Jackrabbit Oak 1.0.21 (September 22nd, 2015)
+Apache Jackrabbit Oak 1.0.22 (October 8th, 2015)
 ---------------------------------------------------
 
-Jackrabbit Oak 1.0.21 is patch release that contains fixes and improvements over the previous 1.0.19 release. 
+Jackrabbit Oak 1.0.22 is patch release that contains fixes and improvements over the previous 1.0.x release. 
 Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.21/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.22/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.0.21-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.21/jackrabbit-oak-1.0.21-src.zip)
-    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.21/jackrabbit-oak-1.0.21-src.zip.asc))
-    <br/>SHA1 checksum: `b3d1d3d0f945715dcba4982a06d29932bd44e760`
-    <br/>MD5  checksum: `b04a39ea6cc6650c0b785456d9b6352f`
+* [jackrabbit-oak-1.0.22-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.22/jackrabbit-oak-1.0.22-src.zip)
+    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.22/jackrabbit-oak-1.0.22-src.zip.asc))
+    <br/>SHA1 checksum: `04d4dd2ce13bfe72e49f1754de1fffb3d0db0fd6`
+    <br/>MD5  checksum: `c841eb84e7440899e2800284ec37d825`
 
 
 <a class='anchor' name='2.11'></a>
