@@ -21,7 +21,7 @@ mirrors. You should [verify the integrity](#verify.html) of the files using
 the signatures and checksums available from this page.
 
 * Latest stable release: [Apache Jackrabbit 2.10.1](#v2.10)
-* Jackrabbit Oak release: [Apache Jackrabbit Oak 1.2.6](#oak)
+* Jackrabbit Oak release: [Apache Jackrabbit Oak 1.2.7](#oak)
 * Maintenance releases:
     [Apache Jackrabbit Oak 1.0.22](#oak1.0),
     [Apache Jackrabbit 2.8.1](#v2.8), 
@@ -51,19 +51,19 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.3.7/REL
     <br/>MD5  checksum: `271f05f226b6ec86c44721267d9f9ba1`
 
 <a class='anchor' name='oak'></a>
-Apache Jackrabbit Oak 1.2.6 (September 22nd, 2015)
+Apache Jackrabbit Oak 1.2.7 (October 9th, 2015)
 --------------------------------------------------
-Jackrabbit Oak 1.2.6 is patch release that contains fixes and improvements over
-the previous 1.2.4 release. 
+Jackrabbit Oak 1.2.7 is patch release that contains fixes and
+improvements over the previous 1.2.x release.  
 Jackrabbit Oak 1.2.x releases are considered stable and targeted for
 production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.6/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.7/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.2.6-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.6/jackrabbit-oak-1.2.6-src.zip)
-    (5.7M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.6/jackrabbit-oak-1.2.6-src.zip.asc))
-    <br/>SHA1 checksum: `eba15954651c06026c10a196cc0fd5915b9e9041`
-    <br/>MD5  checksum: `93b64bc1f79c45198c81124d46d5c850`
+* [jackrabbit-oak-1.2.7-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.7/jackrabbit-oak-1.2.7-src.zip)
+    (5.7M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.7/jackrabbit-oak-1.2.7-src.zip.asc))
+    <br/>SHA1 checksum: `3567af241c8e6e4a7d2f3d6e47dda481da2048e8`
+    <br/>MD5  checksum: `1dc01c62d374f6ce2468ad36b63267b3`
   
 
 <a class='anchor' name='oak1.0'></a>
