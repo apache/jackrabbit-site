@@ -27,10 +27,10 @@ The following lists are used by the Apache Jackrabbit project:
 
 | Mailing list | Address | Subscribe | Unsubscribe
 |--------------|---------|-----------|---------------------- 
-| Jackrabbit Announcements List | [announce@jackrabbit.apache.org](mailto:announce@jackrabbit.apache.org.html) | [subscribe](mailto:announce-subscribe@jackrabbit.apache.org?subject=subscribe) | [unsubscribe](mailto:announce-unsubscribe@jackrabbit.apache.org?subject=unsubscribe) |
-| Jackrabbit Users List         | [users@jackrabbit.apache.org](mailto:users@jackrabbit.apache.org.html) | [subscribe](mailto:users-subscribe@jackrabbit.apache.org?subject=subscribe) | [unsubscribe](mailto:users-unsubscribe@jackrabbit.apache.org?subject=unsubscribe)
-| Jackrabbit Development List   | [dev@jackrabbit.apache.org](mailto:dev@jackrabbit.apache.org.html) | [subscribe](mailto:dev-subscribe@jackrabbit.apache.org?subject=subscribe) | [unsubscribe](mailto:dev-unsubscribe@jackrabbit.apache.org?subject=unsubscribe)
-| Jackrabbit Commits List       | [commits@jackrabbit.apache.org](mailto:commits@jackrabbit.apache.org.html) | [subscribe](mailto:commits-subscribe@jackrabbit.apache.org?subject=subscribe) | [unsubscribe](mailto:commits-unsubscribe@jackrabbit.apache.org?subject=unsubscribe)
+| Jackrabbit Announcements List | [announce@jackrabbit.apache.org](mailto:announce@jackrabbit.apache.org) | [subscribe](mailto:announce-subscribe@jackrabbit.apache.org?subject=subscribe) | [unsubscribe](mailto:announce-unsubscribe@jackrabbit.apache.org?subject=unsubscribe) |
+| Jackrabbit Users List         | [users@jackrabbit.apache.org](mailto:users@jackrabbit.apache.org) | [subscribe](mailto:users-subscribe@jackrabbit.apache.org?subject=subscribe) | [unsubscribe](mailto:users-unsubscribe@jackrabbit.apache.org?subject=unsubscribe)
+| Jackrabbit Development List   | [dev@jackrabbit.apache.org](mailto:dev@jackrabbit.apache.org) | [subscribe](mailto:dev-subscribe@jackrabbit.apache.org?subject=subscribe) | [unsubscribe](mailto:dev-unsubscribe@jackrabbit.apache.org?subject=unsubscribe)
+| Jackrabbit Commits List       | [commits@jackrabbit.apache.org](mailto:commits@jackrabbit.apache.org) | [subscribe](mailto:commits-subscribe@jackrabbit.apache.org?subject=subscribe) | [unsubscribe](mailto:commits-unsubscribe@jackrabbit.apache.org?subject=unsubscribe)
 
 
 See the [ezmlm user manual](http://www.ezmlm.org/ezman/ezman1.html)
@@ -56,7 +56,7 @@ Send a message to that address to unsubscribe.
 
 > Please do not send unsubscription requests directly to the normal mailing
 > list addresses. If you have trouble unsubscribing and the above
-> instructions don't work, you can ask [dev-owner@jackrabbit.apache.org](mailto:dev-owner@jackrabbit.apache.org.html)
+> instructions don't work, you can ask [dev-owner@jackrabbit.apache.org](mailto:dev-owner@jackrabbit.apache.org)
 >  for help.
 
 
