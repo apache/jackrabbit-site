@@ -49,7 +49,6 @@ Jackrabbit committers
 | draier          | Thomas Draier  | &nbsp; |
 | eaf             | Esteban Franqueiro  |  [BEA](http://www.bea.com/)  |
 | edgarpoce       | [Edgar Poce](mailto:edgarpoce@gmail.com)  | &nbsp; |
-| egli            | Stefan Egli  |  [Adobe](http://www.adobe.com/)  |
 | fielding        | Roy T. Fielding  |  [Adobe](http://www.adobe.com/)  |
 | fmeschbe        | Felix Meschberger  |  [Adobe](http://www.adobe.com/)  |
 | frm             | Francesco Mari  |  [Adobe](http://www.adobe.com/)  | 
@@ -71,6 +70,7 @@ Jackrabbit committers
 | shashank        | Shashank Gupta  |  [Adobe](http://www.adobe.com/)  |
 | shuber          | Serge Huber  | &nbsp; |
 | stefan          | Stefan Guggisberg  |  [Adobe](http://www.adobe.com/)  |
+| stefanegli      | Stefan Egli  |  [Adobe](http://www.adobe.com/)  |
 | sylvain         | Sylvain Wallez  | &nbsp; |
 | thomasm         | Thomas Mueller  |  [Adobe](http://www.adobe.com/)  |
 | tommaso         | Tommaso Teofili  |  [Adobe](http://www.adobe.com/)  |
