@@ -49,6 +49,7 @@ Jackrabbit committers
 | draier          | Thomas Draier  | &nbsp; |
 | eaf             | Esteban Franqueiro  |  [BEA](http://www.bea.com/)  |
 | edgarpoce       | [Edgar Poce](mailto:edgarpoce@gmail.com)  | &nbsp; |
+| egli            | Stefan Egli  |  [Adobe](http://www.adobe.com/)  |
 | fielding        | Roy T. Fielding  |  [Adobe](http://www.adobe.com/)  |
 | fmeschbe        | Felix Meschberger  |  [Adobe](http://www.adobe.com/)  |
 | frm             | Francesco Mari  |  [Adobe](http://www.adobe.com/)  | 
