@@ -36,6 +36,7 @@ Jackrabbit committers
 | angela          | Angela Schreiber  |  [Adobe](http://www.adobe.com/)  |
 | ard             | Ard Schrijvers  |  [Hippo](http://www.hippo.nl/)  |
 | baedke          | Manfred Baedke  | &nbsp; |
+| catholicon      | Vikas Saurabh  |  [Adobe](http://www.adobe.com/)  |
 | cdamioli        | C&eacute;dric Damioli  |  [Ametys](http://www.ametys.org/)  |
 | chetanm         | Chetan Mehrotra  |  [Adobe](http://www.adobe.com/)  |
 | chregu          | Christian Stocker  | &nbsp; |
@@ -60,9 +61,9 @@ Jackrabbit committers
 | mduerig         | Michael D&uuml;rig  |  [Adobe](http://www.adobe.com/)  |
 | meteatamel      | Mete Atamel  |  [Adobe](http://www.adobe.com/)  |
 | mreutegg        | Marcel Reutegger  |  [Adobe](http://www.adobe.com/)  |
+| pmarx           | Philipp Marx  |  [Adobe](http://www.adobe.com/)  |
 | ppakulski       | Przemo Pakulski  |  [Cognifide](http://www.cognifide.com/)  |
 | ppiegaze        | Peeter Piegaze  |  [Adobe](http://www.adobe.com/)  |
-| pmarx           | Philipp Marx  |  [Adobe](http://www.adobe.com/)  |
 | reschke         | [Julian Reschke](mailto:julian.reschke@greenbytes.de) |  [greenbytes GmbH](http://greenbytes.de/)  |
 | rhauch          | Randall Hauch  | &nbsp; |
 | schans          | Bart van der Schans  |  [Hippo](http://www.hippo.nl/)  |
@@ -248,7 +249,7 @@ Julian Klein<br/>
 Julian Sedding<br/>
 Julio Castillo<br/>
 Ken Yue<br/>
-Kurz Wolfgang<br/>
+Wolfgang Kurz<br/>
 Lalitha Gopalakrishnan<br/>
 Lance Zechinato<br/>
 Lars Trieloff<br/>
