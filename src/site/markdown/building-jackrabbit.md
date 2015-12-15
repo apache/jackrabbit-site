@@ -20,7 +20,7 @@ Building Jackrabbit
 The easiest way to use Jackrabbit is to [download](http://jackrabbit.apache.org/download.cgi)
 a binary release, but if you want to access the latest development
 version, you need to get the Jackrabbit sources and build them using the 
-[Maven 2](http://maven.apache.org/) build environment.
+[Maven 3](http://maven.apache.org/) build environment.
 
 The first step in building Jackrabbit is to check out the Jackrabbit
 sources from the [Subversion](http://subversion.tigris.org/)
@@ -59,18 +59,18 @@ to manage your source tree and keep it up to date with latest development.
 
 Building the sources with Maven
 -------------------------------
-Jackrabbit uses [Maven 2](http://maven.apache.org/)
+Jackrabbit uses [Maven 3](http://maven.apache.org/)
 as the build system and the component sources are mostly organized
 according to the Maven [Standard Directory Layout](http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html).
-The standard build environment is Maven 2 with the Java Development Kit
-(JDK) 1.5 (but the build is known to work also with Java 6).
+The standard build environment is Maven 3 with the Java Development Kit
+(JDK) 1.6 (but the build is known to work also with Java 7 and 8).
 
 > The standard build environment for 1.x versions is Maven 2 with the Java
 > Development Kit (JDK) *1.4* (but the build is known to work also with Java 5 and 6).
 
 See the [Running Maven](http://maven.apache.org/run-maven/index.html)
 page and the related documentation on the Maven web site for instructions
-on how to use Maven. You may also want to check for Maven 2 integration
+on how to use Maven. You may also want to check for Maven integration
 with your favourite Integrated Development Environment (IDE).
 
 There are Maven project descriptors (POMs) within both the top level
@@ -81,6 +81,6 @@ Jackrabbit is to use the "multimodule" setup within the top level directory:
     $ cd /path/to/jackrabbit; mvn install
 
 This will build and package all the component projects and place the
-resulting artifacts within your local Maven 2 repository. You can also find
+resulting artifacts within your local Maven repository. You can also find
 the artifacts within the created target subdirectories of the component
 projects.
