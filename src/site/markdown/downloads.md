@@ -23,7 +23,7 @@ the signatures and checksums available from this page.
 * Latest stable release: [Apache Jackrabbit 2.10.1](#v2.10)
 * Jackrabbit Oak release: [Apache Jackrabbit Oak 1.2.10](#oak)
 * Maintenance releases:
-    [Apache Jackrabbit Oak 1.0.25](#oak1.0),
+    [Apache Jackrabbit Oak 1.0.26](#oak1.0),
     [Apache Jackrabbit 2.8.1](#v2.8), 
     [Apache Jackrabbit 2.6.5](#v2.6), 
     [Apache Jackrabbit 2.4.5](#v2.4), 
@@ -66,18 +66,18 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.10/RE
     <br/>MD5  checksum: `a085fb466605a95f951bf504da148b67`
 
 <a class='anchor' name='oak1.0'></a>
-Apache Jackrabbit Oak 1.0.25 (December 11th, 2015)
+Apache Jackrabbit Oak 1.0.26 (January 25th, 2016)
 ---------------------------------------------------
 
-Jackrabbit Oak 1.0.25 is patch release that contains fixes and improvements over the previous 1.0.x release. 
+Jackrabbit Oak 1.0.26 is patch release that contains fixes and improvements over the previous 1.0.x release. 
 Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.25/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.26/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.0.25-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.25/jackrabbit-oak-1.0.25-src.zip)
-    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.25/jackrabbit-oak-1.0.25-src.zip.asc))
-    <br/>SHA1 checksum: `29865c16bf3f9a246a83bec100ab8310bfc5b503`
-    <br/>MD5  checksum: `e77af1dc6457c45199fec5c05d84aac2`
+* [jackrabbit-oak-1.0.26-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.26/jackrabbit-oak-1.0.26-src.zip)
+    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.26/jackrabbit-oak-1.0.26-src.zip.asc))
+    <br/>SHA1 checksum: `23539d4750bc2ed45c717c45647550b32828c6bc`
+    <br/>MD5  checksum: `dd1c186994397dcd8515c798bf903bb8`
 
 <a class='anchor' name='2.11'></a>
 ## Apache Jackrabbit 2.11.3 (December 7th, 2015)
