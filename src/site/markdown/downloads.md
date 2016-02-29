@@ -121,23 +121,23 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.12.1/RELEAS
 
 * [jackrabbit-2.12.1-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/2.12.1/jackrabbit-2.12.1-src.zip)
     (13M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/2.12.1/jackrabbit-2.12.1-src.zip.asc))  
-    SHA1 checksum: `e719042e7d1130b26d1581a223b5d6bae9ec0a19`
-    MD5  checksum: `758452a52a0cebf448cd5a56e6dc9c18`
+    <br />SHA1 checksum: `e719042e7d1130b26d1581a223b5d6bae9ec0a19`
+    <br />MD5  checksum: `758452a52a0cebf448cd5a56e6dc9c18`
 
 * [jackrabbit-jca-2.12.1.rar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.12.1/jackrabbit-jca-2.12.1.rar)
     (25M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.12.1/jackrabbit-jca-2.12.1.rar.asc))  
-    SHA1 checksum: `f7db097e6e2a296488559ec3657eb7bea5fa3e74`
-    MD5  checksum: `70574f597957f271da4832c4821a245b`
+    <br />SHA1 checksum: `f7db097e6e2a296488559ec3657eb7bea5fa3e74`
+    <br />MD5  checksum: `70574f597957f271da4832c4821a245b`
 
 * [jackrabbit-standalone-2.12.1.jar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.12.1/jackrabbit-standalone-2.12.1.jar)
     (75M, standalone server, [PGP signature](http://www.apache.org/dist/jackrabbit/2.12.1/jackrabbit-standalone-2.12.1.jar.asc))  
-    SHA1 checksum: `e88cd71f50cc35cd4091b29086401ab0ba69462b`
-    MD5  checksum: `3226bbd68e09b100978ec28fdb5a4469`
+    <br />SHA1 checksum: `e88cd71f50cc35cd4091b29086401ab0ba69462b`
+    <br />MD5  checksum: `3226bbd68e09b100978ec28fdb5a4469`
 
 * [jackrabbit-webapp-2.12.1.war](http://www.apache.org/dyn/closer.lua/jackrabbit/2.12.1/jackrabbit-webapp-2.12.1.war)
     (32M, web application, [PGP signature](http://www.apache.org/dist/jackrabbit/2.12.1/jackrabbit-webapp-2.12.1.war.asc))  
-    SHA1 checksum: `343f711c59290a4eade02799716fc05b8eac1edb`
-    MD5  checksum: `03d1df0dc4cebc2a77187371eb48b2b3`
+    <br />SHA1 checksum: `343f711c59290a4eade02799716fc05b8eac1edb`
+    <br />MD5  checksum: `03d1df0dc4cebc2a77187371eb48b2b3`
 
 <a class='anchor' name='v2.10'></a>
 Apache Jackrabbit 2.10.1 (May 21st, 2015)
