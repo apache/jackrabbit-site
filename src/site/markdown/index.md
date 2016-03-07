@@ -36,6 +36,11 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 
 ## Apache Jackrabbit News
 
+#### March 7th, 2016: Apache Jackrabbit Oak 1.2.12 released
+Jackrabbit Oak 1.2.12 is a patch release that contains fixes and
+improvements over the previous 1.2.x release.  See the
+[downloads](downloads.html#oak) page for more details.
+
 #### March 2nd, 2016: Apache Jackrabbit Oak 1.0.28 released
 Jackrabbit Oak 1.0.28 is a patch release that contains fixes and
 improvements over the previous 1.0.x release.  See the
@@ -53,23 +58,19 @@ with a focus on new features and other improvements.  See the
 
 #### February 15th, 2016: Apache Jackrabbit Oak 1.2.11 released
 Jackrabbit Oak 1.2.11 is a patch release that contains fixes and
-improvements over the previous 1.2.x release.  See the
-[downloads](downloads.html#oak) page for more details.
+improvements over the previous 1.2.x release.
 
 #### February 12th, 2016: Apache Jackrabbit Oak 1.0.27 released
 Jackrabbit Oak 1.0.27 is a patch release that contains fixes and
-improvements over the previous 1.0.x release.  See the
-[downloads](downloads.html#oak1.0) page for more details
+improvements over the previous 1.0.x release.
 
 #### February 12th, 2016: Apache Jackrabbit 2.12.0 released
 Apache Jackrabbit 2.12.0 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit 2.x releases.  See the
-[downloads](downloads.html#v2.12) page for more details.
+and compatible with earlier stable Jackrabbit 2.x releases.
 
 #### February 8th, 2016: Apache Jackrabbit Oak 1.3.15 released
 Jackrabbit Oak 1.3.15 is an unstable release cut directly from trunk,
-with a focus on new features and other improvements.  See the
-[downloads](downloads.html#oak1.3) page for more details.
+with a focus on new features and other improvements.
 
 #### January 25th, 2016: Apache Jackrabbit Oak 1.0.26 released
 Jackrabbit Oak 1.0.26 is a patch release that contains fixes and
