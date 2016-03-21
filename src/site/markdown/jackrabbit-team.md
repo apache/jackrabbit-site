@@ -74,6 +74,7 @@ Jackrabbit committers
 | stefanegli      | Stefan Egli  |  [Adobe](http://www.adobe.com/)  |
 | sylvain         | Sylvain Wallez  | &nbsp; |
 | thomasm         | Thomas Mueller  |  [Adobe](http://www.adobe.com/)  |
+| tomekr          | Tomek Rękawek  |  [Adobe](http://www.adobe.com/)  |
 | tommaso         | Tommaso Teofili  |  [Adobe](http://www.adobe.com/)  |
 | tripod          | Tobias Bocanegra  |  [Adobe](http://www.adobe.com/)  |
 | uncled          | David Nuescheler  |  [Adobe](http://www.adobe.com/)  |
@@ -249,7 +250,6 @@ Julian Klein<br/>
 Julian Sedding<br/>
 Julio Castillo<br/>
 Ken Yue<br/>
-Wolfgang Kurz<br/>
 Lalitha Gopalakrishnan<br/>
 Lance Zechinato<br/>
 Lars Trieloff<br/>
@@ -295,7 +295,7 @@ Michael Wechner<br/>
 Michael Young<br/>
 Michal Borowiecki<br/>
 Michele Meomartino<br/>
-Miguel Angel Jim&eacute;nez Sampedro<br/>
+Miguel &Aacute;ngel Jim&eacute;nez Sampedro<br/>
 Mike Bowler<br/>
 Mike Pfaff<br/>
 Mike Roberts<br/>
@@ -431,6 +431,7 @@ Walter Raboch<br/>
 Wes Smoak<br/>
 William Louth<br/>
 Wolf Benz<br/>
+Wolfgang Kurz<br/>
 Xavier Coulon<br/>
 Xiaohua Lu<br/>
 Yoav Landman<br/>
