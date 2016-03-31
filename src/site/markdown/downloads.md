@@ -26,7 +26,7 @@ the signatures and checksums available from this page.
 * Maintenance releases:
     * [Apache Jackrabbit Oak 1.0.x](#oak1.0)
     * [Apache Jackrabbit Oak 1.2.x](#oak1.2)
-    * [Apache Jackrabbit 2.10.x](#v.2.10)
+    * [Apache Jackrabbit 2.10.x](#v2.10)
     * [Apache Jackrabbit 2.8.x](#v2.8) 
     * [Apache Jackrabbit 2.6.x](#v2.6)
     * [Apache Jackrabbit 2.4.x](#v2.4) 
@@ -54,20 +54,20 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.3.16/RE
     <br/>MD5  checksum: `289d9934bbc13500dcfef6af467f2c7f`
 
 <a class='anchor' name='oak'></a>
-Apache Jackrabbit Oak 1.4.0 (March 10th, 2016)
+Apache Jackrabbit Oak 1.4.1 (March 31st, 2016)
 ----------------------------------------------------------------------
 
-Apache Jackrabbit Oak 1.4.0 is an incremental feature release based on
+Apache Jackrabbit Oak 1.4.1 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.x
 releases. Jackrabbit Oak 1.4.x releases are considered stable and
 targeted for production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.0/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.1/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.4.0-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.0/jackrabbit-oak-1.4.0-src.zip)
-    (9.0M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.4.0/jackrabbit-oak-1.4.0-src.zip.asc))
-    <br/>SHA1 checksum: `483493eacea4c64a6a568982058996d745ad4e18`
-    <br/>MD5  checksum: `192639e5d4d769bccc21877e94f08152`
+* [jackrabbit-oak-1.4.1-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.1/jackrabbit-oak-1.4.1-src.zip)
+    (9.0M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.4.1/jackrabbit-oak-1.4.1-src.zip.asc))
+    <br/>SHA1 checksum: `a22b38e54b042d021dd99e96ecdca8156e079f14`
+    <br/>MD5  checksum: `e6293ae9b56d4c7609ffe5353b74517a`
 
 <a class='anchor' name='oak1.2'></a>
 Apache Jackrabbit Oak 1.2.13 (March 28th, 2016)
@@ -158,32 +158,32 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.12.1/RELEAS
     <br />MD5  checksum: `03d1df0dc4cebc2a77187371eb48b2b3`
 
 <a class='anchor' name='v2.10'></a>
-Apache Jackrabbit 2.10.1 (May 21st, 2015)
+Apache Jackrabbit 2.10.2 (March 31st, 2016)
 -----------------------------------------
-Apache Jackrabbit 2.10.1 is patch release that contains fixes and improvements over previous 2.10.x releases. 
+Apache Jackrabbit 2.10.2 is patch release that contains fixes and improvements over previous 2.10.x releases.
 Jackrabbit 2.10.x releases are considered stable and targeted for production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/2.10.1/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/2.10.2/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-2.10.1-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.1/jackrabbit-2.10.1-src.zip?update=201505210925)
-    (13M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.1/jackrabbit-2.10.1-src.zip.asc))
-    <br/>SHA1 checksum: `0468f349d82aaca9ddbc13bfff0e44629be36f30`
-    <br/>MD5  checksum: `73083d72ce59002f11f7cf503ec3e261`
+* [jackrabbit-2.10.2-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.2/jackrabbit-2.10.2-src.zip?update=201603310925)
+    (13M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.2/jackrabbit-2.10.2-src.zip.asc))
+    <br/>SHA1 checksum: `89bca1da469bea4e37f7503fff453a275d2e952a`
+    <br/>MD5  checksum: `31592b0986ff8cc542f013e7da353617`
 
-* [jackrabbit-standalone-2.10.1.jar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.1/jackrabbit-standalone-2.10.1.jar?update=201505210925) 
-    (75M, standalone server, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.1/jackrabbit-standalone-2.10.1.jar.asc))
-    <br/>SHA1 checksum: `18fc2ee3518cc6ffbe6c0604622de4a6f9cef6ec`
-    <br/>MD5  checksum: `ce7cbeda32ee8fdda7ab14e23b833701`
+* [jackrabbit-standalone-2.10.2.jar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.2/jackrabbit-standalone-2.10.2.jar?update=201603310925)
+    (84M, standalone server, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.2/jackrabbit-standalone-2.10.2.jar.asc))
+    <br/>SHA1 checksum: `17023b3dac8b95a58a3afe9a4ca262c977be607b`
+    <br/>MD5  checksum: `7fe8e8481b06f03c21fa96365aff34e8`
 
-* [jackrabbit-webapp-2.10.1.war](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.1/jackrabbit-webapp-2.10.1.war?update=201505210925)
-    (32M, web application, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.1/jackrabbit-webapp-2.10.1.war.asc))
-    <br/>SHA1 checksum: `cc44fa77d3dd54e4da3772cdc0d01e9b12e21313`
-    <br/>MD5  checksum: `ec615edafaca7e60339b98c5e226a72f`
+* [jackrabbit-webapp-2.10.2.war](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.2/jackrabbit-webapp-2.10.2.war?update=201603310925)
+    (35M, web application, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.2/jackrabbit-webapp-2.10.2.war.asc))
+    <br/>SHA1 checksum: `4a2423b7b3852c7d8f467a0c747b9cd682f0153e`
+    <br/>MD5  checksum: `cbb9d9a8c2c08d8fca89db377e7f7a35`
 
-* [jackrabbit-jca-2.10.1.rar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.1/jackrabbit-jca-2.10.1.rar?update=201505210925) 
-    (25M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.1/jackrabbit-jca-2.10.1.rar.asc))
-    <br/>SHA1 checksum: `77e774c3f04f0bdff5d3009271a2a64b5996de4c`
-    <br/>MD5  checksum: `d4818172a939a314369afb9e66b4a83c`
+* [jackrabbit-jca-2.10.2.rar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.2/jackrabbit-jca-2.10.2.rar?update=201603310925)
+    (29M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.2/jackrabbit-jca-2.10.2.rar.asc))
+    <br/>SHA1 checksum: `38ede753a82fcd0280e9d40253822bc394df356e`
+    <br/>MD5  checksum: `7baf3a4d33fcd68d3a2b3e095d5541e6`
 
 
 <a class='anchor' name='v2.8'></a>
