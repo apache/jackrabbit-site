@@ -40,18 +40,18 @@ See the `NOTICE.txt` file contained in each release artifact for applicable copy
 Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](http://www.apache.org/legal/resolved.html). 
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
-<a class='anchor' name='oak1.3'></a>
-Apache Jackrabbit Oak 1.3.16 (February 8th, 2016)
+<a class='anchor' name='oak1.5'></a>
+Apache Jackrabbit Oak 1.5.0 (April 1st, 2016)
 --------------------------------------------------
-Apache Jackrabbit Oak 1.3.16 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements. 
-For production use we recommend the latest stable 1.2.x release.
+Apache Jackrabbit Oak 1.5.0 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
+For production use we recommend the latest stable 1.4.x release.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.3.16/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.5.0/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.3.16-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.3.16/jackrabbit-oak-1.3.16-src.zip)
-    (5.7M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.3.16/jackrabbit-oak-1.3.16-src.zip.asc))
-    <br/>SHA1 checksum: `98b3fcd63007208a874c304c96ec04e306d0558f`
-    <br/>MD5  checksum: `289d9934bbc13500dcfef6af467f2c7f`
+* [jackrabbit-oak-1.5.0-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.5.0/jackrabbit-oak-1.5.0-src.zip)
+    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.5.0/jackrabbit-oak-1.5.0-src.zip.asc))
+    <br/>SHA1 checksum: `2ad02853068c4749c9e4adcd347f6d17`
+    <br/>MD5  checksum: `1c4b3a95c8788a80129c1b7efb7dc38f4d19bd08`
 
 <a class='anchor' name='oak'></a>
 Apache Jackrabbit Oak 1.4.1 (March 31st, 2016)
