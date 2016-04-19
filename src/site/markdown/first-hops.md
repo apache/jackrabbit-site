@@ -45,7 +45,7 @@ with the following dependencies.
         <dependency> 
             <groupId>org.apache.jackrabbit</groupId> 
             <artifactId>jackrabbit-core</artifactId> 
-            <version>2.2.4</version> 
+            <version>2.12.1</version>
         </dependency> 
         
         <!-- Use Log4J for logging --> 
@@ -69,9 +69,10 @@ repository and start a login session for accessing it. The full example
 application that does this is shown below, with line-by-line explanations
 following shortly after. 
 
-    import javax.jcr.Repository; 
+    import javax.jcr.GuestCredentials;
+    import javax.jcr.Repository;
     import javax.jcr.Session; 
-    import org.apache.jackrabbit.core.TransientRepository; 
+    import org.apache.jackrabbit.commons.JcrUtils;
     
     /** 
     * First hop example. Logs in to a content repository and prints a 
@@ -86,8 +87,8 @@ following shortly after.
         * @throws Exception if an error occurs 
         */ 
         public static void main(String[] args) throws Exception { 
-            Repository repository = new TransientRepository(); 
-            Session session = repository.login(); 
+            Repository repository = JcrUtils.getRepository();
+            Session session = repository.login(new GuestCredentials());
             try { 
                 String user = session.getUserID(); 
                 String name = repository.getDescriptor(Repository.REP_NAME_DESC); 
@@ -108,7 +109,7 @@ and run it with java FirstHop to get the following output.
 
 In addition to producing the above status line the application copies a
 default repository configuration file to `repository.xml` and creates an
-initial Jackrabbit content repository in the repository subdirectory. You
+initial Jackrabbit content repository in the `jackrabbit` subdirectory. You
 can use the system properties `org.apache.jackrabbit.repository.conf` and
 `org.apache.jackrabbit.repository.home` to set alternative configuration
 file and repository directory locations. 
@@ -120,7 +121,7 @@ Read on for a detailed breakdown of the FirstHop application:
 
 
 The JCR API interfaces are located in the javax.jcr package found in the
-jcr-1.0.jar library. The promise of the JCR API is that if you only use
+jcr-2.0.jar library. The promise of the JCR API is that if you only use
 these interfaces in your content application, it should remain mostly
 independent of the underlying content repository implementation. 
 
@@ -134,14 +135,14 @@ should start multiple sessions if you need to access repository content
 simultaneously from different threads. This is especially important for
 things like web applications. 
 
-    import org.apache.jackrabbit.core.TransientRepository; 
+    import org.apache.jackrabbit.commons.JcrUtils;
 
 
 The best practice for deploying Jackrabbit is to use JNDI or some other
 configuration mechanism in a container environment to keep the application
 code free of direct Jackrabbit dependencies, but since we are creating a
-simple standalone application we can take a shortcut by using the [TransientRepository](http://jackrabbit.apache.org/api/2.2/org/apache/jackrabbit/core/TransientRepository.html)
-class from Jackrabbit core. 
+simple standalone application we can take a shortcut by using the [JcrUtils](http://jackrabbit.apache.org/api/2.10/org/apache/jackrabbit/commons/JcrUtils.html)
+class from Jackrabbit commons.
 
     public class FirstHop 
     public static void main(String[] args) throws Exception 
@@ -153,12 +154,13 @@ More substantial content applications could also be written as web
 application or EJB components with different setup and error handling
 patterns. 
 
-    Repository repository = new TransientRepository(); 
+    Repository repository = JcrUtils.getRepository();
 
 
-The `TransientRepository` class implements the JCR Repository interface, so
-you can simply assign a `TransientRepository` instance to a Repository
-variable. The default constructor contains a utility feature that will take
+The `JcrUtils.getRepository()` method returns an object that implements the
+JCR Repository interface. The actual implementation depends on the jar files
+available on the classpath and in this example is a [TransientRepository](http://jackrabbit.apache.org/api/2.10/org/apache/jackrabbit/core/TransientRepository.html).
+The implementation contains a utility feature that will take
 care of the initial configuration and repository construction when the
 first session is started. Thus there is no need for manual configuration
 for now unless you want direct control over the repository setup. 
@@ -176,13 +178,12 @@ manually remove the lock file in such cases but such cases always present a
 chance of repository corruption especially if you use a non-transactional
 persistence manager. 
 
-    Session session = repository.login(); 
+    Session session = repository.login(new GuestCredentials());
 
 
-The default `Repository.login()` method starts a repository session using the
-default workspace and no user credentials. Jackrabbit tries to use the Java
-Authentication and Authorization Service (JAAS) configuration in such
-cases, but defaults to the anonymous user if a JAAS Subject is not found. 
+The `Repository.login(Credentials)` method starts a repository session using the
+default workspace and some user credentials. The FirstHop example uses [GuestCredentials](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/GuestCredentials.html?is-external=true)
+and Jackrabbit maps it to the read-only anonymous user.
 
 Since we use the `TransientRepository` class as the Repository
 implementation, this step will also cause the repository to be initialized. 
@@ -234,7 +235,7 @@ outputs it, and finally removes the stored content.
     import javax.jcr.Session; 
     import javax.jcr.SimpleCredentials; 
     import javax.jcr.Node; 
-    import org.apache.jackrabbit.core.TransientRepository; 
+    import org.apache.jackrabbit.commons.JcrUtils;
     
     /** 
     * Second hop example. Stores, retrieves, and removes example content. 
@@ -248,9 +249,9 @@ outputs it, and finally removes the stored content.
         * @throws Exception if an error occurs 
         */ 
         public static void main(String[] args) throws Exception { 
-        Repository repository = new TransientRepository(); 
+        Repository repository = JcrUtils.getRepository();
             Session session = repository.login( 
-            new SimpleCredentials("username", "password".toCharArray())); 
+            new SimpleCredentials("admin", "admin".toCharArray()));
             try { 
                 Node root = session.getRootNode(); 
                 
@@ -303,22 +304,23 @@ related interface called [Property](http://www.day.com/maven/javax.jcr/javadocs/
 for managing content properties, but in this example we use the Property
 interface only indirectly. 
 
-    new SimpleCredentials("username", "password".toCharArray()) 
+    new SimpleCredentials("admin", "admin".toCharArray())
 
 
-As discussed in the First Hop example, the default `Repository.login()`
-method returns an anonymous read-only session in the Jackrabbit default
+As discussed in the First Hop example, a login with `GuestCredentials`
+returns an anonymous read-only session in the Jackrabbit default
 configuration. To be able to store and remove content we need to create a
-session with write access, and to do that we need to pass some credentials
-to the 
+session with write access, and to do that we need to pass credentials with
+a username and password to the
 
     Repository.login(Credentials credentials) method. 
 
 
-The default Jackrabbit login mechanism accepts any username and password as
-valid credentials and returns a session with full write access. Thus we
-only need to construct and use a SimpleCredentials instance with some dummy
-username and password, in this case `"username"` and `"password"`. 
+The default Jackrabbit login mechanism accepts only username and password as
+valid credentials for known users. A Jackrabbit repository with a default
+configuration will create an admin user when it is first initialized. Thus we
+need to construct and use a SimpleCredentials instance with the username and
+initial default password of the admin user, in this case `"admin"` and `"admin"`.
 
 The SimpleCredentials constructor follows the JAAS convention of
 representing the username as a normal String, but the password as a
@@ -437,7 +439,7 @@ added and changed content. Like before, the transient changes need to be
 explicitly saved for the content to be removed from the persistent storage. 
 
 
-Hop 3: Importing content 
+Hop 3: Importing content
 ------------------------
 TODO: Update to match the style of previous hops. 
 
@@ -507,9 +509,9 @@ recursively dumps the contents of the entire workspace using the simple
 `dump()` method. 
 
     import javax.jcr.*; 
-    import org.apache.jackrabbit.core.TransientRepository; 
-    import java.io.FileInputStream; 
-    
+    import java.io.FileInputStream;
+    import org.apache.jackrabbit.commons.JcrUtils;
+
     /** 
     * Third Jackrabbit example application. Imports an example XML file 
     * and outputs the contents of the entire workspace. 
@@ -523,9 +525,9 @@ recursively dumps the contents of the entire workspace using the simple
         * @throws Exception if an error occurs
         */
         public static void main(String[] args) throws Exception { 
-            Repository repository = new TransientRepository(); 
+            Repository repository = JcrUtils.getRepository();
                 Session session = repository.login( 
-                new SimpleCredentials("username", "password".toCharArray())); 
+                new SimpleCredentials("admin", "admin".toCharArray()));
                 try { 
                     Node root = session.getRootNode(); 
                     
@@ -624,11 +626,11 @@ Running the ThirdHop class should produce output like the following:
 
 
 This hop has a lot of similarities with the Second Hop example: we create a
-new session with write access by loggin in, next we insert data into the
+new session with write access by logging in, next we insert data into the
 repository, this time by importing an xml file and finally we output the
 entire repository content.
 
-By now you should be familiar with loggin into a repository
+By now you should be familiar with logging into a repository
 (Repository.login), creating a new node (Node.addNode) under the repository
 root (Session.getRootNode) and saving the session so that our changes are
 persisted (Session.save).
@@ -708,4 +710,4 @@ which is equivalent to
     property.getValue().getString()
 
 
-A very good entry point for utilities related code examples is [JcrUtils](http://jackrabbit.apache.org/api/2.2/org/apache/jackrabbit/commons/JcrUtils.html).
+A very good entry point for utilities related code examples is [JcrUtils](http://jackrabbit.apache.org/api/2.10/org/apache/jackrabbit/commons/JcrUtils.html).
