@@ -46,6 +46,11 @@ Jackrabbit Oak 1.0.30 is a patch release that contains fixes and
 improvements over the previous 1.0.x release.  See the
 [downloads](downloads.html#oak1.0) page for more details
 
+#### April 18th, 2016: Apache Jackrabbit Oak 1.5.1 released
+Jackrabbit Oak 1.5.1 is an unstable release cut directly from trunk,
+with a focus on new features and other improvements.  See the
+[downloads](downloads.html#oak1.5) page for more details.
+
 #### April 1st, 2016: Apache Jackrabbit Oak 1.5.0 released
 Jackrabbit Oak 1.5.0 is an unstable release cut directly from trunk,
 with a focus on new features and other improvements.  See the
