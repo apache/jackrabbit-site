@@ -30,7 +30,6 @@ the signatures and checksums available from this page.
     * [Apache Jackrabbit 2.8.x](#v2.8) 
     * [Apache Jackrabbit 2.6.x](#v2.6)
     * [Apache Jackrabbit 2.4.x](#v2.4) 
-    * [Apache Jackrabbit 2.2.x](#v2.2)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
 * Latest stable FileVault release: [Apache Jackrabbit FileVault 3.1.26](#vlt)
 * [Release Archive](#archive.html)
@@ -271,34 +270,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.4.5/RELEASE
     (23M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.4.5/jackrabbit-jca-2.4.5.rar.asc))
     <br/>SHA1 checksum: `bfbbf4a7350f80525597c98784785e7aea00bfbc`
     <br/>MD5  checksum: `f4a1e0fab7ace6e6604270d6575385f5`
-
-<a class='anchor' name='v2.2'></a>
-Apache Jackrabbit 2.2.13 (04-October-2012)
-------------------------------------------
-Apache Jackrabbit 2.2.13 is patch release that contains fixes and improvements over previous 2.2.x releases. 
-This release is fully compatible with earlier 2.x.x releases.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/2.2.13/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-2.2.13-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/2.2.13/jackrabbit-2.2.13-src.zip)
-    (11M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/2.2.13/jackrabbit-2.2.13-src.zip.asc))
-    <br/>SHA1 checksum: `10841ef0544c821f73131e0970d0ea4806b63236`
-    <br/>MD5  checksum: `86eab6af0f75328422ae98602218b96b`
-
-* [jackrabbit-standalone-2.2.13.jar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.2.13/jackrabbit-standalone-2.2.13.jar) 
-    (33M, standalone server, [PGP signature](http://www.apache.org/dist/jackrabbit/2.2.13/jackrabbit-standalone-2.2.13.jar.asc))
-    <br/>SHA1 checksum: `2d65b9d99dad367a56d6e41504681c801687a19b`
-    <br/>MD5  checksum: `85b9a2a3e076d89822710e3edf38ee7c`
-
-* [jackrabbit-webapp-2.2.13.war](http://www.apache.org/dyn/closer.lua/jackrabbit/2.2.13/jackrabbit-webapp-2.2.13.war) 
-    (27M, web application, [PGP signature](http://www.apache.org/dist/jackrabbit/2.2.13/jackrabbit-webapp-2.2.13.war.asc))
-    <br/>SHA1 checksum: `04e9461df62c47e491b3a7c03a092e14b25023a9`
-    <br/>MD5  checksum: `f8c08cc54c4f28418276d1521840ca3b`
-
-* [jackrabbit-jca-2.2.13.rar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.2.13/jackrabbit-jca-2.2.13.rar) 
-    (26M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.2.13/jackrabbit-jca-2.2.13.rar.asc))
-    <br/>SHA1 checksum: `3e292ea32a462318b7e49723d4aa4d6ac053856d`
-    <br/>MD5  checksum: `ccd86435f6c09fc33ffd6667ee3d9a90`
 
 <a class='anchor' name='ocm'></a>
 Apache Jackrabbit OCM 2.0.0 (10-July-2012)
