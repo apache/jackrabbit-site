@@ -157,32 +157,32 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.12.1/RELEAS
     <br />MD5  checksum: `03d1df0dc4cebc2a77187371eb48b2b3`
 
 <a class='anchor' name='v2.10'></a>
-Apache Jackrabbit 2.10.2 (March 31st, 2016)
+Apache Jackrabbit 2.10.3 (May 12th, 2016)
 -----------------------------------------
-Apache Jackrabbit 2.10.2 is patch release that contains fixes and improvements over previous 2.10.x releases.
+Apache Jackrabbit 2.10.3 is patch release that contains fixes and improvements over previous 2.10.x releases.
 Jackrabbit 2.10.x releases are considered stable and targeted for production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/2.10.2/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/2.10.3/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-2.10.2-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.2/jackrabbit-2.10.2-src.zip?update=201603310925)
-    (13M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.2/jackrabbit-2.10.2-src.zip.asc))
-    <br/>SHA1 checksum: `89bca1da469bea4e37f7503fff453a275d2e952a`
-    <br/>MD5  checksum: `31592b0986ff8cc542f013e7da353617`
+* [jackrabbit-2.10.3-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.3/jackrabbit-2.10.3-src.zip?update=201605120925)
+    (13M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.3/jackrabbit-2.10.3-src.zip.asc))
+    <br/>SHA1 checksum: `c253cd03e2e39010f28d7d66eaeabc5ffe2c1975`
+    <br/>MD5  checksum: `0c73914527a798ae3fa7bfa3c2fb386b`
 
-* [jackrabbit-standalone-2.10.2.jar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.2/jackrabbit-standalone-2.10.2.jar?update=201603310925)
-    (84M, standalone server, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.2/jackrabbit-standalone-2.10.2.jar.asc))
-    <br/>SHA1 checksum: `17023b3dac8b95a58a3afe9a4ca262c977be607b`
-    <br/>MD5  checksum: `7fe8e8481b06f03c21fa96365aff34e8`
+* [jackrabbit-standalone-2.10.3.jar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.3/jackrabbit-standalone-2.10.3.jar?update=2016005120925)
+    (84M, standalone server, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.3/jackrabbit-standalone-2.10.3.jar.asc))
+    <br/>SHA1 checksum: `656928f6cbe1766a027a719c5463b6b0e1d2c6fc`
+    <br/>MD5  checksum: `4353f144ffa080f0c027018403dcad39`
 
-* [jackrabbit-webapp-2.10.2.war](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.2/jackrabbit-webapp-2.10.2.war?update=201603310925)
-    (35M, web application, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.2/jackrabbit-webapp-2.10.2.war.asc))
-    <br/>SHA1 checksum: `4a2423b7b3852c7d8f467a0c747b9cd682f0153e`
-    <br/>MD5  checksum: `cbb9d9a8c2c08d8fca89db377e7f7a35`
+* [jackrabbit-webapp-2.10.3.war](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.3/jackrabbit-webapp-2.10.3.war?update=201605120925)
+    (35M, web application, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.3/jackrabbit-webapp-2.10.3.war.asc))
+    <br/>SHA1 checksum: `ded1d8a6c60707a7b167465b76c317c92d7f1450`
+    <br/>MD5  checksum: `041a2e758e59359876989000e68feaec`
 
-* [jackrabbit-jca-2.10.2.rar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.2/jackrabbit-jca-2.10.2.rar?update=201603310925)
-    (29M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.2/jackrabbit-jca-2.10.2.rar.asc))
-    <br/>SHA1 checksum: `38ede753a82fcd0280e9d40253822bc394df356e`
-    <br/>MD5  checksum: `7baf3a4d33fcd68d3a2b3e095d5541e6`
+* [jackrabbit-jca-2.10.3.rar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.10.3/jackrabbit-jca-2.10.3.rar?update=201605120925)
+    (29M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.3/jackrabbit-jca-2.10.3.rar.asc))
+    <br/>SHA1 checksum: `f67533c936a6076c533a92d76c7fe527d549d2e9`
+    <br/>MD5  checksum: `5060f44b1e903ec85ca8d27318fa2fde`
 
 
 <a class='anchor' name='v2.8'></a>
