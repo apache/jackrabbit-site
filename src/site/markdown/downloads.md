@@ -251,22 +251,22 @@ Jackrabbit 2.4.x releases are considered stable and targeted for production use.
 
 See the [full release notes](http://www.apache.org/dist/jackrabbit/2.4.5/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-2.4.5-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/2.4.5/jackrabbit-2.4.5-src.zip'>
+* [jackrabbit-2.4.5-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/2.4.5/jackrabbit-2.4.5-src.zip)
     (12M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/2.4.5/jackrabbit-2.4.5-src.zip.asc))
     <br/>SHA1 checksum: `e266c936499ec80d44763c800753afe24a82160d`
     <br/>MD5  checksum: `c0a2bff072994aab17c0d255d4f69d19`
 
-* [jackrabbit-standalone-2.4.5.jar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.4.5/jackrabbit-standalone-2.4.5.jar'>
+* [jackrabbit-standalone-2.4.5.jar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.4.5/jackrabbit-standalone-2.4.5.jar)
     (59M, standalone server, [PGP signature](http://www.apache.org/dist/jackrabbit/2.4.5/jackrabbit-standalone-2.4.5.jar.asc))
     <br/>SHA1 checksum: `621f763be70d7d1f4561997b492648488078a348`
     <br/>MD5  checksum: `8e6eb48fe29d01e3185195c896881a3a`
 
-* [jackrabbit-webapp-2.4.5.war](http://www.apache.org/dyn/closer.lua/jackrabbit/2.4.5/jackrabbit-webapp-2.4.5.war'>
+* [jackrabbit-webapp-2.4.5.war](http://www.apache.org/dyn/closer.lua/jackrabbit/2.4.5/jackrabbit-webapp-2.4.5.war)
     (25M, web application, [PGP signature](http://www.apache.org/dist/jackrabbit/2.4.5/jackrabbit-webapp-2.4.5.war.asc))
     <br/>SHA1 checksum: `d527448d584fe70fe44b072028da8536fb46e76b`
     <br/>MD5  checksum: `8a107ede0786e7463c2f56fc38a3ea1d`
 
-* [jackrabbit-jca-2.4.5.rar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.4.5/jackrabbit-jca-2.4.5.rar'>
+* [jackrabbit-jca-2.4.5.rar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.4.5/jackrabbit-jca-2.4.5.rar)
     (23M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.4.5/jackrabbit-jca-2.4.5.rar.asc))
     <br/>SHA1 checksum: `bfbbf4a7350f80525597c98784785e7aea00bfbc`
     <br/>MD5  checksum: `f4a1e0fab7ace6e6604270d6575385f5`
