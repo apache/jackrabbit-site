@@ -118,9 +118,9 @@ to the Jackrabbit KEYS file.
 
 1. [Generate a code signing key](http://www.apache.org/dev/release-signing.html#generate)
     using your @apache.org address as the email and "CODE SIGNING KEY" as the comment.
-2. The Jackrabbit KEYS file is managed in https://svn.apache.org/repos/asf/jackrabbit/dist/KEYS. To modify the file, first checkout the dist directory:
+2. The Jackrabbit KEYS file is managed in https://dist.apache.org/repos/dist/release/jackrabbit/KEYS. To modify the file, first checkout the dist directory:
     
-        svn checkout https://svn.apache.org/repos/asf/jackrabbit/dist
+        svn checkout https://dist.apache.org/repos/dist/release/jackrabbit
 
 3. See [instructions on how to append your key to the file](http://www.apache.org/dev/release-signing.html#keys-policy) (or, as an alternative, the beginning of the KEYS file).
 4. Commit the change using:
