@@ -91,7 +91,7 @@ Release management tasks
 
 Steps to build the release artifacts
 ------------------------------------
-The release is built using the Maven release plugin. See the [Performing a Maven Project Release](https://maven.apache.org/developers/release/maven-project-release-procedure.html) guide for more details. Make sure you have added the pgp key information in you maven settings file, especially if you have more than one key installed locally. See [Appendix B](#b) for the details.
+The release is built using the Maven release plugin (if your platform is Windows with Cygwin, see [Appendix C](#Appendix_C:_Cygwin)). See the [Performing a Maven Project Release](https://maven.apache.org/developers/release/maven-project-release-procedure.html) guide for more details. Make sure you have added the pgp key information in you maven settings file, especially if you have more than one key installed locally. See [Appendix B](#b) for the details.
 
 In case you don't feel comfortable to keep the passwords in the file `~/.m2/settings.xml` forever, you need to set it now temporarily.
 
@@ -162,3 +162,9 @@ You need to change the `~/.m2/settings.xml` file as follows. PGP key id: this is
         ...
       </servers>
     </settings>
+
+Appendix C: Cygwin
+------------------
+
+The Subversion support in the release plugin assumes platform-specific path delimiters, and thus does not work properly if the "svn" executable is the Cygwin version. The easiest workaround for this problem is to install a Windows-native SVN version as well, and to modify the PATH variable for the mvn invocation so that it's found instead of the Cygwin variant.
+
