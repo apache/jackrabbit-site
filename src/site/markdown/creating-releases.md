@@ -43,11 +43,11 @@ anyone is welcome to help test the release candidates and comment on the
 release plans.
 
 You should have a code signing key that is included in the Jackrabbit KEYS
-file. See Appendix A at the end of this page for more details.
+file. See [Appendix A](#Appendix_A:_Create_and_add_your_key_to_the_Jackrabbit_KEYS_file) at the end of this page for more details.
 
 You also need to tell Maven your Subversion credentials needed for
 deploying artifacts to the Nexus server at https://repository.apache.org/.
-See Appendix B for the required settings.
+See [Appendix B](#Appendix_B:_Maven_settings) for the required settings.
 
 
 Release management tasks
