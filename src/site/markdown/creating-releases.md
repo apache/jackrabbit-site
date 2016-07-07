@@ -95,7 +95,7 @@ The release is built using the Maven release plugin. See the [Performing a Maven
 
 In case you don't feel comfortable to keep the passwords in the file `~/.m2/settings.xml` forever, you need to set it now temporarily.
 
-There have been some problems with certain combinations of Java and Maven versions. A known combinations where releasing was successful is Java 7 with Maven 3.2.2. In case you get an exception "Proxy Error" in the `release:perform`, see the [Apache Services Status Page](http://status.apache.org/), however it has been reported that the status page is not always accurate.
+There have been some problems with certain combinations of Java and Maven versions. A known combinations where releasing was successful is Java 7 with Maven 3.2.2. In case you get an exception "Proxy Error" in the `release:perform`, see the [Apache Services Status Page](http://status.apache.org/), however it has been reported that the status page is not always accurate. In case you get an error with respect to API incompatibilities, try with an older Maven version or enforce use of a newer release plugin, such as with `mvn org.apache.maven.plugins:maven-release-plugin:2.5.3:prepare`.
 
 1. Execute mvn `release:prepare`. This will update the POM files and tag the release in svn.
 2. Execute mvn `release:perform`. This will build the tagged release and deploy the artifacts to a staging repository on repository.apache.org. The non-Maven release artifacts are automatically deployed to your home directory on people.apache.org. You only need to add the keyname if you have multiple keys and the code signing keys is not your default key.
