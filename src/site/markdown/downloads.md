@@ -39,6 +39,36 @@ See the `NOTICE.txt` file contained in each release artifact for applicable copy
 Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](http://www.apache.org/legal/resolved.html). 
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
+<a class='anchor' name='2.13'></a>
+Apache Jackrabbit 2.13.0 (July 10th, 2016)
+---------------------------------------------
+Apache Jackrabbit 2.13.0 is an unstable release cut directly from
+Jackrabbit trunk, with a focus on new features and other
+improvements. For production use we recommend the latest stable 2.12.x
+release.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/2.13.0/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-2.13.0-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/2.13.0/jackrabbit-2.13.0-src.zip)
+    (13M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/2.13.0/jackrabbit-2.13.0-src.zip.asc))
+    <br/>SHA1 checksum: `35a7a3c0a1ce2ba05b7f06a20eb5bef1d71347b5`
+    <br/>MD5  checksum: `ad697c04c6e9bca1155a3d98fe5b6e77`
+
+* [jackrabbit-standalone-2.13.0.jar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.13.0/jackrabbit-standalone-2.13.0.jar) 
+    (81M, standalone server, [PGP signature](http://www.apache.org/dist/jackrabbit/2.13.0/jackrabbit-standalone-2.13.0.jar.asc))
+    <br/>SHA1 checksum: `0755096d60f127f1d1d0ea898da104301b8b526d`
+    <br/>MD5  checksum: `cf0296e130d1a1f58d91ac00da565e0f`
+
+* [jackrabbit-webapp-2.13.0.war](http://www.apache.org/dyn/closer.lua/jackrabbit/2.13.0/jackrabbit-webapp-2.13.0.war)
+    (34M, web application, [PGP signature](http://www.apache.org/dist/jackrabbit/2.13.0/jackrabbit-webapp-2.13.0.war.asc))
+    <br/>SHA1 checksum: `e0703971d8c03588925ea7f22c093e4307b1a99c`
+    <br/>MD5  checksum: `aa2d7b3f9af295d42bb7d6a4fc95f55a`
+
+* [jackrabbit-jca-2.13.0.rar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.13.0/jackrabbit-jca-2.13.0.rar) 
+    (29M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.13.0/jackrabbit-jca-2.13.0.rar.asc))
+    <br/>SHA1 checksum: `5279bbfb067f45c7478d404d00348def133356d2`
+    <br/>MD5  checksum: `07c89292ddac37be7054cdea81d9f54d`
+
 <a class='anchor' name='oak1.5'></a>
 Apache Jackrabbit Oak 1.5.4 (June 10th, 2016)
 --------------------------------------------------
