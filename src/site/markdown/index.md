@@ -35,6 +35,10 @@ more information.
 Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.apache.org/)
 
 ## Apache Jackrabbit News
+#### July 25th, 2016: Apache Jackrabbit Oak 1.5.6 released
+Jackrabbit Oak 1.5.6 is an unstable release cut directly from trunk,
+with a focus on new features and other improvements.  See the
+[downloads](downloads.html#oak1.5) page for more details.
 
 #### July 19th, 2016: Apache Jackrabbit Oak 1.4.5 released
 Apache Jackrabbit Oak 1.4.5 is an incremental feature release based on
@@ -63,8 +67,7 @@ improvements over the previous 1.0.x release.  See the
 
 #### July 11th, 2016: Apache Jackrabbit Oak 1.5.5 released
 Jackrabbit Oak 1.5.5 is an unstable release cut directly from trunk,
-with a focus on new features and other improvements.  See the
-[downloads](downloads.html#oak1.5) page for more details.
+with a focus on new features and other improvements.
 
 #### July 10th, 2016: Apache Jackrabbit 2.13.0 released
 Apache Jackrabbit 2.13.0 is an unstable release cut directly from trunk,
@@ -77,8 +80,7 @@ the [downloads](downloads.html#oak) page for more details
 
 #### June 27th, 2016: Apache Jackrabbit Oak 1.5.4 released
 Jackrabbit Oak 1.5.4 is an unstable release cut directly from trunk,
-with a focus on new features and other improvements.  See the
-[downloads](downloads.html#oak1.5) page for more details.
+with a focus on new features and other improvements.
 
 #### June 17th, 2016: Apache Jackrabbit Oak 1.2.16 released
 Jackrabbit Oak 1.2.16 is a patch release that contains fixes and
@@ -99,8 +101,7 @@ improvements over the previous 2.12.x release. See the
 
 #### June 1st, 2016: Apache Jackrabbit Oak 1.0.31 released
 Jackrabbit Oak 1.0.31 is a patch release that contains fixes and
-improvements over the previous 1.0.x release.  See the
-[downloads](downloads.html#oak1.0) page for more details
+improvements over the previous 1.0.x release.
 
 #### May 19th, 2016: Apache Jackrabbit Oak 1.2.15 released
 Jackrabbit Oak 1.2.15 is a patch release that contains fixes and
