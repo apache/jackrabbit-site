@@ -31,7 +31,7 @@ the signatures and checksums available from this page.
     * [Apache Jackrabbit 2.6.x](#v2.6)
     * [Apache Jackrabbit 2.4.x](#v2.4) 
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
-* Latest stable FileVault release: [Apache Jackrabbit FileVault 3.1.26](#vlt)
+* Latest stable FileVault release: [Apache Jackrabbit FileVault 3.1.28](#vlt)
 * [Release Archive](#archive.html)
 
 Apache Jackrabbit releases are available under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0). 
@@ -316,16 +316,16 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/ocm/2.0.0/REL
 
 
 <a class='anchor' name='vlt'></a>
-Apache Jackrabbit FileVault 3.1.26 (9th-January-2016)
+Apache Jackrabbit FileVault 3.1.28 (22nd-August-2016)
 -----------------------------------------------------
-Jackrabbit FileVault 3.1.26 is the latest stable release of the recently donated repository content synchronization tool.
+Jackrabbit FileVault 3.1.28 is the latest stable release of the recently donated repository content synchronization tool.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/filevault/3.1.26/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/filevault/3.1.28/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-filevault-3.1.26-src.zip](http://www.apache.org/dist/jackrabbit/filevault/3.1.26/jackrabbit-filevault-3.1.26-src.zip) 
-    (1.5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/filevault/3.1.26/jackrabbit-filevault-3.1.26-src.zip.asc))
-    <br/>SHA1 checksum: `9c07f4a5ccd900378b19445a3e8c09d719c81217`
-    <br/>MD5 checksum: `33cffa194fd43fd60dfed1a4baf17ac5`
+* [jackrabbit-filevault-3.1.28-src.zip](http://www.apache.org/dist/jackrabbit/filevault/3.1.28/jackrabbit-filevault-3.1.28-src.zip) 
+    (1.5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/filevault/3.1.28/jackrabbit-filevault-3.1.28-src.zip.asc))
+    <br/>SHA1 checksum: `cd87f747651bbd59dae1ef4e825189f8e54f4d77`
+    <br/>MD5 checksum: `b8fa853c55a49f0ce406b41350710627`
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
 

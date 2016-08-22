@@ -35,6 +35,11 @@ more information.
 Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.apache.org/)
 
 ## Apache Jackrabbit News
+#### August 22th, 2016: Apache Jackrabbit FileVault 3.1.28 released
+Jackrabbit FileVault 3.1.28 is current stable release of the recently
+donated repository content synchronization tool.  See the
+[downloads](downloads.html#vlt) page for more details.
+
 #### August 19th, 2016: Apache Jackrabbit 2.12.3 released
 Apache Jackrabbit 2.12.3 is a patch release that contains fixes and
 improvements over the previous 2.12.x release. See the
