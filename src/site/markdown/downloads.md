@@ -42,7 +42,8 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 <a class='anchor' name='v2.12'></a>
-## Apache Jackrabbit 2.12.4 (September 5th, 2016)
+Apache Jackrabbit 2.12.4 (September 5th, 2016)
+----------------------------------------------
 Apache Jackrabbit 2.12.4 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
 2.12.x releases are considered stable and targeted for production use.
@@ -73,7 +74,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.12.4/RELEAS
 
 <a class='anchor' name='oak1.5'></a>
 Apache Jackrabbit Oak 1.5.9 (September 5th, 2016)
---------------------------------------------------
+-------------------------------------------------
 Apache Jackrabbit Oak 1.5.9 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
 For production use we recommend the latest stable 1.4.x release.
 
@@ -88,7 +89,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.5.9/REL
 
 <a class='anchor' name='oak1.0'></a>
 Apache Jackrabbit Oak 1.0.33 (August 25th, 2016)
----------------------------------------------------
+------------------------------------------------
 
 Jackrabbit Oak 1.0.33 is patch release that contains fixes and improvements over the previous 1.0.x release. 
 Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
@@ -104,7 +105,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.33/RE
 
 <a class='anchor' name='2.13'></a>
 Apache Jackrabbit 2.13.2 (August 25th, 2016)
----------------------------------------------
+--------------------------------------------
 Apache Jackrabbit 2.13.2 is an unstable release cut directly from
 Jackrabbit trunk, with a focus on new features and other
 improvements. For production use we recommend the latest stable 2.12.x
@@ -136,7 +137,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.13.2/RELEAS
 
 <a class='anchor' name='oak1.2'></a>
 Apache Jackrabbit Oak 1.2.18 (August 16th, 2016)
----------------------------------------------
+------------------------------------------------
 Jackrabbit Oak 1.2.18 is patch release that contains fixes and
 improvements over the previous 1.2.x release.
 Jackrabbit Oak 1.2.x releases are considered stable and targeted for
@@ -154,8 +155,7 @@ for more details.
 
 <a class='anchor' name='oak'></a>
 Apache Jackrabbit Oak 1.4.6 (August 12th, 2016)
---------------------------------------------
-
+-----------------------------------------------
 Apache Jackrabbit Oak 1.4.6 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.x
 releases. Jackrabbit Oak 1.4.x releases are considered stable and
@@ -171,8 +171,8 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.6/REL
 
 
 <a class='anchor' name='v2.8'></a>
-Apache Jackrabbit 2.8 (July 15th, 2016)
----------------------------------------
+Apache Jackrabbit 2.8.2 (July 15th, 2016)
+-----------------------------------------
 Apache Jackrabbit 2.8.2 is an incremental feature release based on and compatible with earlier 
 stable Jackrabbit 2.x releases. Jackrabbit 2.8.x releases are considered stable and targeted for production use.
 
@@ -259,8 +259,8 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.6.5/RELEASE
 
 
 <a class='anchor' name='v2.4'></a>
-Apache Jackrabbit 2.4 (Oct 24, 2013)
-------------------------------------
+Apache Jackrabbit 2.4.5(Oct 24, 2013)
+-------------------------------------
 Apache Jackrabbit 2.4.5 is patch release that contains fixes and improvements over previous 2.4.x releases. 
 Jackrabbit 2.4.x releases are considered stable and targeted for production use.
 
