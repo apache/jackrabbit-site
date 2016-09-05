@@ -41,6 +41,21 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.5'></a>
+Apache Jackrabbit Oak 1.5.9 (September 5th, 2016)
+--------------------------------------------------
+Apache Jackrabbit Oak 1.5.9 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
+For production use we recommend the latest stable 1.4.x release.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.5.9/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.5.9-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.5.9/jackrabbit-oak-1.5.9-src.zip)
+    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.5.9/jackrabbit-oak-1.5.9-src.zip.asc))
+    <br/>SHA1 checksum: `b928cace7d05cbe0ff76273794f9ecb22f0455f4`
+    <br/>MD5  checksum: `9566d270af25f1a720fa64345d8c8539`
+
+
+
 <a class='anchor' name='2.13'></a>
 Apache Jackrabbit 2.13.2 (August 25th, 2016)
 ---------------------------------------------
@@ -102,18 +117,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.8.2/RELEASE
     <br/>MD5  checksum: `549eea2ba10f22b0c05e52a9db875be6`
 
 
-<a class='anchor' name='oak1.5'></a>
-Apache Jackrabbit Oak 1.5.9 (September 5th, 2016)
---------------------------------------------------
-Apache Jackrabbit Oak 1.5.9 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
-For production use we recommend the latest stable 1.4.x release.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.5.9/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.5.9-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.5.9/jackrabbit-oak-1.5.9-src.zip)
-    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.5.9/jackrabbit-oak-1.5.9-src.zip.asc))
-    <br/>SHA1 checksum: `b928cace7d05cbe0ff76273794f9ecb22f0455f4`
-    <br/>MD5  checksum: `9566d270af25f1a720fa64345d8c8539`
 
 <a class='anchor' name='oak'></a>
 Apache Jackrabbit Oak 1.4.6 (August 12th, 2016)
