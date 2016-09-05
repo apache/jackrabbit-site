@@ -32,7 +32,7 @@ the signatures and checksums available from this page.
     * [Apache Jackrabbit 2.4.x](#v2.4) 
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
 * Latest stable FileVault release: [Apache Jackrabbit FileVault 3.1.28](#vlt)
-* [Release Archive](#archive.html)
+* [Release Archive](#archive)
 
 Apache Jackrabbit releases are available under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0). 
 See the `NOTICE.txt` file contained in each release artifact for applicable copyright attribution notices. 
