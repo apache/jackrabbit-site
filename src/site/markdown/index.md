@@ -48,7 +48,7 @@ with a focus on new features and other improvements.  See the
 #### August 25th, 2016: Apache Jackrabbit 2.13.2 released
 Apache Jackrabbit 2.13.2 is an unstable release cut directly from trunk,
 with a focus on new features and other improvements. See the
-[downloads](downloads.html#2.13) page for more details.
+[downloads](downloads.htmlv#2.13) page for more details.
 
 #### August 25th, 2016: Apache Jackrabbit Oak 1.0.33 released
 Jackrabbit Oak 1.0.33 is a patch release that contains fixes and
@@ -78,7 +78,7 @@ improvements over the previous 1.2.x release. See the
 #### August 12th, 2016: Apache Jackrabbit Oak 1.4.6 released
 Apache Jackrabbit Oak 1.4.6 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.x releases. See
-the [downloads](downloads.html#oak) page for more details
+the [downloads](downloads.html#oak1.4) page for more details
 
 #### August 4th, 2016: Apache Jackrabbit Oak 1.5.7 released
 Jackrabbit Oak 1.5.7 is an unstable release cut directly from trunk,
@@ -93,12 +93,12 @@ with a focus on new features and other improvements.  See the
 #### July 19th, 2016: Apache Jackrabbit Oak 1.4.5 released
 Apache Jackrabbit Oak 1.4.5 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.x releases. See
-the [downloads](downloads.html#oak) page for more details
+the [downloads](downloads.html#oak1.4) page for more details
 
 #### July 15th, 2016: Apache Jackrabbit 2.8.2 released
 Apache Jackrabbit 2.8.2 is a patch release that contains fixes and
 improvements over the previous 2.8.x release. See the
-[downloads](downloads.html#2.8) page for more details.
+[downloads](downloads.html#v2.8) page for more details.
 
 #### July 15th, 2016: Apache Jackrabbit 2.13.1 released
 Apache Jackrabbit 2.13.1 is an unstable release cut directly from trunk,
@@ -124,7 +124,7 @@ with a focus on new features and other improvements.
 #### June 30th, 2016: Apache Jackrabbit Oak 1.4.4 released
 Apache Jackrabbit Oak 1.4.4 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.x releases. See
-the [downloads](downloads.html#oak) page for more details
+the [downloads](downloads.html#oak1.4) page for more details
 
 #### June 27th, 2016: Apache Jackrabbit Oak 1.5.4 released
 Jackrabbit Oak 1.5.4 is an unstable release cut directly from trunk,

@@ -22,7 +22,7 @@ the signatures and checksums available from this page.
 
 * Latest stable release: 
     * [Apache Jackrabbit 2.12.x](#v2.12)
-    * [Apache Jackrabbit Oak 1.4.x](#oak)
+    * [Apache Jackrabbit Oak 1.4.x](#oak1.4)
 * Maintenance releases:
     * [Apache Jackrabbit Oak 1.0.x](#oak1.0)
     * [Apache Jackrabbit Oak 1.2.x](#oak1.2)
@@ -103,7 +103,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.33/RE
 
 
 
-<a class='anchor' name='2.13'></a>
+<a class='anchor' name='v2.13'></a>
 Apache Jackrabbit 2.13.2 (August 25th, 2016)
 --------------------------------------------
 Apache Jackrabbit 2.13.2 is an unstable release cut directly from
@@ -153,7 +153,7 @@ for more details.
 
 
 
-<a class='anchor' name='oak'></a>
+<a class='anchor' name='oak1.4'></a>
 Apache Jackrabbit Oak 1.4.6 (August 12th, 2016)
 -----------------------------------------------
 Apache Jackrabbit Oak 1.4.6 is an incremental feature release based on
@@ -286,6 +286,8 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.4.5/RELEASE
     <br/>SHA1 checksum: `bfbbf4a7350f80525597c98784785e7aea00bfbc`
     <br/>MD5  checksum: `f4a1e0fab7ace6e6604270d6575385f5`
 
+
+
 <a class='anchor' name='ocm'></a>
 Apache Jackrabbit OCM 2.0.0 (10-July-2012)
 ------------------------------------------
@@ -298,6 +300,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/ocm/2.0.0/REL
     (518K, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip.asc))
     <br/>SHA1 checksum: `8e57c6b956ae271fa4df8cbe8d3e21a128ebc66e`
     <br/>MD5 checksum: `7495daad93eaa2aa2a3b02960b791cf3`
+
 
 
 <a class='anchor' name='vlt'></a>
