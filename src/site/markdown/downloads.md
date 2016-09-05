@@ -20,9 +20,12 @@ Use the links below to download Apache Jackrabbit releases from one of our
 mirrors. You should [verify the integrity](#verify.html) of the files using 
 the signatures and checksums available from this page.
 
-* Latest stable release: 
+* Latest stable releases: 
     * [Apache Jackrabbit 2.12.x](#v2.12)
     * [Apache Jackrabbit Oak 1.4.x](#oak1.4)
+* Latest unstable releases (from trunk): 
+    * [Apache Jackrabbit 2.13.x](#v2.13)
+    * [Apache Jackrabbit Oak 1.5.x](#oak1.5)
 * Maintenance releases:
     * [Apache Jackrabbit Oak 1.0.x](#oak1.0)
     * [Apache Jackrabbit Oak 1.2.x](#oak1.2)
