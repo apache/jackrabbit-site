@@ -85,7 +85,7 @@ Release management tasks
 
 10. Update the Jackrabbit web site to point to the new release.
     1. index.md
-    2. downloads.md
+    2. downloads.md (while doing so please a) remove obsoleted entries, and b) move new entries for Jackrabbit and/or Oak to the top)
 11. Send the release announcement once the web site and download mirrors have been synced. Please note the announce mails needs to be sent from an @apache.org address.
 
 
