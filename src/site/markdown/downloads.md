@@ -99,7 +99,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.13.2/RELEAS
     <br/>MD5  checksum: `8c3a37b4f50591f752e0d86db669c693`
 
 <a class='anchor' name='oak1.5'></a>
-Apache Jackrabbit Oak 1.5.9 (August 18th, 2016)
+Apache Jackrabbit Oak 1.5.9 (September 5th, 2016)
 --------------------------------------------------
 Apache Jackrabbit Oak 1.5.9 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
 For production use we recommend the latest stable 1.4.x release.
