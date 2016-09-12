@@ -27,8 +27,8 @@ the signatures and checksums available from this page.
     * [Apache Jackrabbit 2.13.x](#v2.13)
     * [Apache Jackrabbit Oak 1.5.x](#oak1.5)
 * Maintenance releases:
-    * [Apache Jackrabbit Oak 1.0.x](#oak1.0)
     * [Apache Jackrabbit Oak 1.2.x](#oak1.2)
+    * [Apache Jackrabbit Oak 1.0.x](#oak1.0)
     * [Apache Jackrabbit 2.10.x](#v2.10)
     * [Apache Jackrabbit 2.8.x](#v2.8) 
     * [Apache Jackrabbit 2.6.x](#v2.6)
@@ -138,34 +138,34 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.33/RE
 
 
 <a class='anchor' name='v2.13'></a>
-Apache Jackrabbit 2.13.2 (August 25th, 2016)
+Apache Jackrabbit 2.13.3 (September 25th, 2016)
 --------------------------------------------
-Apache Jackrabbit 2.13.2 is an unstable release cut directly from
+Apache Jackrabbit 2.13.3 is an unstable release cut directly from
 Jackrabbit trunk, with a focus on new features and other
 improvements. For production use we recommend the latest stable 2.12.x
 release.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/2.13.2/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/2.13.3/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-2.13.2-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/2.13.2/jackrabbit-2.13.2-src.zip)
-    (13M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/2.13.2/jackrabbit-2.13.2-src.zip.asc))
-    <br/>SHA1 checksum: `b5cb0894464630813cd9704e7027fe3e3db06408`
-    <br/>MD5  checksum: `121619b474da7f214bdf3c70e37ca586`
+* [jackrabbit-2.13.3-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/2.13.3/jackrabbit-2.13.3-src.zip)
+    (13M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/2.13.3/jackrabbit-2.13.3-src.zip.asc))
+    <br/>SHA1 checksum: `1fabc1d1db4aef2db7081507e96e18074ed83991`
+    <br/>MD5  checksum: `2fe487f8962dfa19a4b2b9514ab8b32b`
 
-* [jackrabbit-standalone-2.13.2.jar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.13.2/jackrabbit-standalone-2.13.2.jar)
-    (80M, standalone server, [PGP signature](http://www.apache.org/dist/jackrabbit/2.13.2/jackrabbit-standalone-2.13.2.jar.asc))
-    <br/>SHA1 checksum: `c2184aad4d5328a0c3aa5fc45363b756e06702b1`
-    <br/>MD5  checksum: `779029f4739eea9d8c0edc6e4784ed0f`
+* [jackrabbit-standalone-2.13.3.jar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.13.3/jackrabbit-standalone-2.13.3.jar)
+    (80M, standalone server, [PGP signature](http://www.apache.org/dist/jackrabbit/2.13.3/jackrabbit-standalone-2.13.3.jar.asc))
+    <br/>SHA1 checksum: `aacf2a774d54957fd54f853fb187cdf97d3e5fda`
+    <br/>MD5  checksum: `1dbc8f5e405189b13263e20d2634d7d2`
 
-* [jackrabbit-webapp-2.13.2.war](http://www.apache.org/dyn/closer.lua/jackrabbit/2.13.2/jackrabbit-webapp-2.13.2.war)
-    (34M, web application, [PGP signature](http://www.apache.org/dist/jackrabbit/2.13.2/jackrabbit-webapp-2.13.2.war.asc))
-    <br/>SHA1 checksum: `755505902e9c8ebc117bc8ce0a443f7f9fb011ab`
-    <br/>MD5  checksum: `7143391d41269a77be489a4bcc3d82c7`
+* [jackrabbit-webapp-2.13.3.war](http://www.apache.org/dyn/closer.lua/jackrabbit/2.13.3/jackrabbit-webapp-2.13.3.war)
+    (34M, web application, [PGP signature](http://www.apache.org/dist/jackrabbit/2.13.3/jackrabbit-webapp-2.13.3.war.asc))
+    <br/>SHA1 checksum: `fa1de239327e0eedeb4456a1badf0bb44f6e4e64`
+    <br/>MD5  checksum: `ded18f0a80c96999a95dd0c3f65b9b71`
 
-* [jackrabbit-jca-2.13.2.rar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.13.2/jackrabbit-jca-2.13.2.rar)
-    (30M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.13.2/jackrabbit-jca-2.13.2.rar.asc))
-    <br/>SHA1 checksum: `8debdc771637f875c64d064255c5e374192933f6`
-    <br/>MD5  checksum: `8c3a37b4f50591f752e0d86db669c693`
+* [jackrabbit-jca-2.13.3.rar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.13.3/jackrabbit-jca-2.13.3.rar)
+    (30M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.13.3/jackrabbit-jca-2.13.3.rar.asc))
+    <br/>SHA1 checksum: `20fcf9e9792aaa09fc2289b9f588ddcf93ee0cdb`
+    <br/>MD5  checksum: `d16ccb3f124519b0822a790f78871d08`
 
 
 
