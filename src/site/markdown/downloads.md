@@ -45,7 +45,7 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 <a class='anchor' name='v2.13'></a>
-Apache Jackrabbit 2.13.3 (September 25th, 2016)
+Apache Jackrabbit 2.13.3 (September 13th, 2016)
 --------------------------------------------
 Apache Jackrabbit 2.13.3 is an unstable release cut directly from
 Jackrabbit trunk, with a focus on new features and other
