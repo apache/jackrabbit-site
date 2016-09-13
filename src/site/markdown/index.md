@@ -38,7 +38,7 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 #### September 12th, 2016: Apache Jackrabbit 2.13.3 released
 Apache Jackrabbit 2.13.3 is an unstable release cut directly from trunk,
 with a focus on new features and other improvements. See the
-[downloads](downloads.htmlv#2.13) page for more details.
+[downloads](downloads.html#v2.13) page for more details.
 
 #### September 9th, 2016: Apache Jackrabbit 2.10.4 released
 Apache Jackrabbit 2.10.4 is a patch release that contains fixes and
