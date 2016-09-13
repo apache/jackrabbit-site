@@ -76,6 +76,23 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.13.3/RELEAS
 
 
 
+<a class='anchor' name='oak1.4'></a>
+Apache Jackrabbit Oak 1.4.7 (September 12th, 2016)
+-----------------------------------------------
+Apache Jackrabbit Oak 1.4.7 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.x
+releases. Jackrabbit Oak 1.4.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.7/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.4.7-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.7/jackrabbit-oak-1.4.7-src.zip)
+    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.4.7/jackrabbit-oak-1.4.7-src.zip.asc))
+    <br/>SHA1 checksum: `0c019fc23a3f01ad01467e2e69351f5fa5e95beb`
+    <br/>MD5  checksum: `de4baadab1febbed36d0ad8986d892d6`
+
+
+
 <a class='anchor' name='v2.10'></a>
 Apache Jackrabbit 2.10.4 (September 9th, 2016)
 ----------------------------------------------
@@ -186,21 +203,6 @@ for more details.
     <br/>MD5  checksum: `8b13b0dd014a9f12f0774ca958c3005d`
 
 
-
-<a class='anchor' name='oak1.4'></a>
-Apache Jackrabbit Oak 1.4.7 (September 12th, 2016)
------------------------------------------------
-Apache Jackrabbit Oak 1.4.7 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.x
-releases. Jackrabbit Oak 1.4.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.7/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.4.7-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.7/jackrabbit-oak-1.4.7-src.zip)
-    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.4.7/jackrabbit-oak-1.4.7-src.zip.asc))
-    <br/>SHA1 checksum: `0c019fc23a3f01ad01467e2e69351f5fa5e95beb`
-    <br/>MD5  checksum: `de4baadab1febbed36d0ad8986d892d6`
 
 <a class='anchor' name='v2.8'></a>
 Apache Jackrabbit 2.8.2 (July 15th, 2016)
