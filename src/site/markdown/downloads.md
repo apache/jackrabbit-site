@@ -44,6 +44,24 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.2'></a>
+Apache Jackrabbit Oak 1.2.19 (September 16th, 2016)
+---------------------------------------------------
+Jackrabbit Oak 1.2.19 is patch release that contains fixes and
+improvements over the previous 1.2.x release.
+Jackrabbit Oak 1.2.x releases are considered stable and targeted for
+production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.19/RELEASE-NOTES.txt)
+for more details.
+
+* [jackrabbit-oak-1.2.19-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.19/jackrabbit-oak-1.2.19-src.zip)
+    (6.5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.19/jackrabbit-oak-1.2.19-src.zip.asc))
+    <br/>SHA1 checksum: `1fd77f652fed9959e40fd1a2ac4f58439df7c51b`
+    <br/>MD5  checksum: `041a1ec4eaf980621f7c57c16594f2ce`
+
+
+
 <a class='anchor' name='v2.8'></a>
 Apache Jackrabbit 2.8.3 (September 15th, 2016)
 ----------------------------------------------
@@ -214,24 +232,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.33/RE
     (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.33/jackrabbit-oak-1.0.33-src.zip.asc))
     <br/>SHA1 checksum: `74a069f439a23f0f28754de7f33c0e8da74240da`
     <br/>MD5  checksum: `7a8e3654ba8edea3590d1fc30ba54160`
-
-
-
-<a class='anchor' name='oak1.2'></a>
-Apache Jackrabbit Oak 1.2.19 (September 16th, 2016)
-------------------------------------------------
-Jackrabbit Oak 1.2.19 is patch release that contains fixes and
-improvements over the previous 1.2.x release.
-Jackrabbit Oak 1.2.x releases are considered stable and targeted for
-production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.19/RELEASE-NOTES.txt)
-for more details.
-
-* [jackrabbit-oak-1.2.19-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.19/jackrabbit-oak-1.2.19-src.zip)
-    (6.5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.19/jackrabbit-oak-1.2.19-src.zip.asc))
-    <br/>SHA1 checksum: `1fd77f652fed9959e40fd1a2ac4f58439df7c51b`
-    <br/>MD5  checksum: `041a1ec4eaf980621f7c57c16594f2ce`
 
 
 
