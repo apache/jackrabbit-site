@@ -42,7 +42,18 @@ See the `NOTICE.txt` file contained in each release artifact for applicable copy
 Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](http://www.apache.org/legal/resolved.html). 
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
+<a class='anchor' name='oak1.5'></a>
+Apache Jackrabbit Oak 1.5.10 (September 19th, 2016)
+-------------------------------------------------
+Apache Jackrabbit Oak 1.5.10 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
+For production use we recommend the latest stable 1.4.x release.
 
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.5.10/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.5.10-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.5.10/jackrabbit-oak-1.5.10-src.zip)
+    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.5.10/jackrabbit-oak-1.5.10-src.zip.asc))
+    <br/>SHA1 checksum: `0e09418dbeb03203780f7cc38fe7a925ec1fcb38`
+    <br/>MD5  checksum: `8255daf7177453ec83002ebe6fbb334c`
 
 <a class='anchor' name='v2.6'></a>
 Apache Jackrabbit 2.6.6 (September 17th, 2016)
@@ -232,23 +243,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.12.4/RELEAS
     (30M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.12.4/jackrabbit-jca-2.12.4.rar.asc))
     <br/>SHA1 checksum: `70e68c3354072b27908d0fb8b60181bb02d84071`
     <br/>MD5  checksum: `4a78c037cc96d324392bbf2eda1a6592`
-
-
-
-<a class='anchor' name='oak1.5'></a>
-Apache Jackrabbit Oak 1.5.9 (September 5th, 2016)
--------------------------------------------------
-Apache Jackrabbit Oak 1.5.9 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
-For production use we recommend the latest stable 1.4.x release.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.5.9/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.5.9-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.5.9/jackrabbit-oak-1.5.9-src.zip)
-    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.5.9/jackrabbit-oak-1.5.9-src.zip.asc))
-    <br/>SHA1 checksum: `b928cace7d05cbe0ff76273794f9ecb22f0455f4`
-    <br/>MD5  checksum: `9566d270af25f1a720fa64345d8c8539`
-
-
 
 <a class='anchor' name='oak1.0'></a>
 Apache Jackrabbit Oak 1.0.33 (August 25th, 2016)
