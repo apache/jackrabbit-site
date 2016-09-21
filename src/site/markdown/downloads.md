@@ -21,18 +21,18 @@ mirrors. You should [verify the integrity](#verify.html) of the files using
 the signatures and checksums available from this page.
 
 * Latest stable releases: 
-    * [Apache Jackrabbit 2.12.x](#v2.12)
-    * [Apache Jackrabbit Oak 1.4.x](#oak1.4)
+    * [Apache Jackrabbit 2.12.x](#v2.12) (Java 6 and later)
+    * [Apache Jackrabbit Oak 1.4.x](#oak1.4) (Java 7 and later)
 * Latest unstable releases (from trunk): 
-    * [Apache Jackrabbit 2.13.x](#v2.13)
-    * [Apache Jackrabbit Oak 1.5.x](#oak1.5)
+    * [Apache Jackrabbit 2.13.x](#v2.13) (Java 6 and later)
+    * [Apache Jackrabbit Oak 1.5.x](#oak1.5) (Java 7 and later)
 * Maintenance releases:
-    * [Apache Jackrabbit Oak 1.2.x](#oak1.2)
-    * [Apache Jackrabbit Oak 1.0.x](#oak1.0)
-    * [Apache Jackrabbit 2.10.x](#v2.10)
-    * [Apache Jackrabbit 2.8.x](#v2.8) 
-    * [Apache Jackrabbit 2.6.x](#v2.6)
-    * [Apache Jackrabbit 2.4.x](#v2.4) 
+    * [Apache Jackrabbit Oak 1.2.x](#oak1.2) (Java 6 and later)
+    * [Apache Jackrabbit Oak 1.0.x](#oak1.0) (Java 6 and later)
+    * [Apache Jackrabbit 2.10.x](#v2.10) (Java 6 and later)
+    * [Apache Jackrabbit 2.8.x](#v2.8) (Java 6 and later)
+    * [Apache Jackrabbit 2.6.x](#v2.6) (Java 6 and later)
+    * [Apache Jackrabbit 2.4.x](#v2.4) (Java 6 and later)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
 * Latest stable FileVault release: [Apache Jackrabbit FileVault 3.1.28](#vlt)
 * [Release Archive](#archive)
@@ -54,6 +54,9 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.5.10/RE
     (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.5.10/jackrabbit-oak-1.5.10-src.zip.asc))
     <br/>SHA1 checksum: `0e09418dbeb03203780f7cc38fe7a925ec1fcb38`
     <br/>MD5  checksum: `8255daf7177453ec83002ebe6fbb334c`
+
+
+
 
 <a class='anchor' name='v2.6'></a>
 Apache Jackrabbit 2.6.6 (September 17th, 2016)
