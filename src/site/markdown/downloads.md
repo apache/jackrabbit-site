@@ -32,7 +32,7 @@ the signatures and checksums available from this page.
     * [Apache Jackrabbit 2.10.x](#v2.10) (Java 6 and later)
     * [Apache Jackrabbit 2.8.x](#v2.8) (Java 6 and later)
     * [Apache Jackrabbit 2.6.x](#v2.6) (Java 6 and later)
-    * [Apache Jackrabbit 2.4.x](#v2.4) (Java 6 and later)
+    * [Apache Jackrabbit 2.4.x](#v2.4) (Java 6 and later, but see [JCR-4026](https://issues.apache.org/jira/browse/JCR-4026))
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
 * Latest stable FileVault release: [Apache Jackrabbit FileVault 3.1.28](#vlt)
 * [Release Archive](#archive)
