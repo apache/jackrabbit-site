@@ -61,7 +61,7 @@ Release management tasks
     useful source of required information: Open the [Jira Oak](https://issues.apache.org/jira/browse/OAK) page, 
     click on the release, then on the "Release Notes" button on the top right. When done, commit the file.
 4. Build and deploy the release artifacts with Maven. See below for the exact steps.
-5. Close the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org.
+5. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (19 projects for Jackrabbit), then close it.
 6. Upload the artifacts to https://dist.apache.org/repos/dist/dev/jackrabbit/ (instructions at the end of the build)
 
         cd /path/to/jackrabbit-dev
