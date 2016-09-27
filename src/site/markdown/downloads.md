@@ -24,7 +24,7 @@ the signatures and checksums available from this page.
     * [Apache Jackrabbit 2.12.x](#v2.12) (Java 6 and later)
     * [Apache Jackrabbit Oak 1.4.x](#oak1.4) (Java 7 and later)
 * Latest unstable releases (from trunk): 
-    * [Apache Jackrabbit 2.13.x](#v2.13) (Java 6 and later)
+    * [Apache Jackrabbit 2.13.x](#v2.13) (Java 7 and later)
     * [Apache Jackrabbit Oak 1.5.x](#oak1.5) (Java 7 and later)
 * Maintenance releases:
     * [Apache Jackrabbit Oak 1.2.x](#oak1.2) (Java 6 and later)
