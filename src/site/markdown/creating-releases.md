@@ -74,9 +74,9 @@ Release management tasks
 9. If the vote fails (easy case first) remove the tag from svn, drop the staged repository and revert the version release in Jira- done
 10. If the vote is successful
     * close the vote by publishing the results
-    * copy the release candidate from dev/jackrabbit to release/jackrabbit in https://dist.apache.org/repos/dist/, and delete any older releases from the same branch (they're automatically archived),
+    * copy the release candidate from dev/jackrabbit to release/jackrabbit in https://dist.apache.org/repos/dist/, and delete any older releases from the same branch (they're automatically archived) -- **be careful to properly set the version variable!!!**
 
-        svn move -m "Apache Jackrabbit $version" \
+        [ "x$version" = "x" ] || svn move -m "Apache Jackrabbit $version" \
         https://dist.apache.org/repos/dist/dev/jackrabbit/$version \
         https://dist.apache.org/repos/dist/release/jackrabbit/$version
 
