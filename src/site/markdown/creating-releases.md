@@ -74,12 +74,13 @@ Release management tasks
 9. If the vote fails (easy case first) remove the tag from svn, drop the staged repository and revert the version release in Jira- done
 10. If the vote is successful
     * close the vote by publishing the results
-    * copy the release candidate from dev/jackrabbit to release/jackrabbit in https://dist.apache.org/repos/dist/, and delete any older releases from the same branch (they're automatically archived) -- **be careful to properly set the version variable!!!**
+    * copy the release candidate from dev/jackrabbit to release/jackrabbit in https://dist.apache.org/repos/dist/ -- **be careful to properly set the version variable!!!**
 
         [ "x$version" = "x" ] || svn move -m "Apache Jackrabbit $version" \
         https://dist.apache.org/repos/dist/dev/jackrabbit/$version \
         https://dist.apache.org/repos/dist/release/jackrabbit/$version
 
+    * delete any older releases from the same branch (they're automatically archived)
     * release the [staged repository](https://repository.apache.org/index.html#stagingRepositories) for synchronization to Maven central.
     * close all the issues included in the release: Jira Project Home -> Change Log -> Choose the released version. From the issue list you have the option to bulk update all of the included issues. Just 'Transition Issues' from 'Resolved' to 'Closed' and you are done!
 
