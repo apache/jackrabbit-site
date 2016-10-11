@@ -88,6 +88,7 @@ Release management tasks
     1. index.md
     2. downloads.md (while doing so please a) remove obsoleted entries, and b) move new entries for Jackrabbit and/or Oak to the top)
 12. Send the release announcement once the web site and download mirrors have been synced. Please note the announce mails needs to be sent from an @apache.org address.
+13. If the release was a Jackrabbit release used in Oak, make sure to also update the dependency in oak-parent/pom.xml (example: [OAK-4743](https://issues.apache.org/jira/browse/OAK-4743) - the current mapping is Jackrabbit 2.13 -> Oak trunk, Jackrabbit 2.12 -> Oak 1.4 and 1.2, Jackrabbit 2.8 -> Oak 1.0)
 
 
 Steps to build the release artifacts
