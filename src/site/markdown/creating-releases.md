@@ -58,7 +58,7 @@ Release management tasks
 3. Create a `RELEASE-NOTES.txt` file in the root folder of the project to be released. 
     If such a file already exists, update it for the release. See a previous 
     release notes for examples of what to include. The release note report in Jira is a 
-    useful source of required information: Open the [Jira Oak](https://issues.apache.org/jira/browse/OAK) page, 
+    useful source of required information: Open the [JCR Jira](https://issues.apache.org/jira/browse/JCR) or [OAK Jira](https://issues.apache.org/jira/browse/OAK) page, 
     click on the release, then on the "Release Notes" button on the top right. When done, commit the file.
 4. Build and deploy the release artifacts with Maven. See below for the exact steps.
 5. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (19 projects for Jackrabbit), then close it.
