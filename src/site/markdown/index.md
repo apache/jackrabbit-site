@@ -61,6 +61,11 @@ Apache Jackrabbit Oak 1.4.8 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.x releases. See
 the [downloads](downloads.html#oak1.4) page for more details
 
+#### October 6th, 2016: Apache Jackrabbit Oak 1.0.34 released
+Jackrabbit Oak 1.0.34 is a patch release that contains fixes and
+improvements over the previous 1.0.x release.  See the
+[downloads](downloads.html#oak1.0) page for more details
+
 #### September 16th, 2016: Apache Jackrabbit Oak 1.2.19 released
 Jackrabbit Oak 1.2.19 is a patch release that contains fixes and
 improvements over the previous 1.2.x release.
