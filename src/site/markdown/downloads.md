@@ -45,6 +45,25 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.2'></a>
+Apache Jackrabbit Oak 1.2.21 (November 18th, 2016)
+-------------------------------------------------
+Jackrabbit Oak 1.2.21 is patch release that contains fixes and
+improvements over the previous 1.2.x release.
+Jackrabbit Oak 1.2.x releases are considered stable and targeted for
+production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.21/RELEASE-NOTES.txt)
+for more details.
+
+* [jackrabbit-oak-1.2.21-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.21/jackrabbit-oak-1.2.21-src.zip)
+    (6.5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.21/jackrabbit-oak-1.2.21-src.zip.asc))
+    <br/>SHA1 checksum: `567d157f0561275844193537b625b559eb22e917`
+    <br/>MD5  checksum: `2ca5e931875d863f8dbe2edecb0baaa6`
+
+
+
+
 <a class='anchor' name='v2.12'></a>
 Apache Jackrabbit 2.12.5 (November 7th, 2016)
 ----------------------------------------------
@@ -95,25 +114,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.9/REL
 
 
 
-<a class='anchor' name='oak1.2'></a>
-Apache Jackrabbit Oak 1.2.21 (November 18th, 2016)
--------------------------------------------------
-Jackrabbit Oak 1.2.21 is patch release that contains fixes and
-improvements over the previous 1.2.x release.
-Jackrabbit Oak 1.2.x releases are considered stable and targeted for
-production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.21/RELEASE-NOTES.txt)
-for more details.
-
-* [jackrabbit-oak-1.2.21-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.21/jackrabbit-oak-1.2.21-src.zip)
-    (6.5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.21/jackrabbit-oak-1.2.21-src.zip.asc))
-    <br/>SHA1 checksum: `567d157f0561275844193537b625b559eb22e917`
-    <br/>MD5  checksum: `2ca5e931875d863f8dbe2edecb0baaa6`
-
-
-
-
 <a class='anchor' name='oak1.5'></a>
 Apache Jackrabbit Oak 1.5.13 (October 14th, 2016)
 -------------------------------------------------
@@ -126,6 +126,9 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.5.13/RE
     (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.5.13/jackrabbit-oak-1.5.13-src.zip.asc))
     <br/>SHA1 checksum: `c023a1924941e1609abf82b4e63a8617276e6091`
     <br/>MD5  checksum: `d2cd6eb971d586246a8965ed86afd871`
+
+
+
 
 <a class='anchor' name='v2.13'></a>
 Apache Jackrabbit 2.13.4 (October 10th, 2016)
