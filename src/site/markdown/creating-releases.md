@@ -62,7 +62,7 @@ Release management tasks
     click on the release, then on the "Release Notes" button on the top right.
     Double-check that all version numbers in the updated Release Notes are accurate.
     When done, commit the file.
-4. Build and deploy the release artifacts with Maven. See below for the exact steps.
+4. Build and deploy the release artifacts with Maven. See [below](#Steps_to_build_the_release_artifacts) for the exact steps.
 5. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (~19 projects for Jackrabbit).
 6. Close the staged repository, giving it a meaningful name, such as "Apache Jackrabbit 2.x.y RC"
 7. Upload the artifacts to https://dist.apache.org/repos/dist/dev/jackrabbit/ (instructions at the end of the build)
