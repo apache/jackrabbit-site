@@ -59,7 +59,9 @@ Release management tasks
     If such a file already exists, update it for the release. See a previous 
     release notes for examples of what to include. The release note report in Jira is a 
     useful source of required information: Open the [JCR Jira](https://issues.apache.org/jira/browse/JCR) or [OAK Jira](https://issues.apache.org/jira/browse/OAK) page, 
-    click on the release, then on the "Release Notes" button on the top right. When done, commit the file.
+    click on the release, then on the "Release Notes" button on the top right.
+    Double-check that all version numbers in the updated Release Notes are accurate.
+    When done, commit the file.
 4. Build and deploy the release artifacts with Maven. See below for the exact steps.
 5. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (~19 projects for Jackrabbit).
 6. Close the staged repository, giving it a meaningful name, such as "Apache Jackrabbit 2.x.y RC"
