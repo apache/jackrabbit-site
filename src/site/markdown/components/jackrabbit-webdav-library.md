@@ -28,7 +28,7 @@ The following RFCs have been integrated:
 * [RFC 3648](http://www.webdav.org/specs/rfc3648.html) (Ordered Collections Protocol)
 * [RFC 3744](http://www.webdav.org/specs/rfc3744.html) (Access Control Protocol)
 * [RFC 5323](http://www.webdav.org/specs/rfc5323.html) (WebDAV SEARCH; previously DASL - DAV Searching and Locating)
-* [draft-ietf-webdav-bind](http://greenbytes.de/tech/webdav/draft-ietf-webdav-bind-latest.html) (Binding Extensions to Web Distributed Authoring and Versioning (WebDAV))
+* [RFC 5842](http://www.webdav.org/specs/rfc5842.html) (Binding Extensions to Web Distributed Authoring and Versioning (WebDAV))
 
 In addition this library defines (unspecified)
 
