@@ -124,20 +124,19 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.5.15/RE
     <br/>MD5  checksum: `fff82a284ffd5a0fc3ed67be0905a562`
 
 <a class='anchor' name='oak1.2'></a>
-Apache Jackrabbit Oak 1.2.21 (November 18th, 2016)
+Apache Jackrabbit Oak 1.2.22 (December 15th, 2016)
 -------------------------------------------------
-Jackrabbit Oak 1.2.21 is patch release that contains fixes and
+Jackrabbit Oak 1.2.22 is patch release that contains fixes and
 improvements over the previous 1.2.x release.
 Jackrabbit Oak 1.2.x releases are considered stable and targeted for
 production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.21/RELEASE-NOTES.txt)
-for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.22/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.2.21-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.21/jackrabbit-oak-1.2.21-src.zip)
-    (6.5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.21/jackrabbit-oak-1.2.21-src.zip.asc))
-    <br/>SHA1 checksum: `567d157f0561275844193537b625b559eb22e917`
-    <br/>MD5  checksum: `2ca5e931875d863f8dbe2edecb0baaa6`
+* [jackrabbit-oak-1.2.2-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.22/jackrabbit-oak-1.2.22-src.zip)
+    (6.8M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.22/jackrabbit-oak-1.2.22-src.zip.asc))
+    <br/>SHA1 checksum: `c9da07249489562228f0b2ff6229ce8992320a73`
+    <br/>MD5  checksum: `a20a3c9a990e6f21a7b1c26c4d809c64`
 
 
 
