@@ -45,18 +45,20 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
-<a class='anchor' name='oak1.5'></a>
-Apache Jackrabbit Oak 1.5.15 (December 12th, 2016)
+<a class='anchor' name='oak1.4'></a>
+Apache Jackrabbit Oak 1.4.11 (December 16th, 2016)
 --------------------------------------------------
-Apache Jackrabbit Oak 1.5.15 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
-For production use we recommend the latest stable 1.4.x release.
+Apache Jackrabbit Oak 1.4.11 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.x
+releases. Jackrabbit Oak 1.4.x releases are considered stable and
+targeted for production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.5.15/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.11/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.5.15-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.5.15/jackrabbit-oak-1.5.15-src.zip)
-    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.5.15/jackrabbit-oak-1.5.15-src.zip.asc))
-    <br/>SHA1 checksum: `59e6311e9d9e754b417119aaebb5de97efcd81ad`
-    <br/>MD5  checksum: `fff82a284ffd5a0fc3ed67be0905a562`
+* [jackrabbit-oak-1.4.11-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.11/jackrabbit-oak-1.4.11-src.zip)
+    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.4.11/jackrabbit-oak-1.4.11-src.zip.asc))
+    <br/>SHA1 checksum: `7cd7038b8c8ee9d716ed9d03aac07a531178c7f0`
+    <br/>MD5  checksum: `8f9ab0a497ea87cc87c04f93b063e4d1`
 
 
 
@@ -75,6 +77,22 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.22/RE
     (6.8M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.22/jackrabbit-oak-1.2.22-src.zip.asc))
     <br/>SHA1 checksum: `c9da07249489562228f0b2ff6229ce8992320a73`
     <br/>MD5  checksum: `a20a3c9a990e6f21a7b1c26c4d809c64`
+
+
+
+
+<a class='anchor' name='oak1.5'></a>
+Apache Jackrabbit Oak 1.5.15 (December 12th, 2016)
+--------------------------------------------------
+Apache Jackrabbit Oak 1.5.15 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
+For production use we recommend the latest stable 1.4.x release.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.5.15/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.5.15-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.5.15/jackrabbit-oak-1.5.15-src.zip)
+    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.5.15/jackrabbit-oak-1.5.15-src.zip.asc))
+    <br/>SHA1 checksum: `59e6311e9d9e754b417119aaebb5de97efcd81ad`
+    <br/>MD5  checksum: `fff82a284ffd5a0fc3ed67be0905a562`
 
 
 
@@ -140,24 +158,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.13.5/RELEAS
     (30M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.13.5/jackrabbit-jca-2.13.5.rar.asc))
     <br/>SHA1 checksum: `77f5ae07d02de6ee66db47755a487b5d21a56a45`
     <br/>MD5  checksum: `257b8bb27eda6ad032919c0e4748ddf0`
-
-
-
-
-<a class='anchor' name='oak1.4'></a>
-Apache Jackrabbit Oak 1.4.11 (October 25th, 2016)
-------------------------------------------------
-Apache Jackrabbit Oak 1.4.11 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.x
-releases. Jackrabbit Oak 1.4.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.11/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.4.11-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.11/jackrabbit-oak-1.4.11-src.zip)
-    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.4.11/jackrabbit-oak-1.4.11-src.zip.asc))
-    <br/>SHA1 checksum: `7cd7038b8c8ee9d716ed9d03aac07a531178c7f0`
-    <br/>MD5  checksum: `8f9ab0a497ea87cc87c04f93b063e4d1`
 
 
 
