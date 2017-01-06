@@ -45,6 +45,23 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.0'></a>
+Apache Jackrabbit Oak 1.0.36 (January 6th, 2017)
+------------------------------------------------
+
+Jackrabbit Oak 1.0.36 is a patch release that contains fixes and improvements over the previous 1.0.x release. 
+Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.36/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.0.36-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.36/jackrabbit-oak-1.0.36-src.zip)
+    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.36/jackrabbit-oak-1.0.36-src.zip.asc))
+    <br/>SHA1 checksum: `8a463268d5bba15f7058c4b8c72f79671902e11b`
+    <br/>MD5  checksum: `8c20f58b4ef9ba20851575cfc16ce4c7`
+
+
+
+
 <a class='anchor' name='oak1.5'></a>
 Apache Jackrabbit Oak 1.5.16 (December 23rd, 2016)
 --------------------------------------------------
@@ -158,23 +175,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.12.6/RELEAS
     (30M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.12.6/jackrabbit-jca-2.12.6.rar.asc))
     <br/>SHA1 checksum: `4c8cc64d59d07ae577fdfee010a1d5d399354d6a`
     <br/>MD5  checksum: `f0384a38d398c2e1f82de0234acb16d7`
-
-
-
-
-<a class='anchor' name='oak1.0'></a>
-Apache Jackrabbit Oak 1.0.36 (January 6th, 2017)
-------------------------------------------------
-
-Jackrabbit Oak 1.0.37 is patch release that contains fixes and improvements over the previous 1.0.x release. 
-Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.36/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.0.36-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.36/jackrabbit-oak-1.0.36-src.zip)
-    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.36/jackrabbit-oak-1.0.36-src.zip.asc))
-    <br/>SHA1 checksum: `8a463268d5bba15f7058c4b8c72f79671902e11b`
-    <br/>MD5  checksum: `8c20f58b4ef9ba20851575cfc16ce4c7`
 
 
 
