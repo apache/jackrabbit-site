@@ -36,6 +36,11 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 
 ## Apache Jackrabbit News
 
+#### January 13th, 2016: Apache Jackrabbit Oak 1.2.23 released
+Jackrabbit Oak 1.2.23 is a patch release that contains fixes and
+improvements over the previous 1.2.x release. See the
+[downloads](downloads.html#oak1.2) page for more details.
+
 #### January 12th, 2017: Apache Jackrabbit 2.15.0 released
 Apache Jackrabbit 2.15.0 is an unstable release cut directly from trunk,
 with a focus on new features and other improvements. See the
@@ -58,8 +63,7 @@ improvements over the previous 1.0.x release.  See the
 
 #### December 23rd, 2016: Apache Jackrabbit Oak 1.5.16 released
 Jackrabbit Oak 1.5.16 is an unstable release cut directly from trunk,
-with a focus on new features and other improvements.  See the
-[downloads](downloads.html#oak1.5) page for more details.
+with a focus on new features and other improvements.
 
 #### December 22th, 2016: Apache Jackrabbit 2.13.7 released
 Apache Jackrabbit 2.13.7 is an unstable release cut directly from trunk,
@@ -77,8 +81,7 @@ and compatible with earlier stable Jackrabbit Oak 1.x releases. See the
 
 #### December 15th, 2016: Apache Jackrabbit Oak 1.2.22 released
 Jackrabbit Oak 1.2.22 is a patch release that contains fixes and
-improvements over the previous 1.2.x release. See the
-[downloads](downloads.html#oak1.2) page for more details.
+improvements over the previous 1.2.x release.
 
 #### December 12th, 2016: Apache Jackrabbit Oak 1.5.15 released
 Jackrabbit Oak 1.5.15 is an unstable release cut directly from trunk,
@@ -103,8 +106,7 @@ improvements over the previous 1.2.x release.
 
 #### November 17th, 2016: Apache Jackrabbit Oak 1.0.35 released
 Jackrabbit Oak 1.0.35 is a patch release that contains fixes and
-improvements over the previous 1.0.x release.  See the
-[downloads](downloads.html#oak1.0) page for more details.
+improvements over the previous 1.0.x release.
 
 #### November 14th, 2016: Apache Jackrabbit Oak 1.5.13 released
 Jackrabbit Oak 1.5.13 is an unstable release cut directly from trunk,
