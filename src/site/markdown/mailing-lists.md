@@ -31,6 +31,8 @@ The following lists are used by the Apache Jackrabbit project:
 | Jackrabbit Users List         | [users@jackrabbit.apache.org](mailto:users@jackrabbit.apache.org) | [subscribe](mailto:users-subscribe@jackrabbit.apache.org?subject=subscribe) | [unsubscribe](mailto:users-unsubscribe@jackrabbit.apache.org?subject=unsubscribe)
 | Jackrabbit Development List   | [dev@jackrabbit.apache.org](mailto:dev@jackrabbit.apache.org) | [subscribe](mailto:dev-subscribe@jackrabbit.apache.org?subject=subscribe) | [unsubscribe](mailto:dev-unsubscribe@jackrabbit.apache.org?subject=unsubscribe)
 | Jackrabbit Commits List       | [commits@jackrabbit.apache.org](mailto:commits@jackrabbit.apache.org) | [subscribe](mailto:commits-subscribe@jackrabbit.apache.org?subject=subscribe) | [unsubscribe](mailto:commits-unsubscribe@jackrabbit.apache.org?subject=unsubscribe)
+| Oak Development List   | [oak-dev@jackrabbit.apache.org](mailto:oak-dev@jackrabbit.apache.org) | [subscribe](mailto:oak-dev-subscribe@jackrabbit.apache.org?subject=subscribe) | [unsubscribe](mailto:oak-dev-unsubscribe@jackrabbit.apache.org?subject=unsubscribe)
+| Oak Commits List       | [oak-commits@jackrabbit.apache.org](mailto:oak-commits@jackrabbit.apache.org) | [subscribe](mailto:oak-commits-subscribe@jackrabbit.apache.org?subject=subscribe) | [unsubscribe](mailto:oak-commits-unsubscribe@jackrabbit.apache.org?subject=unsubscribe)
 
 
 See the [ezmlm user manual](http://www.ezmlm.org/ezman/ezman1.html)
