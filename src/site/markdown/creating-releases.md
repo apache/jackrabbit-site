@@ -29,7 +29,8 @@ of fixes and other requested changes. Any committer can declare their plan
 to cut a release by sending a "Apache Jackrabbit x.y.z release plan"
 message to the dev@ list. The plan should refer to Jira for the list of
 fixes to be included in the release and give a rough estimate of the
-release schedule. It's OK to revise the plan if needed.
+release schedule. It's OK to revise the plan if needed. Optimally, link to
+the candidate release notes.
 
 If you're not a committer, you can send a message to the mailing list
 asking for a new release to be made. Including the list of specific fixes
