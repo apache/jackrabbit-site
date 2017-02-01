@@ -28,6 +28,7 @@ repository  but are not (yet) specified by JCR. (see [Jackrabbit Architecture](j
 See the javadoc documentation of the JCR API and Apache Jackrabbit releases:
 
 * [JCR 2.0](https://docs.adobe.com/docs/en/spec/javax.jcr/javadocs/jcr-2.0)
+* [Apache Jackrabbit Trunk](http://jackrabbit.apache.org/api/trunk/)
 * [Apache Jackrabbit 2.14](http://jackrabbit.apache.org/api/2.14/)
 * [Apache Jackrabbit 2.12](http://jackrabbit.apache.org/api/2.12/)
 * [Apache Jackrabbit 2.10](http://jackrabbit.apache.org/api/2.10/)
