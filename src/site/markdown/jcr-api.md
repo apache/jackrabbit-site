@@ -35,18 +35,9 @@ See the javadoc documentation of the JCR API and Apache Jackrabbit releases:
 * [Apache Jackrabbit 2.8](http://jackrabbit.apache.org/api/2.8/)
 * [Apache Jackrabbit 2.6](http://jackrabbit.apache.org/api/2.6/)
 * [Apache Jackrabbit 2.4](http://jackrabbit.apache.org/api/2.4/)
-* [Apache Jackrabbit 2.2](http://jackrabbit.apache.org/api/2.2/)
-* [Apache Jackrabbit 2.1](http://jackrabbit.apache.org/api/2.1/)
-* [Apache Jackrabbit 2.0](http://jackrabbit.apache.org/api/2.0/)
 
 
 * [JCR 1.0](http://www.day.com/maven/jsr170/javadocs/jcr-1.0/)
-* [Apache Jackrabbit 1.6](http://jackrabbit.apache.org/api/1.6/)
-* [Apache Jackrabbit 1.5](http://jackrabbit.apache.org/api/1.5/)
-* [Apache Jackrabbit 1.4](http://jackrabbit.apache.org/api/1.4/)
-* [Apache Jackrabbit 1.3](http://jackrabbit.apache.org/api/1.3/)
-* [Apache Jackrabbit 1.2](http://jackrabbit.apache.org/api/1.2.3/)
-* [Apache Jackrabbit 1.0](http://jackrabbit.apache.org/api-1/)
 
 JSR-170 Levels
 --------------
