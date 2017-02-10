@@ -45,6 +45,20 @@ Some Jackrabbit components contain external code with licenses that meet [Apache
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
 
+<a class='anchor' name='oak1.4'></a>
+Apache Jackrabbit Oak 1.4.13 (February 10th, 2017)
+--------------------------------------------------
+Apache Jackrabbit Oak 1.4.13 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.x
+releases. Jackrabbit Oak 1.4.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.13/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.4.13-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.13/jackrabbit-oak-1.4.13-src.zip)
+    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.4.13/jackrabbit-oak-1.4.13-src.zip.asc))
+    <br/>SHA1 checksum: `d9ab7c8a3878ae81c90f9b71878a3ec3bd38bcde`
+    <br/>MD5  checksum: `d409e244960f190e25da4d2cab858256`
 
 
 <a class='anchor' name='v2.6'></a>
@@ -201,24 +215,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.10.5/RELEAS
     (28M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.5/jackrabbit-jca-2.10.5.rar.asc))
     <br/>SHA1 checksum: `01d514cc8d0a1e6826a6532677dd695fbb13b91f`
     <br/>MD5  checksum: `3ee3cec8065ac1da853c2e202dd960a7`
-
-
-
-
-<a class='anchor' name='oak1.4'></a>
-Apache Jackrabbit Oak 1.4.12 (January 13th, 2017)
---------------------------------------------------
-Apache Jackrabbit Oak 1.4.12 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.x
-releases. Jackrabbit Oak 1.4.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.12/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.4.12-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.12/jackrabbit-oak-1.4.12-src.zip)
-    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.4.12/jackrabbit-oak-1.4.12-src.zip.asc))
-    <br/>SHA1 checksum: `31052453a0735b20bff5ab570dd02ef9ed591a88`
-    <br/>MD5  checksum: `ed54d7f6da3a9b894c90432844ab4091`
 
 
 

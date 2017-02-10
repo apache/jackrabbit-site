@@ -36,6 +36,11 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 
 ## Apache Jackrabbit News
 
+#### February 10th, 2017: Apache Jackrabbit Oak 1.4.13 released
+Apache Jackrabbit Oak 1.4.13 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.x releases. See the
+[downloads](downloads.html#oak1.4) page for more details.
+
 #### February 9th, 2017: Apache Jackrabbit 2.6.8 released
 Apache Jackrabbit 2.6.8 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit 2.x releases. See the
@@ -68,8 +73,7 @@ and compatible with earlier stable Jackrabbit 2.x releases. See the
 
 #### January 13th, 2017: Apache Jackrabbit Oak 1.4.12 released
 Apache Jackrabbit Oak 1.4.12 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.x releases. See the
-[downloads](downloads.html#oak1.4) page for more details.
+and compatible with earlier stable Jackrabbit Oak 1.x releases.
 
 #### January 13th, 2017: Apache Jackrabbit Oak 1.2.23 released
 Jackrabbit Oak 1.2.23 is a patch release that contains fixes and
