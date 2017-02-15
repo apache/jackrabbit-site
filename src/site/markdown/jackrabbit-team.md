@@ -33,6 +33,7 @@ Jackrabbit committers
 | alexkli         | Alexander Klimetschek  |  [Adobe](http://www.adobe.com/)  |
 | alexparvulescu  | Alex Parvulescu  |  [Adobe](http://www.adobe.com/)  |
 | amitj           | Amit Jain  |  [Adobe](http://www.adobe.com/)  |
+| adulceanu       | Andrei Dulceanu  |  [Adobe](http://www.adobe.com/)  |
 | angela          | Angela Schreiber  |  [Adobe](http://www.adobe.com/)  |
 | ard             | Ard Schrijvers  |  [Hippo](http://www.hippo.nl/)  |
 | baedke          | Manfred Baedke  | &nbsp; |
