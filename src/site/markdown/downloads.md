@@ -303,18 +303,18 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.14.0/RELEAS
 
 
 <a class='anchor' name='oak1.0'></a>
-Apache Jackrabbit Oak 1.0.36 (January 6th, 2017)
+Apache Jackrabbit Oak 1.0.37 (January 6th, 2017)
 ------------------------------------------------
 
-Jackrabbit Oak 1.0.36 is a patch release that contains fixes and improvements over the previous 1.0.x release. 
+Jackrabbit Oak 1.0.37 is a patch release that contains fixes and improvements over the previous 1.0.x release. 
 Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.36/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.37/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.0.36-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.36/jackrabbit-oak-1.0.36-src.zip)
-    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.36/jackrabbit-oak-1.0.36-src.zip.asc))
-    <br/>SHA1 checksum: `8a463268d5bba15f7058c4b8c72f79671902e11b`
-    <br/>MD5  checksum: `8c20f58b4ef9ba20851575cfc16ce4c7`
+* [jackrabbit-oak-1.0.37-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.37/jackrabbit-oak-1.0.37-src.zip)
+    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.37/jackrabbit-oak-1.0.37-src.zip.asc))
+    <br/>SHA1 checksum: `a6ae9d137db4536296acffb54f2f0b6a6d0d5179`
+    <br/>MD5  checksum: `2ce351bed314c8cb891f69f7d2b51543`
 
 
 
