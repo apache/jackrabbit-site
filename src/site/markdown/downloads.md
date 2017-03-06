@@ -145,19 +145,19 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.6.8/RELEASE
 
 
 <a class='anchor' name='oak1.6'></a>
-Apache Jackrabbit Oak 1.6.0 (February 2nd, 2017)
+Apache Jackrabbit Oak 1.6.1 (March 6th, 2017)
 ------------------------------------------------
-Apache Jackrabbit Oak 1.6.0 is an incremental feature release based on
+Apache Jackrabbit Oak 1.6.1 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.x
 releases. Jackrabbit Oak 1.6.x releases are considered stable and
 targeted for production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.6.0/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.6.1/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.6.0-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.0/jackrabbit-oak-1.6.0-src.zip)
-    (11MB, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.6.0/jackrabbit-oak-1.6.0-src.zip.asc))
-    <br/>SHA1 checksum: `26b47c8be19d9556f3714cce9ae23a92842edb20`
-    <br/>MD5  checksum: `8230284a9b462b6f5ccec87067cd1ec7`
+* [jackrabbit-oak-1.6.1-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.1/jackrabbit-oak-1.6.1-src.zip)
+    (11MB, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.6.1/jackrabbit-oak-1.6.1-src.zip.asc))
+    <br/>SHA1 checksum: `ba8ff053ed6f3781de07a851f0ea388db6ceef1c`
+    <br/>MD5  checksum: `bf82b3a2a7d2e18c874f216dedbc9cb1`
 
 
 
