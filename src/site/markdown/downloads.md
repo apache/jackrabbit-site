@@ -161,19 +161,19 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.37/RE
 
 
 <a class='anchor' name='oak1.4'></a>
-Apache Jackrabbit Oak 1.4.13 (February 10th, 2017)
+Apache Jackrabbit Oak 1.4.14 (February 10th, 2017)
 --------------------------------------------------
-Apache Jackrabbit Oak 1.4.13 is an incremental feature release based on
+Apache Jackrabbit Oak 1.4.14 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.x
 releases. Jackrabbit Oak 1.4.x releases are considered stable and
 targeted for production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.13/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.14/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.4.13-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.13/jackrabbit-oak-1.4.13-src.zip)
-    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.4.13/jackrabbit-oak-1.4.13-src.zip.asc))
-    <br/>SHA1 checksum: `d9ab7c8a3878ae81c90f9b71878a3ec3bd38bcde`
-    <br/>MD5  checksum: `d409e244960f190e25da4d2cab858256`
+* [jackrabbit-oak-1.4.14-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.14/jackrabbit-oak-1.4.14-src.zip)
+    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.4.14/jackrabbit-oak-1.4.14-src.zip.asc))
+    <br/>SHA1 checksum: `64c3a3e8702341c317c6c318b90ebb5dd1dabd0f`
+    <br/>MD5  checksum: `105e2fdf408a47a21479ae8c1f18b6a3`
 
 
 
