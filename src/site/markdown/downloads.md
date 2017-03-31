@@ -46,6 +46,41 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+
+<a class='anchor' name='oak1.0'></a>
+Apache Jackrabbit Oak 1.0.38 (March 31st, 2017)
+-----------------------------------------------
+
+Jackrabbit Oak 1.0.38 is a patch release that contains fixes and improvements over the previous 1.0.x release. 
+Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.38/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.0.38-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.38/jackrabbit-oak-1.0.38-src.zip)
+    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.38/jackrabbit-oak-1.0.38-src.zip.asc))
+    <br/>SHA1 checksum: `f5e8e98900f2464d84d730551f6d30c309155aa5`
+    <br/>MD5  checksum: `02e88d5558811297ee73a9326fdd3f33`
+
+
+
+
+<a class='anchor' name='vlt'></a>
+Apache Jackrabbit FileVault 3.1.38 (March 29th, 2017)
+------------------------------------------------------
+Jackrabbit FileVault 3.1.38 is the latest stable release of the recently donated repository content synchronization tool.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/filevault/3.1.38/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-filevault-3.1.38-src.zip](http://www.apache.org/dist/jackrabbit/filevault/3.1.38/jackrabbit-filevault-3.1.38-src.zip)
+    (1.5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/filevault/3.1.38/jackrabbit-filevault-3.1.38-src.zip.asc))
+    <br/>SHA1 checksum: `dc8e6c7db0bfcf32a9218d054e2d457f6132432d`
+    <br/>MD5 checksum: `874e36fd6bb54022f79e66c2f12e8387`
+
+Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
+
+
+
+
 <a class='anchor' name='oak1.4'></a>
 Apache Jackrabbit Oak 1.4.14 (March 10th, 2017)
 -----------------------------------------------
@@ -158,23 +193,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.8.5/RELEASE
     (28M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.8.5/jackrabbit-jca-2.8.5.rar.asc))
     <br/>SHA1 checksum: `a76f12ed46dd6b286ec18ee0501121f875576406`
     <br/>MD5  checksum: `c48dd687c181ac307d7b42dabd909c64`
-
-
-
-
-<a class='anchor' name='oak1.0'></a>
-Apache Jackrabbit Oak 1.0.38 (March 31st, 2017)
---------------------------------------------------
-
-Jackrabbit Oak 1.0.38 is a patch release that contains fixes and improvements over the previous 1.0.x release. 
-Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.38/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.0.38-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.38/jackrabbit-oak-1.0.38-src.zip)
-    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.38/jackrabbit-oak-1.0.38-src.zip.asc))
-    <br/>SHA1 checksum: `f5e8e98900f2464d84d730551f6d30c309155aa5`
-    <br/>MD5  checksum: `02e88d5558811297ee73a9326fdd3f33`
 
 
 
@@ -366,20 +384,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/ocm/2.0.0/REL
     <br/>MD5 checksum: `7495daad93eaa2aa2a3b02960b791cf3`
 
 
-
-<a class='anchor' name='vlt'></a>
-Apache Jackrabbit FileVault 3.1.38 (29th-March-2017)
------------------------------------------------------
-Jackrabbit FileVault 3.1.38 is the latest stable release of the recently donated repository content synchronization tool.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/filevault/3.1.38/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-filevault-3.1.38-src.zip](http://www.apache.org/dist/jackrabbit/filevault/3.1.38/jackrabbit-filevault-3.1.38-src.zip)
-    (1.5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/filevault/3.1.38/jackrabbit-filevault-3.1.38-src.zip.asc))
-    <br/>SHA1 checksum: `dc8e6c7db0bfcf32a9218d054e2d457f6132432d`
-    <br/>MD5 checksum: `874e36fd6bb54022f79e66c2f12e8387`
-
-Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
 
 
 <a class='anchor' name='archive'></a>
