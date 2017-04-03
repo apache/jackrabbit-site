@@ -135,7 +135,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.15.1/RELEAS
 <a class='anchor' name='oak1.2'></a>
 Apache Jackrabbit Oak 1.2.24 (March 9th, 2017)
 ----------------------------------------------
-Jackrabbit Oak 1.2.24 is patch release that contains fixes and
+Jackrabbit Oak 1.2.24 is a patch release that contains fixes and
 improvements over the previous 1.2.x release.
 Jackrabbit Oak 1.2.x releases are considered stable and targeted for
 production use.
@@ -200,7 +200,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.8.5/RELEASE
 <a class='anchor' name='v2.6'></a>
 Apache Jackrabbit 2.6.8 (February 9th, 2017)
 --------------------------------------------
-Apache Jackrabbit 2.6.8 is patch release that contains fixes and improvements over previous 2.6.x releases. 
+Apache Jackrabbit 2.6.8 is a patch release that contains fixes and improvements over previous 2.6.x releases. 
 Jackrabbit 2.6.x releases are considered stable and targeted for production use.
 
 See the [full release notes](http://www.apache.org/dist/jackrabbit/2.6.8/RELEASE-NOTES.txt) for more details.
@@ -231,7 +231,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.6.8/RELEASE
 <a class='anchor' name='v2.4'></a>
 Apache Jackrabbit 2.4.7 (February 2nd, 2017)
 --------------------------------------------
-Apache Jackrabbit 2.4.7 is patch release that contains fixes and improvements over previous 2.4.x releases. 
+Apache Jackrabbit 2.4.7 is a patch release that contains fixes and improvements over previous 2.4.x releases. 
 Jackrabbit 2.4.x releases are considered stable and targeted for production use.
 
 See the [full release notes](http://www.apache.org/dist/jackrabbit/2.4.7/RELEASE-NOTES.txt) for more details.
@@ -278,7 +278,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.5.18/RE
 <a class='anchor' name='v2.10'></a>
 Apache Jackrabbit 2.10.5 (January 19th, 2017)
 ---------------------------------------------
-Apache Jackrabbit 2.10.5 is patch release that contains fixes and improvements over previous 2.10.x releases.
+Apache Jackrabbit 2.10.5 is a patch release that contains fixes and improvements over previous 2.10.x releases.
 Jackrabbit 2.10.x releases are considered stable and targeted for production use.
 
 See the [full release notes](http://www.apache.org/dist/jackrabbit/2.10.5/RELEASE-NOTES.txt) for more details.
