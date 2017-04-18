@@ -48,7 +48,7 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 <a class='anchor' name='oak1.2'></a>
 Apache Jackrabbit Oak 1.2.25 (April 17th, 2017)
-----------------------------------------------
+-----------------------------------------------
 Jackrabbit Oak 1.2.25 is a patch release that contains fixes and
 improvements over the previous 1.2.x release.
 Jackrabbit Oak 1.2.x releases are considered stable and targeted for
@@ -60,7 +60,9 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.25/RE
     (6.8M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.25/jackrabbit-oak-1.2.25-src.zip.asc))
     <br/>SHA1 checksum: `46aebfe648d7e0bd600054c54bced2270c09d641`
     <br/>MD5  checksum: `1622ba67888cea84fc7ee8b2a702e2b6`
-    
+
+
+
 
 <a class='anchor' name='oak1.4'></a>
 Apache Jackrabbit Oak 1.4.15 (April 6th, 2017)
