@@ -23,44 +23,38 @@ for the latest status.
 
 Unstable/stable release model
 -----------------------------
-Starting with Jackrabbit 2.3 we are adopting a "Linux-style"
+Starting with Jackrabbit 2.3 we have adopted a "Linux-style"
 unstable/stable release model with odd/even minor version numbers used to
 mark the status of a release.
 
-* [Jackrabbit 2.3 (trunk)](https://svn.apache.org/repos/asf/jackrabbit/trunk/) ([download](downloads.html#v23))
+* [Jackrabbit 2.15 (trunk)](https://svn.apache.org/repos/asf/jackrabbit/trunk/) ([download](downloads.html#v2.15))
 
-Unstable 2.3.x releases will be cut fairly frequently directly from
-Jackrabbit trunk, and a stable 2.4 release branch will be created later on.
-At current rate it looks like the 2.4 branch can be created before the end
-of 2011.
-
-Once the 2.4 branch has been created, trunk will switch to 2.5.x and
-continue progressing towards 2.6, etc.
-
+Unstable 2.15.x releases will be cut directly from
+Jackrabbit trunk, the latest stable branch is 2.14.
 
 Maintenance branches
 --------------------
 We currently support the following maintenance branches:
 
-* [Jackrabbit 2.2](https://svn.apache.org/repos/asf/jackrabbit/branches/2.2/) ([download](downloads.html#v22))
-* [Jackrabbit 2.1](https://svn.apache.org/repos/asf/jackrabbit/branches/2.1/) ([download](downloads.html#v21))
-* [Jackrabbit 2.0](https://svn.apache.org/repos/asf/jackrabbit/branches/2.0/) ([download](downloads.html#v20))
-
+* [Jackrabbit 2.14](https://svn.apache.org/repos/asf/jackrabbit/branches/2.14/) ([download](downloads.html#v2.14))
+* [Jackrabbit 2.12](https://svn.apache.org/repos/asf/jackrabbit/branches/2.12/) ([download](downloads.html#v2.12))
+* [Jackrabbit 2.10](https://svn.apache.org/repos/asf/jackrabbit/branches/2.10/) ([download](downloads.html#v2.10))
+* [Jackrabbit 2.8](https://svn.apache.org/repos/asf/jackrabbit/branches/2.8/) ([download](downloads.html#v2.8))
+* [Jackrabbit 2.6](https://svn.apache.org/repos/asf/jackrabbit/branches/2.6/) ([download](downloads.html#v2.6))
+* [Jackrabbit 2.4](https://svn.apache.org/repos/asf/jackrabbit/branches/2.4/) ([download](downloads.html#v2.4))
 
 End of life
 -----------
-The Jackrabbit 1.6 maintenance branch has reached its end of life status.
-No more patch releases will be cut from the 1.6 branch, and the latest
-1.6.5 release will be archived in December 2011.
+The following branches have reached "end of life":
 
-* [Jackrabbit 1.6](https://svn.apache.org/repos/asf/jackrabbit/branches/1.6/) ([download](downloads.html#v16))
-
-There is currently no schedule for declaring the end of life of any of the
-stable 2.x maintenance branches.
+* [Jackrabbit 2.2](https://svn.apache.org/repos/asf/jackrabbit/branches/2.2/)
+* [Jackrabbit 2.1](https://svn.apache.org/repos/asf/jackrabbit/branches/2.1/)
+* [Jackrabbit 2.0](https://svn.apache.org/repos/asf/jackrabbit/branches/2.0/)
+* [Jackrabbit 1.6](https://svn.apache.org/repos/asf/jackrabbit/branches/1.6/)
 
 
-Prototyping the future
-----------------------
-The ongoing microkernel work in the Jackrabbit sandbox is being used to
-prototype a possible next generation architecture for a future major new
-Jackrabbit release.
+
+The future
+----------
+
+Most work nowadays happens in the [Oak project](http://jackrabbit.apache.org/oak/docs/index.html).
