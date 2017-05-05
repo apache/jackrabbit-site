@@ -24,7 +24,7 @@ the signatures and checksums available from this page.
     * [Apache Jackrabbit 2.14.x](#v2.14) (Java 7 and later)
     * [Apache Jackrabbit Oak 1.6.x](#oak1.6) (Java 7 and later)
 * Latest unstable releases (from trunk): 
-    * [Apache Jackrabbit 2.15.x](#v2.15) (Java 7 and later)
+    * [Apache Jackrabbit 2.15.x](#v2.15) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.5.x](#oak1.5) (Java 7 and later)
 * Maintenance releases:
     * [Apache Jackrabbit Oak 1.4.x](#oak1.4) (Java 7 and later)
@@ -43,6 +43,39 @@ Apache Jackrabbit releases are available under the [Apache License, Version 2.0]
 See the `NOTICE.txt` file contained in each release artifact for applicable copyright attribution notices. 
 Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](http://www.apache.org/legal/resolved.html). 
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
+
+
+
+<a class='anchor' name='v2.15'></a>
+Apache Jackrabbit 2.15.2 (May 5, 2017)
+--------------------------------------
+Apache Jackrabbit 2.15.2 is an unstable release cut directly from
+Jackrabbit trunk, with a focus on new features and other
+improvements. For production use we recommend the latest stable 2.14.x
+release.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/2.15.2/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-2.15.2-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/2.15.2/jackrabbit-2.15.2-src.zip)
+    (13M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/2.15.2/jackrabbit-2.15.2-src.zip.asc))
+    <br/>SHA1 checksum: `2af7a3aa4f73003ee50b2322045052893bcba9a7`
+    <br/>MD5  checksum: `656f4a7aa6c8f68c423dd37cb2a95307`
+
+* [jackrabbit-standalone-2.15.2.jar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.15.2/jackrabbit-standalone-2.15.2.jar)
+    (82M, standalone server, [PGP signature](http://www.apache.org/dist/jackrabbit/2.15.2/jackrabbit-standalone-2.15.2.jar.asc))
+    <br/>SHA1 checksum: `8f4f2ee6b19202804b38ca4d1e11d82b9ead9899`
+    <br/>MD5  checksum: `b9e03388082f7162127fb598b01eeaf8`
+
+* [jackrabbit-webapp-2.15.2.war](http://www.apache.org/dyn/closer.lua/jackrabbit/2.15.2/jackrabbit-webapp-2.15.2.war)
+    (34M, web application, [PGP signature](http://www.apache.org/dist/jackrabbit/2.15.2/jackrabbit-webapp-2.15.2.war.asc))
+    <br/>SHA1 checksum: `1612da20e14c2c80bbf00508030576e3e7f32a68`
+    <br/>MD5  checksum: `d604a2e7e942711bf67f23d023bffef6`
+
+* [jackrabbit-jca-2.15.2.rar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.15.2/jackrabbit-jca-2.15.2.rar)
+    (30M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.15.2/jackrabbit-jca-2.15.2.rar.asc))
+    <br/>SHA1 checksum: `04f9638daf4fa69b0779a7aff2dc7872a61286fa`
+    <br/>MD5  checksum: `217fa928c1d2c9f154b81529d8e37c41`
+
 
 
 
@@ -144,41 +177,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/filevault/3.1
     <br/>MD5 checksum: `874e36fd6bb54022f79e66c2f12e8387`
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
-
-
-
-
-<a class='anchor' name='v2.15'></a>
-Apache Jackrabbit 2.15.1 (March 9, 2017)
-----------------------------------------
-Apache Jackrabbit 2.15.1 is an unstable release cut directly from
-Jackrabbit trunk, with a focus on new features and other
-improvements. For production use we recommend the latest stable 2.14.x
-release.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/2.15.1/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-2.15.1-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/2.15.1/jackrabbit-2.15.1-src.zip)
-    (13M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/2.15.1/jackrabbit-2.15.1-src.zip.asc))
-    <br/>SHA1 checksum: `11c03f08c1b01551ace414d96327b2bab2af7927`
-    <br/>MD5  checksum: `f27cc72eff3720beb0c68947e6f2d598`
-
-* [jackrabbit-standalone-2.15.1.jar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.15.1/jackrabbit-standalone-2.15.1.jar)
-    (81M, standalone server, [PGP signature](http://www.apache.org/dist/jackrabbit/2.15.1/jackrabbit-standalone-2.15.1.jar.asc))
-    <br/>SHA1 checksum: `9bd9f095558b48d8f17bdbc2473d42ba4f3b2df2`
-    <br/>MD5  checksum: `eaab655787e63e1e420d869124148b02`
-
-* [jackrabbit-webapp-2.15.1.war](http://www.apache.org/dyn/closer.lua/jackrabbit/2.15.1/jackrabbit-webapp-2.15.1.war)
-    (34M, web application, [PGP signature](http://www.apache.org/dist/jackrabbit/2.15.1/jackrabbit-webapp-2.15.1.war.asc))
-    <br/>SHA1 checksum: `5b919ea53f5e0c5fda89e58208e939fabda146ff`
-    <br/>MD5  checksum: `9e039d8c9b96a917426386aa1c762986`
-
-* [jackrabbit-jca-2.15.1.rar](http://www.apache.org/dyn/closer.lua/jackrabbit/2.15.1/jackrabbit-jca-2.15.1.rar)
-    (30M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.15.1/jackrabbit-jca-2.15.1.rar.asc))
-    <br/>SHA1 checksum: `f8341ebf25c860dd9cbd0d0070c4d9f392a10a28`
-    <br/>MD5  checksum: `c340fe8afceea699a90c8d1a40d2b11c`
-
-
 
 
 
