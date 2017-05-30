@@ -25,7 +25,7 @@ the signatures and checksums available from this page.
     * [Apache Jackrabbit Oak 1.6.x](#oak1.6) (Java 7 and later)
 * Latest unstable releases (from trunk): 
     * [Apache Jackrabbit 2.15.x](#v2.15) (Java 8 and later)
-    * [Apache Jackrabbit Oak 1.5.x](#oak1.5) (Java 7 and later)
+    * [Apache Jackrabbit Oak 1.7.x](#oak1.7) (Java 8 and later)
 * Maintenance releases:
     * [Apache Jackrabbit Oak 1.4.x](#oak1.4) (Java 7 and later)
     * [Apache Jackrabbit Oak 1.2.x](#oak1.2) (Java 6 and later)
@@ -291,18 +291,18 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.4.7/RELEASE
 
 
 
-<a class='anchor' name='oak1.5'></a>
-Apache Jackrabbit Oak 1.5.18 (January 23rd 2017)
+<a class='anchor' name='oak1.7'></a>
+Apache Jackrabbit Oak 1.7.0 (May 30th 2017)
 -----------------------------------------------
-Apache Jackrabbit Oak 1.5.18 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
+Apache Jackrabbit Oak 1.7.0 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
 For production use we recommend the latest stable 1.4.x release.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.5.18/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.7.0/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.5.18-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.5.18/jackrabbit-oak-1.5.18-src.zip)
-    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.5.18/jackrabbit-oak-1.5.18-src.zip.asc))
-    <br/>SHA1 checksum: `8e7764c5425d4d5b6fbcf92e28959a6d4506660e`
-    <br/>MD5  checksum: `300484024c420f8a9c11d65f236aabbd`
+* [jackrabbit-oak-1.7.0-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.7.0/jackrabbit-oak-1.7.0-src.zip)
+    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.7.0/jackrabbit-oak-1.7.0-src.zip.asc))
+    <br/>SHA1 checksum: `ecc823973d4840c73ca62788c89a9095db9a21b0`
+    <br/>MD5  checksum: `c326ab7464452f97f7297604238dc6ea`
 
 
 
