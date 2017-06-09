@@ -47,6 +47,22 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.7'></a>
+Apache Jackrabbit Oak 1.7.1 (June 9th 2017)
+-------------------------------------------
+Apache Jackrabbit Oak 1.7.1 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
+For production use we recommend the latest stable 1.4.x release.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.7.1/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.7.1-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.7.1/jackrabbit-oak-1.7.1-src.zip)
+    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.7.1/jackrabbit-oak-1.7.1-src.zip.asc))
+    <br/>SHA1 checksum: `4109f37f1533b6aa23f667fbd8d0ef213e67d6aa`
+    <br/>MD5  checksum: `8ac89a944faf09fe912b0788ede7965d`
+
+
+
+
 <a class='anchor' name='oak1.4'></a>
 Apache Jackrabbit Oak 1.4.16 (June 8th, 2017)
 ---------------------------------------------
@@ -111,21 +127,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.14.1/RELEAS
     (30M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.14.1/jackrabbit-jca-2.14.1.rar.asc))
     <br/>SHA1 checksum: `abf40e99f6549010cb9079793f9376860afb14a7`
     <br/>MD5  checksum: `f26aa69d44932b9bf0f0fcfc81e18bc1`
-
-
-
-<a class='anchor' name='oak1.7'></a>
-Apache Jackrabbit Oak 1.7.1 (June 9th 2017)
--------------------------------------------
-Apache Jackrabbit Oak 1.7.1 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
-For production use we recommend the latest stable 1.4.x release.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.7.1/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.7.1-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.7.1/jackrabbit-oak-1.7.1-src.zip)
-    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.7.1/jackrabbit-oak-1.7.1-src.zip.asc))
-    <br/>SHA1 checksum: `4109f37f1533b6aa23f667fbd8d0ef213e67d6aa`
-    <br/>MD5  checksum: `8ac89a944faf09fe912b0788ede7965d`
 
 
 
