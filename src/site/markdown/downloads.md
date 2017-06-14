@@ -48,8 +48,8 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 <a class='anchor' name='v2.15'></a>
-Apache Jackrabbit 2.15.3 (June 14, 2017)
-----------------------------------------
+Apache Jackrabbit 2.15.3 (June 14th, 2017)
+------------------------------------------
 Apache Jackrabbit 2.15.3 is an unstable release cut directly from
 Jackrabbit trunk, with a focus on new features and other
 improvements. For production use we recommend the latest stable 2.14.x
