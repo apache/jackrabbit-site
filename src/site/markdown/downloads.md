@@ -47,6 +47,24 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.6'></a>
+Apache Jackrabbit Oak 1.6.2 (June 16th, 2017)
+---------------------------------------------
+Apache Jackrabbit Oak 1.6.2 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.x
+releases. Jackrabbit Oak 1.6.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.6.2/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.6.2-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.2/jackrabbit-oak-1.6.2-src.zip)
+    (11MB, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.6.2/jackrabbit-oak-1.6.2-src.zip.asc))
+    <br/>SHA1 checksum: `de366309c8e170aac3fd4b4d7253434850f07d4c`
+    <br/>MD5  checksum: `9b72b4e4c534de9d069dbf309cb70e2f`
+
+
+
+
 <a class='anchor' name='v2.15'></a>
 Apache Jackrabbit 2.15.3 (June 14th, 2017)
 ------------------------------------------
@@ -227,23 +245,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/filevault/3.1
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
 
-
-
-
-<a class='anchor' name='oak1.6'></a>
-Apache Jackrabbit Oak 1.6.2 (June 16th, 2017)
----------------------------------------------
-Apache Jackrabbit Oak 1.6.2 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.x
-releases. Jackrabbit Oak 1.6.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.6.2/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.6.2-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.2/jackrabbit-oak-1.6.2-src.zip)
-    (11MB, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.6.2/jackrabbit-oak-1.6.2-src.zip.asc))
-    <br/>SHA1 checksum: `de366309c8e170aac3fd4b4d7253434850f07d4c`
-    <br/>MD5  checksum: `9b72b4e4c534de9d069dbf309cb70e2f`
 
 
 
