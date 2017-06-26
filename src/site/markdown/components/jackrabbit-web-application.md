@@ -20,14 +20,13 @@ Jackrabbit Web Application
 This is the Web Application component of the Apache Jackrabbit project.
 This component provides servlets used to access a Jackrabbit repository:
 
-* [RepositoryAccessServlet.java](/api/1.4/org/apache/jackrabbit/j2ee/RepositoryAccessServlet.html)
-* [LoggingServlet.java](/api/1.4/org/apache/jackrabbit/j2ee/LoggingServlet.html)
-* [RepositoryStartupServlet.java](/api/1.4/org/apache/jackrabbit/j2ee/RepositoryStartupServlet.html)
+* [RepositoryAccessServlet.java](/api/2.14/org/apache/jackrabbit/j2ee/RepositoryAccessServlet.html)
+* [RepositoryStartupServlet.java](/api/2.14/org/apache/jackrabbit/j2ee/RepositoryStartupServlet.html)
 
 In addition, the project contains 2 different WebDAV servlets:
 
-* [SimpleWebdavServlet.java](/api/1.4/org/apache/jackrabbit/webdav/simple/SimpleWebdavServlet.html)
-* [JCRWebdavServerServlet.java](/api/1.4/org/apache/jackrabbit/webdav/jcr/JCRWebdavServerServlet.html)
+* [SimpleWebdavServlet.java](/api/2.14/org/apache/jackrabbit/webdav/simple/SimpleWebdavServlet.html)
+* [JCRWebdavServerServlet.java](/api/2.14/org/apache/jackrabbit/webdav/jcr/JCRWebdavServerServlet.html)
 
 All servlets are configured in the [web.xml](https://svn.apache.org/repos/asf/jackrabbit/trunk/jackrabbit-webapp/src/main/webapp/WEB-INF/web.xml)
 of the jackrabbit-webapp. It provides a good overview of the available options.
