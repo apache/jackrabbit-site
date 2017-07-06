@@ -78,7 +78,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.10.6/RELEAS
 
 
 
-<a class='anchor' name='v2.14'></a>
+<a class='anchor' name='v2.15'></a>
 Apache Jackrabbit 2.15.4 (June 28th, 2017)
 ------------------------------------------
 Apache Jackrabbit 2.15.4 is an unstable release cut directly from
