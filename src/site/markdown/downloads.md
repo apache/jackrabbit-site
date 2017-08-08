@@ -45,6 +45,20 @@ Some Jackrabbit components contain external code with licenses that meet [Apache
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
 
+<a class='anchor' name='oak1.2'></a>
+Apache Jackrabbit Oak 1.2.27 (August 8th, 2017)
+---------------------------------------------
+Jackrabbit Oak 1.2.27 is a patch release that contains fixes and
+improvements over the previous 1.2.x release.
+Jackrabbit Oak 1.2.x releases are considered stable and targeted for
+production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.27/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.2.27-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.27/jackrabbit-oak-1.2.27-src.zip)
+    (6.8M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.27/jackrabbit-oak-1.2.27-src.zip.asc))
+    <br/>SHA1 checksum: `4a5731c0edac11b1376112e4dc382e77f13c490c`
+    <br/>MD5  checksum: `993ce1e8138a667ea4cf7ff975305884`
 
 
 <a class='anchor' name='v2.15'></a>
@@ -225,24 +239,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.10.6/RELEAS
     (28M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.10.6/jackrabbit-jca-2.10.6.rar.asc))
     <br/>SHA1 checksum: `e48b2de1bcc5c61c56b8350d5f5abeb81c5feb09`
     <br/>MD5  checksum: `6875fac537c4ffd3a614a42fe4830b6b`
-
-
-
-
-<a class='anchor' name='oak1.2'></a>
-Apache Jackrabbit Oak 1.2.26 (June 8th, 2017)
----------------------------------------------
-Jackrabbit Oak 1.2.26 is a patch release that contains fixes and
-improvements over the previous 1.2.x release.
-Jackrabbit Oak 1.2.x releases are considered stable and targeted for
-production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.26/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.2.26-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.26/jackrabbit-oak-1.2.26-src.zip)
-    (6.8M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.26/jackrabbit-oak-1.2.26-src.zip.asc))
-    <br/>SHA1 checksum: `0737bcf867b04173838cb0cdb68a35119b21fd39`
-    <br/>MD5  checksum: `dc71b552ce168d10acb143c49a085343`
 
 
 
