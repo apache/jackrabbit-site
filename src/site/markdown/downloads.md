@@ -45,6 +45,24 @@ Some Jackrabbit components contain external code with licenses that meet [Apache
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
 
+<a class='anchor' name='oak1.6'></a>
+Apache Jackrabbit Oak 1.6.4 (August 21st, 2017)
+---------------------------------------------
+Apache Jackrabbit Oak 1.6.4 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.6.x
+releases. Jackrabbit Oak 1.6.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.6.4/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.6.4-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.4/jackrabbit-oak-1.6.4-src.zip)
+    (11MB, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.6.4/jackrabbit-oak-1.6.4-src.zip.asc))
+    <br/>SHA1 checksum: `93c5f0e3b93472d2bd22a36b69c42b479c191552`
+    <br/>MD5  checksum: `f5a6fe743787277500b4c1b82b38df0c`
+
+
+
+
 <a class='anchor' name='oak1.2'></a>
 Apache Jackrabbit Oak 1.2.27 (August 8th, 2017)
 ---------------------------------------------
@@ -158,24 +176,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.4.8/RELEASE
     (23M, JCA resource adapter, [PGP signature](http://www.apache.org/dist/jackrabbit/2.4.8/jackrabbit-jca-2.4.8.rar.asc))
     <br/>SHA1 checksum: `4339979b54c8177288aa6601121feb98a692a82f`
     <br/>MD5  checksum: `3a3cf047c144cedb03f7a92d243c2ea6`
-
-
-
-
-<a class='anchor' name='oak1.6'></a>
-Apache Jackrabbit Oak 1.6.3 (July 17th, 2017)
----------------------------------------------
-Apache Jackrabbit Oak 1.6.3 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.x
-releases. Jackrabbit Oak 1.6.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.6.3/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.6.3-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.3/jackrabbit-oak-1.6.3-src.zip)
-    (11MB, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.6.3/jackrabbit-oak-1.6.3-src.zip.asc))
-    <br/>SHA1 checksum: `90746ac5767c13bfa941f9fb119408dd55ff5913`
-    <br/>MD5  checksum: `64e7badeecc4b92a61b73f6f8c60d7db`
 
 
 
