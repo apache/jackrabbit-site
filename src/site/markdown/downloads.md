@@ -64,7 +64,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.39/RE
 
     
 
-
 <a class='anchor' name='oak1.6'></a>
 Apache Jackrabbit Oak 1.6.4 (August 21st, 2017)
 ---------------------------------------------
