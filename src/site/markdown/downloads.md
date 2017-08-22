@@ -45,6 +45,25 @@ Some Jackrabbit components contain external code with licenses that meet [Apache
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
 
+
+
+<a class='anchor' name='oak1.0'></a>
+Apache Jackrabbit Oak 1.0.39 (August 22st, 2017)
+-----------------------------------------------
+
+Jackrabbit Oak 1.0.39 is a patch release that contains fixes and improvements over the previous 1.0.x release. 
+Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.39/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.0.39-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.39/jackrabbit-oak-1.0.39-src.zip)
+    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.39/jackrabbit-oak-1.0.39-src.zip.asc))
+    <br/>SHA1 checksum: `5cfb85374d99c96f5528697255a0f5c626657032`
+    <br/>MD5  checksum: `8d373f526a6188e4b35018cf1d650f23`
+
+
+
+
 <a class='anchor' name='oak1.6'></a>
 Apache Jackrabbit Oak 1.6.4 (August 21st, 2017)
 ---------------------------------------------
@@ -275,23 +294,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.12.7/RELEAS
 
 
 
-<a class='anchor' name='oak1.0'></a>
-Apache Jackrabbit Oak 1.0.38 (March 31st, 2017)
------------------------------------------------
-
-Jackrabbit Oak 1.0.38 is a patch release that contains fixes and improvements over the previous 1.0.x release. 
-Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.38/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.0.38-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.38/jackrabbit-oak-1.0.38-src.zip)
-    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.38/jackrabbit-oak-1.0.38-src.zip.asc))
-    <br/>SHA1 checksum: `f5e8e98900f2464d84d730551f6d30c309155aa5`
-    <br/>MD5  checksum: `02e88d5558811297ee73a9326fdd3f33`
-
-
-
-
 <a class='anchor' name='vlt'></a>
 Apache Jackrabbit FileVault 3.1.40 (June 26th, 2017)
 ------------------------------------------------------
@@ -427,6 +429,10 @@ called `md5` or `md5sum` included in many Unix distributions. The similar progra
 It is also available as part of the [GNU core utilities](http://www.gnu.org/software/coreutils/). 
 Windows users can get binary md5 programs from [here](http://www.fourmilab.ch/md5/), 
 [here](http://www.pc-tools.net/win32/md5sums/), or [here](http://www.slavasoft.com/fsum/).
+
+
+
+
 
 
 
