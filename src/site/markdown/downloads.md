@@ -62,6 +62,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.39/RE
     <br/>MD5  checksum: `8d373f526a6188e4b35018cf1d650f23`
 
 
+    
 
 
 <a class='anchor' name='oak1.6'></a>
