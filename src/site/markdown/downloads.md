@@ -48,9 +48,8 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 <a class='anchor' name='oak1.0'></a>
-Apache Jackrabbit Oak 1.0.39 (August 22st, 2017)
------------------------------------------------
-
+Apache Jackrabbit Oak 1.0.39 (August 22nd, 2017)
+------------------------------------------------
 Jackrabbit Oak 1.0.39 is a patch release that contains fixes and improvements over the previous 1.0.x release. 
 Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
 
@@ -66,7 +65,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.39/RE
 
 <a class='anchor' name='oak1.6'></a>
 Apache Jackrabbit Oak 1.6.4 (August 21st, 2017)
----------------------------------------------
+-----------------------------------------------
 Apache Jackrabbit Oak 1.6.4 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.6.x
 releases. Jackrabbit Oak 1.6.x releases are considered stable and
@@ -84,7 +83,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.6.4/REL
 
 <a class='anchor' name='oak1.2'></a>
 Apache Jackrabbit Oak 1.2.27 (August 8th, 2017)
----------------------------------------------
+-----------------------------------------------
 Jackrabbit Oak 1.2.27 is a patch release that contains fixes and
 improvements over the previous 1.2.x release.
 Jackrabbit Oak 1.2.x releases are considered stable and targeted for
@@ -97,6 +96,8 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.27/RE
     <br/>SHA1 checksum: `4a5731c0edac11b1376112e4dc382e77f13c490c`
     <br/>MD5  checksum: `993ce1e8138a667ea4cf7ff975305884`
 
+
+    
 
 <a class='anchor' name='v2.15'></a>
 Apache Jackrabbit 2.15.5 (August 3rd, 2017)
