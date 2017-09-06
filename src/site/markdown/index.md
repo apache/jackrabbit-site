@@ -36,6 +36,14 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 
 ## Apache Jackrabbit News
 
+#### September 6th, 2017: Apache Jackrabbit 2.4.x deprecated
+The Apache Jackrabbit Team has decided that since the 2.4 branch
+of the project looks like not being used anymore to drop support and
+deprecate this version. Previous branch, tags and releases will still
+be available for future references, but will not show up on the download
+page anymore. Users are encouraged to upgrade to the latest stable versions
+([2.14](downloads.html#v2.14) for Java 7, [2.12](downloads.html#v2.12) for Java 6).
+
 #### September 4th, 2017: Apache Jackrabbit Oak 1.4.18 released
 Jackrabbit Oak 1.4.18 is a patch release that contains fixes and
 improvements over the previous 1.4.x release.  See the
