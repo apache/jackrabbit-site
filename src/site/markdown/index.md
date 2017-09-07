@@ -36,6 +36,11 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 
 ## Apache Jackrabbit News
 
+#### September 7th, 2017: Apache Jackrabbit 2.6.9 released
+Apache Jackrabbit 2.6.9 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. See the
+[downloads](downloads.html#v2.6) page for more details.
+
 #### September 6th, 2017: Apache Jackrabbit 2.4.x deprecated
 The Apache Jackrabbit Team has decided that since the 2.4 branch
 of the project looks like not being used anymore to drop support and
