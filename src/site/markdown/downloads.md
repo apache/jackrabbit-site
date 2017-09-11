@@ -45,6 +45,24 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.6'></a>
+Apache Jackrabbit Oak 1.6.5 (September 8th, 2017)
+-------------------------------------------------
+Apache Jackrabbit Oak 1.6.5 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.6.x
+releases. Jackrabbit Oak 1.6.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.6.5/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.6.5-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.5/jackrabbit-oak-1.6.5-src.zip)
+    (11MB, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.6.5/jackrabbit-oak-1.6.5-src.zip.asc))
+    <br/>SHA1 checksum: `1b7407bb7b51209d8056ea4aad3757378d10e1ba`
+    <br/>MD5  checksum: `028d33868892dc1a7ff6617b57306f75`
+
+
+
+
 <a class='anchor' name='v2.6'></a>
 Apache Jackrabbit 2.6.9 (September 7th, 2017)
 ---------------------------------------------
@@ -125,24 +143,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.39/RE
 
 
     
-
-<a class='anchor' name='oak1.6'></a>
-Apache Jackrabbit Oak 1.6.5 (August 21st, 2017)
------------------------------------------------
-Apache Jackrabbit Oak 1.6.5 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.6.x
-releases. Jackrabbit Oak 1.6.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.6.5/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.6.5-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.5/jackrabbit-oak-1.6.5-src.zip)
-    (11MB, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.6.5/jackrabbit-oak-1.6.5-src.zip.asc))
-    <br/>SHA1 checksum: `1b7407bb7b51209d8056ea4aad3757378d10e1ba`
-    <br/>MD5  checksum: `028d33868892dc1a7ff6617b57306f75`
-
-
-
 
 <a class='anchor' name='oak1.2'></a>
 Apache Jackrabbit Oak 1.2.27 (August 8th, 2017)
