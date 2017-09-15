@@ -67,6 +67,7 @@ Jackrabbit committers
 | ppiegaze        | Peeter Piegaze  |  [Adobe](http://www.adobe.com/)  |
 | reschke         | [Julian Reschke](mailto:julian.reschke@greenbytes.de) |  [greenbytes GmbH](http://greenbytes.de/)  |
 | rhauch          | Randall Hauch  | &nbsp; |
+| rombert         | Robert Munteanu | [Adobe](http://www.adobe.com/) |
 | schans          | Bart van der Schans  |  [Hippo](http://www.hippo.nl/)  |
 | sebastien       | S&eacute;bastien Launay  |  [Anyware Technologies](http://www.anyware-tech.com/)  |
 | shashank        | Shashank Gupta  |  [Adobe](http://www.adobe.com/)  |
