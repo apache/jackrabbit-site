@@ -109,17 +109,17 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.14.3/RELEAS
 
 
 <a class='anchor' name='oak1.7'></a>
-Apache Jackrabbit Oak 1.7.7 (September 14th, 2017)
+Apache Jackrabbit Oak 1.7.8 (September 29th, 2017)
 --------------------------------------------------
-Apache Jackrabbit Oak 1.7.7 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
+Apache Jackrabbit Oak 1.7.8 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
 For production use we recommend the latest stable 1.6.x release.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.7.7/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.7.8/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.7.7-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.7.7/jackrabbit-oak-1.7.7-src.zip)
-    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.7.7/jackrabbit-oak-1.7.7-src.zip.asc))
-    <br/>SHA1 checksum: `3d57847b3dbf390daf7c552472fb3a53f63b2558`
-    <br/>MD5  checksum: `ec75a8a1695aee09c80132829ddcb0f9`
+* [jackrabbit-oak-1.7.8-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.7.8/jackrabbit-oak-1.7.8-src.zip)
+    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.7.8/jackrabbit-oak-1.7.8-src.zip.asc))
+    <br/>SHA1 checksum: `1350f6a4c02b135132341a935fd6499ded864f55`
+    <br/>MD5  checksum: `94a3e9fc816edde358a5a01edac230b2`
 
 
 
