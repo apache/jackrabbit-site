@@ -47,7 +47,7 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 <a class='anchor' name='v2.12'></a>
-Apache Jackrabbit 2.12.8 (October 6th, 2017)
+Apache Jackrabbit 2.12.8 (October 9th, 2017)
 --------------------------------------------
 Apache Jackrabbit 2.12.8 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
