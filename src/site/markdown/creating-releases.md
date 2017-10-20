@@ -61,8 +61,9 @@ Release management tasks
 3. Create a `RELEASE-NOTES.txt` file in the root folder of the project to be released. 
     If such a file already exists, update it for the release. See a previous 
     release notes for examples of what to include. The release note report in Jira is a 
-    useful source of required information: Open the [JCR Jira](https://issues.apache.org/jira/browse/JCR) or [OAK Jira](https://issues.apache.org/jira/browse/OAK) page, 
-    click on the release, then on the "Release Notes" button on the top right.
+    useful source of required information: Open the [Jackrabbit Jira](https://issues.apache.org/jira/projects/JCR?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page)
+    or [OAK Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page) page, 
+    click on the release, then on the "Release Notes" link on the top.
     Double-check that all version numbers in the updated Release Notes are accurate.
     When done, commit the file.
 4. If the branch is a recent one that supports Java 8, make sure that the API docs can indeed be built with Java 8 (remember it has tighter checks).
