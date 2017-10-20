@@ -53,8 +53,10 @@ See [Appendix B](#Appendix_B:_Maven_settings) for the required settings.
 
 Release management tasks
 ------------------------
-1. Make sure that an appropriate version for the release is entered in Jira and that 
-    all the related issues have been resolved. 
+1. Make sure that an appropriate version for the release is entered in Jira 
+   ([Jackrabbit Jira](https://issues.apache.org/jira/projects/JCR?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page),
+   [OAK Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page))
+   and that all the related issues have been resolved. 
 2. Create a new version in JIRA for the next release.
 3. Create a `RELEASE-NOTES.txt` file in the root folder of the project to be released. 
     If such a file already exists, update it for the release. See a previous 
