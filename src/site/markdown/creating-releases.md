@@ -66,7 +66,7 @@ Release management tasks
     click on the release, then on the "Release Notes" link on the top.
     Double-check that all version numbers in the updated Release Notes are accurate.
     When done, commit the file.
-4. If the branch is a recent one that supports Java 8, make sure that the API docs can indeed be built with Java 8 (remember it has tighter checks).
+4. If the branch is one that requires Java 8 or newer, make sure that the API docs can indeed be built with Java 8, using both `javadoc:javadoc` and `javadoc:jar`.
 5. Build and deploy the release artifacts with Maven. See [below](#Steps_to_build_the_release_artifacts) for the exact steps.
 6. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (~19 projects for Jackrabbit).
 7. Close the staged repository, giving it a meaningful name, such as "Apache Jackrabbit 2.x.y RC"
