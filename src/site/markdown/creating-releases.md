@@ -93,7 +93,7 @@ Release management tasks
     * release the [staged repository](https://repository.apache.org/index.html#stagingRepositories) for synchronization to Maven central.
     * close all the issues included in the release: [Jackrabbit Jira](https://issues.apache.org/jira/projects/JCR?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&amp;status=released) or [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&amp;status=released) -> Choose the released version -> select "View in Issue Navigator". From the issue list you have the option to bulk update all of the included issues. Just 'Transition Issues' from 'Resolved' to 'Closed' and you are done!
 
-13. Update the Jackrabbit web site to point to the new release.
+13. Update the Jackrabbit web site to point to the new release ([SVN](https://svn.apache.org/repos/asf/jackrabbit/site/trunk/)).
     1. index.md
     2. downloads.md (while doing so please a) remove obsoleted entries, and b) move new entries for Jackrabbit and/or Oak to the top)
 14. Send the [release announcement](mailto:announce@apache.org,announce@jackrabbit.apache.org,users@jackrabbit.apache.org,dev@jackrabbit.apache.org,oak-dev@jackrabbit.apache.org?subject=%5BANNOUNCE%5D%20Apache%20Jackrabbit%20...%20released) once the web site and download mirrors have been synced. Please note the announce mails needs to be sent from an @apache.org address.
