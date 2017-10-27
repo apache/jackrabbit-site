@@ -36,6 +36,7 @@ the signatures and checksums available from this page.
     * [Apache Jackrabbit 2.6.x](#v2.6) (Java 6 and later)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
 * Latest stable FileVault release: [Apache Jackrabbit FileVault 3.1.40](#vlt)
+* Latest stable FileVault Plugin release: [Apache Jackrabbit FileVault Package Maven Plugin 1.0.0](#vltplg)
 * [Release Archive](#archive)
 
 Apache Jackrabbit releases are available under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0). 
@@ -335,6 +336,23 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/filevault/3.1
     <br/>MD5 checksum: `fbcf5a9a0a83b47971ca5340ce854081`
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
+
+
+
+
+<a class='anchor' name='vltplg'></a>
+Apache Jackrabbit FileVault Package Maven Plugin 1.0.0 (October 27th, 2017)
+------------------------------------------------------
+Jackrabbit FileVault Package Maven Plugin 1.0.0 is the latest stable release of the recently donated content package maven plugin.
+
+See the [full release notes](https://dist.apache.org/repos/dist/release/jackrabbit/filevault-package-maven-plugin/1.0.0/RELEASE-NOTES.md) for more details.
+
+* [filevault-package-maven-plugin-1.0.0-source-release.zip](https://dist.apache.org/repos/dist/release/jackrabbit/filevault-package-maven-plugin/1.0.0/filevault-package-maven-plugin-1.0.0-source-release.zip)
+    (1.5M, source zip, [PGP signature](https://dist.apache.org/repos/dist/release/jackrabbit/filevault-package-maven-plugin/1.0.0/filevault-package-maven-plugin-1.0.0-source-release.zip.asc))
+    <br/>SHA1 checksum: `dc660e6bea0654a53ccc77a88fe4677e2399f925`
+    <br/>MD5 checksum: `ed8077fc4f9a948b4c7aa9a77c7d2d98`
+
+Also see the Jackrabbit FileVault Plugin [documentation](/filevault-package-maven-plugin/index.html) for more information about this project.
 
 
 
