@@ -95,7 +95,7 @@ Release management tasks
 
 13. Update the Jackrabbit web site to point to the new release ([SVN](https://svn.apache.org/repos/asf/jackrabbit/site/trunk/)).
     1. index.md
-    2. downloads.md (while doing so please a) remove obsoleted entries, and b) move new entries for Jackrabbit and/or Oak to the top)
+    2. downloads.md (see [below](#Creating_Markdown_for_Downloads_Page)) - while doing so please a) remove obsoleted entries, and b) move new entries for Jackrabbit and/or Oak to the top)
 14. Send the [release announcement](mailto:announce@apache.org,announce@jackrabbit.apache.org,users@jackrabbit.apache.org,dev@jackrabbit.apache.org,oak-dev@jackrabbit.apache.org?subject=%5BANNOUNCE%5D%20Apache%20Jackrabbit%20...%20released) once the web site and download mirrors have been synced. Please note the announce mails needs to be sent from an @apache.org address.
 15. If the release was a Jackrabbit release used in Oak, make sure to also update the dependency in oak-parent/pom.xml (example: [OAK-4743](https://issues.apache.org/jira/browse/OAK-4743) - the current mapping is Jackrabbit 2.15 -> Oak trunk, Jackrabbit 2.14 -> Oak 1.6, Jackrabbit 2.12 -> Oak 1.4 and 1.2, Jackrabbit 2.8 -> Oak 1.0)
 16. If the release was a stable release for which we publish API docs (such as Jackrabbit), consider updating the live site (https://svn.apache.org/repos/asf/jackrabbit/site/live/ - when producing the API docs, use a checkout of the actual release, specify an English locale (-Dlocale=en) and try to pick the right JDK version to minimize changes over the previously checked in docs).
@@ -113,6 +113,32 @@ There have been some problems with certain combinations of Java and Maven versio
 2. Execute mvn `release:perform`. This will build the tagged release and deploy the artifacts to a staging repository on repository.apache.org. The non-Maven release artifacts are automatically deployed to your home directory on people.apache.org. You only need to add the keyname if you have multiple keys and the code signing keys is not your default key.
 
 After this is done, you can remove the passwords from the file `~/.m2/settings.xml` if you don't want to keep it there.
+
+
+Creating Markdown for Downloads Page
+------------------------------------
+A [shell script](https://dist.apache.org/repos/dist/dev/jackrabbit/create-download-md.sh) is available for generating the downloads links for the mark down source,
+to be run in a checkout of the [release folder](https://dist.apache.org/repos/dist/release/jackrabbit/).
+Usage:
+
+        $ cd path-of-jackrabbit-releases
+        
+For Jackrabbit:
+
+        $ sh create-download-md.sh version
+        
+such as:                
+
+        $ sh create-download-md.sh 2.14.4
+
+For Oak:
+
+        $ sh create-download-md.sh oak/version
+   
+such as:                
+
+        $ sh create-download-md.sh oak/1.6.6
+
 
 
 Related Links
