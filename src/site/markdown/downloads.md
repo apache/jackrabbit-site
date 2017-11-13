@@ -35,7 +35,7 @@ the signatures and checksums available from this page.
     * [Apache Jackrabbit 2.8.x](#v2.8) (Java 6 and later)
     * [Apache Jackrabbit 2.6.x](#v2.6) (Java 6 and later)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
-* Latest stable FileVault release: [Apache Jackrabbit FileVault 3.1.40](#vlt)
+* Latest stable FileVault release: [Apache Jackrabbit FileVault 3.1.42](#vlt)
 * Latest stable FileVault Plugin release: [Apache Jackrabbit FileVault Package Maven Plugin 1.0.0](#vltplg)
 * [Release Archive](#archive)
 
