@@ -325,16 +325,16 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.10.6/RELEAS
 
 
 <a class='anchor' name='vlt'></a>
-Apache Jackrabbit FileVault 3.1.40 (June 26th, 2017)
+Apache Jackrabbit FileVault 3.1.42 (November 13th, 2017)
 ------------------------------------------------------
-Jackrabbit FileVault 3.1.40 is the latest stable release of the recently donated repository content synchronization tool.
+Jackrabbit FileVault 3.1.42 is the latest stable release of the recently donated repository content synchronization tool.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/filevault/3.1.40/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/filevault/3.1.42/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-filevault-3.1.40-src.zip](http://www.apache.org/dist/jackrabbit/filevault/3.1.40/jackrabbit-filevault-3.1.40-src.zip)
-    (1.5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/filevault/3.1.40/jackrabbit-filevault-3.1.40-src.zip.asc))
-    <br/>SHA1 checksum: `fbcf5a9a0a83b47971ca5340ce854081`
-    <br/>MD5 checksum: `fbcf5a9a0a83b47971ca5340ce854081`
+* [jackrabbit-filevault-3.1.42-src.zip](http://www.apache.org/dist/jackrabbit/filevault/3.1.42/jackrabbit-filevault-3.1.42-src.zip)
+    (1.5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/filevault/3.1.42/jackrabbit-filevault-3.1.42-src.zip.asc))
+    <br/>SHA1 checksum: `737616411986dde74a04f6cb9de6a2d3f1c5e139`
+    <br/>MD5  checksum: `387fc8e76523828160fa13c686a6291b`
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
 
