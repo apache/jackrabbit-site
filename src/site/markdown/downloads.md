@@ -47,6 +47,22 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.7'></a>
+Apache Jackrabbit Oak 1.7.11 (November 13th, 2017)
+--------------------------------------------------
+Apache Jackrabbit Oak 1.7.11 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
+For production use we recommend the latest stable 1.6.x release.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.7.11/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.7.11-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.7.11/jackrabbit-oak-1.7.11-src.zip)
+    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.7.11/jackrabbit-oak-1.7.11-src.zip.asc))
+    <br/>SHA1 checksum: `445beb053b7f11b65d31e85da777b8d45b44f747`
+    <br/>MD5  checksum: `ac758405603c00b40d168cc66b657e91`
+
+
+
+
 <a class='anchor' name='oak1.6'></a>
 Apache Jackrabbit Oak 1.6.6 (November 2nd, 2017)
 ------------------------------------------------
@@ -94,22 +110,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.14.4/RELEAS
     <br/>SHA1 checksum: `cab5855070974227247371a4896cd4474603f0e6`
     <br/>MD5  checksum: `a7cb3556cf0025cc6d5257ae6760f7ca`
 
-
-
-
-
-<a class='anchor' name='oak1.7'></a>
-Apache Jackrabbit Oak 1.7.11 (November 13th, 2017)
--------------------------------------------------
-Apache Jackrabbit Oak 1.7.11 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
-For production use we recommend the latest stable 1.6.x release.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.7.11/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.7.11-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.7.11/jackrabbit-oak-1.7.11-src.zip)
-    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.7.11/jackrabbit-oak-1.7.11-src.zip.asc))
-    <br/>SHA1 checksum: `445beb053b7f11b65d31e85da777b8d45b44f747`
-    <br/>MD5  checksum: `ac758405603c00b40d168cc66b657e91`
 
 
 
