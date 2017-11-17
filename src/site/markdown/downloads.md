@@ -20,6 +20,10 @@ Use the links below to download Apache Jackrabbit releases from one of our
 mirrors. You should [verify the integrity](#verify.html) of the files using 
 the signatures and checksums available from this page.
 
+Please note that some mirrors might not be up-to-date shortly after a 
+release; in this case wait 12-24 hours until the distribution becomes available 
+on your preferred mirror.
+
 * Latest stable releases: 
     * [Apache Jackrabbit 2.14.x](#v2.14) (Java 7 and later)
     * [Apache Jackrabbit Oak 1.6.x](#oak1.6) (Java 7 and later)
