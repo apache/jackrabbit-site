@@ -206,3 +206,25 @@ Appendix C: Cygwin
 
 The Subversion support in the release plugin assumes platform-specific path delimiters, and thus does not work properly if the "svn" executable is the Cygwin version. The easiest workaround for this problem is to install a Windows-native SVN version as well, and to modify the PATH variable for the mvn invocation so that it's found instead of the Cygwin variant.
 
+Appendix D: Branching
+---------------------
+
+The following notes were collected while branching Jackrabbit 2.16:
+
+Create a JIRA ticket for branching and the subsequent releases of new the branch and trunk; example: [JCR-4216](https://issues.apache.org/jira/browse/JCR-4216).
+
+Create the branch:
+
+    mvn release:branch -DbranchName=2.16 -DdevelopmentVersion=2.17.0-SNAPSHOT
+
+Set the development version on the new branch:
+
+    cd path-to-branch-checkout
+    mvn release:update-versions -DautoVersionSubmodules=true -DdevelopmentVersion=2.16.0-SNAPSHOT
+    
+Open a ticket so that once the first release for the branch is made, the `comparisonVersion` for the `bundle:baseline` check is updated both in the branch and on trunk; example: [JCR-4218](https://issues.apache.org/jira/browse/JCR-4218).
+
+Create release notes to include all of the changes accumulated - for 2.16.0 this means including all changes labeled with `fixVersion` set to `2.16`. Note that any change labeled with `fixVersion` set to any 2.15.* release should have `fixVersion: 2.16` as well, unless the change is irrelevant for the release notes.
+
+
+
