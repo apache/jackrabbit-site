@@ -36,7 +36,7 @@ Maintenance branches
 --------------------
 We currently support the following maintenance branches:
 
-* [Jackrabbit 2.16](https://svn.apache.org/repos/asf/jackrabbit/branches/2.16/) ([download - not yet available, first release pending](downloads.html#v2.16))
+* [Jackrabbit 2.16](https://svn.apache.org/repos/asf/jackrabbit/branches/2.16/) ([download](downloads.html#v2.16))
 * [Jackrabbit 2.14](https://svn.apache.org/repos/asf/jackrabbit/branches/2.14/) ([download](downloads.html#v2.14))
 * [Jackrabbit 2.12](https://svn.apache.org/repos/asf/jackrabbit/branches/2.12/) ([download](downloads.html#v2.12))
 * [Jackrabbit 2.10](https://svn.apache.org/repos/asf/jackrabbit/branches/2.10/) ([download](downloads.html#v2.10))
