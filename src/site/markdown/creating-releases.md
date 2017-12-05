@@ -53,12 +53,13 @@ See [Appendix B](#Appendix_B:_Maven_settings) for the required settings.
 
 Release management tasks
 ------------------------
-1. Make sure that an appropriate version for the release is entered in Jira 
+1. When releasing from trunk, consider checking the CVE database for vulnerabilities in dependencies, using `mvn org.owasp:dependency-check-maven:3.0.2:aggregate` (first run will be slow because CVE databases are downloaded and parsed). If dependencies need action, open tickets and make sure they are marked as candidate backports where applicable.        
+2. Make sure that an appropriate version for the release is entered in Jira 
    ([Jackrabbit Jira](https://issues.apache.org/jira/projects/JCR?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page),
    [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page))
    and that all the related issues have been resolved. 
-2. Create a new version in JIRA for the next release.
-3. Create a `RELEASE-NOTES.txt` file in the root folder of the project to be released. 
+3. Create a new version in JIRA for the next release.
+4. Create a `RELEASE-NOTES.txt` file in the root folder of the project to be released. 
     If such a file already exists, update it for the release. See a previous 
     release notes for examples of what to include. The release note report in Jira is a 
     useful source of required information: Open the [Jackrabbit Jira](https://issues.apache.org/jira/projects/JCR?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page)
@@ -66,11 +67,11 @@ Release management tasks
     click on the release, then on the "Release Notes" link on the top.
     Double-check that all version numbers in the updated Release Notes are accurate.
     When done, commit the file.
-4. If the branch is one that requires Java 8 or newer, make sure that the API docs can indeed be built with Java 8, using both `javadoc:javadoc` and `javadoc:jar`.
-5. Build and deploy the release artifacts with Maven. See [below](#Steps_to_build_the_release_artifacts) for the exact steps.
-6. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (~19 projects for Jackrabbit).
-7. Close the staged repository, giving it a meaningful name, such as "Apache Jackrabbit 2.x.y RC"
-8. Upload the artifacts to https://dist.apache.org/repos/dist/dev/jackrabbit/ (instructions at the end of the build)
+5. If the branch is one that requires Java 8 or newer, make sure that the API docs can indeed be built with Java 8, using both `javadoc:javadoc` and `javadoc:jar`.
+6. Build and deploy the release artifacts with Maven. See [below](#Steps_to_build_the_release_artifacts) for the exact steps.
+7. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (~19 projects for Jackrabbit).
+8. Close the staged repository, giving it a meaningful name, such as "Apache Jackrabbit 2.x.y RC"
+9. Upload the artifacts to https://dist.apache.org/repos/dist/dev/jackrabbit/ (instructions at the end of the build)
 
         cd /path/to/jackrabbit-dev
         scp -r /path/to/jackrabbit/target/checkout/target/$version $version
