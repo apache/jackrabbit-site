@@ -27,7 +27,7 @@ Starting with Jackrabbit 2.3 we have adopted a "Linux-style"
 unstable/stable release model with odd/even minor version numbers used to
 mark the status of a release.
 
-* [Jackrabbit 2.17 (trunk)](https://svn.apache.org/repos/asf/jackrabbit/trunk/) ([download - not yet available, first release pending](downloads.html#v2.17))
+* [Jackrabbit 2.17 (trunk)](https://svn.apache.org/repos/asf/jackrabbit/trunk/) ([download](downloads.html#v2.17))
 
 Unstable 2.17.x releases will be cut directly from
 Jackrabbit trunk, the latest stable branch is 2.16.

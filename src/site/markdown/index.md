@@ -36,6 +36,11 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 
 ## Apache Jackrabbit News
 
+#### December 21st, 2017: Apache Jackrabbit 2.17.0 released
+Apache Jackrabbit 2.17.0 is an unstable release cut directly from trunk, with a
+focus on new features and other improvement. See the
+[downloads](downloads.html#v2.17) page for more details.
+
 #### December 20th, 2017: Apache Jackrabbit Filevault Package Maven Plugin 1.0.1 released
 Apache Jackrabbit Filevault Package Maven Plugin 1.0.1 is the current stable release of the
 recently donated content package plugin. See the
