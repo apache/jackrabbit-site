@@ -52,6 +52,23 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.7'></a>
+Apache Jackrabbit Oak 1.7.14 (December 30th, 2017)
+--------------------------------------------------
+Apache Jackrabbit Oak 1.7.14 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
+For production use we recommend the latest stable 1.6.x release.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.7.14/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.7.14-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.7.14/jackrabbit-oak-1.7.14-src.zip)
+    (12M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.7.14/jackrabbit-oak-1.7.14-src.zip.asc))
+    <br/>SHA1   checksum: `40c24fc5c36b511536e355a9864e3679177924b8`
+    <br/>MD5    checksum: `fbcfd9fc0a2f5dabef551fdbcc08591a`
+    <br/>SHA512 checksum: `4185d3e99b44eace5e29f261201ed5fd3e1d1aadb4929e98f3deb0624f3da2f814bb6db2a1226f89ef667b1ed65621cd5d94a642e82f5f9bffcc1a43acfb0484`
+
+
+
+
 <a class='anchor' name='v2.17'></a>
 Apache Jackrabbit 2.17.0 (December 21st, 2017)
 ----------------------------------------------
@@ -120,22 +137,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.10.7/RELEAS
     <br/>SHA1   checksum: `6acacc03b1e5f76c986f1cdbcf61ae1acfc95d0a`
     <br/>MD5    checksum: `8f051ee580a4831fd913611764b8adf6`
     <br/>SHA512 checksum: `752a81ef7715338b0390ce98f5bd164c8d14a9aab82e44cdbb2875a881c09d0c19af2f8212cde1317748655e10d4a1a3d4e4725d3634f44705cc3d0e9495b5b8`
-
-
-
-
-<a class='anchor' name='oak1.7'></a>
-Apache Jackrabbit Oak 1.7.12 (December 8th, 2017)
--------------------------------------------------
-Apache Jackrabbit Oak 1.7.12 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
-For production use we recommend the latest stable 1.6.x release.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.7.12/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.7.12-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.7.12/jackrabbit-oak-1.7.12-src.zip)
-    (9.4M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.7.12/jackrabbit-oak-1.7.12-src.zip.asc))
-    <br/>SHA1 checksum: `eca45d4c8d357654253eb488526c4ef2b421ed06`
-    <br/>MD5  checksum: `5dc3ab4ac313dbb9b9686d2663ec5f9b`
 
 
 
