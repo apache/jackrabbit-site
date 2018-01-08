@@ -52,6 +52,23 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.0'></a>
+Apache Jackrabbit Oak 1.0.40 (January 8th, 2018)
+------------------------------------------------
+Jackrabbit Oak 1.0.40 is a patch release that contains fixes and improvements over the previous 1.0.x release. 
+Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.40/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.0.40-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.40/jackrabbit-oak-1.0.40-src.zip)
+    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.40/jackrabbit-oak-1.0.40-src.zip.asc))
+    <br/>SHA1    checksum: `9371a208ddf72b276611b2f90a1fc1b2d09768e6`
+    <br/>MD5     checksum: `95aa2d923053bedde8ed49de96b6f977`
+    <br/>SHA512  checksum: `6d245df2f9c8b17b799883d92fb3977cb333a1d04bf929e8a6fd43a617d486c288286a901e56a1ddec94f842a8b13af86f527d576490ebd7fa1d32dd5ad3d787`
+    
+
+    
+
 <a class='anchor' name='v2.8'></a>
 Apache Jackrabbit 2.8.7 (January 4th, 2018)
 -------------------------------------------
@@ -342,22 +359,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.18/RE
 
 
 
-
-<a class='anchor' name='oak1.0'></a>
-Apache Jackrabbit Oak 1.0.39 (August 22nd, 2017)
-------------------------------------------------
-Jackrabbit Oak 1.0.39 is a patch release that contains fixes and improvements over the previous 1.0.x release. 
-Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.39/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.0.39-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.39/jackrabbit-oak-1.0.39-src.zip)
-    (5M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.0.39/jackrabbit-oak-1.0.39-src.zip.asc))
-    <br/>SHA1 checksum: `5cfb85374d99c96f5528697255a0f5c626657032`
-    <br/>MD5  checksum: `8d373f526a6188e4b35018cf1d650f23`
-
-
-    
 
 <a class='anchor' name='oak1.2'></a>
 Apache Jackrabbit Oak 1.2.27 (August 8th, 2017)
