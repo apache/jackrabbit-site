@@ -35,9 +35,9 @@ The following lists are used by the Apache Jackrabbit project:
 | Oak Commits List       | [oak-commits@jackrabbit.apache.org](mailto:oak-commits@jackrabbit.apache.org) | [subscribe](mailto:oak-commits-subscribe@jackrabbit.apache.org?subject=subscribe) | [unsubscribe](mailto:oak-commits-unsubscribe@jackrabbit.apache.org?subject=unsubscribe)
 
 
-See the [ezmlm user manual](http://www.ezmlm.org/ezman/ezman1.html)
-and especially the sections on [subscribing](http://www.ezmlm.org/ezman/ezman1.html#ss1.3)
-and [unsubscribing](http://www.ezmlm.org/ezman/ezman1.html#ss1.4)
+See the [ezmlm user manual](http://untroubled.org/ezmlm/manual)
+and especially the sections on [subscribing](http://untroubled.org/ezmlm/manual/Subscribing.html)
+and [unsubscribing](http://untroubled.org/ezmlm/manual/Unsubscribing.html)
 for instructions on how to use the Jackrabbit mailing lists.
 
 
