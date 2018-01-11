@@ -53,8 +53,8 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 <a class='anchor' name='oak1.4'></a>
-Apache Jackrabbit Oak 1.4.19 (Januray 10th, 2018)
---------------------------------------------------
+Apache Jackrabbit Oak 1.4.19 (January 10th, 2018)
+-------------------------------------------------
 Apache Jackrabbit Oak 1.4.19 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.x
 releases. Jackrabbit Oak 1.4.x releases are considered stable and
