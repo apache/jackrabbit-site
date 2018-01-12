@@ -26,11 +26,12 @@ on your preferred mirror.
 
 * Latest stable releases: 
     * [Apache Jackrabbit 2.16.x](#v2.16) (Java 8 and later)
-    * [Apache Jackrabbit Oak 1.6.x](#oak1.6) (Java 7 and later)
+    * [Apache Jackrabbit Oak 1.8.x](#oak1.8) (Java 8 and later)
 * Latest unstable releases (from trunk): 
     * [Apache Jackrabbit 2.17.x](#v2.17) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.7.x](#oak1.7) (Java 8 and later)
 * Maintenance releases:
+    * [Apache Jackrabbit Oak 1.6.x](#oak1.6) (Java 7 and later)
     * [Apache Jackrabbit Oak 1.4.x](#oak1.4) (Java 7 and later)
     * [Apache Jackrabbit Oak 1.2.x](#oak1.2) (Java 6 and later)
     * [Apache Jackrabbit Oak 1.0.x](#oak1.0) (Java 6 and later)
@@ -48,6 +49,25 @@ Apache Jackrabbit releases are available under the [Apache License, Version 2.0]
 See the `NOTICE.txt` file contained in each release artifact for applicable copyright attribution notices. 
 Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](http://www.apache.org/legal/resolved.html). 
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
+
+
+
+
+<a class='anchor' name='oak1.8'></a>
+Apache Jackrabbit Oak 1.8.0 (January 12th, 2018)
+------------------------------------------------
+Apache Jackrabbit Oak 1.8.0 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.x
+releases. Jackrabbit Oak 1.8.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.8.0/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.8.0-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.0/jackrabbit-oak-1.8.0-src.zip)
+    (12M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.8.0/jackrabbit-oak-1.8.0-src.zip.asc))
+    <br/>SHA1   checksum: `8aafd753f98e02df0de6b32e4d7e065ebe450b88`
+    <br/>MD5    checksum: `f69a661bbd73f00e688c84dcd35c9454`
+    <br/>SHA512 checksum: `549589916e712ad0141d2acf80895ef5f1ea5d953a7ea8ff01e5870540de6bdbb4a804285249aafe8ff7515fe45d1b07187594927f65cf3d4b3ae2ca405ec7b2`
 
 
 
