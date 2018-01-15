@@ -92,6 +92,7 @@ Release management tasks
 
     * delete any older releases from the same branch (they're automatically archived)
     * release the [staged repository](https://repository.apache.org/index.html#stagingRepositories) for synchronization to Maven central.
+    * make sure the previous step actually succeeded (we have seen a case where it failed and a retry was needed)
     * close all the issues included in the release: [Jackrabbit Jira](https://issues.apache.org/jira/projects/JCR?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&amp;status=released) or [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&amp;status=released) -> Choose the released version -> select "View in Issue Navigator". From the issue list you have the option to bulk update all of the included issues. Just 'Transition Issues' from 'Resolved' to 'Closed' and you are done!
 
 13. Update the Jackrabbit web site to point to the new release ([SVN](https://svn.apache.org/repos/asf/jackrabbit/site/trunk/)).
