@@ -161,10 +161,10 @@ activated with the `--backup` command line option. The essential command
 line options and their default values for the backup mode are:
     
     $ java -jar jackrabbit-standalone-1.6.0.jar --backup \
-           --repo=jackrabbit \
-           --conf=jackrabbit/repository.xml \
-           --backup-repo=jackrabbit-backupN \
-           --backup-conf=jackrabbit-backupN/repository.xml
+           --repo jackrabbit \
+           --conf jackrabbit/repository.xml \
+           --backup-repo jackrabbit-backupN \
+           --backup-conf jackrabbit-backupN/repository.xml
 
 
 Note that the source repository must not be running when you use this
