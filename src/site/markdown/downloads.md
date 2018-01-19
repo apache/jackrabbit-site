@@ -52,6 +52,25 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.2'></a>
+Apache Jackrabbit Oak 1.2.28 (January 19th, 2017)
+-----------------------------------------------
+Jackrabbit Oak 1.2.28 is a patch release that contains fixes and
+improvements over the previous 1.2.x release.
+Jackrabbit Oak 1.2.x releases are considered stable and targeted for
+production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.28/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.2.28-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.28/jackrabbit-oak-1.2.28-src.zip)
+    (7.6M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.28/jackrabbit-oak-1.2.28-src.zip.asc))
+    <br/>SHA1 checksum: `ab75dcba003fba0cace30d49307c92b9ecbb27cd`
+    <br/>MD5  checksum: `6d5217fca365454c1b1778d9b9131254`
+    <br/>SHA512 checksum: `b5e4e1e9a0d81d67c7849c951001c913f90f489588d2bc4e86f85a30afd1e90609415e7be42b6568f32a2bc6dabeb2eebe03e512b31f8af37e3cc9336df5d12b`
+
+
+    
+
 
 <a class='anchor' name='oak1.6'></a>
 Apache Jackrabbit Oak 1.6.8 (January 15th, 2018)
@@ -381,24 +400,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.6.9/RELEASE
 
 
 
-
-<a class='anchor' name='oak1.2'></a>
-Apache Jackrabbit Oak 1.2.27 (August 8th, 2017)
------------------------------------------------
-Jackrabbit Oak 1.2.27 is a patch release that contains fixes and
-improvements over the previous 1.2.x release.
-Jackrabbit Oak 1.2.x releases are considered stable and targeted for
-production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.27/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.2.27-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.27/jackrabbit-oak-1.2.27-src.zip)
-    (6.8M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.2.27/jackrabbit-oak-1.2.27-src.zip.asc))
-    <br/>SHA1 checksum: `4a5731c0edac11b1376112e4dc382e77f13c490c`
-    <br/>MD5  checksum: `993ce1e8138a667ea4cf7ff975305884`
-
-
-    
 
 <a class='anchor' name='vlt'></a>
 Apache Jackrabbit FileVault 3.1.42 (November 13th, 2017)
