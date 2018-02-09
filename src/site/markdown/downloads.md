@@ -90,20 +90,20 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/2.17.1/RELEAS
 
 
 <a class='anchor' name='oak1.8'></a>
-Apache Jackrabbit Oak 1.8.1 (January 26th, 2018)
+Apache Jackrabbit Oak 1.8.2 (February 9th, 2018)
 ------------------------------------------------
-Apache Jackrabbit Oak 1.8.1 is an incremental feature release based on
+Apache Jackrabbit Oak 1.8.2 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.x
 releases. Jackrabbit Oak 1.8.x releases are considered stable and
 targeted for production use.
 
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.8.1/RELEASE-NOTES.txt) for more details.
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.8.2/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.8.1-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.1/jackrabbit-oak-1.8.1-src.zip)
-    (12M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.8.1/jackrabbit-oak-1.8.1-src.zip.asc))
-    <br/>SHA1   checksum: `3cbf1e206ac26cc764b8b6d658de0c97cf896acd`
-    <br/>MD5    checksum: `20ed4724041dcda9dd88cd009416f09f`
-    <br/>SHA512 checksum: `3be550e9ee4cc00b1650189e2fea44896def81331bb807457028488c91a90a3cef426f74a241d339d89788f7d159139ca4aa622f25a155bf73732ec2f15802d6`
+* [jackrabbit-oak-1.8.2-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.2/jackrabbit-oak-1.8.2-src.zip)
+    (12M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.8.2/jackrabbit-oak-1.8.2-src.zip.asc))
+    <br/>SHA1   checksum: `6fd2c8ac5bacffce016a41c4da783323ef763ab6`
+    <br/>MD5    checksum: `f261edbd682a1cb2f9154d1af6ccefd3`
+    <br/>SHA512 checksum: `662e81f0c5e73ff534f6ccd59c9c2b90287979a90c099c0c956259d9e84171a526ea6136dc7d255429ba34493e9d3b00a0de4665d3b90652ded6fe5234902c34`
 
 
 
