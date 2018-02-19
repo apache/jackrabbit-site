@@ -52,6 +52,26 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+
+<a class='anchor' name='oak1.4'></a>
+Apache Jackrabbit Oak 1.4.20 (February 19th, 2018)
+-------------------------------------------------
+Apache Jackrabbit Oak 1.4.20 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.x
+releases. Jackrabbit Oak 1.4.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.20/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.4.20-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.20/jackrabbit-oak-1.4.20-src.zip)
+    (10M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.4.20/jackrabbit-oak-1.4.20-src.zip.asc))
+    <br/>SHA1   checksum: `538a7f10b93698ffd716b58e69606be0e85e1516`
+    <br/>MD5    checksum: `1d3b3a933d378c679a9d6c36feb90d81`
+    <br/>SHA512 checksum: `0773f9d01908842befee79a66db0a2fc4991b7c07f90408ada712163ec54542b2859042d140d81478dd1240d7fe8c122a016c5fbec2949c06d8ee65537844c55`
+
+
+    
+    
 <a class='anchor' name='oak1.6'></a>
 Apache Jackrabbit Oak 1.6.9 (February 12th, 2018)
 -------------------------------------------------
@@ -198,25 +218,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.28/RE
 
 
     
-
-
-<a class='anchor' name='oak1.4'></a>
-Apache Jackrabbit Oak 1.4.19 (January 10th, 2018)
--------------------------------------------------
-Apache Jackrabbit Oak 1.4.19 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.x
-releases. Jackrabbit Oak 1.4.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.19/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.4.19-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.19/jackrabbit-oak-1.4.19-src.zip)
-    (10M, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.4.19/jackrabbit-oak-1.4.19-src.zip.asc))
-    <br/>SHA1   checksum: `d32443c0c0ef40a79f0c48f0c4f63c7cd5669d4f`
-    <br/>MD5    checksum: `eae22e21359c70a38d0459990594e444`
-    <br/>SHA512 checksum: `ea2f04b9d5a11e938cce6255e7392f1b50730668407feea85dd415c0ddaeec0d159d4a304bc00279cdfcb6f62057cdd6436d539c0f47999e2d7831115567df59`
-
-
 
 
 <a class='anchor' name='v2.8'></a>
