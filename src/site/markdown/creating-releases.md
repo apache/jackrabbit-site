@@ -57,7 +57,7 @@ Release management tasks
 ### Part I: up to the release vote
 
 1. Consider checking the CVE database for vulnerabilities in dependencies,
-   using `mvn org.owasp:dependency-check-maven:3.0.2:aggregate` (first run will be slow because CVE
+   using `mvn org.owasp:dependency-check-maven:3.1.1:aggregate` (first run will be slow because CVE
    databases are downloaded and parsed). If dependencies need action, open tickets and make sure they
    are marked as candidate backports where applicable.        
 2. Make sure that an appropriate version for the release is entered in Jira 
