@@ -53,6 +53,24 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.6'></a>
+Apache Jackrabbit Oak 1.6.10 (March 9th, 2018)
+----------------------------------------------
+Apache Jackrabbit Oak 1.6.10 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.6.x
+releases. Jackrabbit Oak 1.6.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.6.10/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.6.10-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.10/jackrabbit-oak-1.6.10-src.zip)
+    (11MB, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.6.10/jackrabbit-oak-1.6.10-src.zip.asc))
+    <br/>SHA1 checksum: `6ddee5a7aaff16f8a9b2e8e872db4f4df4754cdf`
+    <br/>SHA512 checksum: `4b98960ab0891349f6339e2b6070b5aa61fa15e5f316be2ea2f0e7df4f65f231d95a06cd3a13ce13c6d59e011d7dd1ffb058c18df759866476bd9387d1ac2740`
+
+
+
+
 <a class='anchor' name='v2.6'></a>
 Apache Jackrabbit 2.6.10 (March 8th, 2018)
 ------------------------------------------
@@ -111,24 +129,6 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.4.20/RE
 
     
     
-<a class='anchor' name='oak1.6'></a>
-Apache Jackrabbit Oak 1.6.10 (March 9th, 2018)
--------------------------------------------------
-Apache Jackrabbit Oak 1.6.10 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.6.x
-releases. Jackrabbit Oak 1.6.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.6.10/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.6.10-src.zip](http://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.10/jackrabbit-oak-1.6.10-src.zip)
-    (11MB, source zip, [PGP signature](http://www.apache.org/dist/jackrabbit/oak/1.6.10/jackrabbit-oak-1.6.10-src.zip.asc))
-    <br/>SHA1 checksum: `6ddee5a7aaff16f8a9b2e8e872db4f4df4754cdf`
-    <br/>SHA512 checksum: `4b98960ab0891349f6339e2b6070b5aa61fa15e5f316be2ea2f0e7df4f65f231d95a06cd3a13ce13c6d59e011d7dd1ffb058c18df759866476bd9387d1ac2740`
-
-
-
-
 <a class='anchor' name='v2.16'></a>
 Apache Jackrabbit 2.16.1 (February 9th, 2018)
 ---------------------------------------------
