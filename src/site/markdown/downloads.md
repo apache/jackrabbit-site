@@ -469,7 +469,7 @@ site and its mirrors. Older releases are available from the [archive download si
 Verify
 ------
 
-It is essential that you verify the integrity of the downloaded files using the PGP signatures or MD5 and SHA1 checksums. 
+It is essential that you verify the integrity of the downloaded files using the PGP signatures or SHA1 and SHA512 checksums. 
 Please read [Verifying Apache HTTP Server Releases](http://httpd.apache.org/dev/verification.html) for more information 
 on why you should verify our releases.
 
@@ -493,15 +493,7 @@ or
     % gpg --verify jackrabbit-X.Y.Z-src.zip.asc
 
 
-Alternatively, you can verify the MD5 or SHA1 checksums on the files. For checking the MD5 checksums, use the program 
-called `md5` or `md5sum` included in many Unix distributions. The similar program for SHA1 is called `sha1sum`. 
-It is also available as part of the [GNU core utilities](http://www.gnu.org/software/coreutils/). 
-Windows users can get binary md5 programs from [here](http://www.fourmilab.ch/md5/), 
-[here](http://www.pc-tools.net/win32/md5sums/), or [here](http://www.slavasoft.com/fsum/).
-
-
-
-
-
-
-
+Alternatively, you can verify the SHA1 or SHA512 checksums on the files. For checking the SHA1 or SHA512 checksums, use the programs 
+called `sha1sum` or `sha512sum` ([GNU core utilities](http://www.gnu.org/software/coreutils/)), or, alternatively, `openssl`.
+Windows users can use 'CertUtil` ([doc](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil))
+or use the equivalent *nix tools as part of their Cygwin or Linux subsystems.
