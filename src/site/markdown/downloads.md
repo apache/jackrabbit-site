@@ -17,7 +17,7 @@
 Downloads
 =========
 Use the links below to download Apache Jackrabbit releases from one of our
-mirrors. You should [verify the integrity](#verify.html) of the files using 
+mirrors. You should [verify the integrity](#verify) of the files using 
 the signatures and checksums available from this page.
 
 Please note that some mirrors might not be up-to-date shortly after a 
