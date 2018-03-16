@@ -70,6 +70,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.2.29/RE
 
 
 
+
 <a class='anchor' name='oak1.6'></a>
 Apache Jackrabbit Oak 1.6.10 (March 9th, 2018)
 ----------------------------------------------
