@@ -55,7 +55,7 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 <a class='anchor' name='oak1.0'></a>
 Apache Jackrabbit Oak 1.0.42 (March 26th, 2018)
-------------------------------------------------
+-----------------------------------------------
 Jackrabbit Oak 1.0.42 is a patch release that contains fixes and improvements over the previous 1.0.x release. 
 Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
 
@@ -69,7 +69,7 @@ See the [full release notes](http://www.apache.org/dist/jackrabbit/oak/1.0.42/RE
     
     
     
-    <a class='anchor' name='oak1.2'></a>
+<a class='anchor' name='oak1.2'></a>
 Apache Jackrabbit Oak 1.2.29 (March 15th, 2018)
 -----------------------------------------------
 Jackrabbit Oak 1.2.29 is a patch release that contains fixes and
