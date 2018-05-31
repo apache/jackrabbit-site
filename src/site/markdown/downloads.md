@@ -185,19 +185,19 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/2.14.5/RELEA
 
 
 <a class='anchor' name='oak1.6'></a>
-Apache Jackrabbit Oak 1.6.11 (April 9th, 2018)
+Apache Jackrabbit Oak 1.6.12 (May 31st, 2018)
 ----------------------------------------------
-Apache Jackrabbit Oak 1.6.11 is an incremental feature release based on
+Apache Jackrabbit Oak 1.6.12 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.6.x
 releases. Jackrabbit Oak 1.6.x releases are considered stable and
 targeted for production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.6.11/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.6.12/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.6.11-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.11/jackrabbit-oak-1.6.11-src.zip)
-    (11MB, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/oak/1.6.11/jackrabbit-oak-1.6.11-src.zip.asc))
-    <br/>SHA1 checksum: `1b17e633cb3b1cd463a5de7dcee308f37b37c0df`
-    <br/>SHA512 checksum: `63037f1aeb0f4b1b4c4b1a67e7e8cdbda723af2c00e0e01e95ecc6a3eabaec9e3e4d3c9005f673220123c5c4c3015adeb3f3447a9beb68e641c7bafa69f41add`
+* [jackrabbit-oak-1.6.12-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.12/jackrabbit-oak-1.6.12-src.zip)
+    (11MB, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/oak/1.6.12/jackrabbit-oak-1.6.12-src.zip.asc))
+    <br/>SHA1 checksum: `6b6e546fc31072e994b7202d175329c828c0bd90`
+    <br/>SHA512 checksum: `7db1176f7fe22fd4b80278298cfd435ac7bc3f41d131f60ca393fc730687014597b992b8780c1d18486709eb6b8fd229e611d0f844a31ba807c2974688bdc9c0`
 
     
 
