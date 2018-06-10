@@ -53,6 +53,22 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.9'></a>
+Apache Jackrabbit Oak 1.9.3 (June 10, 2018)
+-------------------------------------------
+Apache Jackrabbit Oak 1.9.3 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
+For production use we recommend the latest stable 1.8.x release.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.9.3/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.9.3-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.9.3/jackrabbit-oak-1.9.3-src.zip)
+    (14M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/oak/1.9.3/jackrabbit-oak-1.9.3-src.zip.asc))
+    <br/>SHA1   checksum: `accd8451f75b2a614f9a98e3baf93e183ee1f898`
+    <br/>SHA512 checksum: `22f1de3f6e1da3f14e56689558d258b9ce3bb566f20ec16d6cc31e43fec5f65f34862cef8300fde650f310e3e1cf85fbddc52fcb9514e13802c6975924f3f2f3`
+
+
+
+
 <a class='anchor' name='v2.10'></a>
 Apache Jackrabbit 2.10.8 (June 7th, 2018)
 -----------------------------------------
@@ -100,22 +116,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.6.12/R
     <br/>SHA512 checksum: `7db1176f7fe22fd4b80278298cfd435ac7bc3f41d131f60ca393fc730687014597b992b8780c1d18486709eb6b8fd229e611d0f844a31ba807c2974688bdc9c0`
 
     
-
-
-<a class='anchor' name='oak1.9'></a>
-Apache Jackrabbit Oak 1.9.2 (May 25th, 2018)
---------------------------------------------
-Apache Jackrabbit Oak 1.9.2 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
-For production use we recommend the latest stable 1.8.x release.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.9.2/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.9.2-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.9.2/jackrabbit-oak-1.9.2-src.zip)
-    (12M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/oak/1.9.2/jackrabbit-oak-1.9.2-src.zip.asc))
-    <br/>SHA1   checksum: `6b6e546fc31072e994b7202d175329c828c0bd90`
-    <br/>SHA512 checksum: `7db1176f7fe22fd4b80278298cfd435ac7bc3f41d131f60ca393fc730687014597b992b8780c1d18486709eb6b8fd229e611d0f844a31ba807c2974688bdc9c0`
-
-
 
 
 <a class='anchor' name='oak1.8'></a>
