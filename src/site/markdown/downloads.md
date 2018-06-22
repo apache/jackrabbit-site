@@ -103,17 +103,17 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.4/RE
 
 
 <a class='anchor' name='oak1.9'></a>
-Apache Jackrabbit Oak 1.9.3 (June 10, 2018)
+Apache Jackrabbit Oak 1.9.4 (June 22, 2018)
 -------------------------------------------
-Apache Jackrabbit Oak 1.9.3 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
+Apache Jackrabbit Oak 1.9.4 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
 For production use we recommend the latest stable 1.8.x release.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.9.3/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.9.4/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.9.3-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.9.3/jackrabbit-oak-1.9.3-src.zip)
-    (14M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/oak/1.9.3/jackrabbit-oak-1.9.3-src.zip.asc))
-    <br/>SHA1   checksum: `accd8451f75b2a614f9a98e3baf93e183ee1f898`
-    <br/>SHA512 checksum: `22f1de3f6e1da3f14e56689558d258b9ce3bb566f20ec16d6cc31e43fec5f65f34862cef8300fde650f310e3e1cf85fbddc52fcb9514e13802c6975924f3f2f3`
+* [jackrabbit-oak-1.9.4-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.9.4/jackrabbit-oak-1.9.4-src.zip)
+    (14M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/oak/1.9.4/jackrabbit-oak-1.9.4-src.zip.asc))
+    <br/>SHA1   checksum: `d5951521f41a43103304db03d487bb3f7f7ab875`
+    <br/>SHA512 checksum: `20ddd43df0aecdafcd7eb6e90dd4a91a232a72eaf2a059193fc73dac59e31b2d33214cf265fc717949f03af665b08bfe33d9e924166b448d977450606c8c0c49`
 
 
 
