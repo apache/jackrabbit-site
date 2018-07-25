@@ -78,11 +78,11 @@ Release management tasks
    doesn't break Oak.
      * Check by building the applicable Oak version using `mvn clean install -PintegrationTesting -Djackrabbit.version=2.x.y-SNAPSHOT`
      * If the update does require changes in Oak, open JIRA tickets and link them to the JIRA tickets tracking the release activity.
-7. If this is a stable branch, review changes to export versions which should be avoided (see [OAK-6346](https://issues.apache.org/jira/browse/OAK-6346) for context). Example: review the output of the command below for any changes of `package-info.java`.
+7. If this is a stable branch, review changes to export versions which should be avoided (see [OAK-6346](https://issues.apache.org/jira/browse/OAK-6346) for context). If there are indeed changes, see [Appendix E](#Appendix_E:_Version_Changes). Example: review the output of the command below for any changes of `package-info.java`.
 
         # Oak 1.8 as of June 2018
         svn diff .  https://svn.apache.org/repos/asf/jackrabbit/oak/tags/jackrabbit-oak-1.8.4
-
+   
 8. Build and deploy the release artifacts with Maven. See [below](#Steps_to_build_the_release_artifacts) for the exact steps.
 9. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (~19 projects for Jackrabbit).
 10. Close the staged repository, giving it a meaningful name, such as "Apache Jackrabbit 2.x.y RC"
@@ -262,4 +262,23 @@ Open a ticket so that once the first release for the branch is made, the `compar
 Create release notes to include all of the changes accumulated - for 2.16.0 this means including all changes labeled with `fixVersion` set to `2.16`. Note that any change labeled with `fixVersion` set to any 2.15.* release should have `fixVersion: 2.16` as well, unless the change is irrelevant for the release notes.
 
 
+Appendix E: Version Changes
+---------------------------
 
+**HERE BE DRAGONS**
+
+In general, changes in stable branches should not change export versions, in order to create version conflicts with the ongoing development on the unstable branch. So avoid, avoid, avoid!
+
+If the version change really is required, then it is mandatory to check that the new API is identical with the API in other release branches with the same version number.
+
+To check, for example for a version change in Oak 1.6.13-SNAPSHOT:
+
+1. Checkout Oak 1.8.
+
+2. Edit the parent pom to use a comparisonVersion of "1.6.3-SNAPSHOT". Release branches normally use the default, so the property needs to be added to the maven bundle plugin configuration.
+
+3. Build and watch for baseline plugin errors.
+
+...then repeat the above steps with subsequent branches and trunk.
+
+Also, check with the "dev" mailing list to confirm that this change is ok.
