@@ -51,6 +51,30 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='v2.16'></a>
+Apache Jackrabbit 2.16.3 (August 3rd, 2018)
+-------------------------------------------
+Apache Jackrabbit 2.16.3 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
+2.16.x releases are considered stable and targeted for production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/2.16.3/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-2.16.3-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.3/jackrabbit-2.16.3-src.zip)
+    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.16.3/jackrabbit-2.16.3-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.16.3/jackrabbit-2.16.3-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.16.3/jackrabbit-2.16.3-src.zip.sha512))
+
+* [jackrabbit-standalone-2.16.3.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.3/jackrabbit-standalone-2.16.3.jar)
+    (187M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.16.3/jackrabbit-standalone-2.16.3.jar.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.16.3/jackrabbit-standalone-2.16.3.jar.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.16.3/jackrabbit-standalone-2.16.3.jar.sha512))
+
+* [jackrabbit-webapp-2.16.3.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.3/jackrabbit-webapp-2.16.3.war)
+    (105M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.16.3/jackrabbit-webapp-2.16.3.war.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.16.3/jackrabbit-webapp-2.16.3.war.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.16.3/jackrabbit-webapp-2.16.3.war.sha512))
+
+* [jackrabbit-jca-2.16.3.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.3/jackrabbit-jca-2.16.3.rar)
+    (64M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.16.3/jackrabbit-jca-2.16.3.rar.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.16.3/jackrabbit-jca-2.16.3.rar.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.16.3/jackrabbit-jca-2.16.3.rar.sha512))
+
+
+
+
 <a class='anchor' name='v2.17'></a>
 Apache Jackrabbit 2.17.5 (July 30th, 2018)
 ------------------------------------------
@@ -178,41 +202,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.4.22/R
     (10M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/oak/1.4.22/jackrabbit-oak-1.4.22-src.zip.asc))
     * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/oak/1.4.22/jackrabbit-oak-1.4.22-src.zip.sha1)
     * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/oak/1.4.22/jackrabbit-oak-1.4.22-src.zip.sha512)
-
-
-
-
-<a class='anchor' name='v2.16'></a>
-Apache Jackrabbit 2.16.2 (June 15th, 2018)
-------------------------------------------
-Apache Jackrabbit 2.16.2 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
-2.16.x releases are considered stable and targeted for production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/2.16.2/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-2.16.2-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.2/jackrabbit-2.16.2-src.zip)
-    (13M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/2.16.2/jackrabbit-2.16.2-src.zip.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.16.2/jackrabbit-2.16.2-src.zip.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.16.2/jackrabbit-2.16.2-src.zip.sha512)
-
-
-* [jackrabbit-standalone-2.16.2.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.2/jackrabbit-standalone-2.16.2.jar)
-    (187M, standalone server, [PGP signature](https://www.apache.org/dist/jackrabbit/2.16.2/jackrabbit-standalone-2.16.2.jar.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.16.2/jackrabbit-standalone-2.16.2.jar.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.16.2/jackrabbit-standalone-2.16.2.jar.sha512)
-
-
-* [jackrabbit-webapp-2.16.2.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.2/jackrabbit-webapp-2.16.2.war)
-    (105M, web application, [PGP signature](https://www.apache.org/dist/jackrabbit/2.16.2/jackrabbit-webapp-2.16.2.war.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.16.2/jackrabbit-webapp-2.16.2.war.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.16.2/jackrabbit-webapp-2.16.2.war.sha512)
-
-
-* [jackrabbit-jca-2.16.2.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.2/jackrabbit-jca-2.16.2.rar)
-    (64M, JCA resource adapter, [PGP signature](https://www.apache.org/dist/jackrabbit/2.16.2/jackrabbit-jca-2.16.2.rar.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.16.2/jackrabbit-jca-2.16.2.rar.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.16.2/jackrabbit-jca-2.16.2.rar.sha512)
 
 
 
