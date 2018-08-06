@@ -62,9 +62,7 @@ targeted for production use.
 See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.6/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.8.6-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.6/jackrabbit-oak-1.8.6-src.zip)
-    (14M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/oak/1.8.6/jackrabbit-oak-1.8.6-src.zip.asc))
-    <br/>SHA1   checksum: `1edaa99c070f37feebd1c90e75341670230b39b0`
-    <br/>SHA512 checksum: `79270ad15539f9c0da80f447930edefc28da43ba1a673536d8636b764e6cd607c89983a6713665c93d4221d0bc99bdda7c634f2b35b108db18a5873420d8e094`
+    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.6/jackrabbit-oak-1.8.6-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.8.6/jackrabbit-oak-1.8.6-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.6/jackrabbit-oak-1.8.6-src.zip.sha512))
 
     
     
