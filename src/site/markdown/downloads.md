@@ -134,17 +134,17 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.6.13/R
 
 
 <a class='anchor' name='oak1.9'></a>
-Apache Jackrabbit Oak 1.9.6 (July 23rd, 2018)
+Apache Jackrabbit Oak 1.9.7 (August 17th, 2018)
 --------------------------------------------
-Apache Jackrabbit Oak 1.9.6 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
+Apache Jackrabbit Oak 1.9.7 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
 For production use we recommend the latest stable 1.8.x release.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.9.6/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.9.7/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.9.6-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.9.6/jackrabbit-oak-1.9.6-src.zip)
-    (14M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/oak/1.9.6/jackrabbit-oak-1.9.6-src.zip.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/oak/1.9.6/jackrabbit-oak-1.9.6-src.zip.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/oak/1.9.6/jackrabbit-oak-1.9.6-src.zip.sha512)
+* [jackrabbit-oak-1.9.7-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.9.7/jackrabbit-oak-1.9.7-src.zip)
+    (14M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/oak/1.9.7/jackrabbit-oak-1.9.7-src.zip.asc))
+    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/oak/1.9.7/jackrabbit-oak-1.9.7-src.zip.sha1)
+    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/oak/1.9.7/jackrabbit-oak-1.9.7-src.zip.sha512)
 
 
 
