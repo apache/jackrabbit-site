@@ -61,9 +61,7 @@ For production use we recommend the latest stable 1.8.x release.
 See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.9.7/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.9.7-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.9.7/jackrabbit-oak-1.9.7-src.zip)
-    (14M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/oak/1.9.7/jackrabbit-oak-1.9.7-src.zip.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/oak/1.9.7/jackrabbit-oak-1.9.7-src.zip.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/oak/1.9.7/jackrabbit-oak-1.9.7-src.zip.sha512)
+    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.9.7/jackrabbit-oak-1.9.7-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.9.7/jackrabbit-oak-1.9.7-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.9.7/jackrabbit-oak-1.9.7-src.zip.sha512))
 
 
 
@@ -144,10 +142,7 @@ targeted for production use.
 See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.6.13/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.6.13-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.13/jackrabbit-oak-1.6.13-src.zip)
-    (11MB, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/oak/1.6.13/jackrabbit-oak-1.6.13-src.zip.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/oak/1.6.13/jackrabbit-oak-1.6.13-src.zip.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/oak/1.6.13/jackrabbit-oak-1.6.13-src.zip.sha512)
-
+    (11M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.6.13/jackrabbit-oak-1.6.13-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.6.13/jackrabbit-oak-1.6.13-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.6.13/jackrabbit-oak-1.6.13-src.zip.sha512))
 
 
 
@@ -160,28 +155,17 @@ stable Jackrabbit 2.x releases. Jackrabbit 2.8.x releases are considered stable 
 See the [full release notes](https://www.apache.org/dist/jackrabbit/2.8.9/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-2.8.9-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.8.9/jackrabbit-2.8.9-src.zip)
-    (13M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-2.8.9-src.zip.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-2.8.9-src.zip.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-2.8.9-src.zip.sha512)
-
+    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-2.8.9-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-2.8.9-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-2.8.9-src.zip.sha512))
 
 * [jackrabbit-standalone-2.8.9.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.8.9/jackrabbit-standalone-2.8.9.jar)
-    (134M, standalone server, [PGP signature](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-standalone-2.8.9.jar.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-standalone-2.8.9.jar.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-standalone-2.8.9.jar.sha512)
-
+    (134M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-standalone-2.8.9.jar.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-standalone-2.8.9.jar.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-standalone-2.8.9.jar.sha512))
 
 * [jackrabbit-webapp-2.8.9.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.8.9/jackrabbit-webapp-2.8.9.war)
-    (75M, web application, [PGP signature](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-webapp-2.8.9.war.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-webapp-2.8.9.war.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-webapp-2.8.9.war.sha512)
-
-
+    (75M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-webapp-2.8.9.war.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-webapp-2.8.9.war.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-webapp-2.8.9.war.sha512))
 
 * [jackrabbit-jca-2.8.9.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.8.9/jackrabbit-jca-2.8.9.rar)
-    (28M, JCA resource adapter, [PGP signature](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-jca-2.8.9.rar.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-jca-2.8.9.rar.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-jca-2.8.9.rar.sha512)
+    (28M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-jca-2.8.9.rar.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-jca-2.8.9.rar.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.8.9/jackrabbit-jca-2.8.9.rar.sha512))
+
 
 
 
@@ -196,10 +180,7 @@ targeted for production use.
 See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.4.22/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.4.22-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.22/jackrabbit-oak-1.4.22-src.zip)
-    (10M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/oak/1.4.22/jackrabbit-oak-1.4.22-src.zip.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/oak/1.4.22/jackrabbit-oak-1.4.22-src.zip.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/oak/1.4.22/jackrabbit-oak-1.4.22-src.zip.sha512)
-
+    (10M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.4.22/jackrabbit-oak-1.4.22-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.4.22/jackrabbit-oak-1.4.22-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.4.22/jackrabbit-oak-1.4.22-src.zip.sha512))
 
 
 
@@ -212,27 +193,16 @@ Jackrabbit 2.10.x releases are considered stable and targeted for production use
 See the [full release notes](https://www.apache.org/dist/jackrabbit/2.10.8/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-2.10.8-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.10.8/jackrabbit-2.10.8-src.zip)
-    (13M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-2.10.8-src.zip.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-2.10.8-src.zip.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-2.10.8-src.zip.sha512)
-
+    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-2.10.8-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-2.10.8-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-2.10.8-src.zip.sha512))
 
 * [jackrabbit-standalone-2.10.8.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.10.8/jackrabbit-standalone-2.10.8.jar)
-    (134M, standalone server, [PGP signature](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-standalone-2.10.8.jar.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-standalone-2.10.8.jar.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-standalone-2.10.8.jar.sha512)
-
+    (134M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-standalone-2.10.8.jar.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-standalone-2.10.8.jar.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-standalone-2.10.8.jar.sha512))
 
 * [jackrabbit-webapp-2.10.8.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.10.8/jackrabbit-webapp-2.10.8.war)
-    (75M, web application, [PGP signature](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-webapp-2.10.8.war.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-webapp-2.10.8.war.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-webapp-2.10.8.war.sha512)
-
+    (75M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-webapp-2.10.8.war.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-webapp-2.10.8.war.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-webapp-2.10.8.war.sha512))
 
 * [jackrabbit-jca-2.10.8.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.10.8/jackrabbit-jca-2.10.8.rar)
-    (28M, JCA resource adapter, [PGP signature](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-jca-2.10.8.rar.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-jca-2.10.8.rar.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-jca-2.10.8.rar.sha512)
+    (28M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-jca-2.10.8.rar.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-jca-2.10.8.rar.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.10.8/jackrabbit-jca-2.10.8.rar.sha512))
 
 
 
@@ -247,27 +217,16 @@ and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
 See the [full release notes](https://www.apache.org/dist/jackrabbit/2.12.9/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-2.12.9-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.12.9/jackrabbit-2.12.9-src.zip)
-    (13M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-2.12.9-src.zip.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-2.12.9-src.zip.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-2.12.9-src.zip.sha512)
-
+    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-2.12.9-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-2.12.9-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-2.12.9-src.zip.sha512))
 
 * [jackrabbit-standalone-2.12.9.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.12.9/jackrabbit-standalone-2.12.9.jar)
-    (134M, standalone server, [PGP signature](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-standalone-2.12.9.jar.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-standalone-2.12.9.jar.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-standalone-2.12.9.jar.sha512)
-
+    (134M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-standalone-2.12.9.jar.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-standalone-2.12.9.jar.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-standalone-2.12.9.jar.sha512))
 
 * [jackrabbit-webapp-2.12.9.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.12.9/jackrabbit-webapp-2.12.9.war)
-    (75M, web application, [PGP signature](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-webapp-2.12.9.war.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-webapp-2.12.9.war.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-webapp-2.12.9.war.sha512)
-
+    (75M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-webapp-2.12.9.war.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-webapp-2.12.9.war.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-webapp-2.12.9.war.sha512))
 
 * [jackrabbit-jca-2.12.9.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.12.9/jackrabbit-jca-2.12.9.rar)
-    (28M, JCA resource adapter, [PGP signature](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-jca-2.12.9.rar.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-jca-2.12.9.rar.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-jca-2.12.9.rar.sha512)
+    (28M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-jca-2.12.9.rar.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-jca-2.12.9.rar.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.12.9/jackrabbit-jca-2.12.9.rar.sha512))
 
 
 
@@ -282,27 +241,16 @@ and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
 See the [full release notes](https://www.apache.org/dist/jackrabbit/2.14.5/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-2.14.5-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.14.5/jackrabbit-2.14.5-src.zip)
-    (14M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-2.14.5-src.zip.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-2.14.5-src.zip.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-2.14.5-src.zip.sha512)
-
+    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-2.14.5-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-2.14.5-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-2.14.5-src.zip.sha512))
 
 * [jackrabbit-standalone-2.14.5.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.14.5/jackrabbit-standalone-2.14.5.jar)
-    (175M, standalone server, [PGP signature](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-standalone-2.14.5.jar.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-standalone-2.14.5.jar.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-standalone-2.14.5.jar.sha512)
-
+    (175M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-standalone-2.14.5.jar.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-standalone-2.14.5.jar.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-standalone-2.14.5.jar.sha512))
 
 * [jackrabbit-webapp-2.14.5.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.14.5/jackrabbit-webapp-2.14.5.war)
-    (99M, web application, [PGP signature](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-webapp-2.14.5.war.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-webapp-2.14.5.war.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-webapp-2.14.5.war.sha512)
-
+    (99M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-webapp-2.14.5.war.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-webapp-2.14.5.war.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-webapp-2.14.5.war.sha512))
 
 * [jackrabbit-jca-2.14.5.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.14.5/jackrabbit-jca-2.14.5.rar)
-    (57M, JCA resource adapter, [PGP signature](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-jca-2.14.5.rar.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-jca-2.14.5.rar.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-jca-2.14.5.rar.sha512)
+    (57M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-jca-2.14.5.rar.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-jca-2.14.5.rar.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.14.5/jackrabbit-jca-2.14.5.rar.sha512))
 
 
 
@@ -316,10 +264,7 @@ Jackrabbit Oak 1.0.x releases are considered stable and targeted for production 
 See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.0.42/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.0.42-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip)
-    (7M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.sha512)
-
+    (7M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.sha512))
 
 
 
@@ -334,10 +279,7 @@ production use.
 See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.2.29/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.2.29-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.29/jackrabbit-oak-1.2.29-src.zip)
-    (7.6M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/oak/1.2.29/jackrabbit-oak-1.2.29-src.zip.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/oak/1.2.29/jackrabbit-oak-1.2.29-src.zip.sha1)
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/oak/1.2.29/jackrabbit-oak-1.2.29-src.zip.sha512)
-
+    (8M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.2.29/jackrabbit-oak-1.2.29-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.2.29/jackrabbit-oak-1.2.29-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.2.29/jackrabbit-oak-1.2.29-src.zip.sha512))
 
 
 
