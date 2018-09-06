@@ -300,8 +300,8 @@ Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for mor
 
 
 <a class='anchor' name='vltplg'></a>
-Apache Jackrabbit FileVault Package Maven Plugin 1.0.3 (August 31st, 2018)
-------------------------------------------------------
+Apache Jackrabbit FileVault Package Maven Plugin 1.0.3 (Septermber 5th, 2018)
+-----------------------------------------------------------------------------
 Jackrabbit FileVault Package Maven Plugin 1.0.3 is the latest stable release of the recently donated content package maven plugin.
 
 See the [full release notes](https://dist.apache.org/repos/dist/release/jackrabbit/filevault-package-maven-plugin/1.0.3/RELEASE-NOTES.md) for more details.
