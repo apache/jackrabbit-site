@@ -52,6 +52,21 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.2'></a>
+Apache Jackrabbit Oak 1.2.30 (September 14th, 2018)
+---------------------------------------------------
+Jackrabbit Oak 1.2.30 is a patch release that contains fixes and
+improvements over the previous 1.2.x release.
+Jackrabbit Oak 1.2.x releases are considered stable and targeted for
+production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.2.30/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.2.30-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.30/jackrabbit-oak-1.2.30-src.zip)
+    (8M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.2.30/jackrabbit-oak-1.2.30-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.2.30/jackrabbit-oak-1.2.30-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.2.30/jackrabbit-oak-1.2.30-src.zip.sha512))
+
+
+
 <a class='anchor' name='v2.14'></a>
 Apache Jackrabbit 2.14.6 (September 6th, 2018)
 ----------------------------------------------
@@ -265,21 +280,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.0.42/R
 
 * [jackrabbit-oak-1.0.42-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip)
     (7M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.sha512))
-
-
-
-<a class='anchor' name='oak1.2'></a>
-Apache Jackrabbit Oak 1.2.30 (September 14th, 2018)
------------------------------------------------
-Jackrabbit Oak 1.2.30 is a patch release that contains fixes and
-improvements over the previous 1.2.x release.
-Jackrabbit Oak 1.2.x releases are considered stable and targeted for
-production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.2.30/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.2.30-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.30/jackrabbit-oak-1.2.30-src.zip)
-    (8M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.2.30/jackrabbit-oak-1.2.30-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.2.30/jackrabbit-oak-1.2.30-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.2.30/jackrabbit-oak-1.2.30-src.zip.sha512))
 
 
 
