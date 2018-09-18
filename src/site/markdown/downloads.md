@@ -171,17 +171,17 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/2.17.5/RELEA
 
 
 <a class='anchor' name='oak1.6'></a>
-Apache Jackrabbit Oak 1.6.13 (July 30th, 2018)
+Apache Jackrabbit Oak 1.6.14 (September 18th, 2018)
 ---------------------------------------------
-Apache Jackrabbit Oak 1.6.13 is an incremental feature release based on
+Apache Jackrabbit Oak 1.6.14 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.6.x
 releases. Jackrabbit Oak 1.6.x releases are considered stable and
 targeted for production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.6.13/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.6.14/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.6.13-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.13/jackrabbit-oak-1.6.13-src.zip)
-    (11M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.6.13/jackrabbit-oak-1.6.13-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.6.13/jackrabbit-oak-1.6.13-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.6.13/jackrabbit-oak-1.6.13-src.zip.sha512))
+* [jackrabbit-oak-1.6.14-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.14/jackrabbit-oak-1.6.14-src.zip)
+    (11M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.6.14/jackrabbit-oak-1.6.14-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.6.14/jackrabbit-oak-1.6.14-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.6.14/jackrabbit-oak-1.6.14-src.zip.sha512))
 
 
 
