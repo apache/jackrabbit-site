@@ -51,7 +51,6 @@ Jackrabbit committers
 | draier          | Thomas Draier  | &nbsp; |
 | eaf             | Esteban Franqueiro  |  [BEA](http://www.bea.com/)  |
 | edgarpoce       | [Edgar Poce](mailto:edgarpoce@gmail.com)  | &nbsp; |
-| fielding        | Roy T. Fielding  |  [Adobe](http://www.adobe.com/)  |
 | fmeschbe        | Felix Meschberger  |  [Adobe](http://www.adobe.com/)  |
 | frm             | Francesco Mari  |  [Adobe](http://www.adobe.com/)  | 
 | halderen        | Berry van Halderen  | &nbsp; |
@@ -59,6 +58,7 @@ Jackrabbit committers
 | jukka           | [Jukka Zitting](mailto:jukka.zitting@gmail.com) |  [Adobe](http://www.adobe.com/)  |
 | justin          | Justin Edelson  |  [Adobe](http://www.adobe.com/)  |
 | martijnh        | Martijn Hendriks  |  [GX](http://www.gx.nl/)  |
+| mattryan        | Matt Ryan  |  [Adobe](http://www.adobe.com/)  | 
 | mduerig         | Michael D&uuml;rig  |  [Adobe](http://www.adobe.com/)  |
 | meteatamel      | Mete Atamel  |  [Adobe](http://www.adobe.com/)  |
 | mreutegg        | Marcel Reutegger  |  [Adobe](http://www.adobe.com/)  |
@@ -66,6 +66,7 @@ Jackrabbit committers
 | ppakulski       | Przemo Pakulski  |  [Cognifide](http://www.cognifide.com/)  |
 | ppiegaze        | Peeter Piegaze  |  [Adobe](http://www.adobe.com/)  |
 | reschke         | [Julian Reschke](mailto:julian.reschke@greenbytes.de) |  [greenbytes GmbH](http://greenbytes.de/)  |
+| rombert         | Robert Munteanu |  [Adobe](http://www.adobe.com/)  |
 | rhauch          | Randall Hauch  | &nbsp; |
 | rombert         | Robert Munteanu | [Adobe](http://www.adobe.com/) |
 | schans          | Bart van der Schans  |  [Hippo](http://www.hippo.nl/)  |
@@ -81,18 +82,20 @@ Jackrabbit committers
 | tripod          | Tobias Bocanegra  |  [Adobe](http://www.adobe.com/)  |
 | uncled          | David Nuescheler  |  [Adobe](http://www.adobe.com/)  |
 | unico           | Unico Hommes  | &nbsp; |
+| woonsan         | Woonsan Ko  | &nbsp; |
 
 
-Emeritus members
+Emeritus and former members
 ----------------
 | Id         | Name | Organization |
 |------------|------|--------------|
-| asavory   |  Andrew Savory  | &nbsp; |
-| bcm       |  [Brian Moseley](mailto:bcm@osafoundation.org)  |  Open Source Applications Foundation (OSAF)  |
-| gianugo   |  Gianugo Rabellino  | &nbsp; |
-| prussell  |  Paul Russell  | &nbsp; |
-| stefano   |  Stefano Mazzocchi  | &nbsp; |
-| treilly   |  Tim Reilly  | &nbsp; |
+| fielding   | Roy T. Fielding  |  [Adobe](http://www.adobe.com/)  |
+| asavory    |  Andrew Savory  | &nbsp; |
+| bcm        |  [Brian Moseley](mailto:bcm@osafoundation.org)  |  Open Source Applications Foundation (OSAF)  |
+| gianugo    |  Gianugo Rabellino  | &nbsp; |
+| prussell   |  Paul Russell  | &nbsp; |
+| stefano    |  Stefano Mazzocchi  | &nbsp; |
+| treilly    |  Tim Reilly  | &nbsp; |
 
 
 
