@@ -285,14 +285,14 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.0.42/R
 
 <a class='anchor' name='vlt'></a>
 Apache Jackrabbit FileVault 3.2.4 (September 27th, 2018)
-------------------------------------------------------
+--------------------------------------------------------
 Jackrabbit FileVault 3.2.4 is the latest stable release of the recently donated repository content synchronization tool.
 
 See the [full release notes](https://www.apache.org/dist/jackrabbit/filevault/3.2.4/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-filevault-3.2.4-src.zip](https://www.apache.org/dist/jackrabbit/filevault/3.2.4/jackrabbit-filevault-3.2.4-src.zip)
     (1.5M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/filevault/3.2.4/jackrabbit-filevault-3.2.4-src.zip.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/filevault/3.2.4/jackrabbit-filevault-3.2.4-src.zip.sha1)
+    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/filevault/3.2.4/jackrabbit-filevault-3.2.4-src.zip.sha512)
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
 
@@ -300,15 +300,15 @@ Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for mor
 
 
 <a class='anchor' name='vltplg'></a>
-Apache Jackrabbit FileVault Package Maven Plugin 1.0.3 (Septermber 5th, 2018)
------------------------------------------------------------------------------
+Apache Jackrabbit FileVault Package Maven Plugin 1.0.3 (September 5th, 2018)
+----------------------------------------------------------------------------
 Jackrabbit FileVault Package Maven Plugin 1.0.3 is the latest stable release of the recently donated content package maven plugin.
 
 See the [full release notes](https://dist.apache.org/repos/dist/release/jackrabbit/filevault-package-maven-plugin/1.0.3/RELEASE-NOTES.md) for more details.
 
 * [filevault-package-maven-plugin-1.0.3-source-release.zip](https://dist.apache.org/repos/dist/release/jackrabbit/filevault-package-maven-plugin/1.0.3/filevault-package-maven-plugin-1.0.3-source-release.zip)
     (1.5M, source zip, [PGP signature](https://dist.apache.org/repos/dist/release/jackrabbit/filevault-package-maven-plugin/1.0.3/filevault-package-maven-plugin-1.0.3-source-release.zip.asc))
-    * [SHA1 checksum](https://dist.apache.org/repos/dist/release/jackrabbit/filevault-package-maven-plugin/1.0.3/filevault-package-maven-plugin-1.0.3-source-release.zip.sha1)
+    * [SHA512 checksum](https://dist.apache.org/repos/dist/release/jackrabbit/filevault-package-maven-plugin/1.0.3/filevault-package-maven-plugin-1.0.3-source-release.zip.sha512)
 
 Also see the Jackrabbit FileVault Plugin [documentation](/filevault-package-maven-plugin/index.html) for more information about this project.
 
