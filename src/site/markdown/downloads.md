@@ -52,6 +52,20 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.9'></a>
+Apache Jackrabbit Oak 1.9.9 (October 12th, 2018)
+------------------------------------------------
+Apache Jackrabbit Oak 1.9.9 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
+For production use we recommend the latest stable 1.8.x release.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.9.9/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.9.9-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.9.9/jackrabbit-oak-1.9.9-src.zip)
+    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.9.9/jackrabbit-oak-1.9.9-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.9.9/jackrabbit-oak-1.9.9-src.zip.sha512))
+
+
+
+
 <a class='anchor' name='v2.17'></a>
 Apache Jackrabbit 2.17.6 (October 4th, 2018)
 --------------------------------------------
@@ -158,20 +172,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/2.14.6/RELEA
 
 * [jackrabbit-jca-2.14.6.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.14.6/jackrabbit-jca-2.14.6.rar)
     (64M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.14.6/jackrabbit-jca-2.14.6.rar.asc), [sha1](https://www.apache.org/dist/jackrabbit/2.14.6/jackrabbit-jca-2.14.6.rar.sha1), [sha512](https://www.apache.org/dist/jackrabbit/2.14.6/jackrabbit-jca-2.14.6.rar.sha512))
-
-
-
-
-<a class='anchor' name='oak1.9'></a>
-Apache Jackrabbit Oak 1.9.8 (September 3rd, 2018)
---------------------------------------------
-Apache Jackrabbit Oak 1.9.8 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
-For production use we recommend the latest stable 1.8.x release.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.9.8/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.9.8-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.9.8/jackrabbit-oak-1.9.8-src.zip)
-    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.9.8/jackrabbit-oak-1.9.8-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.9.8/jackrabbit-oak-1.9.8-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.9.8/jackrabbit-oak-1.9.8-src.zip.sha512))
 
 
 
