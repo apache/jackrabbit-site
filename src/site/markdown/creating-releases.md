@@ -78,10 +78,14 @@ Release management tasks
    doesn't break Oak.
      * Check by building the applicable Oak version using `mvn clean install -PintegrationTesting -Djackrabbit.version=2.x.y-SNAPSHOT`
      * If the update does require changes in Oak, open JIRA tickets and link them to the JIRA tickets tracking the release activity.
-7. If this is a stable branch, review changes to export versions which should be avoided (see [OAK-6346](https://issues.apache.org/jira/browse/OAK-6346) for context). If there are indeed changes, see [Appendix E](#Appendix_E:_Version_Changes). Example: review the output of the command below for any changes of `package-info.java`.
+7. If this is a stable branch, review changes to export versions which should be avoided (see [OAK-6346](https://issues.apache.org/jira/browse/OAK-6346) for context). If there are indeed changes (as in the example below), see [Appendix E](#Appendix_E:_Version_Changes).
 
-        # Oak 1.8 as of June 2018
-        svn diff .  https://svn.apache.org/repos/asf/jackrabbit/oak/tags/jackrabbit-oak-1.8.4
+        # Oak 1.8 as of November 2018
+        svn diff https://svn.apache.org/repos/asf/jackrabbit/oak/tags/jackrabbit-oak-1.8.8 . | grep -i "@Version"
+        -@Version("1.5.0")
+        +@Version("1.6.0")
+
+   
    
 8. Build and deploy the release artifacts with Maven. See [below](#Steps_to_build_the_release_artifacts) for the exact steps.
 9. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (~19 projects for Jackrabbit).
