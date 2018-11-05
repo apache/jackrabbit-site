@@ -84,9 +84,6 @@ Release management tasks
         svn diff https://svn.apache.org/repos/asf/jackrabbit/oak/tags/jackrabbit-oak-1.8.8 . | grep -i "@Version"
         -@Version("1.5.0")
         +@Version("1.6.0")
-
-   
-   
 8. Build and deploy the release artifacts with Maven. See [below](#Steps_to_build_the_release_artifacts) for the exact steps.
 9. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (~19 projects for Jackrabbit).
 10. Close the staged repository, giving it a meaningful name, such as "Apache Jackrabbit 2.x.y RC"
