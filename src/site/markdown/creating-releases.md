@@ -271,7 +271,7 @@ Appendix E: Version Changes
 
 **HERE BE DRAGONS**
 
-In general, changes in stable branches should not change export versions, in order to create version conflicts with the ongoing development on the unstable branch. So avoid, avoid, avoid!
+In general, changes in stable branches should not change export versions, in order to avoid version conflicts with the ongoing development on the unstable branch. So avoid, avoid, avoid!
 
 If the version change really is required, then it is mandatory to check that the new API is identical with the API in other release branches with the same version number.
 
