@@ -52,6 +52,20 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.9'></a>
+Apache Jackrabbit Oak 1.9.10 (November 6th, 2018)
+-------------------------------------------------
+Apache Jackrabbit Oak 1.9.10 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
+For production use we recommend the latest stable 1.8.x release.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.9.10/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.9.10-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.9.10/jackrabbit-oak-1.9.10-src.zip)
+    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.9.10/jackrabbit-oak-1.9.10-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.9.10/jackrabbit-oak-1.9.10-src.zip.sha512))
+
+
+
+
 <a class='anchor' name='v2.12'></a>
 Apache Jackrabbit 2.12.10 (November 5th, 2018)
 ----------------------------------------------
@@ -72,20 +86,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/2.12.10/RELE
 
 * [jackrabbit-jca-2.12.10.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar)
     (29M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar.sha512))
-
-
-
-
-<a class='anchor' name='oak1.9'></a>
-Apache Jackrabbit Oak 1.9.10 (November 6th, 2018)
-------------------------------------------------
-Apache Jackrabbit Oak 1.9.10 is an unstable release cut directly from Jackrabbit Oak trunk, with a focus on new features and other improvements.
-For production use we recommend the latest stable 1.8.x release.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.9.10/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.9.10-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.9.10/jackrabbit-oak-1.9.10-src.zip)
-    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.9.10/jackrabbit-oak-1.9.10-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.9.10/jackrabbit-oak-1.9.10-src.zip.sha512))
 
 
 
