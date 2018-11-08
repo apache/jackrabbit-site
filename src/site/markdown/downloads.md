@@ -131,17 +131,17 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.4.23/R
 
 
 <a class='anchor' name='oak1.8'></a>
-Apache Jackrabbit Oak 1.8.8 (September 28th, 2018)
+Apache Jackrabbit Oak 1.8.9 (November 8th, 2018)
 --------------------------------------------------
-Apache Jackrabbit Oak 1.8.8 is an incremental feature release based on
+Apache Jackrabbit Oak 1.8.9 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.x
 releases. Jackrabbit Oak 1.8.x releases are considered stable and
 targeted for production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.8/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.9/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.8.8-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.8/jackrabbit-oak-1.8.8-src.zip)
-    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.8/jackrabbit-oak-1.8.8-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.8.8/jackrabbit-oak-1.8.8-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.8/jackrabbit-oak-1.8.8-src.zip.sha512))
+* [jackrabbit-oak-1.8.9-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.9/jackrabbit-oak-1.8.9-src.zip)
+    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.9/jackrabbit-oak-1.8.9-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.8.9/jackrabbit-oak-1.8.9-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.9/jackrabbit-oak-1.8.9-src.zip.sha512))
 
     
     
