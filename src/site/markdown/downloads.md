@@ -40,7 +40,7 @@ on your preferred mirror.
     * [Apache Jackrabbit 2.10.x](#v2.10) (Java 6 and later)
     * [Apache Jackrabbit 2.8.x](#v2.8) (Java 6 and later)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
-* Latest stable FileVault release: [Apache Jackrabbit FileVault 3.2.4](#vlt)
+* Latest stable FileVault release: [Apache Jackrabbit FileVault 3.2.6](#vlt)
 * Latest stable FileVault Plugin release: [Apache Jackrabbit FileVault Package Maven Plugin 1.0.3](#vltplg)
 * [Release Archive](#archive)
 
@@ -286,15 +286,15 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.0.42/R
 
 
 <a class='anchor' name='vlt'></a>
-Apache Jackrabbit FileVault 3.2.4 (September 27th, 2018)
+Apache Jackrabbit FileVault 3.2.6 (November 30th, 2018)
 --------------------------------------------------------
-Jackrabbit FileVault 3.2.4 is the latest stable release of the recently donated repository content synchronization tool.
+Jackrabbit FileVault 3.2.6 is the latest stable release of the recently donated repository content synchronization tool.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/filevault/3.2.4/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://www.apache.org/dist/jackrabbit/filevault/3.2.6/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-filevault-3.2.4-src.zip](https://www.apache.org/dist/jackrabbit/filevault/3.2.4/jackrabbit-filevault-3.2.4-src.zip)
-    (1.5M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/filevault/3.2.4/jackrabbit-filevault-3.2.4-src.zip.asc))
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/filevault/3.2.4/jackrabbit-filevault-3.2.4-src.zip.sha512)
+* [jackrabbit-filevault-3.2.6-src.zip](https://www.apache.org/dist/jackrabbit/filevault/3.2.6/jackrabbit-filevault-3.2.6-src.zip)
+    (1.5M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/filevault/3.2.6/jackrabbit-filevault-3.2.6-src.zip.asc))
+    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/filevault/3.2.6/jackrabbit-filevault-3.2.6-src.zip.sha512)
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
 
