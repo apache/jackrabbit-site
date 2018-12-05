@@ -27,15 +27,16 @@ Starting with Jackrabbit 2.3 we have adopted a "Linux-style"
 unstable/stable release model with odd/even minor version numbers used to
 mark the status of a release.
 
-* [Jackrabbit 2.17 (trunk)](https://svn.apache.org/repos/asf/jackrabbit/trunk/) ([download](downloads.html#v2.17))
+* [Jackrabbit 2.19 (trunk)](https://svn.apache.org/repos/asf/jackrabbit/trunk/) ([download](downloads.html#v2.19)) - (not available yet)
 
-Unstable 2.17.x releases will be cut directly from
-Jackrabbit trunk, the latest stable branch is 2.16.
+Unstable 2.19.x releases will be cut directly from
+Jackrabbit trunk, the latest stable branch is 2.18.
 
 Maintenance branches
 --------------------
 We currently support the following maintenance branches:
 
+* [Jackrabbit 2.18](https://svn.apache.org/repos/asf/jackrabbit/branches/2.18/) ([download](downloads.html#v2.18)) - recommended version for Java 8 and newer
 * [Jackrabbit 2.16](https://svn.apache.org/repos/asf/jackrabbit/branches/2.16/) ([download](downloads.html#v2.16)) - recommended version for Java 8 and newer
 * [Jackrabbit 2.14](https://svn.apache.org/repos/asf/jackrabbit/branches/2.14/) ([download](downloads.html#v2.14)) - recommended version for Java 7
 * [Jackrabbit 2.12](https://svn.apache.org/repos/asf/jackrabbit/branches/2.12/) ([download](downloads.html#v2.12)) - recommended version for Java 6 - "end of life" planned for Spring 2021
