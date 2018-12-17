@@ -81,7 +81,7 @@ Release management tasks
 7. If this is a stable branch, review changes to export versions which should be avoided (see [OAK-6346](https://issues.apache.org/jira/browse/OAK-6346) for context). If there are indeed changes (as in the example below), see [Appendix E](#Appendix_E:_Version_Changes).
 
         # Oak 1.8 as of November 2018
-        svn diff https://svn.apache.org/repos/asf/jackrabbit/oak/tags/jackrabbit-oak-1.8.8 . | grep -i "@Version"
+        svn diff https://svn.apache.org/repos/asf/jackrabbit/oak/tags/jackrabbit-oak-1.8.8 . | grep -i "@Version" -B 6
         -@Version("1.5.0")
         +@Version("1.6.0")
 8. Build and deploy the release artifacts with Maven. See [below](#Steps_to_build_the_release_artifacts) for the exact steps.
