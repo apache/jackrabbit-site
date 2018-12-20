@@ -53,6 +53,22 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.8'></a>
+Apache Jackrabbit Oak 1.8.10 (December 20th, 2018)
+--------------------------------------------------
+Apache Jackrabbit Oak 1.8.10 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.x
+releases. Jackrabbit Oak 1.8.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.10/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.8.10-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.10/jackrabbit-oak-1.8.10-src.zip)
+    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.10/jackrabbit-oak-1.8.10-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.8.10/jackrabbit-oak-1.8.10-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.10/jackrabbit-oak-1.8.10-src.zip.sha512))
+
+    
+    
+
 <a class='anchor' name='oak1.9'></a>
 Apache Jackrabbit Oak 1.9.13 (December 14th, 2018)
 --------------------------------------------------
@@ -131,22 +147,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.6.15/R
 
 
 
-
-<a class='anchor' name='oak1.8'></a>
-Apache Jackrabbit Oak 1.8.10 (December 20th, 2018)
-------------------------------------------------
-Apache Jackrabbit Oak 1.8.10 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.x
-releases. Jackrabbit Oak 1.8.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.10/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.8.10-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.10/jackrabbit-oak-1.8.10-src.zip)
-    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.10/jackrabbit-oak-1.8.10-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.8.10/jackrabbit-oak-1.8.10-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.10/jackrabbit-oak-1.8.10-src.zip.sha512))
-
-    
-    
 
 <a class='anchor' name='v2.12'></a>
 Apache Jackrabbit 2.12.10 (November 5th, 2018)
