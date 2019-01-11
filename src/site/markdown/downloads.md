@@ -53,6 +53,22 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.4'></a>
+Apache Jackrabbit Oak 1.4.24 (January 11th, 2019)
+-------------------------------------------------
+Apache Jackrabbit Oak 1.4.24 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.x
+releases. Jackrabbit Oak 1.4.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.4.24/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.4.24-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.24/jackrabbit-oak-1.4.24-src.zip)
+    (10M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.4.24/jackrabbit-oak-1.4.24-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.4.24/jackrabbit-oak-1.4.24-src.zip.sha512))
+
+
+
+
 <a class='anchor' name='v2.10'></a>
 Apache Jackrabbit 2.10.9 (January 10th, 2019)
 ---------------------------------------------
@@ -191,22 +207,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/2.12.10/RELE
 
 * [jackrabbit-jca-2.12.10.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar)
     (29M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar.sha512))
-
-
-
-
-<a class='anchor' name='oak1.4'></a>
-Apache Jackrabbit Oak 1.4.23 (October 1st, 2018)
-------------------------------------------------
-Apache Jackrabbit Oak 1.4.23 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.x
-releases. Jackrabbit Oak 1.4.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.4.23/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.4.23-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.23/jackrabbit-oak-1.4.23-src.zip)
-    (10M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.4.23/jackrabbit-oak-1.4.23-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.4.23/jackrabbit-oak-1.4.23-src.zip.sha512))
 
 
 
