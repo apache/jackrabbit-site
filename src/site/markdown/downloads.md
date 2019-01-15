@@ -160,7 +160,7 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/2.18.0/RELEA
     (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.18.0/jackrabbit-2.18.0-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.0/jackrabbit-2.18.0-src.zip.sha512))
 
 * [jackrabbit-standalone-2.18.0.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.0/jackrabbit-standalone-2.18.0.jar)
-    (132M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.18.0/jackrabbit-standalone-2.18.0.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.0/jackrabbit-standalone-2.18.0.ja
+    (132M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.18.0/jackrabbit-standalone-2.18.0.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.0/jackrabbit-standalone-2.18.0.jar.sha512))
 
 * [jackrabbit-webapp-2.18.0.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.0/jackrabbit-webapp-2.18.0.war)
     (65M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.18.0/jackrabbit-webapp-2.18.0.war.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.0/jackrabbit-webapp-2.18.0.war.sha512))
