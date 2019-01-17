@@ -136,7 +136,7 @@ Otherwise:
 7. Send a release announcement to the [applicable mailing lists](mailto:announce@apache.org,announce@jackrabbit.apache.org,users@jackrabbit.apache.org,dev@jackrabbit.apache.org,oak-dev@jackrabbit.apache.org?subject=%5BANNOUNCE%5D%20Apache%20Jackrabbit%20...%20released) once the web site and download mirrors have been synced (template generated in `./target/checkout/target/announcement.txt`). Please note the announce mails needs to be sent from an @apache.org address.
 8. If the release was a Jackrabbit release used in Oak, make sure to also update the dependency in oak-parent/pom.xml (example: [OAK-4743](https://issues.apache.org/jira/browse/OAK-4743) - the current mapping is Jackrabbit 2.18 -> Oak trunk, Jackrabbit 2.16 -> Oak 1.8, Jackrabbit 2.14 -> Oak 1.6, Jackrabbit 2.12 -> Oak 1.4 and 1.2, Jackrabbit 2.8 -> Oak 1.0)
 9. If the release was a stable release for which we publish API docs (such as Jackrabbit), consider updating the live site (https://svn.apache.org/repos/asf/jackrabbit/site/live/ - when producing the API docs, use a checkout of the actual release, specify an English locale (-Dlocale=en) and try to pick the right JDK version to minimize changes over the previously checked in docs).
-10. If the release was a stable release that is used for the baseline check in trunk (right now: Jackrabbit 2.18 and Oak 1.8), update trunk accordingly (example: [JCR-4312](https://issues.apache.org/jira/browse/JCR-4312))
+10. If the release was a stable release that is used for the baseline check in trunk (right now: Jackrabbit 2.18 and Oak 1.10), update trunk accordingly (example: [JCR-4312](https://issues.apache.org/jira/browse/JCR-4312))
 
 Steps to build the release artifacts
 ------------------------------------
