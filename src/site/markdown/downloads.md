@@ -119,17 +119,17 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/2.19.1/RELEA
 
 
 <a class='anchor' name='oak1.8'></a>
-Apache Jackrabbit Oak 1.8.11 (January 17th, 2019)
+Apache Jackrabbit Oak 1.8.12 (March 14th, 2019)
 -------------------------------------------------
-Apache Jackrabbit Oak 1.8.11 is an incremental feature release based on
+Apache Jackrabbit Oak 1.8.12 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.x
 releases. Jackrabbit Oak 1.8.x releases are considered stable and
 targeted for production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.11/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.12/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.8.11-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.11/jackrabbit-oak-1.8.11-src.zip)
-    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.11/jackrabbit-oak-1.8.11-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.11/jackrabbit-oak-1.8.11-src.zip.sha512))
+* [jackrabbit-oak-1.8.12-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.12/jackrabbit-oak-1.8.12-src.zip)
+    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.12/jackrabbit-oak-1.8.12-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.12/jackrabbit-oak-1.8.12-src.zip.sha512))
 
     
     
