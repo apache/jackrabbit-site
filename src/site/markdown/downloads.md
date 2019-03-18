@@ -54,6 +54,38 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.2'></a>
+Apache Jackrabbit Oak 1.2.31 (March 14th, 2019)
+-----------------------------------------------
+Jackrabbit Oak 1.2.31 is a patch release that contains fixes and
+improvements over the previous 1.2.x release.
+Jackrabbit Oak 1.2.x releases are considered stable and targeted for
+production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.2.31/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.2.31-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip)
+    (8M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.sha512))
+
+
+
+
+<a class='anchor' name='oak1.8'></a>
+Apache Jackrabbit Oak 1.8.12 (March 14th, 2019)
+-----------------------------------------------
+Apache Jackrabbit Oak 1.8.12 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.x
+releases. Jackrabbit Oak 1.8.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.12/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.8.12-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.12/jackrabbit-oak-1.8.12-src.zip)
+    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.12/jackrabbit-oak-1.8.12-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.12/jackrabbit-oak-1.8.12-src.zip.sha512))
+
+    
+    
+
 <a class='anchor' name='v2.8'></a>
 Apache Jackrabbit 2.8.10 (March 5th, 2019)
 ------------------------------------------
@@ -117,22 +149,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/2.19.1/RELEA
 
 
 
-
-<a class='anchor' name='oak1.8'></a>
-Apache Jackrabbit Oak 1.8.12 (March 14th, 2019)
--------------------------------------------------
-Apache Jackrabbit Oak 1.8.12 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.x
-releases. Jackrabbit Oak 1.8.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.12/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.8.12-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.12/jackrabbit-oak-1.8.12-src.zip)
-    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.12/jackrabbit-oak-1.8.12-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.12/jackrabbit-oak-1.8.12-src.zip.sha512))
-
-    
-    
 
 <a class='anchor' name='oak1.6'></a>
 Apache Jackrabbit Oak 1.6.16 (January 16th, 2019)
@@ -248,21 +264,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/2.12.10/RELE
 * [jackrabbit-jca-2.12.10.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar)
     (29M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar.sha512))
 
-
-
-
-<a class='anchor' name='oak1.2'></a>
-Apache Jackrabbit Oak 1.2.31 (March 14th, 2019)
----------------------------------------------------
-Jackrabbit Oak 1.2.31 is a patch release that contains fixes and
-improvements over the previous 1.2.x release.
-Jackrabbit Oak 1.2.x releases are considered stable and targeted for
-production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.2.31/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.2.31-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip)
-    (8M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.sha512))
 
 
 
