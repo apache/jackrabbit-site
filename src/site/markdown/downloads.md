@@ -329,15 +329,15 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.0.42/R
 
 
 <a class='anchor' name='vlt'></a>
-Apache Jackrabbit FileVault 3.2.6 (November 30th, 2018)
+Apache Jackrabbit FileVault 3.2.8 (Mar 21st, 2019)
 --------------------------------------------------------
-Jackrabbit FileVault 3.2.6 is the latest stable release of the recently donated repository content synchronization tool.
+Jackrabbit FileVault 3.2.8 is the latest stable release of the recently donated repository content synchronization tool.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/filevault/3.2.6/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://www.apache.org/dist/jackrabbit/filevault/3.2.8/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-filevault-3.2.6-src.zip](https://www.apache.org/dist/jackrabbit/filevault/3.2.6/jackrabbit-filevault-3.2.6-src.zip)
-    (1.5M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/filevault/3.2.6/jackrabbit-filevault-3.2.6-src.zip.asc))
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/filevault/3.2.6/jackrabbit-filevault-3.2.6-src.zip.sha512)
+* [jackrabbit-filevault-3.2.8-src.zip](https://www.apache.org/dist/jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip)
+    (1.5M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip.asc))
+    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip.sha512)
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
 
