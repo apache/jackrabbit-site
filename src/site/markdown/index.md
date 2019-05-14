@@ -51,6 +51,11 @@ Apache Jackrabbit 2.18.1 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit 2.x releases. See the
 [downloads](downloads.html#v2.18) page for more details.
 
+#### May 14th, 2019: Apache Jackrabbit Oak 1.8.13 released
+Jackrabbit Oak 1.8.13 is a patch release that contains fixes and
+improvements over the previous 1.8.x release.  See the
+[downloads](downloads.html#oak1.8) page for more details.
+
 #### April 15th, 2019: Apache Jackrabbit Oak 1.12.0 released
 Apache Jackrabbit Oak 1.12.0 is an incremental feature release based
 on and compatible with earlier stable Jackrabbit Oak 1.x releases.
