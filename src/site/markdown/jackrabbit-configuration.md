@@ -280,7 +280,7 @@ The versioning configuration elements are:
 <a name="search-configuration"></a>
 Search configuration
 --------------------
-See the [Search](http://wiki.apache.org/jackrabbit/Search) page on the Jackrabbit wiki.
+See the [Search](http://jackrabbit.apache.org/archive/wiki/JCR/Search_115513504.html) page on the Jackrabbit wiki.
 
 <a name="persistence-configuration"></a>
 Persistence configuration
@@ -298,7 +298,7 @@ information).
 For large binary properties there is the option to use the [DataStore](#data-store-configuration) 
 instead of the Persistence Manager.
 
-For more detailed information and an overview of available PMs, see the [PersistenceManagerFAQ](http://wiki.apache.org/jackrabbit/PersistenceManagerFAQ)
+For more detailed information and an overview of available PMs, see the [PersistenceManagerFAQ](http://jackrabbit.apache.org/archive/wiki/JCR/PersistenceManagerFAQ_115513487.html)
 page on the Jackrabbit wiki.
 
 > If you use a database persistence manager, the configured database
@@ -329,12 +329,12 @@ accesses to the specified directory within the native file system.
 <a name="cluster-configuration"></a>
 Cluster configuration
 ---------------------
-See the [Clustering](http://wiki.apache.org/jackrabbit/Clustering) page on the Jackrabbit wiki.
+See the [Clustering](http://jackrabbit.apache.org/archive/wiki/JCR/Clustering_115513377.html) page on the Jackrabbit wiki.
 
 <a name="datastore-configuration"></a>
 Data store configuration
 ------------------------
-See the [DataStore](http://wiki.apache.org/jackrabbit/DataStore) page on the Jackrabbit wiki.
+See the [DataStore](http://jackrabbit.apache.org/archive/wiki/JCR/DataStore_115513387.html) page on the Jackrabbit wiki.
 
 <a name="itemstatelocking-configuration"></a>
 Item state locking configuration

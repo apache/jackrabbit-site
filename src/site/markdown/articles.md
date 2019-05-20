@@ -22,7 +22,7 @@ and Jackrabbit. It is meant as an entry point for any newcommers to JCR and
 Jackrabbit.
 
 For a complete version of this list and also an extensive list of tools and
-applications built on Jackrabbit, please visit the [links page](http://wiki.apache.org/jackrabbit/JcrLinks) on the wiki.
+applications built on Jackrabbit, please visit the [links page](http://jackrabbit.apache.org/archive/wiki/JCR/JcrLinks_115513443.html) on the wiki.
 
 
 General

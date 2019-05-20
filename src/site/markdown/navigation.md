@@ -4,7 +4,7 @@ Title: Navigation
 ** [Downloads](downloads.html)
 ** [Articles](articles.html)
 ** [FAQ](frequently-asked-questions.html)
-** [Jackrabbit Wiki](http://wiki.apache.org/jackrabbit/FrontPage)
+** [Archived Jackrabbit Wiki](../archive/wiki/JCR/Home_70731.html)
 ** [Jackrabbit History](jackrabbit-history.html)
 * Documentation 
 ** [Getting Started](getting-started-with-apache-jackrabbit.html)

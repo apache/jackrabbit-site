@@ -1738,7 +1738,7 @@ This release contains fixes to a number of issues.
 The first JCR community gathering in Amsterdam on April 8th was
 officially announced. This JCR meetup event is targeted to everyone
 interested in the JCR standard and applications built using JCR. All JCR
-users and developers are welcome to participate. See the [wiki page](http://wiki.apache.org/jackrabbit/JcrMeetupApril2008)
+users and developers are welcome to participate. See the [wiki page](http://jackrabbit.apache.org/archive/wiki/JCR/JcrMeetupApril2008_115513444.html)
 for more information.
 
 ##### March 26, 2008: jackrabbit-core 1.4.2 released
