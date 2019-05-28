@@ -54,6 +54,30 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='v2.18'></a>
+Apache Jackrabbit 2.18.2 (May 28th, 2019)
+-----------------------------------------
+Apache Jackrabbit 2.18.2 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
+2.18.x releases are considered stable and targeted for production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/2.18.2/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-2.18.2-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.2/jackrabbit-2.18.2-src.zip)
+    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.18.2/jackrabbit-2.18.2-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.2/jackrabbit-2.18.2-src.zip.sha512))
+
+* [jackrabbit-standalone-2.18.2.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.2/jackrabbit-standalone-2.18.2.jar)
+    (145M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.18.2/jackrabbit-standalone-2.18.2.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.2/jackrabbit-standalone-2.18.2.jar.sha512))
+
+* [jackrabbit-webapp-2.18.2.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.2/jackrabbit-webapp-2.18.2.war)
+    (71M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.18.2/jackrabbit-webapp-2.18.2.war.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.2/jackrabbit-webapp-2.18.2.war.sha512))
+
+* [jackrabbit-jca-2.18.2.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.2/jackrabbit-jca-2.18.2.rar)
+    (70M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.18.2/jackrabbit-jca-2.18.2.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.2/jackrabbit-jca-2.18.2.rar.sha512))
+
+
+
+
 <a class='anchor' name='oak1.8'></a>
 Apache Jackrabbit Oak 1.8.13 (May 14th, 2019)
 ---------------------------------------------
@@ -110,30 +134,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/2.16.4/RELEA
 
 * [jackrabbit-jca-2.16.4.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.4/jackrabbit-jca-2.16.4.rar)
     (70M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.16.4/jackrabbit-jca-2.16.4.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.16.4/jackrabbit-jca-2.16.4.rar.sha512))
-
-
-
-
-<a class='anchor' name='v2.18'></a>
-Apache Jackrabbit 2.18.1 (April 17th, 2019)
--------------------------------------------
-Apache Jackrabbit 2.18.1 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
-2.18.x releases are considered stable and targeted for production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/2.18.1/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-2.18.1-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.1/jackrabbit-2.18.1-src.zip)
-    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.18.1/jackrabbit-2.18.1-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.1/jackrabbit-2.18.1-src.zip.sha512))
-
-* [jackrabbit-standalone-2.18.1.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.1/jackrabbit-standalone-2.18.1.jar)
-    (145M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.18.1/jackrabbit-standalone-2.18.1.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.1/jackrabbit-standalone-2.18.1.jar.sha512))
-
-* [jackrabbit-webapp-2.18.1.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.1/jackrabbit-webapp-2.18.1.war)
-    (71M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.18.1/jackrabbit-webapp-2.18.1.war.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.1/jackrabbit-webapp-2.18.1.war.sha512))
-
-* [jackrabbit-jca-2.18.1.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.1/jackrabbit-jca-2.18.1.rar)
-    (70M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.18.1/jackrabbit-jca-2.18.1.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.1/jackrabbit-jca-2.18.1.rar.sha512))
 
 
 
