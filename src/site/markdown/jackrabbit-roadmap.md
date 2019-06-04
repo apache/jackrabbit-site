@@ -37,7 +37,7 @@ Maintenance branches
 We currently support the following maintenance branches:
 
 * [Jackrabbit 2.18](https://svn.apache.org/repos/asf/jackrabbit/branches/2.18/) ([download](downloads.html#v2.18)) - recommended version for Java 8 and newer
-* [Jackrabbit 2.16](https://svn.apache.org/repos/asf/jackrabbit/branches/2.16/) ([download](downloads.html#v2.16)) - recommended version for Java 8 and newer
+* [Jackrabbit 2.16](https://svn.apache.org/repos/asf/jackrabbit/branches/2.16/) ([download](downloads.html#v2.16)) - Java 8 and newer
 * [Jackrabbit 2.14](https://svn.apache.org/repos/asf/jackrabbit/branches/2.14/) ([download](downloads.html#v2.14)) - recommended version for Java 7
 * [Jackrabbit 2.12](https://svn.apache.org/repos/asf/jackrabbit/branches/2.12/) ([download](downloads.html#v2.12)) - recommended version for Java 6 - "end of life" planned for Spring 2021
 * [Jackrabbit 2.10](https://svn.apache.org/repos/asf/jackrabbit/branches/2.10/) ([download](downloads.html#v2.10)) - "end of life" planned for Spring 2019
