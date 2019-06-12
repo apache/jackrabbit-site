@@ -24,6 +24,66 @@ events and records from past years.
 
 For recent events, have a look at the [News Archive](news-archive.html).
 
+Jackrabbit in 2019
+------------------
+* June 2019: [Jackrabbit Status June 2019](status/board-report-2019-06.html)
+* March 2019: [Jackrabbit Status March 2019](../archive/wiki/JCR/Board-Report-March-2019_115513367.html)
+
+
+Jackrabbit in 2018
+------------------
+* December 2018: [Jackrabbit Status December 2018](../archive/wiki/JCR/Board-Report-December-2018_115513353.html)
+* September 2018: [Jackrabbit Status September 2018](../archive/wiki/JCR/Board-Report-September-2018_115513374.html)
+* June 2018: [Jackrabbit Status June 2018](../archive/wiki/JCR/Board-Report-June-2018_115513360.html)
+* March 2018: [Jackrabbit Status March 2018](../archive/wiki/JCR/Board-Report-March-2018_115513366.html)
+
+
+Jackrabbit in 2017
+------------------
+* December 2017: [Jackrabbit Status December 2017](../archive/wiki/JCR/Board-Report-December-2017_115513352.html)
+* September 2017: [Jackrabbit Status September 2017](../archive/wiki/JCR/Board-Report-September-2017_115513373.html)
+* June 2017: [Jackrabbit Status June 2017](../archive/wiki/JCR/Board-Report-June-2017_115513359.html)
+* March 2017: [Jackrabbit Status March 2017](../archive/wiki/JCR/Board-Report-March-2017_115513365.html)
+
+
+Jackrabbit in 2016
+------------------
+* December 2016: [Jackrabbit Status December 2016](../archive/wiki/JCR/Board-Report-December-2016_115513351.html)
+* September 2016: [Jackrabbit Status September 2016](../archive/wiki/JCR/Board-Report-September-2016_115513372.html)
+* June 2016: [Jackrabbit Status June 2016](../archive/wiki/JCR/Board-Report-June-2016_115513358.html)
+* March 2016: [Jackrabbit Status March 2016](../archive/wiki/JCR/Board-Report-March-2016_115513364.html)
+
+
+Jackrabbit in 2015
+------------------
+* December 2015: [Jackrabbit Status December 2015](../archive/wiki/JCR/Board-Report-December-2015_115513350.html)
+* September 2015: [Jackrabbit Status September 2015](../archive/wiki/JCR/Board-Report-September-2015_115513371.html)
+* June 2015: [Jackrabbit Status June 2015](../archive/wiki/JCR/Board-Report-June-2015_115513357.html)
+* March 2015: [Jackrabbit Status March 2015](../archive/wiki/JCR/Board-Report-March-2015_115513363.html)
+
+
+Jackrabbit in 2014
+------------------
+* December 2014: [Jackrabbit Status December 2014](../archive/wiki/JCR/Board-Report-December-2014_115513349.html)
+* September 2014: [Jackrabbit Status September 2014](../archive/wiki/JCR/Board-Report-September-2014_115513370.html)
+* July 2014: [Jackrabbit Status July 2014](../archive/wiki/JCR/Board-Report-July-2014_115513354.html)
+* March 2014: [Jackrabbit Status March 2014](../archive/wiki/JCR/Board-Report-March-2014_115513362.html)
+
+
+Jackrabbit in 2013
+------------------
+* December 2013: [Jackrabbit Status December 2013](../archive/wiki/JCR/Board-Report-December-2013_115513348.html)
+* September 2013: [Jackrabbit Status September 2013](../archive/wiki/JCR/Board-Report-September-2013_115513369.html)
+* June 2013: [Jackrabbit Status June 2013](../archive/wiki/JCR/Board-Report-June-2013_115513356.html)
+* March 2013: [Jackrabbit Status March 2013](../archive/wiki/JCR/Board-Report-March-2013_115513361.html)
+
+
+Jackrabbit in 2012
+------------------
+* December 2012: [Jackrabbit Status December 2012](../archive/wiki/JCR/Board-Report-December-2012_115513347.html)
+* September 2012: [Jackrabbit Status September 2012](../archive/wiki/JCR/Board-Report-September-2012_115513368.html)
+* June 2012: [Jackrabbit Status June 2012](../archive/wiki/JCR/Board-Report-June-2012_115513355.html)
+
 
 Jackrabbit in 2011
 ------------------
@@ -78,12 +138,12 @@ Jackrabbit in 2006
 * December 2006: [Jackrabbit Status December 2006](status/jackrabbit-status-december-2006.html)
 * October 2006: Apache Jackrabbit 1.1 [released](http://markmail.org/message/3atqtbuviomoo7dj)
 * September 2006: [Jackrabbit Status September 2006](status/jackrabbit-status-september-2006.html)
-* August 2006: [Jackrabbit Chair 2006 Resolution](jackrabbit-chair-2006-resolution.html) makes Jukka Zitting the PMC chair 
+* August 2006: [Jackrabbit Chair 2006 Resolution](status/jackrabbit-chair-2006-resolution.html) makes Jukka Zitting the PMC chair 
 * July 2006: [Jackrabbit Status July 2006](status/jackrabbit-status-july-2006.html)
 * May 2006: [Jackrabbit Status May 2006](status/jackrabbit-status-may-2006.html)
 * April 2006: [Jackrabbit Status April 2006](status/jackrabbit-status-april-2006.html)
 * April 2006: Apache Jackrabbit 1.0 [released](http://markmail.org/message/jlk4qe336lne7v4m)
-* March 2006: The [Apache Jackrabbit Resolution](apache-jackrabbit-resolution.html) makes Jackrabbit a TLP with Roy Fielding as the PMC chair
+* March 2006: The [Apache Jackrabbit Resolution](status/apache-jackrabbit-resolution.html) makes Jackrabbit a TLP with Roy Fielding as the PMC chair
 * March 2006: [Jackrabbit Status March 2006](status/jackrabbit-status-march-2006.html)
 * February 2006: Apache Jackrabbit 0.9 (incubating) [released](http://markmail.org/message/7q5jhiob5wurrnpn)
 * January 2006: [Jackrabbit Status January 2006](status/jackrabbit-status-january-2006.html)
