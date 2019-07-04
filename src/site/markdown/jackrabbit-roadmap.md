@@ -40,15 +40,15 @@ We currently support the following maintenance branches:
 * [Jackrabbit 2.16](https://svn.apache.org/repos/asf/jackrabbit/branches/2.16/) ([download](downloads.html#v2.16)) - Java 8 and newer
 * [Jackrabbit 2.14](https://svn.apache.org/repos/asf/jackrabbit/branches/2.14/) ([download](downloads.html#v2.14)) - recommended version for Java 7 - "end of life" planned for Spring 2022
 * [Jackrabbit 2.12](https://svn.apache.org/repos/asf/jackrabbit/branches/2.12/) ([download](downloads.html#v2.12)) - recommended version for Java 6 - "end of life" planned for Spring 2021
-* [Jackrabbit 2.10](https://svn.apache.org/repos/asf/jackrabbit/branches/2.10/) ([download](downloads.html#v2.10)) - "end of life" any day now
 * [Jackrabbit 2.8](https://svn.apache.org/repos/asf/jackrabbit/branches/2.8/) ([download](downloads.html#v2.8)) - "end of life" planned for Spring 2020
 
-Users of 2.8 and 2.10 should consider upgrading to the newest stable branch applicable for the Java version in use.
+Users of 2.8 should consider upgrading to the newest stable branch applicable for the Java version in use.
 
 End of life
 -----------
 The following branches have reached "end of life":
 
+* [Jackrabbit 2.10](https://svn.apache.org/repos/asf/jackrabbit/branches/2.10/)
 * [Jackrabbit 2.6](https://svn.apache.org/repos/asf/jackrabbit/branches/2.6/)
 * [Jackrabbit 2.4](https://svn.apache.org/repos/asf/jackrabbit/branches/2.4/)
 * [Jackrabbit 2.2](https://svn.apache.org/repos/asf/jackrabbit/branches/2.2/)

@@ -39,7 +39,6 @@ on your preferred mirror.
     * [Apache Jackrabbit 2.16.x](#v2.16) (Java 8 and later)
     * [Apache Jackrabbit 2.14.x](#v2.14) (Java 7 and later)
     * [Apache Jackrabbit 2.12.x](#v2.12) (Java 6 and later)
-    * [Apache Jackrabbit 2.10.x](#v2.10) (Java 6 and later)
     * [Apache Jackrabbit 2.8.x](#v2.8) (Java 6 and later)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
 * Latest stable FileVault release: [Apache Jackrabbit FileVault 3.2.8](#vlt)
@@ -262,28 +261,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.4.24/R
 * [jackrabbit-oak-1.4.24-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.24/jackrabbit-oak-1.4.24-src.zip)
     (10M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.4.24/jackrabbit-oak-1.4.24-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.4.24/jackrabbit-oak-1.4.24-src.zip.sha512))
 
-
-
-
-<a class='anchor' name='v2.10'></a>
-Apache Jackrabbit 2.10.9 (January 10th, 2019)
----------------------------------------------
-Apache Jackrabbit 2.10.9 is a patch release that contains fixes and improvements over previous 2.10.x releases.
-Jackrabbit 2.10.x releases are considered stable and targeted for production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/2.10.9/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-2.10.9-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.10.9/jackrabbit-2.10.9-src.zip)
-    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.10.9/jackrabbit-2.10.9-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.10.9/jackrabbit-2.10.9-src.zip.sha512))
-
-* [jackrabbit-standalone-2.10.9.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.10.9/jackrabbit-standalone-2.10.9.jar)
-    (134M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.10.9/jackrabbit-standalone-2.10.9.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.10.9/jackrabbit-standalone-2.10.9.jar.sha512))
-
-* [jackrabbit-webapp-2.10.9.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.10.9/jackrabbit-webapp-2.10.9.war)
-    (75M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.10.9/jackrabbit-webapp-2.10.9.war.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.10.9/jackrabbit-webapp-2.10.9.war.sha512))
-
-* [jackrabbit-jca-2.10.9.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.10.9/jackrabbit-jca-2.10.9.rar)
-    (29M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.10.9/jackrabbit-jca-2.10.9.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.10.9/jackrabbit-jca-2.10.9.rar.sha512))
 
 
 
