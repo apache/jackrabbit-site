@@ -45,7 +45,6 @@ review all pending changes in `target/scmpublish-checkout` and follow
 up with `svn commit` manually.
 
 
-Note: Every committer should be able to deploy the site. No fiddling with
-credentials needed since deployment is done via svn commit to
-`https://svn.apache.org/repos/asf/jackrabbit/site/live/jcr`.
+Note: Every committer should be able to deploy the site. Deployment is done via svn commit to
+`https://svn.apache.org/repos/asf/jackrabbit/site/live/jcr`. It may be necessary though to provide the credentials explicitly via `-Dpassword` and `-Dusername` ([maven-scm-publish-plugin:publish-scm](https://maven.apache.org/plugins/maven-scm-publish-plugin/publish-scm-mojo.html)).
 
