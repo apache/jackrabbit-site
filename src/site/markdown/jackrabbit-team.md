@@ -54,9 +54,10 @@ Jackrabbit committers
 | fmeschbe        | Felix Meschberger  |  [Adobe](http://www.adobe.com/)  |
 | frm             | Francesco Mari  |  [Adobe](http://www.adobe.com/)  | 
 | halderen        | Berry van Halderen  | &nbsp; |
-| jsedding        | Julian Sedding | &nbsp |
+| jsedding        | Julian Sedding | &nbsp; |
 | jukka           | [Jukka Zitting](mailto:jukka.zitting@gmail.com) |  [Adobe](http://www.adobe.com/)  |
 | justin          | Justin Edelson  |  [Adobe](http://www.adobe.com/)  |
+| kwin            | Konrad Windszus  |  [Netcentric](https://www.netcentric.biz)  |
 | martijnh        | Martijn Hendriks  |  [GX](http://www.gx.nl/)  |
 | mattryan        | Matt Ryan  |  [Adobe](http://www.adobe.com/)  | 
 | mduerig         | Michael D&uuml;rig  |  [Adobe](http://www.adobe.com/)  |
