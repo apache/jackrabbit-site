@@ -70,7 +70,8 @@ different features for browsing and searching the archives.
 
 | Archive site | Jackrabbit Archives
 |--------------|-------------------------------
-| Apache | [announce](http://mail-archives.apache.org/mod_mbox/jackrabbit-announce/) [users](http://mail-archives.apache.org/mod_mbox/jackrabbit-users/) [dev](http://mail-archives.apache.org/mod_mbox/jackrabbit-dev/) [commits](http://mail-archives.apache.org/mod_mbox/jackrabbit-commits/)
+| Apache Pony Mail! | [announce](https://lists.apache.org/list.html?announce@jackrabbit.apache.org) [users](https://lists.apache.org/list.html?users@jackrabbit.apache.org) [dev](https://lists.apache.org/list.html?dev@jackrabbit.apache.org) [commits](https://lists.apache.org/list.html?commits@jackrabbit.apache.org) [oak-dev](https://lists.apache.org/list.html?oak-dev@jackrabbit.apache.org) [oak-commits](https://lists.apache.org/list.html?oak-commits@jackrabbit.apache.org)
+| Apache Mail Archives | [announce](http://mail-archives.apache.org/mod_mbox/jackrabbit-announce/) [users](http://mail-archives.apache.org/mod_mbox/jackrabbit-users/) [dev](http://mail-archives.apache.org/mod_mbox/jackrabbit-dev/) [commits](http://mail-archives.apache.org/mod_mbox/jackrabbit-commits/) [oak-dev](http://mail-archives.apache.org/mod_mbox/jackrabbit-oak-dev/) [oak-commits](http://mail-archives.apache.org/mod_mbox/jackrabbit-oak-commits/)
 | Gmane  | [users](http://dir.gmane.org/gmane.comp.apache.jackrabbit.user) [dev](http://dir.gmane.org/gmane.comp.apache.jackrabbit.devel)
 | The Mail Archive | [users](http://www.mail-archive.com/users@jackrabbit.apache.org) [dev](http://www.mail-archive.com/dev@jackrabbit.apache.org)
 | Nabble | [users](http://www.nabble.com/Jackrabbit---Users-f14897.html) [dev](http://www.nabble.com/Jackrabbit---Dev-f371.html)
