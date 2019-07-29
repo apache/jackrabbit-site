@@ -36,6 +36,11 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 
 ## Apache Jackrabbit News
 
+#### July 29th, 2019: Apache Jackrabbit Oak 1.16.0 released
+Apache Jackrabbit Oak 1.16.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x releases.
+See the [downloads](downloads.html#latest) page for more details.
+
 #### July 18th, 2019: Apache Jackrabbit FileVault Packaging Maven Plugin 1.0.4 released
 Jackrabbit FileVault Packaging Maven Plugin 1.0.4 is current stable release.  
 See the [downloads](downloads.html#vltplg) page for more details.
@@ -66,11 +71,6 @@ for Java 8, 2.14 for Java 7, 2.12 for Java 6).
 Apache Jackrabbit 2.14.7 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit 2.x releases. See the
 [downloads](downloads.html#v2.14) page for more details.
-
-#### June 11th, 2019: Apache Jackrabbit Oak 1.14.0 released
-Apache Jackrabbit Oak 1.14.0 is an incremental feature release based
-on and compatible with earlier stable Jackrabbit Oak 1.x releases.
-See the [downloads](downloads.html#latest) page for more details.
 
 #### May 28th, 2019: Apache Jackrabbit 2.18.2 released
 Apache Jackrabbit 2.18.2 is an incremental feature release based on
