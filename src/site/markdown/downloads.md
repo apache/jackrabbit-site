@@ -54,7 +54,7 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 <a class='anchor' name='v2.19'></a>
-Apache Jackrabbit 2.14.3 (August 26th, 2019)
+Apache Jackrabbit 2.19.4 (August 26th, 2019)
 --------------------------------------------
 See the [full release notes](https://www.apache.org/dist/jackrabbit/2.19.4/RELEASE-NOTES.txt) for more details.
 
