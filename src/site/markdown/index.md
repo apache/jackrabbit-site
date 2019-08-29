@@ -41,7 +41,7 @@ Jackrabbit Oak 1.8.16 is a patch release that contains fixes and
 improvements over the previous 1.8.x release.  See the
 [downloads](downloads.html#oak1.8) page for more details.
 
-#### August 26, 2019: Apache Jackrabbit 2.19.4 released
+#### August 26th, 2019: Apache Jackrabbit 2.19.4 released
 Apache Jackrabbit 2.19.4 is an unstable release cut directly from trunk, with a
 focus on new features and other improvements. See the
 [downloads](downloads.html#v2.19) page for more details.
