@@ -32,11 +32,11 @@ implement all optional features from the JSR specifications and it
 is not a reference implementation. 
    
 ## Issues: 
-There are no issues requiring board attention at this time   
+There are no issues requiring board attention at this time.
    
 ## Activity: 
 Apache Jackrabbit Oak receives most attention nowadays. All 
-maintenance branches and the unstable development branch are 
+maintenance branches and the main development branch are 
 continuously seeing moderate to high activity.
 
 We made our 8th feature release of Jackrabbit Oak (1.16) end of July. 
