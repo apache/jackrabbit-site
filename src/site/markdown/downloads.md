@@ -41,8 +41,10 @@ on your preferred mirror.
     * [Apache Jackrabbit 2.12.x](#v2.12) (Java 6 and later)
     * [Apache Jackrabbit 2.8.x](#v2.8) (Java 6 and later)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
-* Latest stable FileVault release: [Apache Jackrabbit FileVault 3.2.8](#vlt)
-* Latest stable FileVault Plugin release: [Apache Jackrabbit FileVault Package Maven Plugin 1.0.3](#vltplg)
+* Latest stable FileVault releases: 
+    * [Apache Jackrabbit FileVault 3.4.0](#vlt) (Java 8 and later)
+    * [Apache Jackrabbit FileVault 3.2.8](#vlt) (Java 7 and later)
+* Latest stable FileVault Plugin release: [Apache Jackrabbit FileVault Package Maven Plugin 1.0.4](#vltplg)
 * [Release Archive](#archive)
 
 Apache Jackrabbit releases are available under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0). 
@@ -301,9 +303,21 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.0.42/R
 
 
 <a class='anchor' name='vlt'></a>
+Apache Jackrabbit FileVault 3.4.0 (Sep 13th, 2019)
+--------------------------------------------------------
+Jackrabbit FileVault 3.4.0 is the latest stable release of the repository content synchronization tool. This version is only compatible with Java 8 or newer.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/filevault/3.4.0/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-filevault-3.4.0-src.zip](https://www.apache.org/dist/jackrabbit/filevault/3.4.0/jackrabbit-filevault-3.4.0-src.zip)
+    (2.2M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/filevault/3.4.0/jackrabbit-filevault-3.4.0-src.zip.asc))
+    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/filevault/3.4.0/jackrabbit-filevault-3.4.0-src.zip.sha512)
+
+Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
+
 Apache Jackrabbit FileVault 3.2.8 (Mar 21st, 2019)
 --------------------------------------------------------
-Jackrabbit FileVault 3.2.8 is the latest stable release of the recently donated repository content synchronization tool.
+Jackrabbit FileVault 3.2.8 is the latest stable release of the recently donated repository content synchronization tool. This version is still compatible with Java 7.
 
 See the [full release notes](https://www.apache.org/dist/jackrabbit/filevault/3.2.8/RELEASE-NOTES.txt) for more details.
 
