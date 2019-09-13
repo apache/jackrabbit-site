@@ -18,23 +18,27 @@
 Welcome to Apache Jackrabbit
 ============================
 
-The Apache Jackrabbit™ content repository is a fully conforming implementation 
-of the Content Repository for Java Technology API (JCR, specified in 
+The Apache Jackrabbit™ content repository is a fully conforming implementation
+of the Content Repository for Java Technology API (JCR, specified in
 [JSR 170](http://jcp.org/en/jsr/detail?id=170) and [JSR 283](http://jcp.org/en/jsr/detail?id=283)).
 
 A content repository is a hierarchical content store with support for
 structured and unstructured content, full text search, versioning,
 transactions, observation, and more.
 
-[Jackrabbit Oak](/oak) is a complementary implementation of the JCR specification. 
-It is an effort to implement a scalable and performant hierarchical content 
-repository for use as the foundation of modern world-class web sites and 
-other demanding content applications. See the [Jackrabbit Oak](/oak) website for 
+[Jackrabbit Oak](/oak) is a complementary implementation of the JCR specification.
+It is an effort to implement a scalable and performant hierarchical content
+repository for use as the foundation of modern world-class web sites and
+other demanding content applications. See the [Jackrabbit Oak](/oak) website for
 more information.
 
 Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.apache.org/)
 
 ## Apache Jackrabbit News
+#### September 14th, 2019: Apache Jackrabbit Filevault 3.4.0 released
+Jackrabbit FileVault 3.4.0 is the current stable release of the
+repository content synchronization tool. It requires Java 8 or newer.
+See the [downloads](downloads.html#vlt) page for more details.
 
 #### September 12th, 2019: Apache Jackrabbit 2.14.8 released
 Apache Jackrabbit 2.14.8 is an incremental feature release based on
@@ -206,8 +210,3 @@ Older News
 ----------
 
 See the [news archive](news-archive.html) for past news.
-
-
-
-
-
