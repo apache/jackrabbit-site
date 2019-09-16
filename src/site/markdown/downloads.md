@@ -387,7 +387,7 @@ or
 or
 
     % gpg --import KEYS
-    % gpg --verify jackrabbit-X.Y.Z-src.zip.asc
+    % gpg --verify jackrabbit-X.Y.Z-src.zip.asc jackrabbit-X.Y.Z-src.zip
 
 
 Alternatively, you can verify the SHA512 checksums on the files. For checking the SHA512 checksums, use the program 
