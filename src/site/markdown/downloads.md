@@ -218,7 +218,7 @@ production use.
 See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.2.31/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.2.31-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip)
-    (8M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.sha512))
+    (8M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.sha512))
 
 
 
@@ -295,7 +295,7 @@ Jackrabbit Oak 1.0.x releases are considered stable and targeted for production 
 See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.0.42/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.0.42-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip)
-    (7M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.sha1), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.sha512))
+    (7M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.sha512))
 
 
 
@@ -353,7 +353,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/ocm/2.0.0/RE
 
 * [jackrabbit-ocm-2.0.0-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip) 
     (518K, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip.asc))
-    * [SHA1 checksum](https://www.apache.org/dist/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip.sha1)
 
 
 <a class='anchor' name='archive'></a>
@@ -367,7 +366,7 @@ site and its mirrors. Older releases are available from the [archive download si
 Verify
 ------
 
-It is essential that you verify the integrity of the downloaded files using the PGP signatures or SHA1 and SHA512 checksums. 
+It is essential that you verify the integrity of the downloaded files using the PGP signatures or SHA512 checksums. 
 Please read [Verifying Apache HTTP Server Releases](http://httpd.apache.org/dev/verification.html) for more information 
 on why you should verify our releases.
 
@@ -391,7 +390,7 @@ or
     % gpg --verify jackrabbit-X.Y.Z-src.zip.asc
 
 
-Alternatively, you can verify the SHA1 or SHA512 checksums on the files. For checking the SHA1 or SHA512 checksums, use the programs 
-called `sha1sum` or `sha512sum` ([GNU core utilities](http://www.gnu.org/software/coreutils/)), or, alternatively, `openssl`.
+Alternatively, you can verify the SHA512 checksums on the files. For checking the SHA512 checksums, use the program 
+called `sha512sum` ([GNU core utilities](http://www.gnu.org/software/coreutils/)), or, alternatively, `openssl`.
 Windows users can use 'CertUtil` ([doc](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil))
 or use the equivalent *nix tools as part of their Cygwin or Linux subsystems.
