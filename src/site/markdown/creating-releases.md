@@ -124,7 +124,7 @@ If the vote fails (easy case first) remove the tag from svn, drop the staged rep
 Otherwise:
 
 1. Close the vote by publishing the results, replying to the original vote mail.
-2. Copy the release candidate from dev/jackrabbit to release/jackrabbit in https://dist.apache.org/repos/dist/ -- **be careful to properly set the version variable!!!**
+2. Copy the release candidate from dev/jackrabbit to release/jackrabbit in https://dist.apache.org/repos/dist/ (for Jackrabbit, `version` is just the version number, for Oak it is prefixed with `oak/`, reflecting the directory structure) -- **be careful to properly set the version variable!!!**
 
         [ "x$version" = "x" ] || svn move -m "Apache Jackrabbit $version" \
         https://dist.apache.org/repos/dist/dev/jackrabbit/$version \
