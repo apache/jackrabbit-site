@@ -152,7 +152,7 @@ In case you don't feel comfortable to keep the passwords in the file `~/.m2/sett
 
 There have been some problems with certain combinations of Java and Maven versions. A known combinations where releasing was successful is Java 7 with Maven 3.2.2. In case you get an exception "Proxy Error" in the `release:perform`, see the [Apache Services Status Page](http://status.apache.org/), however it has been reported that the status page is not always accurate. In case you get an error with respect to API incompatibilities, try with an older Maven version or enforce use of a newer release plugin, such as with `mvn org.apache.maven.plugins:maven-release-plugin:2.5.3:prepare`.
 
-1. Execute mvn `release:prepare`. This will update the POM files and tag the release in svn.
+1. Execute mvn `release:prepare`. This will update the POM files and tag the release in svn (see [Appendix F](#Appendix_F:_Version_Numbers) for how version numbers change).
 2. Execute mvn `release:perform`. This will build the tagged release and deploy the artifacts to a staging repository on repository.apache.org. The non-Maven release artifacts are automatically deployed to your home directory on people.apache.org. You only need to add the keyname if you have multiple keys and the code signing keys is not your default key.
 
 After this is done, you can remove the passwords from the file `~/.m2/settings.xml` if you don't want to keep it there.
@@ -290,3 +290,45 @@ To check, for example for a version change in Oak 1.6.13-SNAPSHOT:
 ...then repeat the above steps with subsequent branches and trunk.
 
 Also, check with the "dev" mailing list to confirm that this change is ok.
+
+
+Appendix F: Version Numbers
+---------------------------
+
+**Jackrabbit**
+
+Classic Jackrabbit uses even minor version numbers for stable releases, and uneven
+numbers for unstable releases. For instance, as of September 2019, the latest
+stable release was "2.18.3", and the latest unstable release was "2.19.4".
+
+Stable releases are cut from a branch, where the branch name is based on
+major and minor version number (here: "2.18"). Unstable releases are built from
+trunk.
+
+Creating a new major release implies creating a new branch (next would be "2.20"), see
+[Appendix D](#Appendix_D:_Branching).
+
+For creating releases, the default version numbers proposed by `mvn release:prepare`
+work out of the box.
+
+**Oak**
+
+Oak historically used the same scheme, and moved away from that with "1.10.0" in 
+Spring 2019.
+
+Rather than creating unstable releases from trunk, we now create a stable release
+every time. These keep the even minor numbers, so as of September 2019, the sequence
+of releases since the change was: "1.12.0", "1.14.0", "1.16.0", and "1.18.0".
+
+Creating releases from branches continues to work just like for classic Jackrabbit.
+However, when cutting a new stable release from trunk, the default version numbers
+suggested by `mvn release:prepare` need to be overridden.
+
+For instance, when cutting "1.20.0", the next development release will be
+"1.21-SNAPSHOT", not "1.22-SNAPSHOT". The following stable release would then
+be "1.22.0".
+
+
+
+
+
