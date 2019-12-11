@@ -26,7 +26,7 @@ maintained.
 Jackrabbit Oak is an effort to implement a scalable and performant 
 hierarchical content repository as a modern successor to the Apache
 Jackrabbit content repository. It is targeted for use as the 
-foundation of modern world-class web sites and other demanding  
+foundation of modern world-class web sites and other demanding 
 content applications. In contrast to its predecessor, Oak does not 
 implement all optional features from the JSR specifications and it 
 is not a reference implementation. 
@@ -40,7 +40,7 @@ maintenance branches and the main development branch are
 continuously seeing moderate to high activity.
 
 We continue making regular feature releases of Jackrabbit Oak. The
-most recent release was Jackrabbit Oak 1.20 that was made available
+most recent release was Jackrabbit Oak 1.20.0 that was made available
 on November 25th.  
 
 Apache Jackrabbit itself is mostly in maintenance mode with most of 
