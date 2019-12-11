@@ -14,7 +14,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-Apache Jackrabbit: Board Report September 2019 (DRAFT)
+Apache Jackrabbit: Board Report September 2019
 ==============================================
 
 ## Description: 
