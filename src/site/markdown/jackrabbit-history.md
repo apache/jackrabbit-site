@@ -26,6 +26,8 @@ For recent events, have a look at the [News Archive](news-archive.html).
 
 Jackrabbit in 2019
 ------------------
+* December 2019: [Jackrabbit Status December 2019](status/board-report-2019-12.html)
+* September 2019: [Jackrabbit Status September 2019](status/board-report-2019-09.html)
 * June 2019: [Jackrabbit Status June 2019](status/board-report-2019-06.html)
 * March 2019: [Jackrabbit Status March 2019](../archive/wiki/JCR/Board-Report-March-2019_115513367.html)
 
