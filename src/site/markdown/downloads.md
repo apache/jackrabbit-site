@@ -65,9 +65,7 @@ targeted for production use.
 See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.10.7/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.10.7-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.10.7/jackrabbit-oak-1.10.7-src.zip)
-du: cannot access ‘oak/1.10.7/jackrabbit-oak-1.10.7-src.zip’: No such file or directory
-create-download-md.sh: line 32: printf: source zip: invalid number
-    (0M, jackrabbit-oak-1.10.7-src.zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.10.7/jackrabbit-oak-1.10.7-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.10.7/.sha512))
+    (15M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.10.7/jackrabbit-oak-1.10.7-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.10.7/jackrabbit-oak-1.10.7-src.zip.sha512))
 
 
 
