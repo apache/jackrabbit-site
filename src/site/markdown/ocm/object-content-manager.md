@@ -35,7 +35,7 @@ Descriptor contains one Class Descriptor per persistent class. Each Class
 Descriptor contains mapping information for the corresponding class
 attributes.
 
-In the point of view implementation, the Mappring Descriptor is a java
+In the point of view implementation, the Mapping Descriptor is a java
 object injected into the ObjectContentManager (see the interface
 org.apache.jackrabbit.ocm.mapper.Mapper). Right now, there are 2 different
 Mapping Descriptor implementations:
