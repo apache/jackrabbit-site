@@ -25,7 +25,7 @@ release; in this case wait 12-24 hours until the distribution becomes available
 on your preferred mirror.
 
 * Latest stable releases: 
-    * [Apache Jackrabbit 2.18.x](#v2.18) (Java 8 and later)
+    * [Apache Jackrabbit 2.20.x](#v2.20) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.20.0](#latest) (Java 8 and later)    
 * Latest unstable releases (from trunk): 
     * [Apache Jackrabbit 2.19.x](#v2.19) (Java 8 and later)
@@ -36,10 +36,11 @@ on your preferred mirror.
     * [Apache Jackrabbit Oak 1.4.x](#oak1.4) (Java 7 and later)
     * [Apache Jackrabbit Oak 1.2.x](#oak1.2) (Java 6 and later)
     * [Apache Jackrabbit Oak 1.0.x](#oak1.0) (Java 6 and later)
-    * [Apache Jackrabbit 2.16.x](#v2.16) (Java 8 and later)
-    * [Apache Jackrabbit 2.14.x](#v2.14) (Java 7 and later)
-    * [Apache Jackrabbit 2.12.x](#v2.12) (Java 6 and later)
-    * [Apache Jackrabbit 2.8.x](#v2.8) (Java 6 and later)
+    * [Apache Jackrabbit 2.18.x](#v2.18) (Java 8 to Java 13)
+    * [Apache Jackrabbit 2.16.x](#v2.16) (Java 8 to Java 13)
+    * [Apache Jackrabbit 2.14.x](#v2.14) (Java 7 to Java 8)
+    * [Apache Jackrabbit 2.12.x](#v2.12) (Java 6 to Java 8)
+    * [Apache Jackrabbit 2.8.x](#v2.8) (Java 6 to Java 8)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
 * Latest stable FileVault releases: 
     * [Apache Jackrabbit FileVault 3.4.0](#vlt) (Java 8 and later)
@@ -51,6 +52,30 @@ Apache Jackrabbit releases are available under the [Apache License, Version 2.0]
 See the `NOTICE.txt` file contained in each release artifact for applicable copyright attribution notices. 
 Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](https://www.apache.org/legal/resolved.html). 
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
+
+
+
+<a class='anchor' name='v2.20'></a>
+Apache Jackrabbit 2.20.0 (January 7th, 2020)
+--------------------------------------------
+Apache Jackrabbit 2.20.0 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
+2.20.x releases are considered stable and targeted for production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/2.20.0/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-2.20.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.0/jackrabbit-2.20.0-src.zip)
+    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-2.20.0-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-2.20.0-src.zip.sha512))
+
+* [jackrabbit-standalone-2.20.0.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.0/jackrabbit-standalone-2.20.0.jar)
+    (149M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-standalone-2.20.0.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-standalone-2.20.0.jar.sha512))
+
+* [jackrabbit-webapp-2.20.0.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.0/jackrabbit-webapp-2.20.0.war)
+    (74M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-webapp-2.20.0.war.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-webapp-2.20.0.war.sha512))
+
+* [jackrabbit-jca-2.20.0.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.0/jackrabbit-jca-2.20.0.rar)
+    (73M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-jca-2.20.0.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-jca-2.20.0.rar.sha512))
+
 
 
 
