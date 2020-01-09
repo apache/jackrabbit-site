@@ -375,7 +375,7 @@ Apart from the test classes, it does not depend on Apache Jackrabbit core, but o
 See the [full release notes](https://www.apache.org/dist/jackrabbit/ocm/2.0.0/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-ocm-2.0.0-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip) 
-    (518K, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip.asc))
+    (518K, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip.sha1))
 
 
 <a class='anchor' name='archive'></a>
