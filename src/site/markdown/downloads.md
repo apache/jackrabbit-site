@@ -328,7 +328,7 @@ Jackrabbit FileVault 3.4.2 is the latest stable release of the repository conten
 
 See the [full release notes](https://www.apache.org/dist/jackrabbit/filevault/3.4.2/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-filevault-3.4.2-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/3.4.2/jackrabbit-filevault-3.4.0-src.zip)
+* [jackrabbit-filevault-3.4.2-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/3.4.2/jackrabbit-filevault-3.4.2-src.zip)
     (2.2M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/filevault/3.4.2/jackrabbit-filevault-3.4.2-src.zip.asc))
     * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/filevault/3.4.2/jackrabbit-filevault-3.4.2-src.zip.sha512)
 
