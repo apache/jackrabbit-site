@@ -35,6 +35,11 @@ more information.
 Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.apache.org/)
 
 ## Apache Jackrabbit News
+#### January 31th, 2020: Apache Jackrabbit Oak 1.8.20 released
+Jackrabbit Oak 1.8.20 is a patch release that contains fixes and
+improvements over the previous 1.8.x release.  See the
+[downloads](downloads.html#oak1.8) page for more details.
+
 #### January 28th, 2020: CVE-2020-1940: Apache Jackrabbit Oak sensitive information disclosure vulnerability
 We just fixed a recently reported vulnerability in Apache Jackrabbit Oak:
 The optional [initial password change and password expiration features](https://jackrabbit.apache.org/oak/docs/security/user/expiry.html) are prone to a
@@ -46,7 +51,6 @@ Mitigation: 1.12.0 - 1.22.0 should be upgraded to [1.24.0](downloads.html#latest
 For older maintained and affected branches (1.2.x, 1.4.x, 1.6.x, 1.8.x), patches
 are available and releases will follow. See [OAK-8870](https://issues.apache.org/jira/browse/OAK-8870)
 for more information.
-
 
 #### January 28th, 2020: Apache Jackrabbit Oak 1.24.0 released
 Apache Jackrabbit Oak 1.24.0 is an incremental feature release based
