@@ -30,6 +30,7 @@ on your preferred mirror.
 * Latest unstable releases (from trunk): 
     * [Apache Jackrabbit 2.19.x](#v2.19) (Java 8 and later)
 * Maintenance releases:
+    * [Apache Jackrabbit Oak 1.22.x](#oak1.22) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.10.x](#oak1.10) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.8.x](#oak1.8) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.6.x](#oak1.6) (Java 7 and later)
@@ -52,6 +53,22 @@ Apache Jackrabbit releases are available under the [Apache License, Version 2.0]
 See the `NOTICE.txt` file contained in each release artifact for applicable copyright attribution notices. 
 Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](https://www.apache.org/legal/resolved.html). 
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
+
+
+
+
+<a class='anchor' name='oak1.22'></a>
+Apache Jackrabbit Oak 1.22.1 (February 13th, 2020)
+--------------------------------------------------
+Apache Jackrabbit Oak 1.22.1 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.22.x
+releases. Jackrabbit Oak 1.22.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.22.1/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.22.1-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.22.1/jackrabbit-oak-1.22.1-src.zip)
+    (15M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.22.1/jackrabbit-oak-1.22.1-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.22.1/jackrabbit-oak-1.22.1-src.zip.sha512))
 
 
 
