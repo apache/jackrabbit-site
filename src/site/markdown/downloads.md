@@ -57,6 +57,22 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.4'></a>
+Apache Jackrabbit Oak 1.4.26 (February 19th, 2020)
+--------------------------------------------------
+Apache Jackrabbit Oak 1.4.26 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.x
+releases. Jackrabbit Oak 1.4.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.4.26/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.4.26-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip)
+    (10M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip.sha512))
+
+
+
+
 <a class='anchor' name='v2.21'></a>
 Apache Jackrabbit 2.21.0 (February 14th, 2020)
 ----------------------------------------------
@@ -153,23 +169,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.10.8/R
 
 * [jackrabbit-oak-1.10.8-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.10.8/jackrabbit-oak-1.10.8-src.zip)
     (15M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.10.8/jackrabbit-oak-1.10.8-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.10.8/jackrabbit-oak-1.10.8-src.zip.sha512))
-
-
-
-
-<a class='anchor' name='oak1.4'></a>
-Apache Jackrabbit Oak 1.4.25 (January 20th, 2020)
--------------------------------------------------
-Apache Jackrabbit Oak 1.4.25 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.x
-releases. Jackrabbit Oak 1.4.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.4.25/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.4.25-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.25/jackrabbit-oak-1.4.25-src.zip)
-    (10M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.4.25/jackrabbit-oak-1.4.25-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.4.25/jackrabbit-oak-1.4.25-src.zip.sha512))
-
 
 
 
