@@ -65,10 +65,10 @@ and compatible with earlier stable Jackrabbit Oak 1.x
 releases. Jackrabbit Oak 1.4.x releases are considered stable and
 targeted for production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.4.26/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.4.26/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.4.26-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip)
-    (10M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip.sha512))
+    (10M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip.sha512))
 
 
 
@@ -76,19 +76,19 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.4.26/R
 <a class='anchor' name='v2.21'></a>
 Apache Jackrabbit 2.21.0 (February 14th, 2020)
 ----------------------------------------------
-See the [full release notes](https://www.apache.org/dist/jackrabbit/2.21.0/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/2.21.0/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-2.21.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.0/jackrabbit-2.21.0-src.zip)
-    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.21.0/jackrabbit-2.21.0-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.21.0/jackrabbit-2.21.0-src.zip.sha512))
+    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.21.0/jackrabbit-2.21.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.0/jackrabbit-2.21.0-src.zip.sha512))
 
 * [jackrabbit-standalone-2.21.0.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.0/jackrabbit-standalone-2.21.0.jar)
-    (149M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.21.0/jackrabbit-standalone-2.21.0.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.21.0/jackrabbit-standalone-2.21.0.jar.sha512))
+    (149M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.21.0/jackrabbit-standalone-2.21.0.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.0/jackrabbit-standalone-2.21.0.jar.sha512))
 
 * [jackrabbit-webapp-2.21.0.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.0/jackrabbit-webapp-2.21.0.war)
-    (74M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.21.0/jackrabbit-webapp-2.21.0.war.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.21.0/jackrabbit-webapp-2.21.0.war.sha512))
+    (74M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.21.0/jackrabbit-webapp-2.21.0.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.0/jackrabbit-webapp-2.21.0.war.sha512))
 
 * [jackrabbit-jca-2.21.0.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.0/jackrabbit-jca-2.21.0.rar)
-    (73M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.21.0/jackrabbit-jca-2.21.0.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.21.0/jackrabbit-jca-2.21.0.rar.sha512))
+    (73M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.21.0/jackrabbit-jca-2.21.0.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.0/jackrabbit-jca-2.21.0.rar.sha512))
 
 
 
@@ -101,10 +101,10 @@ and compatible with earlier stable Jackrabbit Oak 1.22.x
 releases. Jackrabbit Oak 1.22.x releases are considered stable and
 targeted for production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.22.1/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.22.1/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.22.1-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.22.1/jackrabbit-oak-1.22.1-src.zip)
-    (15M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.22.1/jackrabbit-oak-1.22.1-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.22.1/jackrabbit-oak-1.22.1-src.zip.sha512))
+    (15M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.22.1/jackrabbit-oak-1.22.1-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.22.1/jackrabbit-oak-1.22.1-src.zip.sha512))
 
 
 
@@ -117,10 +117,10 @@ and compatible with earlier stable Jackrabbit Oak 1.6.x
 releases. Jackrabbit Oak 1.6.x releases are considered stable and
 targeted for production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.6.20/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.6.20/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.6.20-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.20/jackrabbit-oak-1.6.20-src.zip)
-    (11M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.6.20/jackrabbit-oak-1.6.20-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.6.20/jackrabbit-oak-1.6.20-src.zip.sha512))
+    (11M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.6.20/jackrabbit-oak-1.6.20-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.6.20/jackrabbit-oak-1.6.20-src.zip.sha512))
 
 
 
@@ -133,10 +133,10 @@ and compatible with earlier stable Jackrabbit Oak 1.x
 releases. Jackrabbit Oak 1.8.x releases are considered stable and
 targeted for production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.20/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.8.20/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.8.20-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.20/jackrabbit-oak-1.8.20-src.zip)
-    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.20/jackrabbit-oak-1.8.20-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.20/jackrabbit-oak-1.8.20-src.zip.sha512))
+    (14M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.8.20/jackrabbit-oak-1.8.20-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.8.20/jackrabbit-oak-1.8.20-src.zip.sha512))
 
 
 
@@ -149,10 +149,10 @@ on and compatible with earlier stable Jackrabbit Oak 1.x
 releases. This release is considered stable and targeted for
 production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.24.0/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.24.0/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.24.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.24.0/jackrabbit-oak-1.24.0-src.zip)
-    (15M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.24.0/jackrabbit-oak-1.24.0-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.24.0/jackrabbit-oak-1.24.0-src.zip.sha512))
+    (15M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.24.0/jackrabbit-oak-1.24.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.24.0/jackrabbit-oak-1.24.0-src.zip.sha512))
 
 
 
@@ -165,10 +165,10 @@ and compatible with earlier stable Jackrabbit Oak 1.x
 releases. Jackrabbit Oak 1.10.x releases are considered stable and
 targeted for production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.10.8/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.10.8/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.10.8-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.10.8/jackrabbit-oak-1.10.8-src.zip)
-    (15M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.10.8/jackrabbit-oak-1.10.8-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.10.8/jackrabbit-oak-1.10.8-src.zip.sha512))
+    (15M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.10.8/jackrabbit-oak-1.10.8-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.10.8/jackrabbit-oak-1.10.8-src.zip.sha512))
 
 
 
@@ -180,19 +180,19 @@ Apache Jackrabbit 2.20.0 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
 2.20.x releases are considered stable and targeted for production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/2.20.0/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/2.20.0/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-2.20.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.0/jackrabbit-2.20.0-src.zip)
-    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-2.20.0-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-2.20.0-src.zip.sha512))
+    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-2.20.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-2.20.0-src.zip.sha512))
 
 * [jackrabbit-standalone-2.20.0.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.0/jackrabbit-standalone-2.20.0.jar)
-    (149M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-standalone-2.20.0.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-standalone-2.20.0.jar.sha512))
+    (149M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-standalone-2.20.0.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-standalone-2.20.0.jar.sha512))
 
 * [jackrabbit-webapp-2.20.0.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.0/jackrabbit-webapp-2.20.0.war)
-    (74M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-webapp-2.20.0.war.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-webapp-2.20.0.war.sha512))
+    (74M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-webapp-2.20.0.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-webapp-2.20.0.war.sha512))
 
 * [jackrabbit-jca-2.20.0.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.0/jackrabbit-jca-2.20.0.rar)
-    (73M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-jca-2.20.0.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.20.0/jackrabbit-jca-2.20.0.rar.sha512))
+    (73M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-jca-2.20.0.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-jca-2.20.0.rar.sha512))
 
 
 
@@ -204,19 +204,19 @@ Apache Jackrabbit 2.18.4 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
 2.18.x releases are considered stable and targeted for production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/2.18.4/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/2.18.4/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-2.18.4-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.4/jackrabbit-2.18.4-src.zip)
-    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.18.4/jackrabbit-2.18.4-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.4/jackrabbit-2.18.4-src.zip.sha512))
+    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.18.4/jackrabbit-2.18.4-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.18.4/jackrabbit-2.18.4-src.zip.sha512))
 
 * [jackrabbit-standalone-2.18.4.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.4/jackrabbit-standalone-2.18.4.jar)
-    (154M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.18.4/jackrabbit-standalone-2.18.4.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.4/jackrabbit-standalone-2.18.4.jar.sha512))
+    (154M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.18.4/jackrabbit-standalone-2.18.4.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.18.4/jackrabbit-standalone-2.18.4.jar.sha512))
 
 * [jackrabbit-webapp-2.18.4.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.4/jackrabbit-webapp-2.18.4.war)
-    (76M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.18.4/jackrabbit-webapp-2.18.4.war.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.4/jackrabbit-webapp-2.18.4.war.sha512))
+    (76M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.18.4/jackrabbit-webapp-2.18.4.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.18.4/jackrabbit-webapp-2.18.4.war.sha512))
 
 * [jackrabbit-jca-2.18.4.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.4/jackrabbit-jca-2.18.4.rar)
-    (75M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.18.4/jackrabbit-jca-2.18.4.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.18.4/jackrabbit-jca-2.18.4.rar.sha512))
+    (75M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.18.4/jackrabbit-jca-2.18.4.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.18.4/jackrabbit-jca-2.18.4.rar.sha512))
 
 
 
@@ -225,19 +225,19 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/2.18.4/RELEA
 <a class='anchor' name='v2.14'></a>
 Apache Jackrabbit 2.14.8 (September 12th, 2019)
 -----------------------------------------------
-See the [full release notes](https://www.apache.org/dist/jackrabbit/2.14.8/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/2.14.8/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-2.14.8-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.14.8/jackrabbit-2.14.8-src.zip)
-    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.14.8/jackrabbit-2.14.8-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.14.8/jackrabbit-2.14.8-src.zip.sha512))
+    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.14.8/jackrabbit-2.14.8-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.14.8/jackrabbit-2.14.8-src.zip.sha512))
 
 * [jackrabbit-standalone-2.14.8.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.14.8/jackrabbit-standalone-2.14.8.jar)
-    (132M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.14.8/jackrabbit-standalone-2.14.8.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.14.8/jackrabbit-standalone-2.14.8.jar.sha512))
+    (132M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.14.8/jackrabbit-standalone-2.14.8.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.14.8/jackrabbit-standalone-2.14.8.jar.sha512))
 
 * [jackrabbit-webapp-2.14.8.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.14.8/jackrabbit-webapp-2.14.8.war)
-    (65M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.14.8/jackrabbit-webapp-2.14.8.war.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.14.8/jackrabbit-webapp-2.14.8.war.sha512))
+    (65M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.14.8/jackrabbit-webapp-2.14.8.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.14.8/jackrabbit-webapp-2.14.8.war.sha512))
 
 * [jackrabbit-jca-2.14.8.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.14.8/jackrabbit-jca-2.14.8.rar)
-    (64M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.14.8/jackrabbit-jca-2.14.8.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.14.8/jackrabbit-jca-2.14.8.rar.sha512))
+    (64M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.14.8/jackrabbit-jca-2.14.8.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.14.8/jackrabbit-jca-2.14.8.rar.sha512))
 
 
 
@@ -249,19 +249,19 @@ Apache Jackrabbit 2.16.5 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
 2.16.x releases are considered stable and targeted for production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/2.16.5/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/2.16.5/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-2.16.5-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.5/jackrabbit-2.16.5-src.zip)
-    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.16.5/jackrabbit-2.16.5-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.16.5/jackrabbit-2.16.5-src.zip.sha512))
+    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.16.5/jackrabbit-2.16.5-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.16.5/jackrabbit-2.16.5-src.zip.sha512))
 
 * [jackrabbit-standalone-2.16.5.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.5/jackrabbit-standalone-2.16.5.jar)
-    (154M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.16.5/jackrabbit-standalone-2.16.5.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.16.5/jackrabbit-standalone-2.16.5.jar.sha512))
+    (154M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.16.5/jackrabbit-standalone-2.16.5.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.16.5/jackrabbit-standalone-2.16.5.jar.sha512))
 
 * [jackrabbit-webapp-2.16.5.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.5/jackrabbit-webapp-2.16.5.war)
-    (76M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.16.5/jackrabbit-webapp-2.16.5.war.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.16.5/jackrabbit-webapp-2.16.5.war.sha512))
+    (76M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.16.5/jackrabbit-webapp-2.16.5.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.16.5/jackrabbit-webapp-2.16.5.war.sha512))
 
 * [jackrabbit-jca-2.16.5.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.5/jackrabbit-jca-2.16.5.rar)
-    (75M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.16.5/jackrabbit-jca-2.16.5.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.16.5/jackrabbit-jca-2.16.5.rar.sha512))
+    (75M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.16.5/jackrabbit-jca-2.16.5.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.16.5/jackrabbit-jca-2.16.5.rar.sha512))
 
 
 
@@ -274,10 +274,10 @@ improvements over the previous 1.2.x release.
 Jackrabbit Oak 1.2.x releases are considered stable and targeted for
 production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.2.31/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.2.31/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.2.31-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip)
-    (8M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.sha512))
+    (8M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.sha512))
 
 
 
@@ -288,19 +288,19 @@ Apache Jackrabbit 2.8.10 (March 5th, 2019)
 Apache Jackrabbit 2.8.10 is an incremental feature release based on and compatible with earlier 
 stable Jackrabbit 2.x releases. Jackrabbit 2.8.x releases are considered stable and targeted for production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/2.8.10/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/2.8.10/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-2.8.10-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.8.10/jackrabbit-2.8.10-src.zip)
-    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.8.10/jackrabbit-2.8.10-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.8.10/jackrabbit-2.8.10-src.zip.sha512))
+    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.8.10/jackrabbit-2.8.10-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.8.10/jackrabbit-2.8.10-src.zip.sha512))
 
 * [jackrabbit-standalone-2.8.10.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.8.10/jackrabbit-standalone-2.8.10.jar)
-    (134M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.8.10/jackrabbit-standalone-2.8.10.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.8.10/jackrabbit-standalone-2.8.10.jar.sha512))
+    (134M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.8.10/jackrabbit-standalone-2.8.10.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.8.10/jackrabbit-standalone-2.8.10.jar.sha512))
 
 * [jackrabbit-webapp-2.8.10.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.8.10/jackrabbit-webapp-2.8.10.war)
-    (75M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.8.10/jackrabbit-webapp-2.8.10.war.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.8.10/jackrabbit-webapp-2.8.10.war.sha512))
+    (75M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.8.10/jackrabbit-webapp-2.8.10.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.8.10/jackrabbit-webapp-2.8.10.war.sha512))
 
 * [jackrabbit-jca-2.8.10.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.8.10/jackrabbit-jca-2.8.10.rar)
-    (28M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.8.10/jackrabbit-jca-2.8.10.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.8.10/jackrabbit-jca-2.8.10.rar.sha512))
+    (28M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.8.10/jackrabbit-jca-2.8.10.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.8.10/jackrabbit-jca-2.8.10.rar.sha512))
 
 
 
@@ -313,19 +313,19 @@ Apache Jackrabbit 2.12.10 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
 2.12.x releases are considered stable and targeted for production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/2.12.10/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/2.12.10/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-2.12.10-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.12.10/jackrabbit-2.12.10-src.zip)
-    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.12.10/jackrabbit-2.12.10-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.12.10/jackrabbit-2.12.10-src.zip.sha512))
+    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.12.10/jackrabbit-2.12.10-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.12.10/jackrabbit-2.12.10-src.zip.sha512))
 
 * [jackrabbit-standalone-2.12.10.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.12.10/jackrabbit-standalone-2.12.10.jar)
-    (134M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.12.10/jackrabbit-standalone-2.12.10.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.12.10/jackrabbit-standalone-2.12.10.jar.sha512))
+    (134M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.12.10/jackrabbit-standalone-2.12.10.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.12.10/jackrabbit-standalone-2.12.10.jar.sha512))
 
 * [jackrabbit-webapp-2.12.10.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.12.10/jackrabbit-webapp-2.12.10.war)
-    (75M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.12.10/jackrabbit-webapp-2.12.10.war.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.12.10/jackrabbit-webapp-2.12.10.war.sha512))
+    (75M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.12.10/jackrabbit-webapp-2.12.10.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.12.10/jackrabbit-webapp-2.12.10.war.sha512))
 
 * [jackrabbit-jca-2.12.10.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar)
-    (29M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar.sha512))
+    (29M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar.sha512))
 
 
 
@@ -336,10 +336,10 @@ Apache Jackrabbit Oak 1.0.42 (March 26th, 2018)
 Jackrabbit Oak 1.0.42 is a patch release that contains fixes and improvements over the previous 1.0.x release. 
 Jackrabbit Oak 1.0.x releases are considered stable and targeted for production use.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.0.42/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.0.42/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-oak-1.0.42-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip)
-    (7M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.sha512))
+    (7M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip.sha512))
 
 
 
@@ -348,11 +348,11 @@ Apache Jackrabbit FileVault 3.4.2 (Jan 15th, 2020)
 --------------------------------------------------
 Jackrabbit FileVault 3.4.2 is the latest stable release of the repository content synchronization tool. This version is only compatible with Java 8 or newer.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/filevault/3.4.2/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/3.4.2/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-filevault-3.4.2-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/3.4.2/jackrabbit-filevault-3.4.2-src.zip)
-    (2.2M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/filevault/3.4.2/jackrabbit-filevault-3.4.2-src.zip.asc))
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/filevault/3.4.2/jackrabbit-filevault-3.4.2-src.zip.sha512)
+    (2.2M, source zip, [PGP signature](https://downloads.apache.org/jackrabbit/filevault/3.4.2/jackrabbit-filevault-3.4.2-src.zip.asc))
+    * [SHA512 checksum](https://downloads.apache.org/jackrabbit/filevault/3.4.2/jackrabbit-filevault-3.4.2-src.zip.sha512)
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
 
@@ -361,11 +361,11 @@ Apache Jackrabbit FileVault 3.2.8 (Mar 21st, 2019)
 --------------------------------------------------
 Jackrabbit FileVault 3.2.8 is the latest stable release of the recently donated repository content synchronization tool. This version is still compatible with Java 7.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/filevault/3.2.8/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/3.2.8/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-filevault-3.2.8-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip)
-    (1.5M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip.asc))
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip.sha512)
+    (1.5M, source zip, [PGP signature](https://downloads.apache.org/jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip.asc))
+    * [SHA512 checksum](https://downloads.apache.org/jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip.sha512)
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
 
@@ -377,11 +377,11 @@ Apache Jackrabbit FileVault Package Maven Plugin 1.1.0 (Jan 15th, 2020)
 ------------------------------------------------------------------------
 Jackrabbit FileVault Package Maven Plugin 1.1.0 is the latest stable release of the recently donated content package maven plugin.
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/filevault-package-maven-plugin/1.1.0/RELEASE-NOTES.md) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.1.0/RELEASE-NOTES.md) for more details.
 
 * [filevault-package-maven-plugin-1.1.0-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault-package-maven-plugin/1.1.0/filevault-package-maven-plugin-1.1.0-source-release.zip)
-    (1.5M, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/filevault-package-maven-plugin/1.1.0/filevault-package-maven-plugin-1.1.0-source-release.zip.asc))
-    * [SHA512 checksum](https://www.apache.org/dist/jackrabbit/filevault-package-maven-plugin/1.1.0/filevault-package-maven-plugin-1.1.0-source-release.zip.sha512)
+    (1.5M, source zip, [PGP signature](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.1.0/filevault-package-maven-plugin-1.1.0-source-release.zip.asc))
+    * [SHA512 checksum](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.1.0/filevault-package-maven-plugin-1.1.0-source-release.zip.sha512)
 
 Also see the Jackrabbit FileVault Plugin [documentation](/filevault-package-maven-plugin/index.html) for more information about this project.
 
@@ -394,10 +394,10 @@ Apache Jackrabbit OCM 2.0.0 (10-July-2012)
 Apache Jackrabbit OCM 2.0.0  is release that contains fixes and improvements over Jackrabbit OCM 1.5. 
 Apart from the test classes, it does not depend on Apache Jackrabbit core, but only on the JCR 2.0 specification
 
-See the [full release notes](https://www.apache.org/dist/jackrabbit/ocm/2.0.0/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/ocm/2.0.0/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-ocm-2.0.0-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip) 
-    (518K, source zip, [PGP signature](https://www.apache.org/dist/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip.asc), [sha1](https://www.apache.org/dist/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip.sha1))
+    (518K, source zip, [PGP signature](https://downloads.apache.org/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip.asc), [sha1](https://downloads.apache.org/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip.sha1))
 
 
 <a class='anchor' name='archive'></a>
@@ -415,9 +415,9 @@ It is essential that you verify the integrity of the downloaded files using the 
 Please read [Verifying Apache HTTP Server Releases](http://httpd.apache.org/dev/verification.html) for more information 
 on why you should verify our releases.
 
-The PGP signatures can be verified using PGP or GPG. First download the [KEYS](https://www.apache.org/dist/jackrabbit/KEYS)
+The PGP signatures can be verified using PGP or GPG. First download the [KEYS](https://downloads.apache.org/jackrabbit/KEYS)
 file as well as the `.asc` signature files for the relevant release packages. Make sure you get these files from 
-the [main distribution directory](https://www.apache.org/dist/jackrabbit/), rather than from a mirror. 
+the [main distribution directory](https://downloads.apache.org/jackrabbit/), rather than from a mirror. 
 
 Then verify the signatures using
 
