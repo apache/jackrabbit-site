@@ -35,6 +35,11 @@ more information.
 Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.apache.org/)
 
 ## Apache Jackrabbit News
+#### March 6th, 2020: Apache Jackrabbit 2.18.5 released
+Apache Jackrabbit 2.18.5 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. See the
+[downloads](downloads.html#v2.18) page for more details.
+
 #### February 19th, 2020: CVE-2020-1940: Apache Jackrabbit Oak sensitive information disclosure vulnerability (updated)
 We just fixed a recently reported vulnerability in Apache Jackrabbit Oak:
 The optional [initial password change and password expiration features](https://jackrabbit.apache.org/oak/docs/security/user/expiry.html) are prone to a
