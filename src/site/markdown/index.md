@@ -55,6 +55,12 @@ For older maintained and affected branches (1.2.x), patches
 are available and releases will follow. See [OAK-8870](https://issues.apache.org/jira/browse/OAK-8870)
 for more information.
 
+#### March 16th, 2020: Apache Jackrabbit Oak 1.22.2 released
+Apache Jackrabbit Oak 1.22.2 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x releases.
+See the [downloads](downloads.html#oak1.22) page for more details.
+
+
 #### February 19th, 2020: Apache Jackrabbit Oak 1.4.26 released
 Jackrabbit Oak 1.4.26 is a patch release that contains fixes and
 improvements over the previous 1.4.x release.  See the
