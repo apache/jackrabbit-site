@@ -34,7 +34,6 @@ See the javadoc documentation of the JCR API and Apache Jackrabbit releases:
 * [Apache Jackrabbit 2.16](http://jackrabbit.apache.org/api/2.16/)
 * [Apache Jackrabbit 2.14](http://jackrabbit.apache.org/api/2.14/)
 * [Apache Jackrabbit 2.12](http://jackrabbit.apache.org/api/2.12/)
-* [Apache Jackrabbit 2.8](http://jackrabbit.apache.org/api/2.8/)
 
 
 * [JCR 1.0](http://www.day.com/maven/jsr170/javadocs/jcr-1.0/)
