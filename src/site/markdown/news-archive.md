@@ -19,8 +19,236 @@ News Archive
 This is an archive of all the Apache Jackrabbit news posted to the home
 page. The news are listed in reverse chronological order.
 
-## News 2018
+## News in 2019
 
+#### December  12th, 2019: Apache Jackrabbit Oak 1.10.7 released
+Apache Jackrabbit Oak 1.10.7 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x releases.
+See the [downloads](downloads.html#oak1.10) page for more details.
+
+#### December 10th, 2019: Apache Jackrabbit 2.19.6 released
+Apache Jackrabbit 2.19.6 is an unstable release cut directly from trunk, with a
+focus on new features and other improvements. See the
+[downloads](downloads.html#v2.19) page for more details.
+
+#### November 29th, 2019: Apache Jackrabbit Oak 1.8.18 released
+Jackrabbit Oak 1.8.18 is a patch release that contains fixes and
+improvements over the previous 1.8.x release.  See the
+[downloads](downloads.html#oak1.8) page for more details.
+
+#### November 25th, 2019: Apache Jackrabbit Oak 1.20.0 released
+Apache Jackrabbit Oak 1.20.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x releases.
+See the [downloads](downloads.html#latest) page for more details.
+
+#### November 12th, 2019: Apache Jackrabbit Oak 1.10.6 released
+Apache Jackrabbit Oak 1.10.6 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x releases.
+See the [downloads](downloads.html#oak1.10) page for more details.
+
+#### November 8th, 2019: Apache Jackrabbit 2.18.4 released
+Apache Jackrabbit 2.18.4 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. See the
+[downloads](downloads.html#v2.18) page for more details.
+
+#### October 15th, 2019: Apache Jackrabbit Oak 1.6.18 released
+Jackrabbit Oak 1.6.18 is a patch release that contains fixes and
+improvements over the previous 1.6.x release. See the
+[downloads](downloads.html#oak1.6) page for more details.
+
+#### October 10th, 2019: Apache Jackrabbit 2.19.5 released
+Apache Jackrabbit 2.19.5 is an unstable release cut directly from trunk, with a
+focus on new features and other improvements. See the
+[downloads](downloads.html#v2.19) page for more details.
+
+#### September 30th, 2019: Apache Jackrabbit Oak 1.18.0 released
+Apache Jackrabbit Oak 1.18.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x releases.
+See the [downloads](downloads.html#latest) page for more details.
+
+#### September 18th, 2019: Apache Jackrabbit Oak 1.10.5 released
+Apache Jackrabbit Oak 1.10.5 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x releases.
+See the [downloads](downloads.html#oak1.10) page for more details.
+
+#### September 16th, 2019: Apache Jackrabbit Oak 1.8.17 released
+Jackrabbit Oak 1.8.17 is a patch release that contains fixes and
+improvements over the previous 1.8.x release.  See the
+[downloads](downloads.html#oak1.8) page for more details.
+
+#### September 14th, 2019: Apache Jackrabbit Filevault 3.4.0 released
+Jackrabbit FileVault 3.4.0 is the current stable release of the
+repository content synchronization tool. It requires Java 8 or newer.
+See the [downloads](downloads.html#vlt) page for more details.
+
+#### September 12th, 2019: Apache Jackrabbit 2.14.8 released
+Apache Jackrabbit 2.14.8 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. See the
+[downloads](downloads.html#v2.14) page for more details.
+
+#### September 5th, 2019: Apache Jackrabbit 2.16.5 released
+Apache Jackrabbit 2.16.5 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. See the
+[downloads](downloads.html#v2.16) page for more details.
+
+#### August 30th, 2019: Apache Jackrabbit 2.18.3 released
+Apache Jackrabbit 2.18.3 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. See the
+[downloads](downloads.html#v2.18) page for more details.
+
+#### August 29th, 2019: Apache Jackrabbit Oak 1.8.16 released
+Jackrabbit Oak 1.8.16 is a patch release that contains fixes and
+improvements over the previous 1.8.x release.  See the
+[downloads](downloads.html#oak1.8) page for more details.
+
+#### August 26th, 2019: Apache Jackrabbit 2.19.4 released
+Apache Jackrabbit 2.19.4 is an unstable release cut directly from trunk, with a
+focus on new features and other improvements. See the
+[downloads](downloads.html#v2.19) page for more details.
+
+#### August 16th, 2019: Apache Jackrabbit Oak 1.10.4 released
+Apache Jackrabbit Oak 1.10.4 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x releases.
+See the [downloads](downloads.html#oak1.10) page for more details.
+
+#### July 29th, 2019: Apache Jackrabbit Oak 1.16.0 released
+Apache Jackrabbit Oak 1.16.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x releases.
+See the [downloads](downloads.html#latest) page for more details.
+
+#### July 18th, 2019: Apache Jackrabbit FileVault Packaging Maven Plugin 1.0.4 released
+Jackrabbit FileVault Packaging Maven Plugin 1.0.4 is current stable release.  
+See the [downloads](downloads.html#vltplg) page for more details.
+
+#### July 16th, 2019: Apache Jackrabbit Oak 1.8.15 released
+Jackrabbit Oak 1.8.15 is a patch release that contains fixes and
+improvements over the previous 1.8.x release.  See the
+[downloads](downloads.html#oak1.8) page for more details.
+
+#### July 15th, 2019: Apache Jackrabbit Oak 1.10.3 released
+Apache Jackrabbit Oak 1.10.3 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x releases.
+See the [downloads](downloads.html#oak1.10) page for more details.
+
+#### July 4th, 2019: Apache Jackrabbit Oak 1.8.14 released
+Jackrabbit Oak 1.8.14 is a patch release that contains fixes and
+improvements over the previous 1.8.x release.  See the
+[downloads](downloads.html#oak1.8) page for more details.
+
+#### July 4th, 2019: Apache Jackrabbit 2.10.x deprecated
+The Apache Jackrabbit Team has decided to drop support and deprecate the
+2.10 branch of Apache Jackrabbit. Branch, tags and releases will still be
+available for future references, but will not show up on the download page
+anymore. Users are encouraged to upgrade to the latest stable versions (2.18
+for Java 8, 2.14 for Java 7, 2.12 for Java 6).
+
+#### June 12th, 2019: Apache Jackrabbit 2.14.7 released
+Apache Jackrabbit 2.14.7 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. See the
+[downloads](downloads.html#v2.14) page for more details.
+
+#### May 28th, 2019: Apache Jackrabbit 2.18.2 released
+Apache Jackrabbit 2.18.2 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. See the
+[downloads](downloads.html#v2.18) page for more details.
+
+#### May 14th, 2019: Apache Jackrabbit Oak 1.8.13 released
+Jackrabbit Oak 1.8.13 is a patch release that contains fixes and
+improvements over the previous 1.8.x release.  See the
+[downloads](downloads.html#oak1.8) page for more details.
+
+#### May 9th, 2019: Apache Jackrabbit 2.19.3 released
+Apache Jackrabbit 2.19.3 is an unstable release cut directly from trunk, with a
+focus on new features and other improvement. See the
+[downloads](downloads.html#v2.19) page for more details.
+
+#### May 6th, 2019: Apache Jackrabbit 2.16.4 released
+Apache Jackrabbit 2.16.4 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. See the
+[downloads](downloads.html#v2.16) page for more details.
+
+#### April 17th, 2019: Apache Jackrabbit 2.18.1 released
+Apache Jackrabbit 2.18.1 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. See the
+[downloads](downloads.html#v2.18) page for more details.
+
+#### April 15th, 2019: Apache Jackrabbit Oak 1.12.0 released
+Apache Jackrabbit Oak 1.12.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x releases.
+See the [downloads](downloads.html#latest) page for more details.
+
+#### April 12th, 2019: Apache Jackrabbit Oak 1.6.17 released
+Jackrabbit Oak 1.6.17 is a patch release that contains fixes and
+improvements over the previous 1.6.x release. See the
+[downloads](downloads.html#oak1.6) page for more details.
+
+#### April 11th, 2019: Apache Jackrabbit 2.19.2 released
+Apache Jackrabbit 2.19.2 is an unstable release cut directly from trunk, with a
+focus on new features and other improvement. See the
+[downloads](downloads.html#v2.19) page for more details.
+
+#### March 21st, 2019: Apache Jackrabbit Filevault 3.2.8 released
+Jackrabbit FileVault 3.2.8 is current stable release of the recently
+donated repository content synchronization tool.  See the
+[downloads](downloads.html#vlt) page for more details.
+
+#### March 21st, 2019: Apache Jackrabbit Oak 1.10.2 released
+Apache Jackrabbit Oak 1.10.2 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x releases.
+See the [downloads](downloads.html#oak1.10) page for more details.
+
+#### March 14th, 2019: Apache Jackrabbit Oak 1.2.31 released
+Jackrabbit Oak 1.2.31 is a patch release that contains fixes and
+improvements over the previous 1.2.x release. See the
+[downloads](downloads.html#oak1.2) page for more details.
+
+#### March 14th, 2019: Apache Jackrabbit Oak 1.8.12 released
+Jackrabbit Oak 1.8.12 is a patch release that contains fixes and
+improvements over the previous 1.8.x release.  See the
+[downloads](downloads.html#oak1.8) page for more details.
+
+#### March 5th, 2019: Apache Jackrabbit 2.8.10 released
+Apache Jackrabbit 2.8.10 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. See the
+[downloads](downloads.html#v2.8) page for more details.
+
+#### February 28th, 2019: Apache Jackrabbit Oak 1.10.1 released
+Apache Jackrabbit Oak 1.10.1 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x releases.
+See the [downloads](downloads.html#oak1.10) page for more details.
+
+#### February 7th, 2019: Apache Jackrabbit 2.19.1 released
+Apache Jackrabbit 2.19.1 is an unstable release cut directly from trunk, with a
+focus on new features and other improvement. See the
+[downloads](downloads.html#v2.19) page for more details.
+
+#### January 17th, 2019: Apache Jackrabbit Oak 1.8.11 released
+Jackrabbit Oak 1.8.11 is a patch release that contains fixes and
+improvements over the previous 1.8.x release.  See the
+[downloads](downloads.html#oak1.8) page for more details.
+
+#### January 16th, 2019: Apache Jackrabbit Oak 1.10.0 released
+Apache Jackrabbit Oak 1.10.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x releases.
+See the [downloads](downloads.html#oak1.10) page for more details.
+
+#### January 16th, 2019: Apache Jackrabbit Oak 1.6.16 released
+Jackrabbit Oak 1.6.16 is a patch release that contains fixes and
+improvements over the previous 1.6.x release. See the
+[downloads](downloads.html#oak1.6) page for more details.
+
+#### January 11th, 2019: Apache Jackrabbit Oak 1.4.24 released
+Jackrabbit Oak 1.4.24 is a patch release that contains fixes and
+improvements over the previous 1.4.x release.  See the
+[downloads](downloads.html#oak1.4) page for more details.
+
+#### January 10th, 2019: Apache Jackrabbit 2.10.9 released
+Apache Jackrabbit 2.10.9 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. See the
+[downloads](downloads.html#v2.10) page for more details.
+
+
+## News in 2018
 
 #### December 20th, 2018: Apache Jackrabbit Oak 1.8.10 released
 Jackrabbit Oak 1.8.10 is a patch release that contains fixes and
@@ -1306,8 +1534,7 @@ Jackrabbit Oak 0.15 is to be considered alpha-level software. Use at your own ri
 ##### January 13th, 2014: Apache Jackrabbit Oak 0.14 released
 Jackrabbit Oak 0.14 is to be considered alpha-level software. Use at your own risk with no stability or compatibility guarantees.
 
-News in 2013
-------------
+## News in 2013
 
 ##### December 13th, 2013: Apache Jackrabbit Oak 0.13 released
 Jackrabbit Oak 0.13 is to be considered alpha-level software. Use at your own risk with no stability or compatibility guarantees.
@@ -1372,8 +1599,7 @@ Apache Jackrabbit 2.5 is an unstable series of releases cut directly from Jackra
 ##### February 7th, 2013: Apache Jackrabbit Oak 0.6 released
 Jackrabbit Oak 0.6 is to be considered alpha-level software. Use at your own risk with no stability or compatibility guarantees.
 
-News in 2012
-------------
+## News in 2012
 
 ##### October 4th, 2012: Apache Jackrabbit 2.2.13 released
 Apache Jackrabbit 2.2.13 is a patch release that contains fixes and improvements over previous 2.2.x releases. See the downloads page for more details.
@@ -1434,8 +1660,7 @@ Apache Jackrabbit 2.3 is an unstable series of releases cut directly from
 Jackrabbit trunk, with a focus on new features and other improvements.
 See the [downloads page](downloads#v23.html)
 
-News in 2011
-------------
+## News in 2011
 
 ##### December 16th, 2011: Apache Jackrabbit 2.3.5 released
 Apache Jackrabbit 2.3 is an unstable series of releases cut directly from
@@ -1499,8 +1724,7 @@ Apache Jackrabbit 2.2.1 is patch release that contains fixes and
 improvements over Jackrabbit 2.2.0.
 
 
-News in 2010
-------------
+## News in 2010
 
 ##### December 15, 2010: Apache Jackrabbit 2.2.0 released
 Jackrabbit 2.2 is an incremental feature release based on the earlier 2.x releases.
@@ -1555,8 +1779,7 @@ implementation are not yet ready for normal production use.
 This is a beta release of Apache Jackrabbit 2.0. This release is a fully compliant implementation of the JCR 2.0 API, specified by the Java Specification Request 283 ([JSR 283](http://jcp.org/en/jsr/detail?id=283)). The beta status of this release means that some parts of the
 implementation are not yet ready for normal production use.
 
-News in 2009
-------------
+## News in 2009
 
 ##### December 12, 2009: Apache Jackrabbit 2.0 beta4 released
 This is a beta release of Apache Jackrabbit 2.0. This release is a fully compliant implementation of the JCR 2.0 API, specified by the Java Specification Request 283 ([JSR 283](http://jcp.org/en/jsr/detail?id=283)). The beta status of this release means that some parts of the
@@ -1680,8 +1903,7 @@ disabling the search.jsp and swr.jsp pages in the Jackrabbit webapp.*
 This release fixes a number of minor issues.
 
 
-News in 2008
-------------
+## News in 2008
 
 ##### December 8, 2008: Apache Jackrabbit 1.5.0 released
 Apache Jackrabbit 1.5 is an incremental feature release. While remaining
@@ -1762,8 +1984,7 @@ query and indexing system, and many fixes and improvements especially for
 concurrent access. Many smaller improvements and bug fixes are also
 included all over the codebase.
 
-News in 2007
-------------
+## News in 2007
 
 ##### October 8, 2007: Apache Jackrabbit 1.3.3 released 
 From the release notes: "Apache Jackrabbit 1.3.3 is patch release with
