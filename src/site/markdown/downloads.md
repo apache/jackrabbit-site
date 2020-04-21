@@ -17,17 +17,17 @@
 Downloads
 =========
 Use the links below to download Apache Jackrabbit releases from one of our
-mirrors. You should [verify the integrity](#verify) of the files using 
+mirrors. You should [verify the integrity](#verify) of the files using
 the signatures and checksums available from this page.
 
-Please note that some mirrors might not be up-to-date shortly after a 
-release; in this case wait 12-24 hours until the distribution becomes available 
+Please note that some mirrors might not be up-to-date shortly after a
+release; in this case wait 12-24 hours until the distribution becomes available
 on your preferred mirror.
 
-* Latest stable releases: 
+* Latest stable releases:
     * [Apache Jackrabbit 2.20.x](#v2.20) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.26.0](#latest) (Java 8 and later)    
-* Latest unstable releases (from trunk): 
+* Latest unstable releases (from trunk):
     * [Apache Jackrabbit 2.21.x](#v2.21) (Java 8 and later)
 * Maintenance releases:
     * [Apache Jackrabbit Oak 1.22.x](#oak1.22) (Java 8 and later)
@@ -40,19 +40,30 @@ on your preferred mirror.
     * [Apache Jackrabbit 2.14.x](#v2.14) (Java 7 to Java 8)
     * [Apache Jackrabbit 2.12.x](#v2.12) (Java 6 to Java 8)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
-* Latest stable FileVault releases: 
+* Latest stable FileVault releases:
     * [Apache Jackrabbit FileVault 3.4.4](#vlt) (Java 8 and later)
     * [Apache Jackrabbit FileVault 3.2.8](#vltjava7) (Java 7 and later)
 * Latest stable FileVault Plugin release: [Apache Jackrabbit FileVault Package Maven Plugin 1.1.2](#vltplg)
 * [Release Archive](#archive)
 
-Apache Jackrabbit releases are available under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0). 
-See the `NOTICE.txt` file contained in each release artifact for applicable copyright attribution notices. 
-Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](https://www.apache.org/legal/resolved.html). 
+Apache Jackrabbit releases are available under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+See the `NOTICE.txt` file contained in each release artifact for applicable copyright attribution notices.
+Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](https://www.apache.org/legal/resolved.html).
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
 
+<a class='anchor' name='oak1.22'></a>
+Apache Jackrabbit Oak 1.22.3 (April 15th, 2020)
+--------------------------------------------------
+Apache Jackrabbit Oak 1.22.3 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.22.x
+releases. Jackrabbit Oak 1.22.x releases are considered stable and
+targeted for production use.
 
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.22.3/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.22.3-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.22.3/jackrabbit-oak-1.22.3-src.zip)
+    (15M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.22.3/jackrabbit-oak-1.22.3-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.22.3/jackrabbit-oak-1.22.3-src.zip.sha512))
 
 <a class='anchor' name='v2.16'></a>
 Apache Jackrabbit 2.16.6 (April 7th, 2020)
@@ -106,23 +117,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.8.21/
 
 * [jackrabbit-oak-1.8.21-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.21/jackrabbit-oak-1.8.21-src.zip)
     (14M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.8.21/jackrabbit-oak-1.8.21-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.8.21/jackrabbit-oak-1.8.21-src.zip.sha512))
-
-
-
-
-<a class='anchor' name='oak1.22'></a>
-Apache Jackrabbit Oak 1.22.2 (March 16th, 2020)
---------------------------------------------------
-Apache Jackrabbit Oak 1.22.2 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.22.x
-releases. Jackrabbit Oak 1.22.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.22.2/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.22.2-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.22.2/jackrabbit-oak-1.22.2-src.zip)
-    (15M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.22.2/jackrabbit-oak-1.22.2-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.22.2/jackrabbit-oak-1.22.2-src.zip.sha512))
-
 
 
 
@@ -336,12 +330,12 @@ Also see the Jackrabbit FileVault Plugin [documentation](/filevault-package-mave
 <a class='anchor' name='ocm'></a>
 Apache Jackrabbit OCM 2.0.0 (10-July-2012)
 ------------------------------------------
-Apache Jackrabbit OCM 2.0.0  is release that contains fixes and improvements over Jackrabbit OCM 1.5. 
+Apache Jackrabbit OCM 2.0.0  is release that contains fixes and improvements over Jackrabbit OCM 1.5.
 Apart from the test classes, it does not depend on Apache Jackrabbit core, but only on the JCR 2.0 specification
 
 See the [full release notes](https://downloads.apache.org/jackrabbit/ocm/2.0.0/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-ocm-2.0.0-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip) 
+* [jackrabbit-ocm-2.0.0-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip)
     (518K, source zip, [PGP signature](https://downloads.apache.org/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip.asc), [sha1](https://downloads.apache.org/jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip.sha1))
 
 
@@ -356,13 +350,13 @@ site and its mirrors. Older releases are available from the [archive download si
 Verify
 ------
 
-It is essential that you verify the integrity of the downloaded files using the PGP signatures or SHA512 checksums. 
-Please read [Verifying Apache HTTP Server Releases](http://httpd.apache.org/dev/verification.html) for more information 
+It is essential that you verify the integrity of the downloaded files using the PGP signatures or SHA512 checksums.
+Please read [Verifying Apache HTTP Server Releases](http://httpd.apache.org/dev/verification.html) for more information
 on why you should verify our releases.
 
 The PGP signatures can be verified using PGP or GPG. First download the [KEYS](https://downloads.apache.org/jackrabbit/KEYS)
-file as well as the `.asc` signature files for the relevant release packages. Make sure you get these files from 
-the [main distribution directory](https://downloads.apache.org/jackrabbit/), rather than from a mirror. 
+file as well as the `.asc` signature files for the relevant release packages. Make sure you get these files from
+the [main distribution directory](https://downloads.apache.org/jackrabbit/), rather than from a mirror.
 
 Then verify the signatures using
 
@@ -380,7 +374,7 @@ or
     % gpg --verify jackrabbit-X.Y.Z-src.zip.asc jackrabbit-X.Y.Z-src.zip
 
 
-Alternatively, you can verify the SHA512 checksums on the files. For checking the SHA512 checksums, use the program 
+Alternatively, you can verify the SHA512 checksums on the files. For checking the SHA512 checksums, use the program
 called `sha512sum` ([GNU core utilities](http://www.gnu.org/software/coreutils/)), or, alternatively, `openssl`.
 Windows users can use 'CertUtil` ([doc](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil))
 or use the equivalent *nix tools as part of their Cygwin or Linux subsystems.
