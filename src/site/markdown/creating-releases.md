@@ -73,7 +73,8 @@ Release management tasks
     click on the release, then on the "Release Notes" link on the top.
     Double-check that all version numbers in the updated Release Notes are accurate.
     When done, commit the file.
-5. If the branch is one that requires Java 8 or newer, make sure that the API docs can indeed be built with Java 8, using both `javadoc:javadoc` and `javadoc:jar`.
+5. If the branch is one that supports Java 8 or newer, make sure that the API docs can indeed be built with Java 8, using both `javadoc:javadoc` and `javadoc:aggregate`.
+   If the branch supports Java 11 or newer, repeat this with Java 11.
 6. Make sure that the build succeeds with all Java versions it is supposed to support (trying with the earliest and latest is ok).
 7. When releasing a Jackrabbit version that will be used in Oak, make sure it
    doesn't break Oak.
