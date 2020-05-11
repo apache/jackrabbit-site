@@ -44,7 +44,7 @@ Jackrabbit committers
 | ckiehl          | [Christoph Kiehl](mailto:christoph@sulu3000.de)  | &nbsp; |
 | ckoell          | [Claus K&ouml;ll](mailto:c.koell@gmail.com) |  [DVT-Daten-Verarbeitung-Tirol GmbH](http://www.dvt.at/)  |
 | clombart        | Christophe Lombart  | &nbsp; |
-| davide          | Davide Giannella  |  [Adobe](http://www.adobe.com/)  |
+| davide          | Davide Giannella  | &nbsp; |
 | dbrosius        | David Brosius  | &nbsp; |
 | dj              | Dominique J&auml;ggi  |  [Adobe](http://www.adobe.com/)  |
 | dpfister        | Dominique Pfister  |  [Adobe](http://www.adobe.com/)  |
@@ -55,19 +55,18 @@ Jackrabbit committers
 | frm             | Francesco Mari  |  [Adobe](http://www.adobe.com/)  | 
 | halderen        | Berry van Halderen  | &nbsp; |
 | jsedding        | Julian Sedding | &nbsp; |
-| jukka           | [Jukka Zitting](mailto:jukka.zitting@gmail.com) |  [Adobe](http://www.adobe.com/)  |
+| jukka           | [Jukka Zitting](mailto:jukka.zitting@gmail.com) | &nbsp; |
 | justin          | Justin Edelson  |  [Adobe](http://www.adobe.com/)  |
 | kwin            | Konrad Windszus  |  [Netcentric](https://www.netcentric.biz)  |
 | martijnh        | Martijn Hendriks  |  [GX](http://www.gx.nl/)  |
 | mattryan        | Matt Ryan  |  [Adobe](http://www.adobe.com/)  | 
-| mduerig         | Michael D&uuml;rig  |  [Adobe](http://www.adobe.com/)  |
-| meteatamel      | Mete Atamel  |  [Adobe](http://www.adobe.com/)  |
+| mduerig         | Michael D&uuml;rig  | &nbsp; |
+| meteatamel      | Mete Atamel  | &nbsp; |
 | mreutegg        | Marcel Reutegger  |  [Adobe](http://www.adobe.com/)  |
 | pmarx           | Philipp Marx  |  [Adobe](http://www.adobe.com/)  |
 | ppakulski       | Przemo Pakulski  |  [Cognifide](http://www.cognifide.com/)  |
-| ppiegaze        | Peeter Piegaze  |  [Adobe](http://www.adobe.com/)  |
+| ppiegaze        | Peeter Piegaze  | &nbsp; |
 | reschke         | [Julian Reschke](mailto:julian.reschke@greenbytes.de) |  [greenbytes GmbH](http://greenbytes.de/)  |
-| rombert         | Robert Munteanu |  [Adobe](http://www.adobe.com/)  |
 | rhauch          | Randall Hauch  | &nbsp; |
 | rombert         | Robert Munteanu | [Adobe](http://www.adobe.com/) |
 | schans          | Bart van der Schans  |  [Hippo](http://www.hippo.nl/)  |
@@ -79,10 +78,11 @@ Jackrabbit committers
 | sylvain         | Sylvain Wallez  | &nbsp; |
 | thomasm         | Thomas Mueller  |  [Adobe](http://www.adobe.com/)  |
 | tomekr          | Tomek Rękawek  |  [Adobe](http://www.adobe.com/)  |
-| tommaso         | Tommaso Teofili  |  [Adobe](http://www.adobe.com/)  |
+| tommaso         | Tommaso Teofili  | &nbsp; |
 | tripod          | Tobias Bocanegra  |  [Adobe](http://www.adobe.com/)  |
 | uncled          | David Nuescheler  |  [Adobe](http://www.adobe.com/)  |
 | unico           | Unico Hommes  | &nbsp; |
+| vholani         | Vinod Holani |  [Adobe](http://www.adobe.com/)  | 
 | woonsan         | Woonsan Ko  | &nbsp; |
 
 
