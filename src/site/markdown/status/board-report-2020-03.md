@@ -14,7 +14,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-Apache Jackrabbit: Board Report March 2020 (draft)
+Apache Jackrabbit: Board Report March 2020
 ==========================================
 
 ## Description: 
