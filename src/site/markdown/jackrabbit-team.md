@@ -52,13 +52,12 @@ Jackrabbit committers
 | eaf             | Esteban Franqueiro  |  [BEA](http://www.bea.com/)  |
 | edgarpoce       | [Edgar Poce](mailto:edgarpoce@gmail.com)  | &nbsp; |
 | fmeschbe        | Felix Meschberger  |  [Adobe](http://www.adobe.com/)  |
+| fortino         | Fabrizio Fortino  |  [Adobe](http://www.adobe.com/)  |
 | frm             | Francesco Mari  |  [Adobe](http://www.adobe.com/)  | 
 | halderen        | Berry van Halderen  | &nbsp; |
 | jsedding        | Julian Sedding | &nbsp; |
-| jukka           | [Jukka Zitting](mailto:jukka.zitting@gmail.com) | &nbsp; |
 | justin          | Justin Edelson  |  [Adobe](http://www.adobe.com/)  |
 | kwin            | Konrad Windszus  |  [Netcentric](https://www.netcentric.biz)  |
-| martijnh        | Martijn Hendriks  |  [GX](http://www.gx.nl/)  |
 | mattryan        | Matt Ryan  |  [Adobe](http://www.adobe.com/)  | 
 | mduerig         | Michael D&uuml;rig  | &nbsp; |
 | meteatamel      | Mete Atamel  | &nbsp; |
@@ -90,6 +89,8 @@ Emeritus and former members
 ----------------
 | Id         | Name | Organization |
 |------------|------|--------------|
+| martijnh   | Martijn Hendriks  | &nbsp; |
+| jukka      | [Jukka Zitting](mailto:jukka.zitting@gmail.com) | &nbsp; |
 | fielding   | Roy T. Fielding  |  [Adobe](http://www.adobe.com/)  |
 | asavory    |  Andrew Savory  | &nbsp; |
 | bcm        |  [Brian Moseley](mailto:bcm@osafoundation.org)  |  Open Source Applications Foundation (OSAF)  |
