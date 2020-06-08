@@ -54,6 +54,30 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='v2.20'></a>
+Apache Jackrabbit 2.20.1 (June 8th, 2020)
+-----------------------------------------
+Apache Jackrabbit 2.20.1 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
+2.20.x releases are considered stable and targeted for production use.
+
+See the [full release notes](https://downloads.apache.org/jackrabbit/2.20.1/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-2.20.1-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.1/jackrabbit-2.20.1-src.zip)
+    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.20.1/jackrabbit-2.20.1-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.1/jackrabbit-2.20.1-src.zip.sha512))
+
+* [jackrabbit-standalone-2.20.1.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.1/jackrabbit-standalone-2.20.1.jar)
+    (152M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.20.1/jackrabbit-standalone-2.20.1.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.1/jackrabbit-standalone-2.20.1.jar.sha512))
+
+* [jackrabbit-webapp-2.20.1.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.1/jackrabbit-webapp-2.20.1.war)
+    (75M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.20.1/jackrabbit-webapp-2.20.1.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.1/jackrabbit-webapp-2.20.1.war.sha512))
+
+* [jackrabbit-jca-2.20.1.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.1/jackrabbit-jca-2.20.1.rar)
+    (74M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.20.1/jackrabbit-jca-2.20.1.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.1/jackrabbit-jca-2.20.1.rar.sha512))
+
+
+
+
 <a class='anchor' name='latest'></a>
 Apache Jackrabbit Oak 1.30.0 (May 27th, 2020)
 ---------------------------------------------
@@ -198,30 +222,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.6.20/
 
 * [jackrabbit-oak-1.6.20-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.20/jackrabbit-oak-1.6.20-src.zip)
     (11M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.6.20/jackrabbit-oak-1.6.20-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.6.20/jackrabbit-oak-1.6.20-src.zip.sha512))
-
-
-
-
-<a class='anchor' name='v2.20'></a>
-Apache Jackrabbit 2.20.0 (January 7th, 2020)
---------------------------------------------
-Apache Jackrabbit 2.20.0 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
-2.20.x releases are considered stable and targeted for production use.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/2.20.0/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-2.20.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.0/jackrabbit-2.20.0-src.zip)
-    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-2.20.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-2.20.0-src.zip.sha512))
-
-* [jackrabbit-standalone-2.20.0.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.0/jackrabbit-standalone-2.20.0.jar)
-    (149M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-standalone-2.20.0.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-standalone-2.20.0.jar.sha512))
-
-* [jackrabbit-webapp-2.20.0.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.0/jackrabbit-webapp-2.20.0.war)
-    (74M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-webapp-2.20.0.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-webapp-2.20.0.war.sha512))
-
-* [jackrabbit-jca-2.20.0.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.0/jackrabbit-jca-2.20.0.rar)
-    (73M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-jca-2.20.0.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.0/jackrabbit-jca-2.20.0.rar.sha512))
 
 
 
