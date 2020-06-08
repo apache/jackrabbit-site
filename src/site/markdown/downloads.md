@@ -53,9 +53,10 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+
 <a class='anchor' name='latest'></a>
 Apache Jackrabbit Oak 1.30.0 (May 27th, 2020)
------------------------------------------------
+---------------------------------------------
 Apache Jackrabbit Oak 1.30.0 is an incremental feature release based
 on and compatible with earlier stable Jackrabbit Oak 1.x
 releases. This release is considered stable and targeted for
@@ -65,14 +66,13 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.30.0/R
 
 * [jackrabbit-oak-1.30.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.30.0/jackrabbit-oak-1.30.0-src.zip)
     (16M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.30.0/jackrabbit-oak-1.30.0-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.30.0/jackrabbit-oak-1.30.0-src.zip.sha512))
-
     
     
     
     
 <a class='anchor' name='oak1.8'></a>
 Apache Jackrabbit Oak 1.8.22 (May 23rd, 2020)
------------------------------------------------
+---------------------------------------------
 Apache Jackrabbit Oak 1.8.22 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.x
 releases. Jackrabbit Oak 1.8.x releases are considered stable and
@@ -83,6 +83,7 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.22/R
 * [jackrabbit-oak-1.8.22-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.22/jackrabbit-oak-1.8.22-src.zip)
     (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.22/jackrabbit-oak-1.8.22-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.22/jackrabbit-oak-1.8.22-src.zip.sha512))
 <a class='anchor' name='v2.21'></a>
+
 
 
 
