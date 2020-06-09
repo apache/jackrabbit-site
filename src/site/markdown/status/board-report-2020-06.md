@@ -34,7 +34,21 @@ is not a reference implementation.
 ## Issues: 
 There are no issues requiring board attention at this time.
    
-## Activity: 
+## Membership Data:
+
+Apache Jackrabbit was founded 2006-03-15 (14 years ago)
+There are currently 56 committers and 56 PMC members in this project.
+The Committer-to-PMC ratio is 1:1.
+
+Community changes, past quarter:
+ - Fabrizio Fortino was added to the PMC on 2020-05-22
+ - Vinod Holani was added to the PMC on 2020-05-11
+ - Martijn Hendriks was removed from the PMC on 2020-06-05
+ - Fabrizio Fortino was added as committer on 2020-05-21
+ - Vinod Holani was added as committer on 2020-05-09
+ - Martijn Hendriks was removed as committer on 2020-06-05
+
+## Project Activity: 
 Apache Jackrabbit Oak receives most attention nowadays. All 
 maintenance branches and the main development branch are 
 continuously seeing moderate to high activity.
@@ -66,7 +80,7 @@ On April 6th the team retired the Apache Jackrabbit Oak 1.10 branch.
 Users of Apache Jackrabbit Oak are encouraged to upgrade to the
 latest release of the newest maintenance branch (1.22.3).
 
-## Health report: 
+## Community Health:
 The project is healthy with a continuous stream of traffic on all 
 mailing lists reflecting the activity of the respective component. 
 
@@ -91,20 +105,6 @@ His resignation from the PMC and committer base became effective
 on June 5th after his confirmation that he also wants to be removed
 as a committer.
 
-## PMC changes:
-
- - Currently 56 PMC members.
- - Martijn Hendriks resigned on 2020-06-05
- - Vinod Holani was added to the PMC on 2020-05-11
- - Fabrizio Fortino was added to the PMC on 2020-05-22 
-
-## Committer base changes:
-
- - Currently 56 committers.
- - Martijn Hendriks resigned on 2020-06-05
- - Vinod Holani was added as committer on 2020-05-09
- - Fabrizio Fortino was added as committer on 2020-05-21 
-
 ## Releases:
 
  - jackrabbit-2.18.5 was released on 2020-03-06
@@ -120,4 +120,5 @@ as a committer.
 ## JIRA activity:
 
  - 224 JIRA tickets created in the last 3 months 
- - 236 JIRA tickets closed/resolved in the last 3 months 
+ - 236 JIRA tickets closed/resolved in the last 3 months
+ 
