@@ -47,6 +47,9 @@ A vulnerability report was sent to the security list on June 4th.
 The Jackrabbit team is discussing the report and will likely reject
 it (https://s.apache.org/7qhh5).
 
+The Apache Jackrabbit FileVault component successfully moved from
+SVN to GIT (INFRA-20285).
+
 Apache Jackrabbit itself is mostly in maintenance mode with most of 
 the work going into bug fixing and tooling. New features are mainly
 driven by dependencies from Jackrabbit Oak.
