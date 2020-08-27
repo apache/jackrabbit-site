@@ -52,6 +52,20 @@ Some Jackrabbit components contain external code with licenses that meet [Apache
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
 
+<a class='anchor' name='oak1.8'></a>
+Apache Jackrabbit Oak 1.8.23 (August 27th, 2020)
+---------------------------------------------
+Apache Jackrabbit Oak 1.8.23 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.x
+releases. Jackrabbit Oak 1.8.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.23/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.8.23-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.23/jackrabbit-oak-1.8.23-src.zip)
+    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.23/jackrabbit-oak-1.8.23-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.23/jackrabbit-oak-1.8.23-src.zip.sha512))
+<a class='anchor' name='v2.21'></a>
+
 
 
 <a class='anchor' name='v2.18'></a>
@@ -149,23 +163,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.20.1/RELE
 
 * [jackrabbit-jca-2.20.1.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.1/jackrabbit-jca-2.20.1.rar)
     (74M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.20.1/jackrabbit-jca-2.20.1.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.1/jackrabbit-jca-2.20.1.rar.sha512))
-
-
-
-
-<a class='anchor' name='oak1.8'></a>
-Apache Jackrabbit Oak 1.8.22 (May 23rd, 2020)
----------------------------------------------
-Apache Jackrabbit Oak 1.8.22 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.x
-releases. Jackrabbit Oak 1.8.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.22/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.8.22-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.22/jackrabbit-oak-1.8.22-src.zip)
-    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.22/jackrabbit-oak-1.8.22-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.22/jackrabbit-oak-1.8.22-src.zip.sha512))
-<a class='anchor' name='v2.21'></a>
 
 
 
