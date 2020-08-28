@@ -66,7 +66,8 @@ Release management tasks
    [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page))
    and that all the related issues have been resolved. 
 4. Create a new version in JIRA for the next release.
-5. Create a `RELEASE-NOTES.txt` file in the root folder of the project to be released. 
+5. Check for issues that have been resolved but do not have "fixVersion" set - these may need to be updated before creating the release notes ([Jackrabbit Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20JCR%20AND%20status%20%3D%20resolved%20AND%20fixVersion%20IS%20EMPTY%20ORDER%20BY%20issuekey%20DESC%20), [Oak Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20OAK%20AND%20status%20%3D%20resolved%20AND%20fixVersion%20IS%20EMPTY%20ORDER%20BY%20issuekey%20DESC%20)).
+6. Create a `RELEASE-NOTES.txt` file in the root folder of the project to be released. 
     If such a file already exists, update it for the release. See a previous 
     release notes for examples of what to include. The release note report in Jira is a 
     useful source of required information: Open the [Jackrabbit Jira](https://issues.apache.org/jira/projects/JCR?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page)
@@ -74,31 +75,31 @@ Release management tasks
     click on the release, then on the "Release Notes" link on the top.
     Double-check that all version numbers in the updated Release Notes are accurate.
     When done, commit the file.
-6. If the branch is one that supports Java 8 or newer, make sure that the API docs can indeed be built with Java 8, using both `javadoc:javadoc` and `javadoc:aggregate`.
+7. If the branch is one that supports Java 8 or newer, make sure that the API docs can indeed be built with Java 8, using both `javadoc:javadoc` and `javadoc:aggregate`.
    If the branch supports Java 11 or newer, repeat this with Java 11.
-7. Make sure that the build succeeds with all Java versions it is supposed to support (trying with the earliest and latest is ok).
-8. When releasing a Jackrabbit version that will be used in Oak, make sure it
+8. Make sure that the build succeeds with all Java versions it is supposed to support (trying with the earliest and latest is ok).
+9. When releasing a Jackrabbit version that will be used in Oak, make sure it
    doesn't break Oak.
      * Check by building the applicable Oak version using `mvn clean install -PintegrationTesting -Djackrabbit.version=2.x.y-SNAPSHOT`
      * If the update does require changes in Oak, open JIRA tickets and link them to the JIRA tickets tracking the release activity.
-9. If this is a stable branch, review changes to export versions which should be avoided (see [OAK-6346](https://issues.apache.org/jira/browse/OAK-6346) for context). If there are indeed changes (as in the example below), see [Appendix E](#Appendix_E:_Version_Changes).
+10. If this is a stable branch, review changes to export versions which should be avoided (see [OAK-6346](https://issues.apache.org/jira/browse/OAK-6346) for context). If there are indeed changes (as in the example below), see [Appendix E](#Appendix_E:_Version_Changes).
 
         # Oak 1.8 as of November 2018
         svn diff https://svn.apache.org/repos/asf/jackrabbit/oak/tags/jackrabbit-oak-1.8.8 . | grep -i "@Version" -B 6
         -@Version("1.5.0")
         +@Version("1.6.0")
-10. On the other hand, if this is a release from trunk, carefully review all
+11. On the other hand, if this is a release from trunk, carefully review all
     export versions and check that no change introduces new dependencies on
     Guava (see [OAK-7182](https://issues.apache.org/jira/browse/OAK-7182))
-11. If this is a release with Java 7 or older, make sure that your `MAVEN_OPTS` contain `-Dhttps.protocols=TLSv1.2`.
-12. When doing "stable" release (even-numbered), check that we do not have
+12. If this is a release with Java 7 or older, make sure that your `MAVEN_OPTS` contain `-Dhttps.protocols=TLSv1.2`.
+13. When doing "stable" release (even-numbered), check that we do not have
     dependencies to unstable releases. In particular, stable releases of Oak
     should not reference unstable Jackrabbit releases (if this is the case,
     a new stable Jackrabbit release might be required in order to proceed).
-13. Build and deploy the release artifacts with Maven. See [below](#Steps_to_build_the_release_artifacts) for the exact steps.
-14. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (~19 projects for Jackrabbit).
-15. Close the staged repository, giving it a meaningful name, such as "Apache Jackrabbit 2.x.y RC"
-16. Upload the artifacts to https://dist.apache.org/repos/dist/dev/jackrabbit/ as follows:
+14. Build and deploy the release artifacts with Maven. See [below](#Steps_to_build_the_release_artifacts) for the exact steps.
+15. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (~19 projects for Jackrabbit).
+16. Close the staged repository, giving it a meaningful name, such as "Apache Jackrabbit 2.x.y RC"
+17. Upload the artifacts to https://dist.apache.org/repos/dist/dev/jackrabbit/ as follows:
 
         # TARGET - where https://dist.apache.org/repos/dist/dev/jackrabbit/ is checked out
         # SOURCE - where the release was built
@@ -117,11 +118,11 @@ Release management tasks
         svn add oak/$version
         svn commit -m "Apache Jackrabbit Oak $version release candidate" oak/$version
 
-17. Find the vote template (`./target/checkout/target/vote.txt`) generated by the Maven build and follow the instructions to verify the build yourself
-18. Start the vote thread by emailing the applicable mailing list ([Jackrabbit](mailto:dev@jackrabbit.apache.org?subject=%5BVOTE%5D%20Release%20Apache%20Jackrabbit%20x.y.z), [Oak](mailto:oak-dev@jackrabbit.apache.org?subject=%5BVOTE%5D%20Release%20Apache%20Jackrabbit%20Oak%20x.y.z))
-19. Mark the version as released in Jira: [Jackrabbit Jira](https://issues.apache.org/jira/plugins/servlet/project-config/JCR/versions),
+18. Find the vote template (`./target/checkout/target/vote.txt`) generated by the Maven build and follow the instructions to verify the build yourself
+19. Start the vote thread by emailing the applicable mailing list ([Jackrabbit](mailto:dev@jackrabbit.apache.org?subject=%5BVOTE%5D%20Release%20Apache%20Jackrabbit%20x.y.z), [Oak](mailto:oak-dev@jackrabbit.apache.org?subject=%5BVOTE%5D%20Release%20Apache%20Jackrabbit%20Oak%20x.y.z))
+20. Mark the version as released in Jira: [Jackrabbit Jira](https://issues.apache.org/jira/plugins/servlet/project-config/JCR/versions),
    [Oak Jira](https://issues.apache.org/jira/plugins/servlet/project-config/OAK/versions). You'll see all the defined project versions. From the settings menu, choose 'Release' on the version.
-20. Wait 72 hours (we usually allow three business days, so be careful when a weekend is ahead)
+21. Wait 72 hours (we usually allow three business days, so be careful when a weekend is ahead)
 
 ### Part II: after the release vote
    
