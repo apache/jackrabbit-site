@@ -26,7 +26,7 @@ on your preferred mirror.
 
 * Latest stable releases:
     * [Apache Jackrabbit 2.20.x](#v2.20) (Java 8 and later)
-    * [Apache Jackrabbit Oak 1.32.0](#latest) (Java 8 and later)    
+    * [Apache Jackrabbit Oak 1.34.0](#latest) (Java 8 and later)    
 * Latest unstable releases (from trunk):
     * [Apache Jackrabbit 2.21.x](#v2.21) (Java 8 and later)
 * Maintenance releases:
@@ -52,6 +52,19 @@ Some Jackrabbit components contain external code with licenses that meet [Apache
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
 
+
+<a class='anchor' name='oak1.22'></a>
+Apache Jackrabbit Oak 1.22.5 (October 11th, 2020)
+-----------------------------------------------
+Apache Jackrabbit Oak 1.22.5 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.22.x
+releases. Jackrabbit Oak 1.22.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.22.5/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.22.5-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.22.5/jackrabbit-oak-1.22.5-src.zip)
+    (15M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.22.5/jackrabbit-oak-1.22.5-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.22.5/jackrabbit-oak-1.22.5-src.zip.sha512))
 
 
 <a class='anchor' name='latest'></a>
@@ -149,22 +162,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.21.3/RELE
 
 * [jackrabbit-jca-2.21.3.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.3/jackrabbit-jca-2.21.3.rar)
     (71M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.21.3/jackrabbit-jca-2.21.3.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.3/jackrabbit-jca-2.21.3.rar.sha512))
-
-
-
-
-<a class='anchor' name='oak1.22'></a>
-Apache Jackrabbit Oak 1.22.4 (July 17th, 2020)
------------------------------------------------
-Apache Jackrabbit Oak 1.22.4 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.22.x
-releases. Jackrabbit Oak 1.22.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.22.4/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.22.4-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.22.4/jackrabbit-oak-1.22.4-src.zip)
-    (15M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.22.4/jackrabbit-oak-1.22.4-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.22.4/jackrabbit-oak-1.22.4-src.zip.sha512))
 
 
 
