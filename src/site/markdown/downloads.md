@@ -26,7 +26,7 @@ on your preferred mirror.
 
 * Latest stable releases:
     * [Apache Jackrabbit 2.20.x](#v2.20) (Java 8 and later)
-    * [Apache Jackrabbit Oak 1.34.0](#latest) (Java 8 and later)    
+    * [Apache Jackrabbit Oak 1.36](#latest) (Java 8 and later)    
 * Latest unstable releases (from trunk):
     * [Apache Jackrabbit 2.21.x](#v2.21) (Java 8 and later)
 * Maintenance releases:
@@ -51,6 +51,20 @@ See the `NOTICE.txt` file contained in each release artifact for applicable copy
 Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](https://www.apache.org/legal/resolved.html).
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
+
+
+<a class='anchor' name='latest'></a>
+Apache Jackrabbit Oak 1.36 (November 17th, 2020)
+---------------------------------------------
+Apache Jackrabbit Oak 1.36 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x
+releases. This release is considered stable and targeted for
+production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.36/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.36-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.36/jackrabbit-oak-1.36-src.zip)
+    (16M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.36/jackrabbit-oak-1.36-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.36/jackrabbit-oak-1.36-src.zip.sha512))
 
 
 
@@ -115,23 +129,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.22.5/R
 
 * [jackrabbit-oak-1.22.5-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.22.5/jackrabbit-oak-1.22.5-src.zip)
     (15M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.22.5/jackrabbit-oak-1.22.5-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.22.5/jackrabbit-oak-1.22.5-src.zip.sha512))
-
-
-
-
-<a class='anchor' name='latest'></a>
-Apache Jackrabbit Oak 1.34.0 (September 10th, 2020)
----------------------------------------------
-Apache Jackrabbit Oak 1.34.0 is an incremental feature release based
-on and compatible with earlier stable Jackrabbit Oak 1.x
-releases. This release is considered stable and targeted for
-production use.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.34.0/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.34.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.34.0/jackrabbit-oak-1.34.0-src.zip)
-    (16M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.34.0/jackrabbit-oak-1.34.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.34.0/jackrabbit-oak-1.34.0-src.zip.sha512))
-
 
 
 
