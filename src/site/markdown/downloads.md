@@ -35,7 +35,6 @@ on your preferred mirror.
     * [Apache Jackrabbit Oak 1.6.x](#oak1.6) (Java 7 and later)
     * [Apache Jackrabbit Oak 1.4.x](#oak1.4) (Java 7 and later)
     * [Apache Jackrabbit Oak 1.2.x](#oak1.2) (Java 6 and later)
-    * [Apache Jackrabbit 2.18.x](#v2.18) (Java 8 to Java 13)
     * [Apache Jackrabbit 2.16.x](#v2.16) (Java 8 to Java 13)
     * [Apache Jackrabbit 2.14.x](#v2.14) (Java 7 to Java 8)
     * [Apache Jackrabbit 2.12.x](#v2.12) (Java 6 to Java 8)
@@ -169,30 +168,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.23/R
 * [jackrabbit-oak-1.8.23-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.23/jackrabbit-oak-1.8.23-src.zip)
     (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.23/jackrabbit-oak-1.8.23-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.23/jackrabbit-oak-1.8.23-src.zip.sha512))
 <a class='anchor' name='v2.21'></a>
-
-
-
-
-<a class='anchor' name='v2.18'></a>
-Apache Jackrabbit 2.18.6 (August 27th, 2020)
---------------------------------------------
-Apache Jackrabbit 2.18.6 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
-2.18.x releases are considered stable and targeted for production use.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/2.18.6/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-2.18.6-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.6/jackrabbit-2.18.6-src.zip)
-    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.18.6/jackrabbit-2.18.6-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.18.6/jackrabbit-2.18.6-src.zip.sha512))
-
-* [jackrabbit-standalone-2.18.6.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.6/jackrabbit-standalone-2.18.6.jar)
-    (152M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.18.6/jackrabbit-standalone-2.18.6.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.18.6/jackrabbit-standalone-2.18.6.jar.sha512))
-
-* [jackrabbit-webapp-2.18.6.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.6/jackrabbit-webapp-2.18.6.war)
-    (75M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.18.6/jackrabbit-webapp-2.18.6.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.18.6/jackrabbit-webapp-2.18.6.war.sha512))
-
-* [jackrabbit-jca-2.18.6.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.18.6/jackrabbit-jca-2.18.6.rar)
-    (74M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.18.6/jackrabbit-jca-2.18.6.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.18.6/jackrabbit-jca-2.18.6.rar.sha512))
 
 
 

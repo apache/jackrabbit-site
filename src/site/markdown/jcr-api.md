@@ -30,7 +30,6 @@ See the javadoc documentation of the JCR API and Apache Jackrabbit releases:
 * [JCR 2.0](https://docs.adobe.com/docs/en/spec/javax.jcr/javadocs/jcr-2.0)
 * [Apache Jackrabbit Trunk](http://jackrabbit.apache.org/api/trunk/)
 * [Apache Jackrabbit 2.20](http://jackrabbit.apache.org/api/2.20/)
-* [Apache Jackrabbit 2.18](http://jackrabbit.apache.org/api/2.18/)
 * [Apache Jackrabbit 2.16](http://jackrabbit.apache.org/api/2.16/)
 * [Apache Jackrabbit 2.14](http://jackrabbit.apache.org/api/2.14/)
 * [Apache Jackrabbit 2.12](http://jackrabbit.apache.org/api/2.12/)
