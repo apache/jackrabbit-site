@@ -32,8 +32,8 @@ on your preferred mirror.
 * Maintenance releases:
     * [Apache Jackrabbit Oak 1.22.x](#oak1.22) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.8.x](#oak1.8) (Java 8 and later)
-    * [Apache Jackrabbit Oak 1.6.x](#oak1.6) (Java 7 and later)
-    * [Apache Jackrabbit Oak 1.4.x](#oak1.4) (Java 7 and later)
+    * [Apache Jackrabbit Oak 1.6.x](#oak1.6) (Java 7 and later; Java 8 and later since 1.6.21)
+    * [Apache Jackrabbit Oak 1.4.x](#oak1.4) (Java 7 and later; Java 8 and later since 1.4.27)
     * [Apache Jackrabbit Oak 1.2.x](#oak1.2) (Java 6 and later)
     * [Apache Jackrabbit 2.16.x](#v2.16) (Java 8 to Java 13)
     * [Apache Jackrabbit 2.14.x](#v2.14) (Java 7 to Java 8)
