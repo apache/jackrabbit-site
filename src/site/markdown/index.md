@@ -36,6 +36,11 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 
 ## Apache Jackrabbit News
 
+#### December 8th, 2020: Apache Jackrabbit Oak 1.8.24 released
+Jackrabbit Oak 1.8.24 is a patch release that contains fixes and
+improvements over the previous 1.8.x release.  See the
+[downloads](downloads.html#oak1.8) page for more details.
+
 #### December 1st, 2020: Apache Jackrabbit 2.18.x deprecated
 The Apache Jackrabbit Team has decided to drop support and deprecate the
 2.18 branch of Apache Jackrabbit. Branch, tags and releases will still be
