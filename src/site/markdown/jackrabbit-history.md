@@ -26,6 +26,7 @@ For recent events, have a look at the [News Archive](news-archive.html).
 
 Jackrabbit in 2020
 ------------------
+* December 2020: [Jackrabbit Status December 2020](status/board-report-2020-12.html)
 * September 2020: [Jackrabbit Status September 2020](status/board-report-2020-09.html)
 * June 2020: [Jackrabbit Status June 2020](status/board-report-2020-06.html)
 * March 2020: [Jackrabbit Status March 2020](status/board-report-2020-03.html)
