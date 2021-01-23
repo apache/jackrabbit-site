@@ -77,7 +77,7 @@ Apache Jackrabbit 2.20.2 is an incremental feature release based on and
 compatible with earlier stable Jackrabbit 2.x releases. See the
 [downloads](downloads.html#v2.20) page for more details.
 
-#### October 22th, 2020: Apache Jackrabbit 2.21.4 released
+#### October 22nd, 2020: Apache Jackrabbit 2.21.4 released
 Apache Jackrabbit 2.21.4 is an unstable release cut directly from trunk, with a
 focus on new features and other improvements. See the
 [downloads](downloads.html#v2.21) page for more details.
@@ -147,7 +147,7 @@ Apache Jackrabbit 2.21.1 is an unstable release cut directly from trunk, with a
 focus on new features and other improvements. See the
 [downloads](downloads.html#v2.21) page for more details.
 
-#### April 21th, 2020: Apache Jackrabbit Oak 1.22.3 released
+#### April 21st, 2020: Apache Jackrabbit Oak 1.22.3 released
 Apache Jackrabbit Oak 1.22.3 is an incremental feature release based
 on and compatible with earlier stable Jackrabbit Oak 1.x releases.
 See the [downloads](downloads.html#oak1.22) page for more details.
@@ -164,7 +164,7 @@ available for future references, but will not show up on the download page
 anymore. Users are encouraged to upgrade to the latest stable maintenance
 branch (1.22).
 
-#### March 31th, 2020: Apache Jackrabbit Oak 1.0.x deprecated
+#### March 31st, 2020: Apache Jackrabbit Oak 1.0.x deprecated
 The Apache Jackrabbit Team has decided to drop support and deprecate the
 1.0 branch of Apache Jackrabbit Oak. Branch, tags and releases will still be
 available for future references, but will not show up on the download page
@@ -183,7 +183,7 @@ Apache Jackrabbit Oak 1.26.0 is an incremental feature release based
 on and compatible with earlier stable Jackrabbit Oak 1.x releases.
 See the [downloads](downloads.html#latest) page for more details.
 
-#### March 23th, 2020: Apache Jackrabbit Oak 1.8.21 released
+#### March 23rd, 2020: Apache Jackrabbit Oak 1.8.21 released
 Jackrabbit Oak 1.8.21 is a patch release that contains fixes and
 improvements over the previous 1.8.x release.  See the
 [downloads](downloads.html#oak1.8) page for more details.
@@ -255,7 +255,7 @@ Jackrabbit Oak 1.6.20 is a patch release that contains fixes and
 improvements over the previous 1.6.x release. See the
 [downloads](downloads.html#oak1.6) page for more details.
 
-#### January 31th, 2020: Apache Jackrabbit Oak 1.8.20 released
+#### January 31st, 2020: Apache Jackrabbit Oak 1.8.20 released
 Jackrabbit Oak 1.8.20 is a patch release that contains fixes and
 improvements over the previous 1.8.x release.  See the
 [downloads](downloads.html#oak1.8) page for more details.
@@ -282,7 +282,7 @@ Apache Jackrabbit Oak 1.10.8 is an incremental feature release based
 on and compatible with earlier stable Jackrabbit Oak 1.x releases.
 See the [downloads](downloads.html#oak1.10) page for more details.
 
-#### January 23th, 2020: Apache Jackrabbit Oak 1.8.19 released
+#### January 23rd, 2020: Apache Jackrabbit Oak 1.8.19 released
 Jackrabbit Oak 1.8.19 is a patch release that contains fixes and
 improvements over the previous 1.8.x release.  See the
 [downloads](downloads.html#oak1.8) page for more details.

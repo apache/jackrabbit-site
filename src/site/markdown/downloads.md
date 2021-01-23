@@ -263,7 +263,7 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.2.31/
 
 
 <a class='anchor' name='vlt'></a>
-Apache Jackrabbit FileVault 3.4.8 (January 22th, 2021)
+Apache Jackrabbit FileVault 3.4.8 (January 22nd, 2021)
 --------------------------------------------------
 Jackrabbit FileVault 3.4.8 is the latest stable release of the repository content synchronization tool. This version is only compatible with Java 8 or newer.
 
