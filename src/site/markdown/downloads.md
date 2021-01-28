@@ -52,6 +52,21 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='latest'></a>
+Apache Jackrabbit Oak 1.38.0 (January 28th, 2021)
+-------------------------------------------------
+Apache Jackrabbit Oak 1.38.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x
+releases. This release is considered stable and targeted for
+production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.38.0/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.38.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.38.0/jackrabbit-oak-1.38.0-src.zip)
+    (16M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.38.0/jackrabbit-oak-1.38.0-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.38.0/jackrabbit-oak-1.38.0-src.zip.sha512))
+
+
+
 <a class='anchor' name='oak1.22'></a>
 Apache Jackrabbit Oak 1.22.6 (January 19th, 2021)
 -----------------------------------------------
@@ -105,21 +120,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.24/R
 * [jackrabbit-oak-1.8.24-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.24/jackrabbit-oak-1.8.24-src.zip)
     (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.24/jackrabbit-oak-1.8.24-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.24/jackrabbit-oak-1.8.24-src.zip.sha512))
 
-<a class='anchor' name='v2.21'></a>
-
-
-<a class='anchor' name='latest'></a>
-Apache Jackrabbit Oak 1.36 (November 17th, 2020)
----------------------------------------------
-Apache Jackrabbit Oak 1.36 is an incremental feature release based
-on and compatible with earlier stable Jackrabbit Oak 1.x
-releases. This release is considered stable and targeted for
-production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.36/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.36-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.36/jackrabbit-oak-1.36-src.zip)
-    (16M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.36/jackrabbit-oak-1.36-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.36/jackrabbit-oak-1.36-src.zip.sha512))
 
 
 
