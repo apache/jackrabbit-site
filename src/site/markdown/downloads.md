@@ -34,7 +34,6 @@ on your preferred mirror.
     * [Apache Jackrabbit Oak 1.8.x](#oak1.8) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.6.x](#oak1.6) (Java 7 and later; Java 8 and later since 1.6.21)
     * [Apache Jackrabbit Oak 1.4.x](#oak1.4) (Java 7 and later; Java 8 and later since 1.4.27)
-    * [Apache Jackrabbit Oak 1.2.x](#oak1.2) (Java 6 and later)
     * [Apache Jackrabbit 2.16.x](#v2.16) (Java 8 to Java 13)
     * [Apache Jackrabbit 2.14.x](#v2.14) (Java 7 to Java 8)
     * [Apache Jackrabbit 2.12.x](#v2.12) (Java 6 to Java 8)
@@ -243,22 +242,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.14.8/RELE
 
 * [jackrabbit-jca-2.14.8.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.14.8/jackrabbit-jca-2.14.8.rar)
     (64M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.14.8/jackrabbit-jca-2.14.8.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.14.8/jackrabbit-jca-2.14.8.rar.sha512))
-
-
-
-
-<a class='anchor' name='oak1.2'></a>
-Apache Jackrabbit Oak 1.2.31 (March 14th, 2019)
------------------------------------------------
-Jackrabbit Oak 1.2.31 is a patch release that contains fixes and
-improvements over the previous 1.2.x release.
-Jackrabbit Oak 1.2.x releases are considered stable and targeted for
-production use.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.2.31/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.2.31-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip)
-    (8M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip.sha512))
 
 
 
