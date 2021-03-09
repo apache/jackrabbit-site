@@ -24,6 +24,10 @@ events and records from past years.
 
 For recent events, have a look at the [News Archive](news-archive.html).
 
+Jackrabbit in 2021
+------------------
+* Marcel 2021: [Jackrabbit Status March 2021](status/board-report-2021-03.html)
+
 Jackrabbit in 2020
 ------------------
 * December 2020: [Jackrabbit Status December 2020](status/board-report-2020-12.html)
