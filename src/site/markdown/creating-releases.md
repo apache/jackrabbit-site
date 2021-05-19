@@ -21,6 +21,8 @@ This is a how to document for creating Apache Jackrabbit releases. It
 documents the current release process and needs to be updated as we move
 forward.
 
+This applies to both Jackrabbit 2.x as well as Jackrabbit Oak releases. For Jackrabbit FileVault please use the specific documentation at <https://jackrabbit.apache.org/filevault/howto_release.html> and <https://jackrabbit.apache.org/filevault-package-maven-plugin/howto_release.html> respectively.
+
 
 Release planning
 ----------------
