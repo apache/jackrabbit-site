@@ -38,7 +38,7 @@ on your preferred mirror.
     * [Apache Jackrabbit 2.14.x](#v2.14) (Java 7 to Java 8)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
 * Latest stable FileVault releases:
-    * [Apache Jackrabbit FileVault 3.4.10](#vlt) (Java 8 and later)
+    * [Apache Jackrabbit FileVault 3.5.0](#vlt) (Java 8 and later)
     * [Apache Jackrabbit FileVault 3.2.8](#vltjava7) (Java 7 and later)
 * Latest stable FileVault Plugin release: [Apache Jackrabbit FileVault Package Maven Plugin 1.1.6](#vltplg)
 * [Release Archive](#archive)
@@ -223,15 +223,15 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.6.20/
 
 
 <a class='anchor' name='vlt'></a>
-Apache Jackrabbit FileVault 3.4.10 (March 1st, 2021)
+Apache Jackrabbit FileVault 3.5.0 (May 25th, 2021)
 --------------------------------------------------
-Jackrabbit FileVault 3.4.10 is the latest stable release of the repository content synchronization tool. This version is only compatible with Java 8 or newer.
+Jackrabbit FileVault 3.5.0 is the latest stable release of the repository content synchronization tool. This version is only compatible with Java 8 or newer.
 
-See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/3.4.10/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/3.5.0/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-filevault-3.4.10-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/3.4.10/jackrabbit-filevault-3.4.10-src.zip)
-    (2.2M, source zip, [PGP signature](https://downloads.apache.org/jackrabbit/filevault/3.4.10/jackrabbit-filevault-3.4.10-src.zip.asc))
-    * [SHA512 checksum](https://downloads.apache.org/jackrabbit/filevault/3.4.10/jackrabbit-filevault-3.4.10-src.zip.sha512)
+* [jackrabbit-filevault-3.5.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/3.5.0/jackrabbit-filevault-3.5.0-src.zip)
+    (2.5M, source zip, [PGP signature](https://downloads.apache.org/jackrabbit/filevault/3.5.0/jackrabbit-filevault-3.5.0-src.zip.asc))
+    * [SHA512 checksum](https://downloads.apache.org/jackrabbit/filevault/3.5.0/jackrabbit-filevault-3.5.0-src.zip.sha512)
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
 
