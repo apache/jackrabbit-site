@@ -49,6 +49,18 @@ Some Jackrabbit components contain external code with licenses that meet [Apache
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
 
+<a class='anchor' name='oak1.6'></a>
+Apache Jackrabbit Oak 1.6.21 (June 2nd, 2021)
+-------------------------------------------------
+Apache Jackrabbit Oak 1.6.21 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.6.x
+releases. Jackrabbit Oak 1.6.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.6.21/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.6.21-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.21/jackrabbit-oak-1.6.21-src.zip)
+    (11M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.6.21/jackrabbit-oak-1.6.21-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.6.21/jackrabbit-oak-1.6.21-src.zip.sha512))
 
 
 <a class='anchor' name='v2.21'></a>
@@ -202,22 +214,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.4.26/
 
 * [jackrabbit-oak-1.4.26-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip)
     (10M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip.sha512))
-
-
-
-
-<a class='anchor' name='oak1.6'></a>
-Apache Jackrabbit Oak 1.6.20 (February 5th, 2020)
--------------------------------------------------
-Apache Jackrabbit Oak 1.6.20 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.6.x
-releases. Jackrabbit Oak 1.6.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.6.20/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.6.20-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.20/jackrabbit-oak-1.6.20-src.zip)
-    (11M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.6.20/jackrabbit-oak-1.6.20-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.6.20/jackrabbit-oak-1.6.20-src.zip.sha512))
 
 
 
