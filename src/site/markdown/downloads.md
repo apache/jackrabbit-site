@@ -40,7 +40,7 @@ on your preferred mirror.
 * Latest stable FileVault releases:
     * [Apache Jackrabbit FileVault 3.5.0](#vlt) (Java 8 and later)
     * [Apache Jackrabbit FileVault 3.2.8](#vltjava7) (Java 7 and later)
-* Latest stable FileVault Plugin release: [Apache Jackrabbit FileVault Package Maven Plugin 1.1.6](#vltplg)
+* Latest stable FileVault Plugin release: [Apache Jackrabbit FileVault Package Maven Plugin 1.1.8](#vltplg)
 * [Release Archive](#archive)
 
 Apache Jackrabbit releases are available under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
@@ -157,10 +157,10 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.16.7/RELE
 
 * [jackrabbit-jca-2.16.7.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.7/jackrabbit-jca-2.16.7.rar)
     (74M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.16.7/jackrabbit-jca-2.16.7.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.16.7/jackrabbit-jca-2.16.7.rar.sha512))
-    
 
 
 
+Apache Jackrabbit Oak 1.38.0 (January 28th, 2021)
 Apache Jackrabbit Oak 1.38.0 (January 28th, 2021)
 -------------------------------------------------
 Apache Jackrabbit Oak 1.38.0 is an incremental feature release based
@@ -261,15 +261,15 @@ Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for mor
 
 
 <a class='anchor' name='vltplg'></a>
-Apache Jackrabbit FileVault Package Maven Plugin 1.1.6 (January 22th, 2021)
+Apache Jackrabbit FileVault Package Maven Plugin 1.1.8 (June 8th, 2021)
 ------------------------------------------------------------------------
-Jackrabbit FileVault Package Maven Plugin 1.1.6 is the latest stable release of the recently donated content package maven plugin.
+Jackrabbit FileVault Package Maven Plugin 1.1.8 is the latest stable release of the recently donated content package maven plugin.
 
-See the [full release notes](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.1.6/RELEASE-NOTES.md) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.1.8/RELEASE-NOTES.md) for more details.
 
-* [filevault-package-maven-plugin-1.1.6-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault-package-maven-plugin/1.1.6/filevault-package-maven-plugin-1.1.6-source-release.zip)
-    (1.5M, source zip, [PGP signature](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.1.6/filevault-package-maven-plugin-1.1.6-source-release.zip.asc))
-    * [SHA512 checksum](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.1.6/filevault-package-maven-plugin-1.1.6-source-release.zip.sha512)
+* [filevault-package-maven-plugin-1.1.8-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault-package-maven-plugin/1.1.8/filevault-package-maven-plugin-1.1.8-source-release.zip)
+    (1.5M, source zip, [PGP signature](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.1.8/filevault-package-maven-plugin-1.1.8-source-release.zip.asc))
+    * [SHA512 checksum](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.1.8/filevault-package-maven-plugin-1.1.8-source-release.zip.sha512)
 
 Also see the Jackrabbit FileVault Plugin [documentation](/filevault-package-maven-plugin/index.html) for more information about this project.
 
