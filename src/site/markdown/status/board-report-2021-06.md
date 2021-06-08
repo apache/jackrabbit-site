@@ -14,8 +14,8 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-Apache Jackrabbit: Board Report March 2021
-==========================================
+Apache Jackrabbit: Board Report June 2021 (draft)
+==============================================
 
 ## Description: 
 The Apache Jackrabbit™ content repository is a fully conforming
@@ -52,29 +52,28 @@ maintenance branches and the main development branch are
 continuously seeing moderate to high activity.
 
 We continue making regular feature releases of Jackrabbit Oak. The
-most recent release was Jackrabbit Oak 1.38.0 that was made available
-on January 28th.
+most recent release was Jackrabbit Oak 1.40.0 that was made available
+on June 3rd.
 
 Apache Jackrabbit itself is mostly in maintenance mode with most of 
 the work going into bug fixing and tooling. New features are mainly
 driven by dependencies from Jackrabbit Oak.
 
-Mid-February the team decided to drop support and deprecate
-the 1.2 branch of Apache Jackrabbit Oak. Users are encouraged to upgrade
-to the latest stable 1.38.0 version (https://s.apache.org/ih4ms).
+Beginning of May the team decided to drop support and deprecate
+the 2.12 branch of Apache Jackrabbit. Users are encouraged to upgrade
+to the latest stable versions 2.20 for Java 8 and 2.14 for Java 7
+(https://s.apache.org/lm1f3).
 
-On March 1st a JCRSITE issue was created with spam content. The ticket
-INFRA-21489 was processed very quickly by the ASF infrastructure team.
-Thanks! At the same time the Jackrabbit team also noticed Jukka Zitting
-is set as the project lead for the JCRSITE. Jukka is not active anymore on
-the project and INFRA-21488 requests a change of the project lead.
+The team is preparing a migration of the Apache Jackrabbit Oak code base
+from SVN to Git. The vote for the migration happened on the oak-dev
+list (https://s.apache.org/mzrnx).
 
 ## Community Health:
-The project is healthy with a continuous stream of traffic on all 
-mailing lists reflecting the activity of the respective component. 
+The project is healthy with a continuous stream of traffic mostly on
+the dev lists reflecting the activity of the respective component. 
 
-There is a wide range of topics being discussed on the dev and user
-lists as well as on the various JIRA issues. 
+There is a wide range of topics being discussed on the dev lists as well
+as on the various JIRA issues. 
 
 Commit activity is moderate mirroring the activity on the 
 JIRA issues and the desire of the individual contributors to bring
@@ -82,16 +81,15 @@ features and improvements in for the next Jackrabbit Oak release.
 
 ## Releases:
 
- - jackrabbit-2.21.5 was released on 2021-01-14
- - jackrabbit-oak-1.22.6 was released on 2021-01-19
- - jackrabbit-filevault-3.4.8 was released on 2021-01-22
- - filevault-package-maven-plugin-1.1.6 was released on 2021-01-22  
- - jackrabbit-oak-1.38.0 was released on 2021-01-28
- - jackrabbit-2.16.7 was released on 2021-02-11
- - jackrabbit-filevault-3.4.10 was released on 2021-03-01
+ - jackrabbit-2.14.9 was released on 2021-03-11
+ - jackrabbit-oak-1.22.7 was released on 2021-04-13
+ - jackrabbit-2.21.6 was released on 2021-04-13
+ - jackrabbit-filevault-3.5.0 was released on 2021-05-25
+ - jackrabbit-oak-1.6.21 was released on 2021-06-02
+ - jackrabbit-oak-1.40.0 was released on 2021-06-03
 
 ## JIRA activity:
 
- - 110 JIRA tickets created in the last 3 months 
- - 109 JIRA tickets closed/resolved in the last 3 months
+ - 104 JIRA tickets created in the last 3 months 
+ - 106 JIRA tickets closed/resolved in the last 3 months
  
