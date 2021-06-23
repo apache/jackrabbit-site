@@ -48,7 +48,7 @@ release plans.
 You should have a code signing key that is included in the Jackrabbit KEYS
 file. See [Appendix A](#Appendix_A:_Create_and_add_your_key_to_the_Jackrabbit_KEYS_file) at the end of this page for more details.
 
-You also need to tell Maven your Subversion credentials needed for
+You also need to tell Maven your Apache LDAP credentials needed for
 deploying artifacts to the Nexus server at https://repository.apache.org/.
 See [Appendix B](#Appendix_B:_Maven_settings) for the required settings.
 
@@ -87,7 +87,7 @@ Release management tasks
 10. If this is a stable branch, review changes to export versions which should be avoided (see [OAK-6346](https://issues.apache.org/jira/browse/OAK-6346) for context). If there are indeed changes (as in the example below), see [Appendix E](#Appendix_E:_Version_Changes).
 
         # Oak 1.8 as of November 2018
-        svn diff https://svn.apache.org/repos/asf/jackrabbit/oak/tags/jackrabbit-oak-1.8.8 . | grep -i "@Version" -B 6
+        git diff jackrabbit-oak-1.8.0 | grep -i "@Version" -B 6
         -@Version("1.5.0")
         +@Version("1.6.0")
 11. On the other hand, if this is a release from trunk, carefully review all
@@ -164,7 +164,7 @@ There have been some problems with certain combinations of Java and Maven versio
 
 Note that preparing the release requires a tagging operation in the source
 repository. Make sure upfront that non-interactive commits work 
-(like `svn commit -m 'commit message'`) without prompting for credentials, otherwise
+(like `svn commit -m 'commit message'` or `git push`) without prompting for credentials, otherwise
 the tagging step will fail.
 
 1. Execute mvn `release:prepare`. This will update the POM files and tag the release in svn (see [Appendix F](#Appendix_F:_Version_Numbers) for how version numbers change).
@@ -229,7 +229,7 @@ You can (but don't need to) get your key [linked to the Apache web of trust](htt
 
 Appendix B: Maven settings
 --------------------------
-You need to change the `~/.m2/settings.xml` file as follows. PGP key id: this is the second part of your key in the KEYS file. For example, this is "F07CA77B" if the first line of your key in the KEYS file is "pub 4096R/F07CA77B 2014-07-31". In case you are not comfortable to keep passwords and key passphrases in human readable files, you can add them just before doing the release, and remove them just after the release. Instead of using the "gpg.passphrase" tag, you can try using `<gpg.executable>gpg2</gpg.executable>` (this should prompt you for the passphrase). For the server svn passwords, you could use the [Maven password encryption](http://maven.apache.org/guides/mini/guide-encryption.html).
+You need to change the `~/.m2/settings.xml` file as follows. PGP key id: this is the second part of your key in the KEYS file. For example, this is "F07CA77B" if the first line of your key in the KEYS file is "pub 4096R/F07CA77B 2014-07-31". In case you are not comfortable to keep passwords and key passphrases in human readable files, you can add them just before doing the release, and remove them just after the release. Instead of using the "gpg.passphrase" tag, you can try using `<gpg.executable>gpg2</gpg.executable>` (this should prompt you for the passphrase). For the ASF Maven repository passwords, you could use the [Maven password encryption](http://maven.apache.org/guides/mini/guide-encryption.html).
 
     <settings>
       <profiles>
