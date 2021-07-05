@@ -17,9 +17,9 @@
 
 Jackrabbit SPI to DAV
 =====================
-This is the SPI2DAV component of the Apache Jackrabbit project.
+This is the SPI2DAV component of the Apache Jackrabbit project. It connects the [SPI layer](jackrabbit-spi.html) via the [JCR WebDAV (DAVEx) protocol](../JCR_Webdav_Protocol.doc) with a remote repository.
 
 API documentation
 -----------------
-* [jackrabbit-spi2dav 2.2](/api/2.2/org/apache/jackrabbit/spi2dav/package-summary.html)
-* [jackrabbit-spi2davex 2.2](/api/2.2/org/apache/jackrabbit/spi2davex/package-summary.html)
+* [jackrabbit-spi2dav](/api/trunk/org/apache/jackrabbit/spi2dav/package-summary.html)
+* [jackrabbit-spi2davex](/api/trunk/org/apache/jackrabbit/spi2davex/package-summary.html)
