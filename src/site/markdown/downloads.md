@@ -50,7 +50,7 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
-a class='anchor' name='oak1.22'></a>
+<a class='anchor' name='oak1.22'></a>
 Apache Jackrabbit Oak 1.22.8 (July 20th, 2021)
 -----------------------------------------------
 Apache Jackrabbit Oak 1.22.8 is an incremental feature release based on
