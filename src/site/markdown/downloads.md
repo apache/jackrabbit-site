@@ -67,7 +67,7 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.22.8/R
 
 
 <a class='anchor' name='v2.21'></a>
-Apache Jackrabbit 2.21.7 (June 9th, 2021)
+Apache Jackrabbit 2.21.7 (July 9th, 2021)
 -----------------------------------------
 Apache Jackrabbit 2.21.7 is an unstable release cut directly from
 Jackrabbit trunk, with a focus on new features and other
