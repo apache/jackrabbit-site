@@ -14,8 +14,8 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-Apache Jackrabbit: Board Report June 2021
-=========================================
+Apache Jackrabbit: Board Report September 2021
+==============================================
 
 ## Description: 
 The Apache Jackrabbit™ content repository is a fully conforming
@@ -59,14 +59,10 @@ Apache Jackrabbit itself is mostly in maintenance mode with most of
 the work going into bug fixing and tooling. New features are mainly
 driven by dependencies from Jackrabbit Oak.
 
-Beginning of May the team decided to drop support and deprecate
-the 2.12 branch of Apache Jackrabbit. Users are encouraged to upgrade
-to the latest stable versions 2.20 for Java 8 and 2.14 for Java 7
-(https://s.apache.org/lm1f3).
-
-The team is preparing a migration of the Apache Jackrabbit Oak code base
-from SVN to Git. The vote for the migration happened on the oak-dev
-list (https://s.apache.org/mzrnx).
+The team migrated the Apache Jackrabbit Oak code base from SVN to Git.
+The migration went mostly smooth with some hiccups related to automated
+tooling. We now see a healthy increase of pull requests. Over the past
+three months 96 pull requests were opened, which is a 166% increase.
 
 ## Community Health:
 The project is healthy with a continuous stream of traffic mostly on
@@ -75,21 +71,20 @@ the dev lists reflecting the activity of the respective component.
 There is a wide range of topics being discussed on the dev lists as well
 as on the various JIRA issues. 
 
-Commit activity is moderate mirroring the activity on the 
+Commit activity is moderate, mirroring the activity on the 
 JIRA issues and the desire of the individual contributors to bring
 features and improvements in for the next Jackrabbit Oak release.
 
 ## Releases:
 
- - jackrabbit-2.14.9 was released on 2021-03-11
- - jackrabbit-oak-1.22.7 was released on 2021-04-13
- - jackrabbit-2.21.6 was released on 2021-04-13
- - jackrabbit-filevault-3.5.0 was released on 2021-05-25
- - jackrabbit-oak-1.6.21 was released on 2021-06-02
- - jackrabbit-oak-1.40.0 was released on 2021-06-03
+ - jackrabbit-2.20.3 was released on 2021-06-11
+ - jackrabbit-2.21.7 was released on 2021-07-09
+ - jackrabbit-oak-1.22.8 was released on 2021-07-20
+ - jackrabbit-2.16.8 was released on 2021-08-13
+ - jackrabbit-2.14.10 was released on 2021-09-09 
 
 ## JIRA activity:
 
- - 104 JIRA tickets created in the last 3 months 
- - 106 JIRA tickets closed/resolved in the last 3 months
+ - 169 JIRA tickets created in the last 3 months 
+ - 144 JIRA tickets closed/resolved in the last 3 months
  
