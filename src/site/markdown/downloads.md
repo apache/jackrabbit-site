@@ -33,7 +33,6 @@ on your preferred mirror.
     * [Apache Jackrabbit Oak 1.22.x](#oak1.22) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.8.x](#oak1.8) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.6.x](#oak1.6) (Java 7 and later; Java 8 and later since 1.6.21)
-    * [Apache Jackrabbit Oak 1.4.x](#oak1.4) (Java 7 and later; Java 8 and later since 1.4.27)
     * [Apache Jackrabbit 2.16.x](#v2.16) (Java 8 to Java 13)
     * [Apache Jackrabbit 2.14.x](#v2.14) (Java 7 to Java 8)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
@@ -207,22 +206,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.24/R
 
 * [jackrabbit-oak-1.8.24-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.24/jackrabbit-oak-1.8.24-src.zip)
     (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.24/jackrabbit-oak-1.8.24-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.24/jackrabbit-oak-1.8.24-src.zip.sha512))
-
-
-
-
-<a class='anchor' name='oak1.4'></a>
-Apache Jackrabbit Oak 1.4.26 (February 19th, 2020)
---------------------------------------------------
-Apache Jackrabbit Oak 1.4.26 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.x
-releases. Jackrabbit Oak 1.4.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.4.26/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.4.26-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip)
-    (10M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip.sha512))
 
 
 
