@@ -21,6 +21,7 @@ Apache Jackrabbit uses Jira for tracking bug reports and requests for
 improvements, new features, and other changes.
 
 The issue tracker is available at https://issues.apache.org/jira/browse/JCR
+and https://issues.apache.org/jira/browse/OAK
 and is readable by everyone. A Jira account is needed to create new issues
 and to comment on existing issues. Use the [registration form](https://issues.apache.org/jira/secure/Signup!default.jspa)
 to request an account if you do not already have one.
@@ -46,13 +47,21 @@ included in that release. If the fix is also backported to one or more of
 the maintenance branches (for backporting, use `svn merge -c _revision_
 ^/jackrabbit/trunk` in the root of the branch) the version numbers of the
 relevant next maintenance releases should also be included in the "Fix
-Version(s)" field.
+Version(s)" field (once the backport is done, not before that!). Note that
+this field is used to generate release notes, thus it needs to be maintained
+properly.
 
 Finally, once a release containing the change has been made, the release
 manager will mark the issue *Closed*, after which the issue can no longer
 be reopened (since the release can obviously no longer be changed).
 Potential regressions or other related problems should be tracked in
 separate followup issues.
+
+If a fix has not been backported yet, but should be considered for the next
+release of a maintenance branch, it can be labeled as "candidate_branchname" (or
+"candidate_oak_branchname"). Once the backport for that maintenance branch
+has been done, the label should be removed (or replaced by a label for the next
+older maintenance branch).
 
 
 Issue contents
