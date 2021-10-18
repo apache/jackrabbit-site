@@ -36,6 +36,11 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 
 ## Apache Jackrabbit News
 
+#### October 18th, 2021 Apache Jackrabbit FileVault Package Maven Plugin 1.2.2 released
+
+Jackrabbit FileVault Package Maven Plugin 1.2.2 is current stable release of the package Maven Plugin.
+See the [downloads](downloads.html#vltplg) page for more details.
+
 #### October 11th, 2021: Apache Jackrabbit Oak 1.22.9 released
 Apache Jackrabbit Oak 1.22.9 is an incremental feature release based
 on and compatible with earlier stable Jackrabbit Oak 1.x releases.
