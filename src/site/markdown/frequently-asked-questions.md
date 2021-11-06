@@ -24,8 +24,8 @@ General
 
 ### What is JCR?
 JCR is the acronym of the Content Repository for Java technology API, a standard interface for accessing content repositories.
-JCR version 1.0 was specified in Java Specification Request 170 ([JSR 170](http://jcp.org/en/jsr/detail?id=170)),
-and version 2.0 is currently under work in [JSR 283|http://jcp.org/en/jsr/detail?id=283].
+JCR version 1.0 was specified in [Java Specification Request 170 (JSR 170)](http://jcp.org/en/jsr/detail?id=170),
+and version 2.0 in [JSR 283](http://jcp.org/en/jsr/detail?id=283).
 
 ### What is a content repository?
 A content repository is an information management system that provides

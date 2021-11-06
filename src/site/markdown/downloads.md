@@ -16,6 +16,7 @@
 -->
 Downloads
 =========
+
 Use the links below to download Apache Jackrabbit releases from one of our
 mirrors. You should [verify the integrity](#verify) of the files using
 the signatures and checksums available from this page.
@@ -159,7 +160,7 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.16.8/RELE
 
 * [jackrabbit-jca-2.16.8.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.8/jackrabbit-jca-2.16.8.rar)
     (76M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.16.8/jackrabbit-jca-2.16.8.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.16.8/jackrabbit-jca-2.16.8.rar.sha512))
-  
+
 
 
 

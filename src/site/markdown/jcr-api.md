@@ -17,7 +17,7 @@
 
 JCR API
 =======
-Jackrabbit is a complete, and fully compliant implementation of  the Content Repository API for Java Technology (JCR)
+Jackrabbit is a complete, and fully compliant implementation of  the [Content Repository API for Java Technology (JCR)](jcr.html)
 and therefore its primary API is defined by JCR. For a developer this means that most operations required are defined by
 the JCR API. The classes and interfaces within Apache Jackrabbit are only needed when accessing functionality that is
 not specified in JCR.
