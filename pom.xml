@@ -22,7 +22,7 @@
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>16</version>
+    <version>24</version>
     <relativePath />
   </parent>
 
@@ -46,6 +46,9 @@
         <url>http://svn.apache.org/viewvc/asf/jackrabbit/site/trunk</url>
     </scm>
 
+    <properties>
+        <project.build.outputTimestamp>1</project.build.outputTimestamp>
+    </properties>
     <!-- ====================================================================== -->
     <!-- B U I L D                                                             -->
     <!-- ====================================================================== -->
@@ -57,7 +60,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
-                <version>3.3</version>
                 <configuration>
                     <skipDeploy>true</skipDeploy>
                     <generateReports>true</generateReports>
@@ -68,14 +70,14 @@
                     <dependency>
                         <groupId>org.apache.maven.doxia</groupId>
                         <artifactId>doxia-module-markdown</artifactId>
-                        <version>1.5</version>
+                        <version>1.9.1</version>
                     </dependency>
                 </dependencies>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-scm-publish-plugin</artifactId>
-                <version>1.1</version>
+                <version>3.1.0</version>
                 <executions>
                     <execution>
                         <id>scm-publish</id>
@@ -144,7 +146,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-project-info-reports-plugin</artifactId>
-                <version>2.7</version>
                 <reportSets>
                     <reportSet />
                 </reportSets>
