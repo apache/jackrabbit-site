@@ -5,7 +5,7 @@ The JCR API library is a core dependency for most of the [Jackrabbit components]
 
 JCR 1.0
 --------
-* The *jcr-1.0.jar* file contains all the [javax.jcr interfaces](https://s.apache.org/jcr-1.0-javadoc/]
+* The *jcr-1.0.jar* file contains all the [javax.jcr interfaces](https://s.apache.org/jcr-1.0-javadoc/)
 specified by [JSR 170](http://jcp.org/en/jsr/detail?id=170)
 
 
@@ -15,7 +15,7 @@ or the [central Maven repository](http://repo1.maven.org/maven2/javax/jcr/jcr/1.
 
 JCR 2.0
 --------
-* The *jcr-2.0.jar* file contains all the [javax.jcr interfaces](https://s.apache.org/jcr-2.0-javadoc/]
+* The *jcr-2.0.jar* file contains all the [javax.jcr interfaces](https://s.apache.org/jcr-2.0-javadoc/)
 specified by [JSR 283](http://jcp.org/en/jsr/detail?id=283)
 
 
