@@ -27,14 +27,14 @@ repository  but are not (yet) specified by JCR. (see [Jackrabbit Architecture](j
 
 See the javadoc documentation of the JCR API and Apache Jackrabbit releases:
 
-* [JCR 2.0](https://docs.adobe.com/docs/en/spec/javax.jcr/javadocs/jcr-2.0)
+* [JCR 2.0](https://s.apache.org/jcr-2.0-javadoc/)
 * [Apache Jackrabbit Trunk](http://jackrabbit.apache.org/api/trunk/)
 * [Apache Jackrabbit 2.20](http://jackrabbit.apache.org/api/2.20/)
 * [Apache Jackrabbit 2.16](http://jackrabbit.apache.org/api/2.16/)
 * [Apache Jackrabbit 2.14](http://jackrabbit.apache.org/api/2.14/)
 
 
-* [JCR 1.0](http://www.day.com/maven/jsr170/javadocs/jcr-1.0/)
+* [JCR 1.0](https://s.apache.org/jcr-1.0-javadoc/)
 
 JSR-170 Levels
 --------------

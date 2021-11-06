@@ -23,8 +23,8 @@ General
 -------
 
 ### What is JCR?
-JCR is the acronym of the Content Repository for Java technology API, a standard interface for accessing content repositories. 
-JCR version 1.0 was specified in Java Specification Request 170 ([JSR 170](http://jcp.org/en/jsr/detail?id=170)), 
+JCR is the acronym of the Content Repository for Java technology API, a standard interface for accessing content repositories.
+JCR version 1.0 was specified in Java Specification Request 170 ([JSR 170](http://jcp.org/en/jsr/detail?id=170)),
 and version 2.0 is currently under work in [JSR 283|http://jcp.org/en/jsr/detail?id=283].
 
 ### What is a content repository?
@@ -45,7 +45,7 @@ official reference implementation (RI) and technology compatibility kit
 (TCK) released along with the final JCR API.
 
 ### What do I do if I have a question?
-Please ask questions on the [Jackrabbit mailing lists](http://jackrabbit.apache.org/mailing-lists.html). 
+Please ask questions on the [Jackrabbit mailing lists](http://jackrabbit.apache.org/mailing-lists.html).
 There is the users list for questions around using JCR and Jackrabbit and
 the dev list for the development of Jackrabbit itself and for people
 starting to extend Jackrabbit or other advanced topics.
@@ -77,7 +77,7 @@ features, please	   see section 8.1 Transactions of the JCR
 specification.
 
 ### How do I create new workspaces in Jackrabbit?
-The JCR 2.0 API has two [Workspace.createWorkspace\(\)](http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Workspace.html#createWorkspace\(java.lang.String\)) methods for that.
+The JCR 2.0 API has two [Workspace.createWorkspace\(\)](https://s.apache.org/jcr-2.0-javadoc/javax/jcr/Workspace.html#createWorkspace\(java.lang.String\)) methods for that.
 
 The JCR 1.0 API does not contain features for creating or managing
 workspaces, so you need to use Jackrabbit-specific functionality for
@@ -102,7 +102,7 @@ a workspace by manually removing the workspace directory when the
 repository instance is not running.
 
 ### How do I deploy Jackrabbit into Tomcat?
-* Download [jcr-1.0.jar](http://www.day.com/maven/javax.jcr/jars/jcr-1.0.jar) and put it into `<tomcat-install-dir>/shared/lib`.
+* Download [jcr-1.0.jar](https://repo1.maven.org/maven2/javax/jcr/jcr/1.0/jcr-1.0.jar) and put it into `<tomcat-install-dir>/shared/lib`.
 * Get the WAR distribution from the [Downloads](downloads.html) page and deploy it into Tomcat.
 * Point your browser to `http://localhost:8080/jackrabbit-webapp-<version>`
 
@@ -113,8 +113,8 @@ Access control
 ### How do I use LDAP, Kerberos, or some other authentication mechanism with Jackrabbit?
 
 Jackrabbit uses the Java Authentication and Authorization Service (JAAS)
-for authenticating users. You should be able to use any JAAS LoginModule 
-implementation (e.g. the LoginModules in thecom.sum.security.auth.modulepackage) 
+for authenticating users. You should be able to use any JAAS LoginModule
+implementation (e.g. the LoginModules in thecom.sum.security.auth.modulepackage)
 for authentication. See the JAAS documentation for configuration instructions.
 
 ### How do I manage the access rights of authenticated users?
@@ -139,7 +139,7 @@ of the Jackrabbit system architecture. Reliability, integrity and
 performance of the PM are crucial to the overall	    
 stability and performance of the repository. If e.g. the data	       
 that a PM is based upon is allowed to change through external	       
-means the integrity of the repository would be at risk (think of referential 
+means the integrity of the repository would be at risk (think of referential
 integrity / node references e.g.).
 
 In practice, a persistence manager is any Java class that	   
@@ -153,7 +153,7 @@ give additional flexibility.
 A Jackrabbit file system (FS) is an internal component that	      
 implements standard file system operations on top of some underlying	   
 storage mechanism (a normal file system, a database, a webdav server,   
-or a custom file format). A file system component is any Java class 
+or a custom file format). A file system component is any Java class
 that implements the FileSystem interface and the
 associated behavioral contracts. File systems are used in
 Jackrabbit both as sub-components of the persistence managers and
@@ -190,7 +190,7 @@ element in `repository.xml only` acts as a template for new workspaces.
 
 Verify that you also put the jar files into the classpath that jackrabbit
 depends on for text extraction. You can find all required jar files inside
-the jackrabbit-webapp war file (the *WEB-INF/lib* folder). 
+the jackrabbit-webapp war file (the *WEB-INF/lib* folder).
 Go to the [downloads](downloads.html) page to get the war file.
 
 Some documents may still not be searchable for various reasons: the
@@ -221,13 +221,13 @@ JSR 170 says in section 6.6.4.3:
 
 > The context node of an XPath query is the XML node relative to which the
 > query expression is evaluated.
-> 
+>
 > A relative XPath statement (one that does not have a leading /) will be
 > interpreted relative to the root node of the workspace, which, in the XML
 > document view is the top-most XML element, <jcr:root>. This means that one
 > should not include jcr:root as the first segment in a relative XPath
 > statement, since that element is already the default context node.
-> 
+>
 > An absolute XPath (one with a leading /), in contrast, will be interpreted
 > relative to a position one level above <jcr:root>. This means that an
 > absolute XPath must either begin with // or with /jcr:root in order to

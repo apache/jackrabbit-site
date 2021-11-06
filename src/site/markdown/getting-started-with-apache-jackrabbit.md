@@ -18,8 +18,8 @@
 Getting Started with Apache Jackrabbit
 ======================================
 To get started with Jackrabbit you should first become familiar with the
-JCR API. Download the [JSR 170 specification](http://jcp.org/aboutJava/communityprocess/final/jsr170/index.html), 
-browse the [API documentation](http://www.day.com/maven/jsr170/javadocs/jcr-1.0/), 
+JCR API. Download the [JSR 170 specification](http://jcp.org/aboutJava/communityprocess/final/jsr170/index.html),
+browse the [API documentation](https://s.apache.org/jcr-1.0-javadoc/),
 check our introduction to JCR levels, or read some of the JCR
 articles to understand the content repository model that Jackrabbit
 implements. You can also take a look at the various JCR and

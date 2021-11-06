@@ -125,8 +125,8 @@ jcr-2.0.jar library. The promise of the JCR API is that if you only use
 these interfaces in your content application, it should remain mostly
 independent of the underlying content repository implementation. 
 
-The [Repository](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/Repository.html?is-external=true)
-interface represents a given content repository instance and the [Session](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/Session.html?is-external=true)
+The [Repository](https://s.apache.org/jcr-2.0-javadoc/javax/jcr/Repository.html?is-external=true)
+interface represents a given content repository instance and the [Session](https://s.apache.org/jcr-2.0-javadoc/javax/jcr/Session.html?is-external=true)
 interface represents a single login session for accessing the repository.
 A session is needed to access any content within a repository. 
 
@@ -182,7 +182,7 @@ persistence manager.
 
 
 The `Repository.login(Credentials)` method starts a repository session using the
-default workspace and some user credentials. The FirstHop example uses [GuestCredentials](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/GuestCredentials.html?is-external=true)
+default workspace and some user credentials. The FirstHop example uses [GuestCredentials](https://s.apache.org/jcr-2.0-javadoc/javax/jcr/GuestCredentials.html?is-external=true)
 and Jackrabbit maps it to the read-only anonymous user.
 
 Since we use the `TransientRepository` class as the Repository
@@ -214,7 +214,7 @@ available using the `Session.getUserID()` method. Jackrabbit returns
 
 Each content repository implementation publishes a number of string
 descriptors that describe the various implementation properties, like the
-implementation level and the supported optional JCR features. See the [Repository](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/Repository.html?is-external=true)
+implementation level and the supported optional JCR features. See the [Repository](https://s.apache.org/jcr-2.0-javadoc/javax/jcr/Repository.html?is-external=true)
 interface for a list of the standard repository descriptors. The
 `REP_NAME_DESC` descriptor contains the name of the repository
 implementation, in this case `"Jackrabbit"`. 
@@ -293,14 +293,14 @@ Hop example, so let's just walk through the differences:
     import javax.jcr.Node; 
 
 
-These are two new classes we need for this example. The [SimpleCredentials](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/SimpleCredentials.html?is-external=true)
-class is a simple implementation of the [Credentials](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/Credentials.html?is-external=true)
+These are two new classes we need for this example. The [SimpleCredentials](https://s.apache.org/jcr-2.0-javadoc/javax/jcr/SimpleCredentials.html?is-external=true)
+class is a simple implementation of the [Credentials](https://s.apache.org/jcr-2.0-javadoc/javax/jcr/Credentials.html?is-external=true)
 interface used for passing explicit user credentials to the
 `Repository.login(Credentials)` method. 
 
-The [Node](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/Node.html?is-external=true)
+The [Node](https://s.apache.org/jcr-2.0-javadoc/javax/jcr/Node.html?is-external=true)
 interface is used to manage the content nodes in a repository. There is a
-related interface called [Property](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/Property.html?is-external=true)
+related interface called [Property](https://s.apache.org/jcr-2.0-javadoc/javax/jcr/Property.html?is-external=true)
 for managing content properties, but in this example we use the Property
 interface only indirectly. 
 
@@ -405,7 +405,7 @@ contains all the names of the ancestor nodes in order before the name of
 the current node or property. 
 
 The path of a node or property can be retrieved using the Item.getPath()
-method. The [Item](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/Item.html?is-external=true)
+method. The [Item](https://s.apache.org/jcr-2.0-javadoc/javax/jcr/Item.html?is-external=true)
 interface is a superinterface of Node and Property, and contains all the
 functionality shared by nodes and properties. 
 
@@ -416,7 +416,7 @@ output the line `"/hello/world"`.
 
 
 Properties can be accessed using the `Node.getProperty(String relPath)`
-method that returns an instance of the [Property](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/Property.html?is-external=true)
+method that returns an instance of the [Property](https://s.apache.org/jcr-2.0-javadoc/javax/jcr/Property.html?is-external=true)
 interface that represents the property at the given path relative to the
 current node. In this case the "message" property is the one we created a
 few lines earlier. 
@@ -644,7 +644,7 @@ content:
 This deserializes an XML document and adds the resulting item subgraph as a
 child of the node at the provided path.
 
-The flag [ImportUUIDBehavior](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/ImportUUIDBehavior.html?is-external=true)
+The flag [ImportUUIDBehavior](https://s.apache.org/jcr-2.0-javadoc/javax/jcr/ImportUUIDBehavior.html?is-external=true)
 governs how the identifiers of incoming nodes are handled. 
 
 There are four options: 
