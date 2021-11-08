@@ -50,8 +50,19 @@ Some Jackrabbit components contain external code with licenses that meet [Apache
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
 
+<a class='anchor' name='oak1.8'></a>
+Apache Jackrabbit Oak 1.8.25 (November 8th, 2021)
+------------------------------------------------
+Apache Jackrabbit Oak 1.8.25 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.x
+releases. Jackrabbit Oak 1.8.x releases are considered stable and
+targeted for production use.
 
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.25/RELEASE-NOTES.txt) for more details.
 
+* [jackrabbit-oak-1.8.25-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.25/jackrabbit-oak-1.8.25-src.zip)
+  (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.25/jackrabbit-oak-1.8.25-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.25/jackrabbit-oak-1.8.25-src.zip.sha512))
+  
 <a class='anchor' name='v2.20'></a>
 Apache Jackrabbit 2.20.4 (November 5th, 2021)
 ---------------------------------------------
@@ -193,24 +204,7 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.6.21/R
 
 * [jackrabbit-oak-1.6.21-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.21/jackrabbit-oak-1.6.21-src.zip)
     (11M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.6.21/jackrabbit-oak-1.6.21-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.6.21/jackrabbit-oak-1.6.21-src.zip.sha512))
-
-
-
-
-<a class='anchor' name='oak1.8'></a>
-Apache Jackrabbit Oak 1.8.24 (December 8th, 2020)
-------------------------------------------------
-Apache Jackrabbit Oak 1.8.24 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.x
-releases. Jackrabbit Oak 1.8.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.24/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.8.24-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.8.24/jackrabbit-oak-1.8.24-src.zip)
-    (14M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.8.24/jackrabbit-oak-1.8.24-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.8.24/jackrabbit-oak-1.8.24-src.zip.sha512))
-
-
+  
 
 
 <a class='anchor' name='vlt'></a>
