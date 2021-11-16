@@ -263,7 +263,7 @@ You need to change the `~/.m2/settings.xml` file as follows. PGP key id: this is
 Appendix C: Cygwin
 ------------------
 
-The Subversion support in the release plugin assumes platform-specific path delimiters, and thus does not work properly if the "svn" executable is the Cygwin version. The easiest workaround for this problem is to install a Windows-native SVN version as well, and to modify the PATH variable for the mvn invocation so that it's found instead of the Cygwin variant.
+The Subversion and Git support in the release plugin assumes platform-specific path delimiters, and thus does not work properly if the "git" or "svn" executable is the Cygwin version. The easiest workaround for this problem is to install a Windows-native GIT or SVN version as well, and to modify the PATH variable for the git/mvn invocation so that it's found instead of the Cygwin variant.
 
 Appendix D: Branching
 ---------------------
