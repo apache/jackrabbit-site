@@ -26,6 +26,7 @@ For recent events, have a look at the [News Archive](news-archive.html).
 
 Jackrabbit in 2021
 ------------------
+* September 2021: [Jackrabbit Status September 2021](status/board-report-2021-09.html)  
 * June 2021: [Jackrabbit Status June 2021](status/board-report-2021-06.html)
 * March 2021: [Jackrabbit Status March 2021](status/board-report-2021-03.html)
 
