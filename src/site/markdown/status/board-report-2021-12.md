@@ -78,10 +78,14 @@ features and improvements in for the next Jackrabbit Oak release.
 
 ## Releases:
 
+ - jackrabbit-filevault-3.5.4 was released on 2021-10-05
+ - jackrabbit-2.21.8 was released on 2021-10-08
  - jackrabbit-oak-1.22.9 was released on 2021-10-11
+ - jackrabbit-filevault-maven-plugin-1.2.2 was released on 2021-10-18
  - jackrabbit-2.20.4 was released on 2021-11-06
  - jackrabbit-oak-1.8.25 was released on 2021-11-08
  - jackrabbit-oak-1.6.22 was released on 2021-11-19
+ - jackrabbit-filevault-3.5.6 was released on 2021-11-25
 
 ## JIRA activity:
 
