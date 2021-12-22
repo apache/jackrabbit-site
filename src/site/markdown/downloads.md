@@ -214,14 +214,14 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.40.0/
 
 
 <a class='anchor' name='vlt'></a>
-Apache Jackrabbit FileVault 3.5.6 (November 25th, 2021)
+Apache Jackrabbit FileVault 3.5.8 (December 22th, 2021)
 -------------------------------------------------------
-Jackrabbit FileVault 3.5.6 is the latest stable release of the repository content synchronization tool. This version is only compatible with Java 8 or newer. The OSGi bundles require Oak 1.8+ or Jackrabbit 2.16+.
+Jackrabbit FileVault 3.5.8 is the latest stable release of the repository content synchronization tool. This version is only compatible with Java 8 or newer. The OSGi bundles require Oak 1.8+ or Jackrabbit 2.16+.
 
-See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/3.5.6/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/3.5.8/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-filevault-3.5.6-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/3.5.6/jackrabbit-filevault-3.5.6-src.zip)
-    (2.5M, source zip, [pgp](https://downloads.apache.org/jackrabbit/filevault/3.5.6/jackrabbit-filevault-3.5.6-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/filevault/3.5.6/jackrabbit-filevault-3.5.6-src.zip.sha512))
+* [jackrabbit-filevault-3.5.8-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/3.5.8/jackrabbit-filevault-3.5.8-src.zip)
+    (3M, source zip, [pgp](https://downloads.apache.org/jackrabbit/filevault/3.5.8/jackrabbit-filevault-3.5.8-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/filevault/3.5.8/jackrabbit-filevault-3.5.8-src.zip.sha512))
 
 
 
