@@ -39,7 +39,7 @@ on your preferred mirror.
     * [Apache Jackrabbit 2.14.x](#v2.14) (Java 7 to Java 8)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
 * Latest stable FileVault releases:
-    * [Apache Jackrabbit FileVault 3.5.6](#vlt) (Java 8 and later)
+    * [Apache Jackrabbit FileVault 3.5.8](#vlt) (Java 8 and later)
     * [Apache Jackrabbit FileVault 3.2.8](#vltjava7) (Java 7 and later)
 * Latest stable FileVault Plugin release: [Apache Jackrabbit FileVault Package Maven Plugin 1.2.2](#vltplg)
 * [Release Archive](#archive)
