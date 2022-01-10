@@ -51,7 +51,6 @@ Jackrabbit committers
 | draier          | Thomas Draier  | &nbsp; |
 | eaf             | Esteban Franqueiro  |  [BEA](http://www.bea.com/)  |
 | edgarpoce       | [Edgar Poce](mailto:edgarpoce@gmail.com)  | &nbsp; |
-| fmeschbe        | Felix Meschberger  |  [Adobe](http://www.adobe.com/)  |
 | fortino         | Fabrizio Fortino  |  [Adobe](http://www.adobe.com/)  |
 | frm             | Francesco Mari  |  [Adobe](http://www.adobe.com/)  | 
 | halderen        | Berry van Halderen  | &nbsp; |
@@ -89,12 +88,13 @@ Emeritus and former members
 ----------------
 | Id         | Name | Organization |
 |------------|------|--------------|
-| martijnh   | Martijn Hendriks  | &nbsp; |
-| jukka      | [Jukka Zitting](mailto:jukka.zitting@gmail.com) | &nbsp; |
-| fielding   | Roy T. Fielding  |  [Adobe](http://www.adobe.com/)  |
 | asavory    |  Andrew Savory  | &nbsp; |
 | bcm        |  [Brian Moseley](mailto:bcm@osafoundation.org)  |  Open Source Applications Foundation (OSAF)  |
+| fielding   | Roy T. Fielding  |  [Adobe](http://www.adobe.com/)  |
+| fmeschbe   | Felix Meschberger  | &nbsp; |
 | gianugo    |  Gianugo Rabellino  | &nbsp; |
+| jukka      | [Jukka Zitting](mailto:jukka.zitting@gmail.com) | &nbsp; |
+| martijnh   | Martijn Hendriks  | &nbsp; |
 | prussell   |  Paul Russell  | &nbsp; |
 | stefano    |  Stefano Mazzocchi  | &nbsp; |
 | treilly    |  Tim Reilly  | &nbsp; |
