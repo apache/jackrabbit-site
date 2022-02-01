@@ -38,9 +38,9 @@ repository but which are not specified by JCR (see [Jackrabbit Architecture](jac
 * [Apache Jackrabbit 2.16](http://jackrabbit.apache.org/api/2.16/)
 * [Apache Jackrabbit 2.14](http://jackrabbit.apache.org/api/2.14/)
 
-Some _extensions_ to the JCR API are defined under `org.apache.jackrabbit.api`. These are implemented both in
+Some _extensions_ to the JCR API are defined in package `org.apache.jackrabbit.api` and its subpackages. These are implemented both in
 Jackrabbit (partly) and in [Jackrabbit Oak](../oak). Their definition has been transferred to the Oak project
-in 2019 (before the release of Jackrabbit 2.20); see the [Oak API docs](../oak/docs/apidocs/) for further
+in 2019 (before the release of Jackrabbit 2.20, details in [JCR-4449](https://issues.apache.org/jira/browse/JCR-4449)); see the [Oak API docs](../oak/docs/apidocs/) for further
 information.
 
 
