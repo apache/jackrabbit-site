@@ -17,27 +17,32 @@
 
 JCR API
 =======
-Jackrabbit is a complete, and fully compliant implementation of  the [Content Repository API for Java Technology (JCR)](jcr.html)
+Jackrabbit is a complete, and fully compliant implementation of the [Content Repository API for Java Technology (JCR)](jcr.html)
 and therefore its primary API is defined by JCR. For a developer this means that most operations required are defined by
 the JCR API. The classes and interfaces within Apache Jackrabbit are only needed when accessing functionality that is
 not specified in JCR.
 
-Beyond the JCR API Jackrabbit features numerous extensions and administrational features that are needed to run a
-repository  but are not (yet) specified by JCR (see [Jackrabbit Architecture](jackrabbit-architecture.html)).
+See the javadoc documentation of the JCR API:
 
-The Jackrabbit API (defined in packages `org.apache.jackrabbit.api*`) is implemented by both Jackrabbit 2 and [Jackrabbit Oak](https://jackrabbit.apache.org/oak). Since Jackrabbit 2.20 the API is maintained at [Oak](https://github.com/apache/jackrabbit-oak/tree/trunk/oak-jackrabbit-api) ([JCR-4449](https://issues.apache.org/jira/browse/JCR-4449)).
+* [JCR 2.0](https://s.apache.org/jcr-2.0-javadoc/) (JSR-283)
 
-See the javadoc documentation of the JCR API and Apache Jackrabbit releases:
+The original version of the JCR API:
 
-* [JCR 2.0](https://s.apache.org/jcr-2.0-javadoc/)
-* [Apache Jackrabbit Oak Trunk](https://jackrabbit.apache.org/oak/docs/oak_api/overview.html) (contains Jackrabbit API since 1.16.0 ([OAK-8339](https://issues.apache.org/jira/browse/OAK-8339))
+* [JCR 1.0](https://s.apache.org/jcr-1.0-javadoc/) (JSR-170)
+
+Beyond the JCR API Jackrabbit features numerous extensions and administrational features that are needed to configure and run a
+repository but which are not specified by JCR (see [Jackrabbit Architecture](jackrabbit-architecture.html)):
+
 * [Apache Jackrabbit Trunk](http://jackrabbit.apache.org/api/trunk/)
-* [Apache Jackrabbit 2.20](http://jackrabbit.apache.org/api/2.20/) (no longer contains Jackrabbit API)
-* [Apache Jackrabbit 2.16](http://jackrabbit.apache.org/api/2.16/) (still contains Jackrabbit API)
+* [Apache Jackrabbit 2.20](http://jackrabbit.apache.org/api/2.20/)
+* [Apache Jackrabbit 2.16](http://jackrabbit.apache.org/api/2.16/)
 * [Apache Jackrabbit 2.14](http://jackrabbit.apache.org/api/2.14/)
 
+Some _extensions_ to the JCR API are defined under `org.apache.jackrabbit.api`. These are implemented both in
+Jackrabbit (partly) and in [Jackrabbit Oak](../oak). Their definition has been transferred to the Oak project
+in 2019 (before the release of Jackrabbit 2.20); see the [Oak API docs](../oak/docs/apidocs/) for further
+information.
 
-* [JCR 1.0](https://s.apache.org/jcr-1.0-javadoc/)
 
 JSR-170 Levels
 --------------
