@@ -36,6 +36,11 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 
 ## Apache Jackrabbit News
 
+#### February 10th, 2022: Apache Jackrabbit 2.21.10 released
+Apache Jackrabbit 2.21.10 is an unstable release cut directly from trunk, with a
+focus on new features and other improvements. See the
+[downloads](downloads.html#v2.21) page for more details.
+
 #### February 4th, 2022: Apache Jackrabbit Oak 1.8.26 released
 Jackrabbit Oak 1.8.26 is a patch release that contains fixes and
 improvements over the previous 1.8.x release.  See the
