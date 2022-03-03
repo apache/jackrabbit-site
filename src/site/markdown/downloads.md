@@ -222,7 +222,7 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.40.0/
 
 
 <a class='anchor' name='vlt'></a>
-Apache Jackrabbit FileVault 3.6.0 (March 02th, 2022)
+Apache Jackrabbit FileVault 3.6.0 (March 02nd, 2022)
 -------------------------------------------------------
 Jackrabbit FileVault 3.6.0 is the latest stable release of the repository content synchronization tool. This version is only compatible with Java 8 or newer. The OSGi bundles require Oak 1.8+ or Jackrabbit 2.16+.
 
