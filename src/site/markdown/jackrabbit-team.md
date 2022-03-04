@@ -54,6 +54,7 @@ Jackrabbit committers
 | fortino         | Fabrizio Fortino  |  [Adobe](http://www.adobe.com/)  |
 | frm             | Francesco Mari  |  [Adobe](http://www.adobe.com/)  | 
 | halderen        | Berry van Halderen  | &nbsp; |
+| joscorbe        | Jos&eacute; Andr&eacute;s Cordero Ben&#237;tez | &nbsp; |
 | jsedding        | Julian Sedding | &nbsp; |
 | justin          | Justin Edelson  |  [Adobe](http://www.adobe.com/)  |
 | kwin            | Konrad Windszus  |  [Netcentric](https://www.netcentric.biz)  |
@@ -77,7 +78,6 @@ Jackrabbit committers
 | thomasm         | Thomas Mueller  |  [Adobe](http://www.adobe.com/)  |
 | tomekr          | Tomek Rękawek  |  [Adobe](http://www.adobe.com/)  |
 | tommaso         | Tommaso Teofili  | &nbsp; |
-| tripod          | Tobias Bocanegra  |  [Adobe](http://www.adobe.com/)  |
 | uncled          | David Nuescheler  |  [Adobe](http://www.adobe.com/)  |
 | unico           | Unico Hommes  | &nbsp; |
 | vholani         | Vinod Holani |  [Adobe](http://www.adobe.com/)  | 
@@ -98,6 +98,7 @@ Emeritus and former members
 | prussell   |  Paul Russell  | &nbsp; |
 | stefano    |  Stefano Mazzocchi  | &nbsp; |
 | treilly    |  Tim Reilly  | &nbsp; |
+| tripod     | Tobias Bocanegra  | &nbsp; |
 
 
 
