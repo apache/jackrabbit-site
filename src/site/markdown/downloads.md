@@ -41,7 +41,7 @@ on your preferred mirror.
 * Latest stable FileVault releases:
     * [Apache Jackrabbit FileVault 3.6.0](#vlt) (Java 8 and later)
     * [Apache Jackrabbit FileVault 3.2.8](#vltjava7) (Java 7 and later)
-* Latest stable FileVault Plugin release: [Apache Jackrabbit FileVault Package Maven Plugin 1.2.2](#vltplg)
+* Latest stable FileVault Plugin release: [Apache Jackrabbit FileVault Package Maven Plugin 1.3.0](#vltplg)
 * [Release Archive](#archive)
 
 Apache Jackrabbit releases are available under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
@@ -220,7 +220,7 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.40.0/
 
 
 <a class='anchor' name='vlt'></a>
-Apache Jackrabbit FileVault 3.6.0 (March 02nd, 2022)
+Apache Jackrabbit FileVault 3.6.0 (March 2nd, 2022)
 -------------------------------------------------------
 Jackrabbit FileVault 3.6.0 is the latest stable release of the repository content synchronization tool. This version is only compatible with Java 8 or newer. The OSGi bundles require Oak 1.8+ or Jackrabbit 2.16+.
 
@@ -238,7 +238,7 @@ Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for mor
 <a class='anchor' name='vltjava7'></a>
 Apache Jackrabbit FileVault 3.2.8 (Mar 21st, 2019)
 --------------------------------------------------
-Jackrabbit FileVault 3.2.8 is the latest stable release of the recently donated repository content synchronization tool. This version is still compatible with Java 7.
+Jackrabbit FileVault 3.2.8 is the latest stable release of repository content synchronization tool still compatible with Java 7. If possible use the newer FileVault 3.4.0 or newer which requires Java 8.
 
 See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/3.2.8/RELEASE-NOTES.txt) for more details.
 
@@ -252,15 +252,15 @@ Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for mor
 
 
 <a class='anchor' name='vltplg'></a>
-Apache Jackrabbit FileVault Package Maven Plugin 1.2.2 (October 18th, 2021)
+Apache Jackrabbit FileVault Package Maven Plugin 1.3.0 (March 26th, 2022)
 ------------------------------------------------------------------------
-Jackrabbit FileVault Package Maven Plugin 1.2.2 is the latest stable release of the FileVault content package Maven plugin.
+Jackrabbit FileVault Package Maven Plugin 1.3.0 is the latest stable release of the FileVault content package Maven plugin.
 
-See the [full release notes](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.2.2/RELEASE-NOTES.md) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.3.0/RELEASE-NOTES.md) for more details.
 
-* [filevault-package-maven-plugin-1.2.2-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault-package-maven-plugin/1.2.2/filevault-package-maven-plugin-1.2.2-source-release.zip)
-    (1.5M, source zip, [PGP signature](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.2.2/filevault-package-maven-plugin-1.2.2-source-release.zip.asc))
-    * [SHA512 checksum](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.2.2/filevault-package-maven-plugin-1.2.2-source-release.zip.sha512)
+* [filevault-package-maven-plugin-1.3.0-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault-package-maven-plugin/1.3.0/filevault-package-maven-plugin-1.3.0-source-release.zip)
+    (1.5M, source zip, [PGP signature](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.3.0/filevault-package-maven-plugin-1.3.0-source-release.zip.asc))
+    * [SHA512 checksum](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.3.0/filevault-package-maven-plugin-1.3.0-source-release.zip.sha512)
 
 Also see the Jackrabbit FileVault Package Maven Plugin [documentation](/filevault-package-maven-plugin/index.html) for more information about this project.
 
