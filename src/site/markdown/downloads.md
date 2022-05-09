@@ -36,7 +36,6 @@ on your preferred mirror.
     * [Apache Jackrabbit Oak 1.8.x](#oak1.8) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.6.x](#oak1.6) (Java 7 and later; Java 8 and later since 1.6.21)
     * [Apache Jackrabbit 2.16.x](#v2.16) (Java 8 to Java 13)
-    * [Apache Jackrabbit 2.14.x](#v2.14) (Java 7 to Java 8)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
 * Latest stable FileVault releases:
     * [Apache Jackrabbit FileVault 3.6.0](#vlt) (Java 8 and later)
@@ -178,29 +177,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.16.9/RELE
 * [jackrabbit-jca-2.16.9.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.9/jackrabbit-jca-2.16.9.rar)
     (76M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.16.9/jackrabbit-jca-2.16.9.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.16.9/jackrabbit-jca-2.16.9.rar.sha512))
   
-
-
-<a class='anchor' name='v2.14'></a>
-Apache Jackrabbit 2.14.10 (September 11th, 2021)
-------------------------------------------------
-Apache Jackrabbit 2.14.10 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
-2.14.x releases are considered stable and targeted for production use.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/2.14.10/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-2.14.10-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.14.10/jackrabbit-2.14.10-src.zip)
-    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.14.10/jackrabbit-2.14.10-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.14.10/jackrabbit-2.14.10-src.zip.sha512))
-
-* [jackrabbit-standalone-2.14.10.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.14.10/jackrabbit-standalone-2.14.10.jar)
-    (132M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.14.10/jackrabbit-standalone-2.14.10.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.14.10/jackrabbit-standalone-2.14.10.jar.sha512))
-
-* [jackrabbit-webapp-2.14.10.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.14.10/jackrabbit-webapp-2.14.10.war)
-    (65M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.14.10/jackrabbit-webapp-2.14.10.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.14.10/jackrabbit-webapp-2.14.10.war.sha512))
-
-* [jackrabbit-jca-2.14.10.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.14.10/jackrabbit-jca-2.14.10.rar)
-    (64M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.14.10/jackrabbit-jca-2.14.10.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.14.10/jackrabbit-jca-2.14.10.rar.sha512))
-
 
 
 
