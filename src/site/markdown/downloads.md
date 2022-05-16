@@ -50,9 +50,10 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+
 <a class='anchor' name='oak1.6'></a>
 Apache Jackrabbit Oak 1.6.23 (March 16th, 2022)
---------------------------------------------------
+-----------------------------------------------
 Apache Jackrabbit Oak 1.6.23 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.6.x
 releases. Jackrabbit Oak 1.6.x releases are considered stable and
@@ -62,6 +63,9 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.6.23/R
 
 * [jackrabbit-oak-1.6.23-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.23/jackrabbit-oak-1.6.23-src.zip)
   (11M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.6.23/jackrabbit-oak-1.6.23-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.6.23/jackrabbit-oak-1.6.23-src.zip.sha512))
+
+
+
 
 <a class='anchor' name='v2.20'></a>
 Apache Jackrabbit 2.20.5 (March 10th, 2022)
@@ -89,7 +93,7 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.20.5/RELE
 
 <a class='anchor' name='oak1.22'></a>
 Apache Jackrabbit Oak 1.22.11 (February 24th, 2022)
--------------------------------------------------
+---------------------------------------------------
 Apache Jackrabbit Oak 1.22.11 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.22.x
 releases. Jackrabbit Oak 1.22.x releases are considered stable and
@@ -100,6 +104,9 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.22.11/
 * [jackrabbit-oak-1.22.11-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.22.11/jackrabbit-oak-1.22.11-src.zip)
   (15M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.22.11/jackrabbit-oak-1.22.11-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.22.11/jackrabbit-oak-1.22.11-src.zip.sha512))
   
+
+
+
 <a class='anchor' name='v2.21'></a>
 Apache Jackrabbit 2.21.10 (February 10th, 2022)
 -----------------------------------------------
@@ -140,9 +147,10 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.26/R
   
 
 
+
 <a class='anchor' name='latest'></a>
 Apache Jackrabbit Oak 1.42.0 (January 12th, 2022)
----------------------------------------------
+-------------------------------------------------
 Apache Jackrabbit Oak 1.42.0 is an incremental feature release based
 on and compatible with earlier stable Jackrabbit Oak 1.x
 releases. This release is considered stable and targeted for
@@ -180,21 +188,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.16.9/RELE
 
 
 
-Apache Jackrabbit Oak 1.40.0 (June 3rd, 2021)
----------------------------------------------
-Apache Jackrabbit Oak 1.40.0 is an incremental feature release based
-on and compatible with earlier stable Jackrabbit Oak 1.x
-releases. This release is considered stable and targeted for
-production use.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.40.0/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.40.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.40.0/jackrabbit-oak-1.40.0-src.zip)
-    (16M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.40.0/jackrabbit-oak-1.40.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.40.0/jackrabbit-oak-1.40.0-src.zip.sha512))
-
-
-
-
 <a class='anchor' name='vlt'></a>
 Apache Jackrabbit FileVault 3.6.0 (March 2nd, 2022)
 -------------------------------------------------------
@@ -205,10 +198,9 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/3
 * [jackrabbit-filevault-3.6.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/3.6.0/jackrabbit-filevault-3.6.0-src.zip)
     (3M, source zip, [pgp](https://downloads.apache.org/jackrabbit/filevault/3.6.0/jackrabbit-filevault-3.6.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/filevault/3.6.0/jackrabbit-filevault-3.6.0-src.zip.sha512))
 
-
-
-
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
+
+
 
 
 <a class='anchor' name='vltjava7'></a>
