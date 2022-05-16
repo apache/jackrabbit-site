@@ -34,7 +34,6 @@ on your preferred mirror.
 * Maintenance releases:
     * [Apache Jackrabbit Oak 1.22.x](#oak1.22) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.8.x](#oak1.8) (Java 8 and later)
-    * [Apache Jackrabbit Oak 1.6.x](#oak1.6) (Java 7 and later; Java 8 and later since 1.6.21)
     * [Apache Jackrabbit 2.16.x](#v2.16) (Java 8 to Java 13)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
 * Latest stable FileVault releases:
@@ -47,22 +46,6 @@ Apache Jackrabbit releases are available under the [Apache License, Version 2.0]
 See the `NOTICE.txt` file contained in each release artifact for applicable copyright attribution notices.
 Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](https://www.apache.org/legal/resolved.html).
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
-
-
-
-
-<a class='anchor' name='oak1.6'></a>
-Apache Jackrabbit Oak 1.6.23 (March 16th, 2022)
------------------------------------------------
-Apache Jackrabbit Oak 1.6.23 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.6.x
-releases. Jackrabbit Oak 1.6.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.6.23/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.6.23-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.6.23/jackrabbit-oak-1.6.23-src.zip)
-  (11M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.6.23/jackrabbit-oak-1.6.23-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.6.23/jackrabbit-oak-1.6.23-src.zip.sha512))
 
 
 
