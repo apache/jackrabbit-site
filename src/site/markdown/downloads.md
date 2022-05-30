@@ -180,6 +180,7 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/3
 
 * [jackrabbit-filevault-3.6.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/3.6.0/jackrabbit-filevault-3.6.0-src.zip)
     (3M, source zip, [pgp](https://downloads.apache.org/jackrabbit/filevault/3.6.0/jackrabbit-filevault-3.6.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/filevault/3.6.0/jackrabbit-filevault-3.6.0-src.zip.sha512))
+* Binaries (and also sources) are provided via [Maven Central](https://central.sonatype.org/) with [group id `org.apache.jackrabbit.vault`](https://repo1.maven.org/maven2/org/apache/jackrabbit/vault/)
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
 
@@ -194,8 +195,8 @@ Jackrabbit FileVault 3.2.8 is the latest stable release of repository content sy
 See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/3.2.8/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-filevault-3.2.8-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip)
-    (1.5M, source zip, [PGP signature](https://downloads.apache.org/jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip.asc))
-    * [SHA512 checksum](https://downloads.apache.org/jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip.sha512)
+    (1.5M, source zip, [pgp](https://downloads.apache.org/jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip.sha512))
+* Binaries (and also sources) are provided via [Maven Central](https://central.sonatype.org/) with [group id `org.apache.jackrabbit.vault`](https://repo1.maven.org/maven2/org/apache/jackrabbit/vault/)
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
 
