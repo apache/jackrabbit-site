@@ -22,4 +22,4 @@ This is the JCR2DAV component of the Apache Jackrabbit project.
 
 API documentation
 -----------------
-* [jackrabbit-jcr2dav 2.2](/api/2.2/org/apache/jackrabbit/jcr2dav/package-summary.html)
+* [jackrabbit-jcr2dav](/api/trunk/org/apache/jackrabbit/jcr2dav/package-summary.html)

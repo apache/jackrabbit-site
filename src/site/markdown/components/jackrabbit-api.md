@@ -22,12 +22,15 @@ contains the interface extensions that Apache Jackrabbit supports in
 addition to the standard JCR API. You can use these interfaces to access
 Jackrabbit-specific functionality.
 
+Note that the development of these interfaces has moved over to the
+Jackrabbit Oak project.
+
 
 API documentation
 -----------------
-* [jackrabbit-api 1.4](http://jackrabbit.apache.org/api/1.4/org/apache/jackrabbit/api/package-summary.html)
+* [jackrabbit-api](https://jackrabbit.apache.org/oak/docs/apidocs/org/apache/jackrabbit/api/package-summary.html)
 
 
 External Dependencies
 ---------------------
-* [JCR](jcr.html)
+* [JCR](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/2.0/index.html)

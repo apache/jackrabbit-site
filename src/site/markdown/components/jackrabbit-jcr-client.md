@@ -22,4 +22,4 @@ This is the JCR Client component of the Apache Jackrabbit project.
 
 API documentation
 -----------------
-* [jackrabbit-jcr-client 2.2](/api/2.2/org/apache/jackrabbit/client/package-summary.html)
+* [jackrabbit-jcr-client](/api/trunk/org/apache/jackrabbit/client/package-summary.html)
