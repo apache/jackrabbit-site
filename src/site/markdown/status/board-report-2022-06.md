@@ -14,7 +14,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-Apache Jackrabbit: Board Report March 2022
+Apache Jackrabbit: Board Report June 2022 (draft)
 ==========================================
 
 ## Description: 
@@ -43,31 +43,21 @@ The Committer-to-PMC ratio is 1:1.
 
 Community changes, past quarter:
 
-- Felix Meschberger was removed from the PMC on 2022-01-10
-- Tobias Bocanegra was removed from the PMC on 2022-02-11
-- Jose Andrés Cordero was added to the PMC on 2022-02-22
-- Felix Meschberger was removed as committer on 2022-01-10
-- Tobias Bocanegra was removed as committer on 2022-02-11
-- Jose Andrés Cordero was added as committer on 2022-02-22
+- No new PMC members. Last addition was Jose Andrés Cordero on 2022-02-22.
+- No new committers. Last addition was Jose Andrés Cordero on 2022-02-22.
 
 ## Project Activity: 
 Apache Jackrabbit Oak receives most attention nowadays. All 
 maintenance branches and the main development branch are 
 continuously seeing moderate to high activity.
 
-We continue making regular feature releases of Jackrabbit Oak. The
-most recent release was Jackrabbit Oak 1.42.0 made available on
-January 12th.
-
 Apache Jackrabbit itself is mostly in maintenance mode with most of 
 the work going into bug fixing and tooling. New features are mainly
 driven by dependencies from Jackrabbit Oak.
 
-Impact of the Log4j vulnerability on Jackrabbit modules was moderate.
-Only vault-cli used Log4j for logging. With JCRVLT-573 this module
-now also switched to logback and there is no more dependency on
-Log4j. As precaution even some transitive test dependencies on Log4j
-have been excluded (OAK-9639 and OAK-9645).
+The team decided to drop support for maintenance branches of Jackrabbit
+2.14 and Jackrabbit Oak 1.6. Announcement messages have been sent out
+to users to inform them about respective upgrade paths.
 
 ## Community Health:
 The project is healthy with a continuous stream of traffic mostly on
@@ -80,18 +70,12 @@ features and improvements in for the next Jackrabbit Oak release.
 
 ## Releases:
 
- - jackrabbit-2.21.9 was released on 2021-12-10
- - jackrabbit-filevault-3.5.8 was released on 2021-12-22
- - jackrabbit-2.16.9 was released on 2022-01-07
- - jackrabbit-oak-1.42.0 was released on 2022-01-12
- - jackrabbit-oak-1.22.10 was released on 2022-01-24
- - jackrabbit-oak-1.8.26 was released on 2022-02-04
- - jackrabbit-2.21.10 was released on 2022-02-10
- - jackrabbit-oak-1.22.11 was released on 2022-02-24
- - jackrabbit-filevault-3.6.0 was released on 2022-03-02
+- jackrabbit-2.20.5 was released on 2022-03-10
+- jackrabbit-oak-1.6.23 was released on 2022-03-16
+- filevault-package-maven-plugin-1.3.0 was released on 2022-03-26
 
 ## JIRA activity:
 
- - 137 JIRA tickets created in the last 3 months 
- - 108 JIRA tickets closed/resolved in the last 3 months
+- 119 JIRA tickets created in the last 3 months
+- 88 JIRA tickets closed/resolved in the last 3 months
  
