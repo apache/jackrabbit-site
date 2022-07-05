@@ -27,7 +27,7 @@ applications built on Jackrabbit, please visit the [links page](http://jackrabbi
 
 General
 -------
-* Java Community Process: [JSR 170](http://jcp.org/en/jsr/detail?id=170) and [JSR 283|http://jcp.org/en/jsr/detail?id=283]
+* Java Community Process: [JSR 170](https://jcp.org/en/jsr/detail?id=170) and [JSR 283](https://jcp.org/en/jsr/detail?id=283)
 * An easy way to see Jackrabbit in action is to go through the [First Hops](first-hops.html) tutorial.
 
 
