@@ -47,9 +47,34 @@ See the `NOTICE.txt` file contained in each release artifact for applicable copy
 Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](https://www.apache.org/legal/resolved.html).
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
+<a class='anchor' name='v2.21'></a>
+Apache Jackrabbit 2.21.12 (August 11th, 2022)
+---------------------------------------------
+Apache Jackrabbit 2.21.12 is an unstable release cut directly from
+Jackrabbit trunk, with a focus on new features and other
+improvements. For production use we recommend the latest stable 2.20.x
+release.
+
+See the [full release notes](https://downloads.apache.org/jackrabbit/2.21.12/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-2.21.12-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.12/jackrabbit-2.21.12-src.zip)
+    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.21.12/jackrabbit-2.21.12-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.12/jackrabbit-2.21.12-src.zip.sha512))
+
+* [jackrabbit-standalone-2.21.12.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.12/jackrabbit-standalone-2.21.12.jar)
+    (104M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.21.12/jackrabbit-standalone-2.21.12.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.12/jackrabbit-standalone-2.21.12.jar.sha512))
+
+* [jackrabbit-webapp-2.21.12.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.12/jackrabbit-webapp-2.21.12.war)
+    (48M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.21.12/jackrabbit-webapp-2.21.12.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.12/jackrabbit-webapp-2.21.12.war.sha512))
+
+* [jackrabbit-jca-2.21.12.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.12/jackrabbit-jca-2.21.12.rar)
+    (46M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.21.12/jackrabbit-jca-2.21.12.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.12/jackrabbit-jca-2.21.12.rar.sha512))
+  
+
+
+
 <a class='anchor' name='oak1.22'></a>
 Apache Jackrabbit Oak 1.22.12 (July 19th, 2022)
----------------------------------------------------
+-----------------------------------------------
 Apache Jackrabbit Oak 1.22.12 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.22.x
 releases. Jackrabbit Oak 1.22.x releases are considered stable and
@@ -61,9 +86,11 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.22.12/
   (15M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.22.12/jackrabbit-oak-1.22.12-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.22.12/jackrabbit-oak-1.22.12-src.zip.sha512))
   
 
+
+
 <a class='anchor' name='latest'></a>
 Apache Jackrabbit Oak 1.44.0 (July 15th, 2022)
--------------------------------------------------
+----------------------------------------------
 Apache Jackrabbit Oak 1.44.0 is an incremental feature release based
 on and compatible with earlier stable Jackrabbit Oak 1.x
 releases. This release is considered stable and targeted for
@@ -100,29 +127,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.20.6/RELE
 
 
 
-
-<a class='anchor' name='v2.21'></a>
-Apache Jackrabbit 2.21.11 (June 10th, 2022)
--------------------------------------------
-Apache Jackrabbit 2.21.11 is an unstable release cut directly from
-Jackrabbit trunk, with a focus on new features and other
-improvements. For production use we recommend the latest stable 2.20.x
-release.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/2.21.11/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-2.21.11-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.11/jackrabbit-2.21.11-src.zip)
-    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.21.11/jackrabbit-2.21.11-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.11/jackrabbit-2.21.11-src.zip.sha512))
-
-* [jackrabbit-standalone-2.21.11.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.11/jackrabbit-standalone-2.21.11.jar)
-    (104M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.21.11/jackrabbit-standalone-2.21.11.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.11/jackrabbit-standalone-2.21.11.jar.sha512))
-
-* [jackrabbit-webapp-2.21.11.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.11/jackrabbit-webapp-2.21.11.war)
-    (48M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.21.11/jackrabbit-webapp-2.21.11.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.11/jackrabbit-webapp-2.21.11.war.sha512))
-
-* [jackrabbit-jca-2.21.11.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.11/jackrabbit-jca-2.21.11.rar)
-    (46M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.21.11/jackrabbit-jca-2.21.11.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.11/jackrabbit-jca-2.21.11.rar.sha512))
-  
 
 <a class='anchor' name='oak1.8'></a>
 Apache Jackrabbit Oak 1.8.26 (February 4th, 2022)
