@@ -14,8 +14,8 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-Apache Jackrabbit: Board Report June 2022
-=========================================
+Apache Jackrabbit: Board Report September 2022 (draft)
+==============================================
 
 ## Description: 
 The Apache Jackrabbit™ content repository is a fully conforming
@@ -27,9 +27,9 @@ maintained.
 Jackrabbit Oak is an effort to implement a scalable and performant 
 hierarchical content repository as a modern successor to the Apache
 Jackrabbit content repository. It is targeted for use as the 
-foundation of modern world-class web sites and other demanding 
+foundation of modern world-class websites and other demanding 
 content applications. In contrast to its predecessor, Oak does not 
-implement all optional features from the JSR specifications and it 
+implement all optional features from the JSR specifications, and it 
 is not a reference implementation. 
    
 ## Issues: 
@@ -38,13 +38,12 @@ There are no issues requiring board attention at this time.
 ## Membership Data:
 
 Apache Jackrabbit was founded 2006-03-15 (16 years ago)
-There are currently 57 committers and 57 PMC members in this project.
+There are currently 58 committers and 58 PMC members in this project.
 The Committer-to-PMC ratio is 1:1.
 
 Community changes, past quarter:
-
-- No new PMC members. Last addition was Jose Andrés Cordero on 2022-02-22.
-- No new committers. Last addition was Jose Andrés Cordero on 2022-02-22.
+- Joerg Hoh was added to the PMC on 2022-07-01
+- Joerg Hoh was added as committer on 2022-07-01
 
 ## Project Activity: 
 Apache Jackrabbit Oak receives most attention nowadays. All 
@@ -55,9 +54,12 @@ Apache Jackrabbit itself is mostly in maintenance mode with most of
 the work going into bug fixing and tooling. New features are mainly
 driven by dependencies from Jackrabbit Oak.
 
-The team decided to drop support for maintenance branches of Jackrabbit
-2.14 and Jackrabbit Oak 1.6. Announcement messages have been sent out
-to users to inform them about respective upgrade paths.
+The team decided to introduce a GitHub action that adds a label to
+open pull requests for Jackrabbit Oak that are older than two years.
+The intention is to reduce the number of open or abandoned pull
+requests and notify contributors to follow up on their change request.
+Stale pull requests without further activity are then closed
+automatically after 30 days.
 
 ## Community Health:
 The project is healthy with a continuous stream of traffic mostly on
@@ -70,12 +72,15 @@ features and improvements in for the next Jackrabbit Oak release.
 
 ## Releases:
 
-- jackrabbit-2.20.5 was released on 2022-03-10
-- jackrabbit-oak-1.6.23 was released on 2022-03-16
-- filevault-package-maven-plugin-1.3.0 was released on 2022-03-26
+- jackrabbit-2.21.11 was released on 2022-06-10
+- jackrabbit-2.20.6 was released on 2022-07-07
+- jackrabbit-oak-1.44.0 was released on 2022-07-15
+- jackrabbit-oak-1.22.12 was released on 2022-07-19
+- jackrabbit-2.21.12 was released on 2022-08-11
+- jackrabbit-2.16.10 was released on 2022-09-10
 
 ## JIRA activity:
 
-- 119 JIRA tickets created in the last 3 months
-- 88 JIRA tickets closed/resolved in the last 3 months
+- 168 JIRA tickets created in the last 3 months
+- 144 JIRA tickets closed/resolved in the last 3 months
  
