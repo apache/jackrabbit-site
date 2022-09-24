@@ -184,6 +184,8 @@ valid JCR namespace prefix, which is the same as a valid XML namespace
 prefix. The URI can in fact be any string. Just as in XML, it need not
 actually be a URI, though adhering to that convention is recommended.
 
+Note: failure to use an absolute URI as specified in [Section 3 of JCR 2.0](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/2.0/3_Repository_Model.html)
+will create issues when code relies on "expanded name" notation (which may fail to work with Strings that are not absolute URIs).
 
 ### Node Type Definition
 
