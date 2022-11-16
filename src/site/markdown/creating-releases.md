@@ -96,7 +96,7 @@ Release management tasks
 12. For Oak releases that support a range of Guava versions (right now trunk and
     1.22), make sure the system builds and tests with the highest version in the range
     as well (see `guava.osgi.import` property in `oak-parent/pom.xml`) - right now that is 20.0.
-    Use `-Dguava.version=...` for the tests.
+    Use `-Pguava-latest` for the tests.
 13. If this is a release with Java 7 or older, make sure that your `MAVEN_OPTS` contain `-Dhttps.protocols=TLSv1.2`.
 14. When doing "stable" release (even-numbered), check that we do not have
     dependencies to unstable releases. In particular, stable releases of Oak
