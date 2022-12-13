@@ -76,7 +76,9 @@ Release management tasks
     or [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page) page, 
     click on the release, then on the "Release Notes" link on the top.
     Double-check that all version numbers in the updated Release Notes are accurate.
-    When done, commit the file.
+    If the project release has a `project.build.outputTimestamp` variable defined in the parent pom, and the release plugin in use does
+    not yet support adjusting it upon release, do so now.
+    When done, commit the file(s).
 7. If the branch is one that supports Java 8 or newer, make sure that the API docs can indeed be built with Java 8, using both `javadoc:javadoc` and `javadoc:aggregate`.
    If the branch supports Java 11 or newer, repeat this with Java 11.
 8. Make sure that the build succeeds with all Java versions it is supposed to support (trying with the earliest and latest is ok).
