@@ -14,7 +14,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-Apache Jackrabbit: Board Report September 2022
+Apache Jackrabbit: Board Report December 2022 (draft)
 ==============================================
 
 ## Description: 
@@ -37,13 +37,13 @@ There are no issues requiring board attention at this time.
    
 ## Membership Data:
 
-Apache Jackrabbit was founded 2006-03-15 (16 years ago)
+Apache Jackrabbit was founded 2006-03-15 (17 years ago)
 There are currently 58 committers and 58 PMC members in this project.
 The Committer-to-PMC ratio is 1:1.
 
 Community changes, past quarter:
-- Joerg Hoh was added to the PMC on 2022-07-01
-- Joerg Hoh was added as committer on 2022-07-01
+- No new PMC members. Last addition was Joerg Hoh on 2022-07-01.
+- No new committers. Last addition was Joerg Hoh on 2022-07-01.
 
 ## Project Activity: 
 Apache Jackrabbit Oak receives most attention nowadays. All 
@@ -54,12 +54,16 @@ Apache Jackrabbit itself is mostly in maintenance mode with most of
 the work going into bug fixing and tooling. New features are mainly
 driven by dependencies from Jackrabbit Oak.
 
-The team decided to introduce a GitHub action that adds a label to
-open pull requests for Jackrabbit Oak that are older than two years.
-The intention is to reduce the number of open or abandoned pull
-requests and notify contributors to follow up on their change request.
-Stale pull requests without further activity are then closed
-automatically after 30 days.
+Discussion started to require Java 11 as a minimum version, because
+is it getting more difficult to build and run Apache Jackrabbit with
+Java 8.
+
+There is an increased interest in updating the Guava dependency.
+Unfortunately some Guava classes were used in OSGi packages exported
+by Jackrabbit. This means an update of Guava in Jackrabbit becomes
+a breaking change and must be done carefully. The plan is also to
+hide the Guava dependency from Jackrabbit consumers, so we can more
+easily update Guava in the future.
 
 ## Community Health:
 The project is healthy with a continuous stream of traffic mostly on
@@ -72,15 +76,15 @@ features and improvements in for the next Jackrabbit Oak release.
 
 ## Releases:
 
-- jackrabbit-2.21.11 was released on 2022-06-10
-- jackrabbit-2.20.6 was released on 2022-07-07
-- jackrabbit-oak-1.44.0 was released on 2022-07-15
-- jackrabbit-oak-1.22.12 was released on 2022-07-19
-- jackrabbit-2.21.12 was released on 2022-08-11
-- jackrabbit-2.16.10 was released on 2022-09-10
+- jackrabbit-filevault-3.6.4 was released on 2022-09-19
+- jackrabbit-2.21.13 was released on 2022-10-16
+- jackrabbit-oak-1.22.13 was released on 2022-10-17
+- jackrabbit-2.20.7 was released on 2022-11-10
+- jackrabbit-filevault-3.6.6 was released on 2022-12-05
+- jackrabbit-2.21.14 was released on 2022-12-08
 
 ## JIRA activity:
 
-- 168 JIRA tickets created in the last 3 months
+- 150 JIRA tickets created in the last 3 months
 - 144 JIRA tickets closed/resolved in the last 3 months
  
