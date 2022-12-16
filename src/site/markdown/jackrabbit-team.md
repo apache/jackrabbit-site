@@ -57,7 +57,7 @@ Jackrabbit committers
 | joscorbe        | Jos&eacute; Andr&eacute;s Cordero Ben&#237;tez | &nbsp; |
 | jsedding        | Julian Sedding | &nbsp; |
 | justin          | Justin Edelson  |  [Adobe](http://www.adobe.com/)  |
-| kwin            | Konrad Windszus  |  [Netcentric](https://www.netcentric.biz)  |
+| kwin            | Konrad Windszus  |  [Cognizant Netcentric](https://www.netcentric.biz)  |
 | mattryan        | Matt Ryan  |  [Adobe](http://www.adobe.com/)  | 
 | mduerig         | Michael D&uuml;rig  | &nbsp; |
 | meteatamel      | Mete Atamel  | &nbsp; |
