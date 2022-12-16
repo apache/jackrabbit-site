@@ -209,7 +209,7 @@ Jackrabbit FileVault Package Maven Plugin 1.3.2 is the latest stable release of 
 
 See the [full release notes](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.3.2/RELEASE-NOTES.md) for more details.
 
-* [filevault-package-maven-plugin-1.3.0-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault-package-maven-plugin/1.3.2/filevault-package-maven-plugin-1.3.2-source-release.zip)
+* [filevault-package-maven-plugin-1.3.2-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault-package-maven-plugin/1.3.2/filevault-package-maven-plugin-1.3.2-source-release.zip)
     (1.5M, source zip, [PGP signature](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.3.2/filevault-package-maven-plugin-1.3.2-source-release.zip.asc))
     * [SHA512 checksum](https://downloads.apache.org/jackrabbit/filevault-package-maven-plugin/1.3.2/filevault-package-maven-plugin-1.3.2-source-release.zip.sha512)
 
