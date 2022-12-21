@@ -48,8 +48,21 @@ Some Jackrabbit components contain external code with licenses that meet [Apache
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
 
 
+<a class='anchor' name='latest'></a>
+Apache Jackrabbit Oak 1.46.0 (December 21st, 2022)
+----------------------------------------------
+Apache Jackrabbit Oak 1.46.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x
+releases. This release is considered stable and targeted for
+production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.46.0/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.46.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.46.0/jackrabbit-oak-1.46.0-src.zip)
+  (17M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.46.0/jackrabbit-oak-1.46.0-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.46.0/jackrabbit-oak-1.46.0-src.zip.sha512))
 
 
+  
 <a class='anchor' name='v2.21'></a>
 Apache Jackrabbit 2.21.14 (December 8th, 2022)
 ----------------------------------------------
@@ -135,25 +148,7 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.16.10/REL
 
 * [jackrabbit-jca-2.16.10.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.16.10/jackrabbit-jca-2.16.10.rar)
     (77M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.16.10/jackrabbit-jca-2.16.10.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.16.10/jackrabbit-jca-2.16.10.rar.sha512))
-
-
-
-<a class='anchor' name='latest'></a>
-Apache Jackrabbit Oak 1.44.0 (July 15th, 2022)
-----------------------------------------------
-Apache Jackrabbit Oak 1.44.0 is an incremental feature release based
-on and compatible with earlier stable Jackrabbit Oak 1.x
-releases. This release is considered stable and targeted for
-production use.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.44.0/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.44.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.44.0/jackrabbit-oak-1.44.0-src.zip)
-  (16M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/oak/1.44.0/jackrabbit-oak-1.44.0-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/oak/1.44.0/jackrabbit-oak-1.44.0-src.zip.sha512))
-
-
-
-
+  
 <a class='anchor' name='oak1.8'></a>
 Apache Jackrabbit Oak 1.8.26 (February 4th, 2022)
 -------------------------------------------------
