@@ -168,14 +168,14 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/oak/1.8.26/R
 
 
 <a class='anchor' name='vlt'></a>
-Apache Jackrabbit FileVault 3.6.6 (December 5th, 2022)
--------------------------------------------------------
-Jackrabbit FileVault 3.6.6 is the latest stable release of the repository content synchronization tool. This version is only compatible with Java 8 or newer. The OSGi bundles require Oak 1.8+ or Jackrabbit 2.16+.
+Apache Jackrabbit FileVault 3.6.8 (January 10th, 2023)
+------------------------------------------------------
+Jackrabbit FileVault 3.6.8 is the latest stable release of the repository content synchronization tool. This version is only compatible with Java 8 or newer. The OSGi bundles require Oak 1.8+ or Jackrabbit 2.16+.
 
-See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/3.6.6/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/3.6.8/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-filevault-3.6.6-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/3.6.6/jackrabbit-filevault-3.6.6-src.zip)
-    (3M, source zip, [pgp](https://downloads.apache.org/jackrabbit/filevault/3.6.6/jackrabbit-filevault-3.6.6-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/filevault/3.6.6/jackrabbit-filevault-3.6.6-src.zip.sha512))
+* [jackrabbit-filevault-3.6.8-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/3.6.8/jackrabbit-filevault-3.6.8-src.zip)
+    (3M, source zip, [pgp](https://downloads.apache.org/jackrabbit/filevault/3.6.8/jackrabbit-filevault-3.6.8-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/filevault/3.6.8/jackrabbit-filevault-3.6.8-src.zip.sha512))
 * Binaries (and also sources) are provided via [Maven Central](https://central.sonatype.org/) with [group id `org.apache.jackrabbit.vault`](https://repo1.maven.org/maven2/org/apache/jackrabbit/vault/)
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
