@@ -32,8 +32,8 @@ on your preferred mirror.
 * Latest unstable releases (from trunk):
     * [Apache Jackrabbit 2.21.x](#v2.21) (Java 8 and later)
 * Maintenance releases:
-    * [Apache Jackrabbit Oak 1.22.x](#oak1.22) (Java 8 and later)
-    * [Apache Jackrabbit Oak 1.8.x](#oak1.8) (Java 8 and later)
+    * [Apache Jackrabbit Oak 1.22.x](#oak1.22) (Java 8 to Java 13)
+    * [Apache Jackrabbit Oak 1.8.x](#oak1.8) (Java 8 to Java 13)
     * [Apache Jackrabbit 2.16.x](#v2.16) (Java 8 to Java 13)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
 * Latest stable FileVault releases:
