@@ -134,7 +134,13 @@ Release management tasks
 
 ### Part II: after the release vote
    
-If the vote fails (easy case first) remove the tag from source control, drop the staged repository, revert the version release in Jira, and announce that the vote has failed by replying to the vote email.
+If the vote fails (easy case first):
+
+- remove the tag from source control,
+- drop the staged repository,
+- revert the version release in Jira,
+- check for JIRA issues that in the mean time have been resolved for the "next" version, and set that version to "this" version,
+- and announce that the vote has failed by replying to the vote email.
 
 Otherwise:
 
