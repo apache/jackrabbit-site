@@ -273,6 +273,12 @@ You need to change the `~/.m2/settings.xml` file as follows. PGP key id: this is
           <username><!-- Apache svn user name --></username>
           <password><!-- Apache svn password --></password>
         </server>
+        <!-- To tag/checkout/checkin -->
+        <server>
+          <id>svn.apache.org</id>
+          <username><!-- Apache svn user name --></username>
+          <password><!-- Apache svn password --></password>
+        </server>
         ...
       </servers>
     </settings>
