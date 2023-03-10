@@ -14,8 +14,8 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-Apache Jackrabbit: Board Report December 2022
-=============================================
+Apache Jackrabbit: Board Report March 2023 (draft)
+==============================================
 
 ## Description: 
 The Apache Jackrabbit™ content repository is a fully conforming
@@ -54,21 +54,20 @@ Apache Jackrabbit itself is mostly in maintenance mode with most of
 the work going into bug fixing and tooling. New features are mainly
 driven by dependencies from Jackrabbit Oak.
 
-Discussion started to require Java 11 as a minimum version, because
-is it getting more difficult to build and run Apache Jackrabbit with
-Java 8.
+The project team decided to require Java 11 as the minimum version
+for new feature releases. Apache Jackrabbit Oak 1.48.0 is the last
+release supporting Java 8.
 
-There is an increased interest in updating the Guava dependency.
-Unfortunately some Guava classes were used in OSGi packages exported
-by Jackrabbit. This means an update of Guava in Jackrabbit becomes
-a breaking change and must be done carefully. The plan is also to
-hide the Guava dependency from Jackrabbit consumers, so we can more
-easily update Guava in the future.
+A roadmap has been outlined how to update the Guava dependency. The
+next Jackrabbit Oak release will make usage of deprecated APIs
+exposing Guava more visible by logging warn and error messages.
+Later this year the team plans to introduce a wrapped Guava version
+for Jackrabbit Oak internal use and then remove deprecated APIs.
 
 ## Community Health:
 The project is healthy with a continuous stream of traffic mostly on
-the JIRA issues and GitHub pull requests reflecting the activity of
-the respective component. 
+JIRA issues and GitHub pull requests reflecting activity of the
+respective component. 
 
 Commit activity is moderate, mirroring the activity on the 
 JIRA issues and the desire of the individual contributors to bring
@@ -76,15 +75,17 @@ features and improvements in for the next Jackrabbit Oak release.
 
 ## Releases:
 
-- jackrabbit-filevault-3.6.4 was released on 2022-09-19
-- jackrabbit-2.21.13 was released on 2022-10-16
-- jackrabbit-oak-1.22.13 was released on 2022-10-17
-- jackrabbit-2.20.7 was released on 2022-11-10
-- jackrabbit-filevault-3.6.6 was released on 2022-12-05
-- jackrabbit-2.21.14 was released on 2022-12-08
+- filevault-package-maven-plugin-1.3.2 was released on 2022-12-16
+- jackrabbit-oak-1.46.0 was released on 2022-12-21
+- jackrabbit-2.20.8 was released on 2023-01-09
+- jackrabbit-filevault-3.6.8 was released on 2023-01-10
+- jackrabbit-oak-1.22.14 was released on 2023-01-19
+- jackrabbit-oak-1.48.0 was released on 2023-01-27
+- jackrabbit-2.21.15 was released on 2023-02-10
+- jackrabbit-2.20.9 was released on 2023-03-10
 
 ## JIRA activity:
 
-- 150 JIRA tickets created in the last 3 months
-- 144 JIRA tickets closed/resolved in the last 3 months
+- 168 JIRA tickets created in the last 3 months
+- 146 JIRA tickets closed/resolved in the last 3 months
  
