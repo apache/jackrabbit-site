@@ -28,7 +28,7 @@ on your preferred mirror.
 
 * Latest stable releases:
     * [Apache Jackrabbit 2.20.x](#v2.20) (Java 8 and later)
-    * [Apache Jackrabbit Oak 1.48.0](#latest) (Java 8 and later)
+    * [Apache Jackrabbit Oak 1.50.0](#latest) (Java 11 and later)
 * Latest unstable releases (from trunk):
     * [Apache Jackrabbit 2.21.x](#v2.21) (Java 8 and later)
 * Maintenance releases:
@@ -46,6 +46,22 @@ Apache Jackrabbit releases are available under the [Apache License, Version 2.0]
 See the `NOTICE.txt` file contained in each release artifact for applicable copyright attribution notices.
 Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](https://www.apache.org/legal/resolved.html).
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
+
+
+
+
+<a class='anchor' name='latest'></a>
+Apache Jackrabbit Oak 1.50.0 (March 23th, 2023)
+-------------------------------------------------
+Apache Jackrabbit Oak 1.50.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x
+releases. This release is considered stable and targeted for
+production use. Note that this is the first release to require Java 11.
+
+See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.50.0/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.50.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.50.0/jackrabbit-oak-1.50.0-src.zip)
+    (17M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.50.0/jackrabbit-oak-1.50.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.50.0/jackrabbit-oak-1.50.0-src.zip.sha512))
 
 
 
@@ -98,22 +114,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.21.15/REL
   
 
 
-
-<a class='anchor' name='latest'></a>
-Apache Jackrabbit Oak 1.48.0 (January 27th, 2023)
--------------------------------------------------
-Apache Jackrabbit Oak 1.48.0 is an incremental feature release based
-on and compatible with earlier stable Jackrabbit Oak 1.x
-releases. This release is considered stable and targeted for
-production use.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.48.0/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.48.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.48.0/jackrabbit-oak-1.48.0-src.zip)
-    (17M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.48.0/jackrabbit-oak-1.48.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.48.0/jackrabbit-oak-1.48.0-src.zip.sha512))
-
-
-  
 
 <a class='anchor' name='oak1.22'></a>
 Apache Jackrabbit Oak 1.22.14 (January 19th, 2023)
