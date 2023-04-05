@@ -50,6 +50,31 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='v2.21'></a>
+Apache Jackrabbit 2.21.16 (April 5th, 2023)
+-------------------------------------------
+Apache Jackrabbit 2.21.16 is an unstable release cut directly from
+Jackrabbit trunk, with a focus on new features and other
+improvements. For production use we recommend the latest stable 2.20.x
+release.
+
+See the [full release notes](https://downloads.apache.org/jackrabbit/2.21.16/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-2.21.16-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.16/jackrabbit-2.21.16-src.zip)
+    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.21.16/jackrabbit-2.21.16-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.16/jackrabbit-2.21.16-src.zip.sha512))
+
+* [jackrabbit-standalone-2.21.16.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.16/jackrabbit-standalone-2.21.16.jar)
+    (105M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.21.16/jackrabbit-standalone-2.21.16.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.16/jackrabbit-standalone-2.21.16.jar.sha512))
+
+* [jackrabbit-webapp-2.21.16.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.16/jackrabbit-webapp-2.21.16.war)
+    (49M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.21.16/jackrabbit-webapp-2.21.16.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.16/jackrabbit-webapp-2.21.16.war.sha512))
+
+* [jackrabbit-jca-2.21.16.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.16/jackrabbit-jca-2.21.16.rar)
+    (46M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.21.16/jackrabbit-jca-2.21.16.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.16/jackrabbit-jca-2.21.16.rar.sha512))
+  
+
+
+
 <a class='anchor' name='latest'></a>
 Apache Jackrabbit Oak 1.50.0 (March 23th, 2023)
 -------------------------------------------------
@@ -87,31 +112,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.20.9/RELE
 * [jackrabbit-jca-2.20.9.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.9/jackrabbit-jca-2.20.9.rar)
     (46M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.20.9/jackrabbit-jca-2.20.9.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.9/jackrabbit-jca-2.20.9.rar.sha512))
 
-
-
-
-<a class='anchor' name='v2.21'></a>
-Apache Jackrabbit 2.21.15 (February 10th, 2023)
------------------------------------------------
-Apache Jackrabbit 2.21.15 is an unstable release cut directly from
-Jackrabbit trunk, with a focus on new features and other
-improvements. For production use we recommend the latest stable 2.20.x
-release.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/2.21.15/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-2.21.15-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.15/jackrabbit-2.21.15-src.zip)
-    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.21.15/jackrabbit-2.21.15-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.15/jackrabbit-2.21.15-src.zip.sha512))
-
-* [jackrabbit-standalone-2.21.15.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.15/jackrabbit-standalone-2.21.15.jar)
-    (105M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.21.15/jackrabbit-standalone-2.21.15.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.15/jackrabbit-standalone-2.21.15.jar.sha512))
-
-* [jackrabbit-webapp-2.21.15.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.15/jackrabbit-webapp-2.21.15.war)
-    (49M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.21.15/jackrabbit-webapp-2.21.15.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.15/jackrabbit-webapp-2.21.15.war.sha512))
-
-* [jackrabbit-jca-2.21.15.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.15/jackrabbit-jca-2.21.15.rar)
-    (46M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.21.15/jackrabbit-jca-2.21.15.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.15/jackrabbit-jca-2.21.15.rar.sha512))
-  
 
 
 
