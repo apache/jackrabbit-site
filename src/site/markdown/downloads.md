@@ -50,6 +50,22 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='oak1.22'></a>
+Apache Jackrabbit Oak 1.22.15 (April 7th, 2023)
+-----------------------------------------------
+Apache Jackrabbit Oak 1.22.15 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit Oak 1.22.x
+releases. Jackrabbit Oak 1.22.x releases are considered stable and
+targeted for production use.
+
+See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.22.15/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.22.15-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.22.15/jackrabbit-oak-1.22.15-src.zip)
+    (15M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.22.15/jackrabbit-oak-1.22.15-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.22.15/jackrabbit-oak-1.22.15-src.zip.sha512))
+
+
+
+
 <a class='anchor' name='v2.21'></a>
 Apache Jackrabbit 2.21.16 (April 5th, 2023)
 -------------------------------------------
@@ -111,22 +127,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.20.9/RELE
 
 * [jackrabbit-jca-2.20.9.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.9/jackrabbit-jca-2.20.9.rar)
     (46M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.20.9/jackrabbit-jca-2.20.9.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.9/jackrabbit-jca-2.20.9.rar.sha512))
-
-
-
-
-<a class='anchor' name='oak1.22'></a>
-Apache Jackrabbit Oak 1.22.14 (January 19th, 2023)
---------------------------------------------------
-Apache Jackrabbit Oak 1.22.14 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit Oak 1.22.x
-releases. Jackrabbit Oak 1.22.x releases are considered stable and
-targeted for production use.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.22.14/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.22.14-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.22.14/jackrabbit-oak-1.22.14-src.zip)
-    (15M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.22.14/jackrabbit-oak-1.22.14-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.22.14/jackrabbit-oak-1.22.14-src.zip.sha512))
 
 
 
