@@ -24,6 +24,10 @@ events and records from past years.
 
 For recent events, have a look at the [News Archive](news-archive.html).
 
+Jackrabbit in 2023
+------------------
+* March 2023: [Jackrabbit Status March 2023](status/board-report-2023-03.html)
+
 Jackrabbit in 2022
 ------------------
 * December 2022: [Jackrabbit Status December 2022](status/board-report-2022-12.html)
