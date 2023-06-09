@@ -32,7 +32,9 @@ content applications. In contrast to its predecessor, Oak does not
 implement all optional features from the JSR specifications, and it 
 is not a reference implementation. 
    
-## Issues: 
+## Project Status: 
+The project is ongoing with moderate activity.
+
 There are no issues requiring board attention at this time.
    
 ## Membership Data:
