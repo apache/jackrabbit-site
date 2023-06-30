@@ -24,11 +24,11 @@ The rest of this page documents what else you can do with the standalone server.
 
 Running the standalone server
 -----------------------------
-You need Java version 5 or higher to run the Jackrabbit standalone server.
-To start the server, double-click on the standalone jar file, or invoke it
-on the command line.
+It is recommended to use Java 11 or higher to run the Jackrabbit standalone
+server and deny illegal reflective access operations for security reasons.
+To start the server, invoke it on the command line.
 
-    $ java -jar jackrabbit-standalone-1.6.0.jar
+    $ java --illegal-access=deny -jar jackrabbit-standalone-2.20.10.jar
     Welcome to Apache Jackrabbit!
     -------------------------------
     Using repository directory jackrabbit
@@ -69,8 +69,8 @@ Command line options
 You can customize the operation of the standalone server with the following
 command line options (with defaults in parenthesis).
 
-    $ java -jar jackrabbit-standalone-1.6.0.jar --help
-    usage: java -jar jackrabbit-standalone-1.6.0.jar [-?][-b][-c <arg>][-C <arg>]
+    $ java --illegal-access=deny -jar jackrabbit-standalone-2.20.10.jar --help
+    usage: java -jar jackrabbit-standalone-2.20.10.jar [-?][-b][-c <arg>][-C <arg>]
            [-d][-f <arg>][-h <arg>][-l][-n][-p <arg>][-q][-r <arg>][-R <arg>]
     
     options:
@@ -92,7 +92,7 @@ You may want to increase the maximum amount of heap memory available to the
 Java virtual machine especially if you plan to have lots of concurrent
 clients accessing the repository or want to perform large batch operations.
 
-    $ java -Xmx256m -jar jackrabbit-standalone-1.6.0.jar
+    $ java --illegal-access=deny -Xmx256m -jar jackrabbit-standalone-2.20.10.jar
 
 
 Web interface
@@ -160,7 +160,7 @@ or to migrate them to a different configuration. The backup mode is
 activated with the `--backup` command line option. The essential command
 line options and their default values for the backup mode are:
     
-    $ java -jar jackrabbit-standalone-1.6.0.jar --backup \
+    $ java -jar jackrabbit-standalone-2.20.10.jar --backup \
            --repo jackrabbit \
            --conf jackrabbit/repository.xml \
            --backup-repo jackrabbit-backupN \
