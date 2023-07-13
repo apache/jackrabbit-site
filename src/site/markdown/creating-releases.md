@@ -60,7 +60,7 @@ Release management tasks
 
 1. Check the CI status of the project ([Jackrabbit Jenkins](https://ci-builds.apache.org/job/Jackrabbit/))
 2. Consider checking the CVE database for vulnerabilities in dependencies,
-   using `mvn org.owasp:dependency-check-maven:8.2.1:aggregate` (first run will be slow because CVE
+   using `mvn org.owasp:dependency-check-maven:8.3.1:aggregate` (first run will be slow because CVE
    databases are downloaded and parsed). If dependencies need action, open tickets and make sure they
    are marked as candidate backports where applicable.        
 3. Make sure that an appropriate version for the release is entered in Jira 
