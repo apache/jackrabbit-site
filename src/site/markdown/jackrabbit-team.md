@@ -47,7 +47,6 @@ Jackrabbit committers
 | davide          | Davide Giannella  | &nbsp; |
 | dbrosius        | David Brosius  | &nbsp; |
 | dj              | Dominique J&auml;ggi  |  [Adobe](http://www.adobe.com/)  |
-| dpfister        | Dominique Pfister  |  [Adobe](http://www.adobe.com/)  |
 | draier          | Thomas Draier  | &nbsp; |
 | eaf             | Esteban Franqueiro  |  [BEA](http://www.bea.com/)  |
 | edgarpoce       | [Edgar Poce](mailto:edgarpoce@gmail.com)  | &nbsp; |
@@ -90,6 +89,7 @@ Emeritus and former members
 |------------|------|--------------|
 | asavory    |  Andrew Savory  | &nbsp; |
 | bcm        |  [Brian Moseley](mailto:bcm@osafoundation.org)  |  Open Source Applications Foundation (OSAF)  |
+| dpfister   | Dominique Pfister  | &nbsp; |
 | fielding   | Roy T. Fielding  |  [Adobe](http://www.adobe.com/)  |
 | fmeschbe   | Felix Meschberger  | &nbsp; |
 | gianugo    |  Gianugo Rabellino  | &nbsp; |
