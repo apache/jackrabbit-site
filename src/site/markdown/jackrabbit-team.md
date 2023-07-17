@@ -44,6 +44,7 @@ Jackrabbit committers
 | ckiehl          | [Christoph Kiehl](mailto:christoph@sulu3000.de)  | &nbsp; |
 | ckoell          | [Claus K&ouml;ll](mailto:c.koell@gmail.com) |  [DVT-Daten-Verarbeitung-Tirol GmbH](http://www.dvt.at/)  |
 | clombart        | Christophe Lombart  | &nbsp; |
+| daim            | Rishabh Daim |  [Adobe](http://www.adobe.com/)  |
 | davide          | Davide Giannella  | &nbsp; |
 | dbrosius        | David Brosius  | &nbsp; |
 | dj              | Dominique J&auml;ggi  |  [Adobe](http://www.adobe.com/)  |
