@@ -35,7 +35,7 @@ on your preferred mirror.
     * [Apache Jackrabbit Oak 1.22.x](#oak1.22) (Java 8 to Java 13)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
 * Latest stable FileVault releases:
-    * [Apache Jackrabbit FileVault 3.6.8](#vlt) (Java 8 and later)
+    * [Apache Jackrabbit FileVault 3.7.0](#vlt) (Java 8 and later)
     * [Apache Jackrabbit FileVault 3.2.8](#vltjava7) (Java 7 and later)
 * Latest stable FileVault Plugin release: [Apache Jackrabbit FileVault Package Maven Plugin 1.3.2](#vltplg)
 * [Release Archive](#archive)
@@ -130,14 +130,14 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.21.16/REL
 
 
 <a class='anchor' name='vlt'></a>
-Apache Jackrabbit FileVault 3.6.8 (January 10th, 2023)
+Apache Jackrabbit FileVault 3.7.0 (July 19th, 2023)
 ------------------------------------------------------
-Jackrabbit FileVault 3.6.8 is the latest stable release of the repository content synchronization tool. This version is only compatible with Java 8 or newer. The OSGi bundles require Oak 1.8+ or Jackrabbit 2.16+.
+Jackrabbit FileVault 3.7.0 is the latest stable release of the repository content synchronization tool. This version is only compatible with Java 8 or newer. The OSGi bundles depend on Jackrabbit 2.20.8+ (JCR Commons, SPI, SPI Commons), Oak Jackrabbit API 1.22.4+, Commons IO 2.7+, Commons Collections 4.1+ and SLF4J 1.7+.
 
-See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/3.6.8/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/3.7.0/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-filevault-3.6.8-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/3.6.8/jackrabbit-filevault-3.6.8-src.zip)
-    (3M, source zip, [pgp](https://downloads.apache.org/jackrabbit/filevault/3.6.8/jackrabbit-filevault-3.6.8-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/filevault/3.6.8/jackrabbit-filevault-3.6.8-src.zip.sha512))
+* [jackrabbit-filevault-3.7.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/3.7.0/jackrabbit-filevault-3.7.0-src.zip)
+    (6M, source zip, [pgp](https://downloads.apache.org/jackrabbit/filevault/3.7.0/jackrabbit-filevault-3.6.8-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/filevault/3.7.0/jackrabbit-filevault-3.7.0-src.zip.sha512))
 * Binaries (and also sources) are provided via [Maven Central](https://central.sonatype.org/) with [group id `org.apache.jackrabbit.vault`](https://repo1.maven.org/maven2/org/apache/jackrabbit/vault/)
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
@@ -148,7 +148,7 @@ Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for mor
 <a class='anchor' name='vltjava7'></a>
 Apache Jackrabbit FileVault 3.2.8 (March 21st, 2019)
 --------------------------------------------------
-Jackrabbit FileVault 3.2.8 is the latest stable release of repository content synchronization tool still compatible with Java 7. If possible use the newer FileVault 3.4.0 or newer which requires Java 8.
+Jackrabbit FileVault 3.2.8 is the latest stable release of repository content synchronization tool still compatible with Java 7. If possible use FileVault 3.4.0 or newer which requires Java 8.
 
 See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/3.2.8/RELEASE-NOTES.txt) for more details.
 
