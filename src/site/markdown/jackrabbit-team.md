@@ -25,6 +25,7 @@ The Jackrabbit project follows the [meritocratic principles](http://www.apache.o
 and [role-based organization](http://www.apache.org/foundation/how-it-works.html#roles)
 of the Apache Software Foundation.
 
+*An accurate list of committers and PMC members can be retrieved from the [Apache Committee Information for Jackrabbit](https://projects.apache.org/committee.html?jackrabbit). The list below is maintained manually and may be outdated.*
 
 Jackrabbit committers
 ---------------------
