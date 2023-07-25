@@ -36,6 +36,16 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 
 ## Apache Jackrabbit News
 
+#### July 25th, 2023: CVE-2023-37895: Apache Jackrabbit RMI access can lead to RCE
+Users of Jackrabbit standalone(-components) and webapp, please update to the recent releases (2.20.11 (stable)
+or 2.21.18 (unstable))
+immediately! These components are vulnerable for Remote Execution attacks if RMI is enabled!
+
+See https://lists.apache.org/thread/j03b3qdhborc2jrhdc4d765d3jkh8bfw and 
+https://issues.apache.org/jira/browse/JCR-4949 for more details. And thanks
+to Eluen Siebene for the report.
+
+
 #### July 24th, 2023: Apache Jackrabbit Oak 1.54.0 released
 Apache Jackrabbit Oak 1.54.0 is an incremental feature release based
 on and compatible with earlier stable Jackrabbit Oak 1.x releases.
