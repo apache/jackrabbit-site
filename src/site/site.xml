@@ -43,6 +43,7 @@
             <item name="Jackrabbit Configuration" href="jackrabbit-configuration.html"/>
             <item name="Node Types" href="node-types.html"/>
             <item name="Object Content Mapping" href="object-content-mapping.html"/>
+            <item name="Security Reports" href="security-reports.html"/>
         </menu>
         <menu name="Development">
             <item name="Jackrabbit Team" href="jackrabbit-team.html"/>

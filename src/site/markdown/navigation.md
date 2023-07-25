@@ -17,6 +17,7 @@ Title: Navigation
 ** [Jackrabbit Configuration](jackrabbit-configuration.html)
 ** [Node Types](node-types.html)
 ** [Object Content Mapping](object-content-mapping.html)
+** [Security Reports](security-reports.html)
 * Development 
 ** [Jackrabbit Team](jackrabbit-team.html)
 ** [Jackrabbit Roadmap](jackrabbit-roadmap.html)
