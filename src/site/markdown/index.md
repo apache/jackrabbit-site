@@ -36,6 +36,11 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 
 ## Apache Jackrabbit News
 
+#### September 1st, 2023: Apache Jackrabbit Oak 1.56.0 released
+Apache Jackrabbit Oak 1.56.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x releases.
+See the [downloads](downloads.html#latest) page for more details.
+
 #### August 11th, 2023: Apache Jackrabbit 2.21.19 released
 Apache Jackrabbit 2.21.19 is an unstable release cut directly from trunk, with a
 focus on new features and other improvements. See the
@@ -49,7 +54,6 @@ immediately! These components are vulnerable for Remote Execution attacks if RMI
 See https://lists.apache.org/thread/j03b3qdhborc2jrhdc4d765d3jkh8bfw and 
 https://issues.apache.org/jira/browse/JCR-4949 for more details. And thanks
 to Eluen Siebene for the report.
-
 
 #### July 24th, 2023: Apache Jackrabbit Oak 1.54.0 released
 Apache Jackrabbit Oak 1.54.0 is an incremental feature release based
