@@ -28,7 +28,7 @@ on your preferred mirror.
 
 * Latest stable releases:
     * [Apache Jackrabbit 2.20.x](#v2.20) (Java 8 and later)
-    * [Apache Jackrabbit Oak 1.52.0](#latest) (Java 11 and later)
+    * [Apache Jackrabbit Oak 1.58.0](#latest) (Java 11 and later)
 * Latest unstable releases (from trunk):
     * [Apache Jackrabbit 2.21.x](#v2.21) (Java 8 and later)
 * Maintenance releases:
