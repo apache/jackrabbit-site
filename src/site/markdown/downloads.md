@@ -65,8 +65,8 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.60.0/
 
 
 <a class='anchor' name='oak1.22'></a>
-Apache Jackrabbit Oak 1.22.18 (December 1, 2023)
-------------------------------------------------
+Apache Jackrabbit Oak 1.22.18 (December 1st, 2023)
+--------------------------------------------------
 Apache Jackrabbit Oak 1.22.18 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit Oak 1.22.x
 releases. Jackrabbit Oak 1.22.x releases are considered stable and
