@@ -25,6 +25,6 @@ See the [Jackrabbit page](https://ci-builds.apache.org/job/Jackrabbit/)
 on the Jenkins server for the list of configured Jackrabbit builds and
 their current status.
 
-The builds are configured to daily check the Subversion server for updates
-and to run builds whenever there are changes. Build and test errors are
+The builds are configured to daily check the Git repository for updates
+and to run builds whenever there are changes (in the relevant branches). Build and test errors are
 reported on the dev@ mailing list.

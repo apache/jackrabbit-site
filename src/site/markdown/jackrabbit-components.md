@@ -40,8 +40,8 @@ The main components are:
 * [Jackrabbit SPI to JCR](components/jackrabbit-spi-to-jcr.html)
 * [Jackrabbit SPI to DAV](components/jackrabbit-spi-to-dav.html)
 * [Jackrabbit Standalone Server](standalone-server.html)
-* [Jackrabbit OCM](components/jackrabbit-ocm.html) ([Jackrabbit commons](http://jackrabbit.apache.org/commons/) component since Jackrabbit 1.6)
-* [Jackrabbit OCM Node Management](components/jackrabbit-ocm-node-management.html) ([Jackrabbit commons](http://jackrabbit.apache.org/commons/) component since Jackrabbit 1.6)
+* [Jackrabbit OCM](components/jackrabbit-ocm.html) ([Jackrabbit commons](https://svn.apache.org/repos/asf/jackrabbit/commons/) component since Jackrabbit 1.6)
+* [Jackrabbit OCM Node Management](components/jackrabbit-ocm-node-management.html) ([Jackrabbit commons](https://svn.apache.org/repos/asf/jackrabbit/commons/) component since Jackrabbit 1.6)
 * [Jackrabbit FileVault](https://jackrabbit.apache.org/filevault/)
 * [Jackrabbit FileVault Package Maven Plugin](https://jackrabbit.apache.org/filevault-package-maven-plugin/)
 

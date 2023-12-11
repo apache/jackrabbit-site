@@ -17,12 +17,12 @@
 
 Source Repository
 =================
-Apache Jackrabbit uses [Subversion](https://subversion.apache.org/)
-to manage source code. See the [Subversion book](https://svnbook.red-bean.com/)
+Apache Jackrabbit uses [Git](https://git-scm.com/)
+to manage source code. See the [Git book](https://git-scm.com/book/en/v2)
 and the [Apache instructions](https://www.apache.org/dev/version-control.html)
-for using Subversion.
+for using Git.
 
-The Jackrabbit source code is available at
-<https://svn.apache.org/repos/asf/jackrabbit/> and can also be browsed using
-the [ViewVC](https://viewvc.org/)
-interface at <https://svn.apache.org/viewvc/jackrabbit/>.
+The Jackrabbit source code is mostly available at both
+<https://github.com/apache/jackrabbit-filevault> and at <https://gitbox.apache.org/repos/asf/jackrabbit.git>.
+
+Some parts (site, sandbox and commons modules) are still located in Subversion at <https://svn.apache.org/repos/asf/jackrabbit/>.

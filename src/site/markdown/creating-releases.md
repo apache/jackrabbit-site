@@ -264,20 +264,20 @@ You need to change the `~/.m2/settings.xml` file as follows. PGP key id: this is
         <!-- To deploy a Jackrabbit snapshot -->
         <server>
           <id>apache.snapshots.https</id>
-          <username><!-- Apache svn user name --></username>
-          <password><!-- Apache svn password --></password>
+          <username><!-- Apache LDAP user name --></username>
+          <password><!-- Apache LDAP password --></password>
         </server>
         <!-- To stage a Jackrabbit release -->
         <server>
           <id>apache.releases.https</id>
-          <username><!-- Apache svn user name --></username>
-          <password><!-- Apache svn password --></password>
+          <username><!-- Apache LDAP user name --></username>
+          <password><!-- Apache LDAP password --></password>
         </server>
         <!-- To tag/checkout/checkin -->
         <server>
           <id>svn.apache.org</id>
-          <username><!-- Apache svn user name --></username>
-          <password><!-- Apache svn password --></password>
+          <username><!-- Apache LDAP user name --></username>
+          <password><!-- Apache LDAP password --></password>
         </server>
         ...
       </servers>
