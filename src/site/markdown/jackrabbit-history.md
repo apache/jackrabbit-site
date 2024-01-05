@@ -26,6 +26,7 @@ For recent events, have a look at the [News Archive](news-archive.html).
 
 Jackrabbit in 2023
 ------------------
+* September 2023: [Jackrabbit Status September 2023](status/board-report-2023-09.html)
 * June 2023: [Jackrabbit Status June 2023](status/board-report-2023-06.html)
 * March 2023: [Jackrabbit Status March 2023](status/board-report-2023-03.html)
 
