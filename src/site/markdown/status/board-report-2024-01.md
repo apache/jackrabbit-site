@@ -14,7 +14,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-Apache Jackrabbit: Board Report September 2023
+Apache Jackrabbit: Board Report January 2024 (draft)
 ==============================================
 
 ## Description: 
@@ -38,13 +38,14 @@ The project is ongoing with moderate activity.
 There are no issues requiring board attention at this time.
 
 ## Membership Data:
-
-There are currently 58 committers and 58 PMC members in this project.
-The Committer-to-PMC ratio is 1:1.
+Apache Jackrabbit was founded 2006-03-15 (18 years ago)
+There are currently 59 committers and 59 PMC members in this project.
+The Committer-to-PMC ratio is 1:1, because all committers automatically
+become PMC members.
 
 Community changes, past quarter:
-- Dominique Pfister resigned on 2023-07-17
-- No new committers. Last addition was Rishabh Daim on 2023-04-06.
+- Nuno Santos was added to the PMC on 2023-11-14
+- Nuno Santos was added as committer on 2023-11-13
 
 ## Project Activity: 
 Apache Jackrabbit Oak receives most attention nowadays. All 
@@ -55,14 +56,22 @@ Apache Jackrabbit itself is mostly in maintenance mode with most of
 the work going into bug fixing and tooling. New features are mainly
 driven by dependencies from Jackrabbit Oak.
 
-The project team introduced a shaded version of Guava and replaced
-usage of plain Guava with the shaded version. Only one transitive
-dependency through an Azure SDK library is left. The plan is to remove
-this final dependency in the next Jackrabbit Oak release. 
+In October a significant code contribution to Jackrabbit Oak was made
+by a non-committer (Lucas Weitzendorf). The contribution adds support
+for parallel compaction of a segment store.
 
-On June 29th a vulnerability was reported to the security mailing list.
-The remote code execution in Jackrabbit RMI was handled with
-CVE-2023-37895 and releases with a fix published on July 25th. 
+Throughout the last quarter the indexing component of Jackrabbit Oak
+has seen a lot of activity. The team has been working on a more efficient
+way to index large repositories.
+
+Migration to Jakarta APIs saw some progress with good collaboration
+between different Apache project teams. However, the migration requires
+many changes while the team also wants to keep modules compatible with
+the current version of the Servlet API.
+
+In December the classic Jackrabbit code base was migrated from SVN to
+Git. The only remaining module in SVN is the project website, but there
+are plans to migrate that as well.
 
 ## Community Health:
 The project is generally healthy with a continuous stream of traffic
@@ -75,16 +84,19 @@ features and improvements in for the next Jackrabbit Oak release.
 
 ## Releases:
 
-- jackrabbit-oak-1.22.16 was released on 2023-07-17
-- jackrabbit-filevault-3.7.0 was released on 2023-07-19
-- jackrabbit-2.21.18 was released on 2023-07-24
-- jackrabbit-2.20.11 was released on 2023-07-24
-- filevault-package-maven-plugin-1.3.4 was released on 2023-07-24
-- jackrabbit-oak-1.54.0 was released on 2023-07-24
-- jackrabbit-2.21.19 was released on 2023-08-11
-- jackrabbit-oak-1.56.0 was released on 2023-09-01
+- jackrabbit-2.20.12 was released on 2023-09-08
+- jackrabbit-oak-1.22.17 was released on 2023-09-15
+- jackrabbit-2.21.20 was released on 2023-10-11
+- jackrabbit-oak-1.58.0 was released on 2023-10-16
+- jackrabbit-filevault-3.7.2 was released on 2023-11-04
+- jackrabbit-2.20.13 was released on 2023-11-07
+- filevault-package-maven-plugin-1.3.6 was released on 2023-11-16
+- jackrabbit-oak-1.22.18 was released on 2023-12-01
+- jackrabbit-oak-1.60.0 was released on 2023-12-06
+- jackrabbit-2.21.21 was released on 2023-12-12
+- jackrabbit-2.21.22 was released on 2023-12-19
 
 ## JIRA activity:
 
-- 156 JIRA tickets created in the last 3 months
-- 118 JIRA tickets closed/resolved in the last 3 months
+- 140 JIRA tickets created in the last 3 months
+- 131 JIRA tickets closed/resolved in the last 3 months
