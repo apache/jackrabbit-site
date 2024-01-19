@@ -30,7 +30,7 @@ on your preferred mirror.
     * [Apache Jackrabbit 2.20.x](#v2.20) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.60.0](#latest) (Java 11 and later)
 * Latest unstable releases (from trunk):
-    * [Apache Jackrabbit 2.21.x](#v2.21) (Java 8 and later)
+    * [Apache Jackrabbit 2.21.x](#v2.21) (Java 11 and later)
 * Maintenance releases:
     * [Apache Jackrabbit Oak 1.22.x](#oak1.22) (Java 8 to Java 13)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
