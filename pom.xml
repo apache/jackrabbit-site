@@ -156,7 +156,7 @@
 
     <distributionManagement>
         <site>
-            <id>jackrabbit.site-deploy</id>
+            <id>apache.website</id>
             <url>scm:svn:https://svn.apache.org/repos/asf/jackrabbit/site/live/jcr</url>
         </site>
     </distributionManagement>
