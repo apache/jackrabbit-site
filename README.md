@@ -48,3 +48,5 @@ up with `svn commit` manually.
 Note: Every committer should be able to deploy the site. Deployment is done via svn commit to
 `https://svn.apache.org/repos/asf/jackrabbit/site/live/jcr`. It may be necessary though to provide the credentials explicitly via `-Dpassword` and `-Dusername` ([maven-scm-publish-plugin:publish-scm](https://maven.apache.org/plugins/maven-scm-publish-plugin/publish-scm-mojo.html)).
 
+Further information in [Website](src/site/markdown/website.md).
+
