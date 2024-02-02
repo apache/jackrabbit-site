@@ -22,8 +22,13 @@
          xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd"
          name="Apache Jackrabbit">
     <version position="none"/>
-    <publishDate position="left"/>
+    <publishDate position="right"/>
+    <edit>https://github.com/apache/jackrabbit-site/edit/main</edit>
     <body>
+        <!-- breadcrumb is necessary to render the edit button -->
+        <breadcrumbs>
+            <item name="Jackrabbit" href="https://jackrabbit.apache.org/"/>
+        </breadcrumbs>
         <menu name="Apache Jackrabbit">
             <item name="Welcome" href="index.html"/>
             <item name="Downloads" href="downloads.html"/>
