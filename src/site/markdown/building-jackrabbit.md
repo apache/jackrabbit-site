@@ -51,7 +51,7 @@ Jackrabbit uses [Maven 3](https://maven.apache.org/)
 as the build system and the component sources are mostly organized
 according to the Maven [Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html).
 The standard build environment is Maven 3 with the Java Development Kit
-(JDK) 1.8 for trunk. Older branches use JDK 1.7 (2.14) and JDK 1.6 (2.12 and before).
+(JDK) 11 for trunk.
 
 See the [Running Maven](https://maven.apache.org/run-maven/index.html)
 page and the related documentation on the Maven web site for instructions
