@@ -22,16 +22,16 @@ Jackrabbit Site Generation
 [![Jenkins Status](https://img.shields.io/jenkins/s/https/ci-builds.apache.org/job/Jackrabbit/job/jackrabbit-site/job/main.svg)][build]
 
 This is the Git repository for the content of <https://jackrabbit.apache.org/jcr/>. 
-Further information in [Website](src/site/markdown/website.md).
+Further information in [website](src/site/markdown/website.md).
 
 The Jackrabbit site lives as Markdown files in `src/site/markdown` such
 that it easy to view e.g. from GitHub. This project only generates the
-content below `https://svn.apache.org/repos/asf/jackrabbit/site/live/jcr`, otherwise
+content below <https://svn.apache.org/repos/asf/jackrabbit/site/live/jcr>, otherwise
 the scm-publish mechanism is too slow, checking out the entire site.
 
-The Maven site plugin can be used to build a web site as follows:
+The Maven site plugin is used to build the web site as follows:
 
-1. In this project build the site with:
+1. In this project's directory execute:
 
    ````
    $ mvn site
@@ -39,7 +39,7 @@ The Maven site plugin can be used to build a web site as follows:
 
 2. Review the site at `target/site/index.html`
 
-3. Commit and push your changes
+3. Commit and push your changes to the source files
 
 ### Automatic Deployment
 
@@ -47,13 +47,13 @@ The `main` branch is automatically built on the [ASF Jenkins][build] after every
 
 ### Manual Deployment
 
-1. Deploy the site to `http://jackrabbit.apache.org/jcr` using:
+1. Build and deploy the site to <https://svn.apache.org/repos/asf/jackrabbit/site/live/jcr> using:
 
    ````
    $ mvn site-deploy
    ````
 
-2. Finally review the site at `http://jackrabbit.apache.org/`.
+2. Finally review the site at <https://jackrabbit.apache.org/jcr>.
 
 Note: To skip the final commit use `-Dscmpublish.skipCheckin=true`. You can then
 review all pending changes in `target/scmpublish-checkout` and follow
