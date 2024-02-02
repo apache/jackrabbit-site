@@ -89,6 +89,7 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <serverId>apache.releases.https</serverId>
                     <content>target/site</content>
                     <checkinComment>@trivial: Site checkin for project ${project.name}-${project.version}
                     </checkinComment>
@@ -156,7 +157,6 @@
 
     <distributionManagement>
         <site>
-            <id>apache.website</id>
             <url>scm:svn:https://svn.apache.org/repos/asf/jackrabbit/site/live/jcr</url>
         </site>
     </distributionManagement>
