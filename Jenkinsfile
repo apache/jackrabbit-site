@@ -55,11 +55,6 @@
             }
         }
     }
-    post {
-        always {
-            jenkinsNotify()
-        }
-    }
     options {
         buildDiscarder(logRotator(numToKeepStr:'15'))
         timeout(time: 10, unit: 'MINUTES')
