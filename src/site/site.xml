@@ -22,7 +22,7 @@
          xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd"
          name="Apache Jackrabbit">
     <version position="none"/>
-    <publishDate position="right"/>
+    <publishDate position="none"/>
     <edit>https://github.com/apache/jackrabbit-site/edit/main</edit>
     <body>
         <!-- breadcrumb is necessary to render the edit button -->
@@ -78,7 +78,7 @@
     <skin>
         <groupId>org.apache.maven.skins</groupId>
         <artifactId>maven-fluido-skin</artifactId>
-        <version>1.11.1</version>
+        <version>1.12.0</version>
     </skin>
 
     <custom>
@@ -98,6 +98,7 @@
                 <ribbonOrientation>right</ribbonOrientation>
             </gitHub>
             <googlePlusOne/>
+            <skipGenerationDate>true</skipGenerationDate>
         </fluidoSkin>
         <matomo>
             <siteId>4</siteId>
