@@ -156,7 +156,7 @@ Otherwise:
 4. Release the [staged repository](https://repository.apache.org/index.html#stagingRepositories) for synchronization to Maven central.
     * make sure this step actually succeeded (we have seen a case where it failed and a retry was needed)
 5. Close all the issues included in the release: [Jackrabbit Jira](https://issues.apache.org/jira/projects/JCR?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&amp;status=released) or [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&amp;status=released) -> Choose the released version -> select "View in Issue Navigator". From the issue list you have the option to bulk update all of the included issues. Just 'Transition Issues' from 'Resolved' to 'Closed' and you are done!
-6. Update the Jackrabbit web site to point to the new release ([SVN](https://svn.apache.org/repos/asf/jackrabbit/site/trunk/)) (the date should be the day when the release was finished).
+6. Update the Jackrabbit web site to point to the new release ([GIT](https://github.com/apache/jackrabbit-site)) (the date should be the day when the release was finished).
     * add an entry to `index.md`
     * update `downloads.md` (see [below](#Creating_Markdown_for_Downloads_Page)) - while doing so please a) remove obsoleted entries, and b) move new entries for Jackrabbit and/or Oak to the top)
     * don't forget to deploy the site (`mvn site-deploy`)
