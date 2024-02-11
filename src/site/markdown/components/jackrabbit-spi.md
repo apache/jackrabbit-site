@@ -95,6 +95,8 @@ Other SPI implementations can be found in the _sandbox_ folder of the Jackrabbit
     [Jackrabbit SPI to JCR](jackrabbit-spi-to-jcr.html)
     and _SPI to WebDAV_ really are repository implementations, the _SPI-RMI_
     is rather a 'repeater' for SPI calls using RMI.
+    _Note_: RMI access is deprecated and will be removed in version 2.22.x
+    (see [JCR-4792](https://issues.apache.org/jira/browse/JCR-4972) for details).
     
 * **SPI Logger**:  
     Utility implementation to log SPI usage.

@@ -217,6 +217,9 @@ You need to keep a direct reference to the RemoteRepository instance in
 your code until you call Naming.unbind as otherwise it could get garbage
 collected before a remote client connects to it.
 
+_Note_: RMI access is deprecated and will be removed in version 2.22.x
+(see [JCR-4792](https://issues.apache.org/jira/browse/JCR-4972) for details).
+
 See the [Repository Server](repository-server.html)
 page for instructions on how to access such a remote repository.
 

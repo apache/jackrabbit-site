@@ -42,6 +42,9 @@ Warning: The current JCR-RMI library is designed for simplicity, not
 performance. You will probably experience major performance issues if you
 try running any non-trivial applications on top of JCR-RMI.
 
+_Note_: RMI access is deprecated and will be removed in version 2.22.x
+(see [JCR-4792](https://issues.apache.org/jira/browse/JCR-4972) for details).
+
 Tomcat instructions
 -------------------
 Follow the steps below to setup a model 3 JCR-RMI client deployment for

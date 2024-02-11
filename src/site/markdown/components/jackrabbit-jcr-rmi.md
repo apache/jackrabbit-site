@@ -23,6 +23,8 @@ Repository for Java Technology API (JCR). The layer makes it possible to
 remotely access JCR content repositories and is compatible with all JCR
 implementations.
 
+_Note_: RMI access is deprecated and will be removed in version 2.22.x
+(see [JCR-4792](https://issues.apache.org/jira/browse/JCR-4972) for details).
 
 Setting up a remote repository
 ------------------------------

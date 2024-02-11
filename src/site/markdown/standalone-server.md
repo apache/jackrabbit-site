@@ -152,6 +152,9 @@ remotely with the following code:
 
     Repository repository = new URLRemoteRepository("http://localhost:8080/rmi");
 
+_Note_: RMI access is deprecated and will be removed in version 2.22.x
+(see [JCR-4792](https://issues.apache.org/jira/browse/JCR-4972) for details).
+
 
 Backup and migration
 --------------------
