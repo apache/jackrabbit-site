@@ -95,8 +95,7 @@ Release management tasks
 11. On the other hand, if this is a release from trunk, carefully review all
     export versions and check that no change introduces new dependencies on
     Guava (see [OAK-7182](https://issues.apache.org/jira/browse/OAK-7182)).
-12. For Oak releases that support a range of Guava versions (right now trunk and
-    1.22), make sure the system builds and tests with the highest version in the range
+12. For Oak releases that support a range of Guava versions (right now 1.22), make sure the system builds and tests with the highest version in the range
     as well (see `guava.osgi.import` property in `oak-parent/pom.xml`) - right now that is 20.0.
     Use `-Pguava-latest` for the tests.
 13. If this is a release with Java 7 or older, make sure that your `MAVEN_OPTS` contain `-Dhttps.protocols=TLSv1.2`.
