@@ -79,7 +79,7 @@ Release management tasks
     If the project release has a `project.build.outputTimestamp` variable defined in the parent pom, and the release plugin in use does
     not yet support adjusting it upon release, do so now.
     When done, commit the file(s).
-7. If the branch is one that supports Java 8 or newer, make sure that the API docs can indeed be built with Java 8, using both `javadoc:javadoc` and `javadoc:aggregate`.
+7. Jackrabbit: If the branch is one that supports Java 8 or newer, make sure that the API docs can indeed be built with Java 8, using both `javadoc:javadoc` and `javadoc:aggregate`.
    If the branch supports Java 11 or newer, repeat this with Java 11.
 8. Make sure that the build succeeds with all Java versions it is supposed to support (trying with the earliest and latest is ok).
 9. When releasing a Jackrabbit version that will be used in Oak, make sure it
@@ -97,7 +97,7 @@ Release management tasks
     Guava (see [OAK-7182](https://issues.apache.org/jira/browse/OAK-7182)).
 12. For Oak releases that support a range of Guava versions (right now 1.22), make sure the system builds and tests with the highest version in the range
     as well (see `guava.osgi.import` property in `oak-parent/pom.xml`) - right now that is 20.0.
-    Use `-Pguava-latest` for the tests.
+    Use `-Pguava-latest` for the tests. (This step can likely be removed soon, as Oak 1.22 will stay on the old release of Guava due to compatibility issues)
 13. When doing "stable" release (even-numbered), check that we do not have
     dependencies to unstable releases. In particular, stable releases of Oak
     should not reference unstable Jackrabbit releases (if this is the case,
@@ -160,7 +160,7 @@ Otherwise:
     * don't forget to deploy the site (`mvn site-deploy`)
 7. If the release was a Jackrabbit release used in Oak, make sure to also update the dependency (and potentially the Javadoc link) in oak-parent/pom.xml (example: [OAK-4743](https://issues.apache.org/jira/browse/OAK-4743) - the current mapping is Jackrabbit 2.20 -> Oak trunk and Oak 1.22, Jackrabbit 2.16 -> Oak 1.8, Jackrabbit 2.14 -> Oak 1.6, Jackrabbit 2.12 -> Oak 1.4)
 8. If the release was an Oak release used in Jackrabbit (for jackrabbit-api), make sure to also update the dependency in jackrabbit-parent/pom.xml (example: [JCR-4492](https://issues.apache.org/jira/browse/JCR-4492) - the current mapping is Oak latest stable -> Jackrabbit trunk and 2.20)
-9. If the release was a stable release for which we publish API docs (such as Jackrabbit), consider updating the live site (https://svn.apache.org/repos/asf/jackrabbit/site/live/ - when producing the API docs, use a checkout of the actual release, specify an English locale (-Dlocale=en) and try to pick the right JDK version to minimize changes over the previously checked in docs).
+9. Jackrabbit: If the release was a stable release for which we publish API docs, consider updating the live site (https://svn.apache.org/repos/asf/jackrabbit/site/live/ - when producing the API docs, use a checkout of the actual release, specify an English locale (-Dlocale=en) and try to pick the right JDK version to minimize changes over the previously checked in docs).
 10. If the release was a stable release that is used for the baseline check in trunk (right now: Jackrabbit 2.20), update trunk accordingly (example: [JCR-4312](https://issues.apache.org/jira/browse/JCR-4312))
 11. Check that all subprojects now have the correct version; if not, fix them (for instance, oak-doc and oak-doc-railroad-macro are not in the reactor pom and therefore not updated)
 12. Send a release announcement to the
