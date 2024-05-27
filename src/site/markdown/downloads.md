@@ -48,6 +48,22 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='latest'></a>
+Apache Jackrabbit Oak 1.64.0 (May 27th, 2024)
+----------------------------------------------
+Apache Jackrabbit Oak 1.64.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x
+releases. This release is considered stable and targeted for
+production use.
+
+See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.64.0/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.64.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.64.0/jackrabbit-oak-1.64.0-src.zip)
+    (19M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.64.0/jackrabbit-oak-1.64.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.64.0/jackrabbit-oak-1.64.0-src.zip.sha512))
+
+
+
+
 <a class='anchor' name='oak1.22'></a>
 Apache Jackrabbit Oak 1.22.20 (May 13th, 2024)
 ------------------------------------------------
@@ -83,22 +99,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.20.16/REL
 
 * [jackrabbit-jca-2.20.16.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.16/jackrabbit-jca-2.20.16.rar)
     (46M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.20.16/jackrabbit-jca-2.20.16.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.16/jackrabbit-jca-2.20.16.rar.sha512))
-
-
-
-
-<a class='anchor' name='latest'></a>
-Apache Jackrabbit Oak 1.62.0 (April 9th, 2024)
-----------------------------------------------
-Apache Jackrabbit Oak 1.62.0 is an incremental feature release based
-on and compatible with earlier stable Jackrabbit Oak 1.x
-releases. This release is considered stable and targeted for
-production use.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.62.0/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.62.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.62.0/jackrabbit-oak-1.62.0-src.zip)
-    (17M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.62.0/jackrabbit-oak-1.62.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.62.0/jackrabbit-oak-1.62.0-src.zip.sha512))
 
 
 
