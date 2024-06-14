@@ -36,6 +36,13 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 
 ## Apache Jackrabbit News
 
+#### June 14th, 2024: Apache Jackrabbit 2.22.0 released
+Apache Jackrabbit 2.22.0 is an incremental feature release based on and
+compatible with earlier stable Jackrabbit 2.x releases. See the
+[downloads](downloads.html#v2.22) page for more details.
+
+(Note that this release now requires Java 11, and also removes RMI support)
+
 #### June 6th, 2024: Apache Jackrabbit 2.21.27-beta released
 Apache Jackrabbit 2.21.27-beta is an unstable release cut directly from trunk, with a
 focus on new features and other improvements. See the

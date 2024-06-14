@@ -27,6 +27,7 @@ release; in this case wait 12-24 hours until the distribution becomes available
 on your preferred mirror.
 
 * Latest stable releases:
+    * [Apache Jackrabbit 2.22.x](#v2.22) (Java 11 and later)
     * [Apache Jackrabbit 2.20.x](#v2.20) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.64.0](#latest) (Java 11 and later)
 * Latest unstable releases (from trunk):
@@ -44,6 +45,32 @@ Apache Jackrabbit releases are available under the [Apache License, Version 2.0]
 See the `NOTICE.txt` file contained in each release artifact for applicable copyright attribution notices.
 Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](https://www.apache.org/legal/resolved.html).
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
+
+
+
+
+<a class='anchor' name='v2.22'></a>
+Apache Jackrabbit 2.22.0 (June 14th, 2024)
+------------------------------------------
+Apache Jackrabbit 2.22.0 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
+2.20.x releases are considered stable and targeted for production use.
+
+(Note that this release now requires Java 11, and also removes RMI support)
+
+See the [full release notes](https://downloads.apache.org/jackrabbit/2.22.0/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-2.22.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.22.0/jackrabbit-2.22.0-src.zip)
+    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.22.0/jackrabbit-2.22.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.22.0/jackrabbit-2.22.0-src.zip.sha512))
+
+* [jackrabbit-standalone-2.22.0.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.22.0/jackrabbit-standalone-2.22.0.jar)
+    (99M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.22.0/jackrabbit-standalone-2.22.0.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.22.0/jackrabbit-standalone-2.22.0.jar.sha512))
+
+* [jackrabbit-webapp-2.22.0.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.22.0/jackrabbit-webapp-2.22.0.war)
+    (45M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.22.0/jackrabbit-webapp-2.22.0.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.22.0/jackrabbit-webapp-2.22.0.war.sha512))
+
+* [jackrabbit-jca-2.22.0.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.22.0/jackrabbit-jca-2.22.0.rar)
+    (43M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.22.0/jackrabbit-jca-2.22.0.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.22.0/jackrabbit-jca-2.22.0.rar.sha512))
 
 
 
