@@ -34,6 +34,7 @@ Beyond the JCR API Jackrabbit features numerous extensions and administrational 
 repository but which are not specified by JCR (see [Jackrabbit Architecture](jackrabbit-architecture.html)):
 
 * [Apache Jackrabbit Trunk](http://jackrabbit.apache.org/api/trunk/)
+* [Apache Jackrabbit 2.22](http://jackrabbit.apache.org/api/2.22/)
 * [Apache Jackrabbit 2.20](http://jackrabbit.apache.org/api/2.20/)
 
 Some _extensions_ to the JCR API are defined in package `org.apache.jackrabbit.api` and its subpackages. These are implemented both in
