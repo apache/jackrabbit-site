@@ -31,7 +31,7 @@ on your preferred mirror.
     * [Apache Jackrabbit 2.20.x](#v2.20) (Java 8 and later)
     * [Apache Jackrabbit Oak 1.66.0](#latest) (Java 11 and later)
 * Latest unstable releases (from trunk):
-    * [Apache Jackrabbit 2.21.x](#v2.21) (Java 11 and later)
+    * [Apache Jackrabbit 2.23.x](#v2.23) (Java 11 and later)
 * Maintenance releases:
     * [Apache Jackrabbit Oak 1.22.x](#oak1.22) (Java 8 to Java 13)
 * Latest stable OCM release: [Apache Jackrabbit OCM 2.0.0](#ocm)
@@ -45,6 +45,32 @@ Apache Jackrabbit releases are available under the [Apache License, Version 2.0]
 See the `NOTICE.txt` file contained in each release artifact for applicable copyright attribution notices.
 Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](https://www.apache.org/legal/resolved.html).
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
+
+
+
+
+<a class='anchor' name='v2.23'></a>
+Apache Jackrabbit 2.23.0-beta (July 23th, 2024)
+-----------------------------------------------
+Apache Jackrabbit 2.23.0-beta is an unstable release cut directly from
+Jackrabbit trunk, with a focus on new features and other
+improvements. For production use we recommend the latest stable 2.22.x
+release.
+
+See the [full release notes](https://downloads.apache.org/jackrabbit/2.23.0-beta/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-2.23.0-beta-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.23.0-beta/jackrabbit-2.23.0-beta-src.zip)
+    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.23.0-beta/jackrabbit-2.23.0-beta-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.23.0-beta/jackrabbit-2.23.0-beta-src.zip.sha512))
+
+* [jackrabbit-standalone-2.23.0-beta.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.23.0-beta/jackrabbit-standalone-2.23.0-beta.jar)
+    (99M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.23.0-beta/jackrabbit-standalone-2.23.0-beta.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.23.0-beta/jackrabbit-standalone-2.23.0-beta.jar.sha512))
+
+* [jackrabbit-webapp-2.23.0-beta.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.23.0-beta/jackrabbit-webapp-2.23.0-beta.war)
+    (45M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.23.0-beta/jackrabbit-webapp-2.23.0-beta.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.23.0-beta/jackrabbit-webapp-2.23.0-beta.war.sha512))
+
+* [jackrabbit-jca-2.23.0-beta.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.23.0-beta/jackrabbit-jca-2.23.0-beta.rar)
+    (43M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.23.0-beta/jackrabbit-jca-2.23.0-beta.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.23.0-beta/jackrabbit-jca-2.23.0-beta.rar.sha512))
+
 
 
 
@@ -87,31 +113,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.22.0/RELE
 
 * [jackrabbit-jca-2.22.0.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.22.0/jackrabbit-jca-2.22.0.rar)
     (43M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.22.0/jackrabbit-jca-2.22.0.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.22.0/jackrabbit-jca-2.22.0.rar.sha512))
-
-
-
-
-<a class='anchor' name='v2.21'></a>
-Apache Jackrabbit 2.21.27-beta (June 6th, 2024)
------------------------------------------------
-Apache Jackrabbit 2.21.27-beta is an unstable release cut directly from
-Jackrabbit trunk, with a focus on new features and other
-improvements. For production use we recommend the latest stable 2.20.x
-release.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/2.21.27-beta/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-2.21.27-beta-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.27-beta/jackrabbit-2.21.27-beta-src.zip)
-    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.21.27-beta/jackrabbit-2.21.27-beta-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.27-beta/jackrabbit-2.21.27-beta-src.zip.sha512))
-
-* [jackrabbit-standalone-2.21.27-beta.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.27-beta/jackrabbit-standalone-2.21.27-beta.jar)
-    (99M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.21.27-beta/jackrabbit-standalone-2.21.27-beta.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.27-beta/jackrabbit-standalone-2.21.27-beta.jar.sha512))
-
-* [jackrabbit-webapp-2.21.27-beta.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.27-beta/jackrabbit-webapp-2.21.27-beta.war)
-    (45M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.21.27-beta/jackrabbit-webapp-2.21.27-beta.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.27-beta/jackrabbit-webapp-2.21.27-beta.war.sha512))
-
-* [jackrabbit-jca-2.21.27-beta.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.21.27-beta/jackrabbit-jca-2.21.27-beta.rar)
-    (43M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.21.27-beta/jackrabbit-jca-2.21.27-beta.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.21.27-beta/jackrabbit-jca-2.21.27-beta.rar.sha512))
 
 
 
