@@ -14,7 +14,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-Apache Jackrabbit: Board Report June 2024
+Apache Jackrabbit: Board Report September 2024 (draft)
 ==============================================
 
 ## Description: 
@@ -57,21 +57,9 @@ Apache Jackrabbit itself is mostly in maintenance mode with most of
 the work going into bug fixing and tooling. New features are mainly
 driven by dependencies from Jackrabbit Oak.
 
-Steffen Van suggested introducing a code formatter for the Jackrabbit
-Oak code base. The proposal sparked a discussion on the mailing list
-and a corresponding pull request. Jackrabbit committers voiced concerns
-about the impact on git diff readability and backporting of changes to
-maintenance branches. No decision has been made yet.
-
-A new revision garbage collection feature was added to Jackrabbit Oak.
-The feature is disabled by default and can be enabled with a feature
-toggle. Additional work is in progress to control the type of garbage
-that is collected.
-
-After some confusion about the Jackrabbit even/odd minor version scheme,
-the team decided to add a -beta suffix to releases with an odd minor
-version number. The first release with the new versioning scheme was
-Jackrabbit 2.21.26-beta on March 28th.
+The team decided to reduce usage of Google's Guava library and use
+Java features where possible. The long term goal is to remove the
+dependency on Guava.
 
 ## Community Health:
 The project is generally healthy with a continuous stream of traffic
@@ -84,15 +72,14 @@ features and improvements in for the next Jackrabbit Oak release.
 
 ## Releases:
 
-- jackrabbit-2.20.15 was released on 2024-03-11
-- jackrabbit-oak-1.22.19 was released on 2024-03-14
-- jackrabbit-2.21.26-beta was released on 2024-03-28
-- jackrabbit-oak-1.62.0 was released on 2024-04-09
-- jackrabbit-2.20.16 was released on 2024-05-13
-- jackrabbit-oak-1.22.20 was released on 2024-05-13
-- jackrabbit-oak-1.64.0 was released on 2024-05-27
+- jackrabbit-2.21-27-beta was released on 2024-06-06
+- jackrabbit-2.22.0 was released on 2024-06-14
+- jackrabbit-oak-1.66.0 was released on 2024-07-11
+- jackrabbit-2.23.0-beta was released on 2024-07-23
+- jackrabbit-filevault-3.8.0 was released on 2024-08-06
+- jackrabbit-oak-1.68.0 was released on 2024-08-19
 
 ## JIRA activity:
 
-- 207 JIRA tickets created in the last 3 months
-- 179 JIRA tickets closed/resolved in the last 3 months
+- 274 JIRA tickets created in the last 3 months
+- 209 JIRA tickets closed/resolved in the last 3 months
