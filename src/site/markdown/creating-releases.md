@@ -189,6 +189,18 @@ the tagging step will fail.
 
 After this is done, you can remove the passwords from the file `~/.m2/settings.xml` if you don't want to keep it there.
 
+#### Version Numbers
+
+`release:prepare` will prompt for version numbers and SCM information. The defaults are correct for Jackrabbit, but not for Oak. Below is an example used in the release of 1.76.0:
+
+       ...
+       [INFO] 5/17 prepare:map-release-versions
+       What is the release version for "Jackrabbit Oak"? (jackrabbit-oak) 1.75: : 1.76.0
+       [INFO] 6/17 prepare:input-variables
+       What is the SCM release tag or label for "Jackrabbit Oak"? (jackrabbit-oak) jackrabbit-oak-1.76.0: :
+       [INFO] 7/17 prepare:map-development-versions
+       What is the new development version for "Jackrabbit Oak"? (jackrabbit-oak) 1.76.1-SNAPSHOT: : 1.77-SNAPSHOT
+       ...
 
 Creating Markdown for Downloads Page
 ------------------------------------
