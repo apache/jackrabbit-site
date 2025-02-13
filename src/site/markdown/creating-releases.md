@@ -169,7 +169,7 @@ Otherwise:
     once the web site and download mirrors have been synced (template generated in `./target/checkout/target/announcement.txt` -- note that mirrors may need up to 12 hours!).
     Please note the announce mails needs to be sent from an @apache.org address.
     In case you are using a mailbox other than apache mailbox (such as gmail) to send mails for your apache address, make sure to send them in plain text format.
-    (Warning: sending the announcement too early may cause it to be rejected for announce@apache.org)
+    (Warning: the announce mailing lists are moderated. That means that mails could be rejected for various reasons, such as actual errors in the announcement or simply for the fact that the list moderators missed the requests. So check your inbox.)
 
 Steps to build the release artifacts
 ------------------------------------
