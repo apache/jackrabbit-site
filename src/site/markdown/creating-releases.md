@@ -163,7 +163,7 @@ Otherwise:
 8. Oak: If the previous release was a release used in Jackrabbit (for jackrabbit-api), make sure to also update the dependency in jackrabbit-parent/pom.xml (example: [JCR-4492](https://issues.apache.org/jira/browse/JCR-4492) - the current mapping is Oak latest stable -> Jackrabbit trunk and 2.22
 9. Jackrabbit: consider updating the live site (https://svn.apache.org/repos/asf/jackrabbit/site/live/ - when producing the API docs, use a checkout of the actual release, specify an English locale (-Dlocale=en) and try to pick the right JDK version to minimize changes over the previously checked in docs).
 10. Jackrabbit: If the release was a stable release that is used for the baseline check in trunk (right now: Jackrabbit 2.22), update trunk accordingly (example: [JCR-4312](https://issues.apache.org/jira/browse/JCR-4312))
-11. Oak: oak-doc and oak-doc-railroad-macro are not in the reactor pom, thus need a manual update of versiob numbers
+11. Oak: oak-doc and oak-doc-railroad-macro are not in the reactor pom, thus need a manual update of version numbers
 12. Send a release announcement to the
     [applicable mailing lists](mailto:announce@apache.org,announce@jackrabbit.apache.org,users@jackrabbit.apache.org,dev@jackrabbit.apache.org,oak-dev@jackrabbit.apache.org?subject=%5BANNOUNCE%5D%20Apache%20Jackrabbit%20...%20released)
     once the web site and download mirrors have been synced (template generated in `./target/checkout/target/announcement.txt` -- note that mirrors may need up to 12 hours!).
