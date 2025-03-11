@@ -14,8 +14,8 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-Apache Jackrabbit: Board Report December 2024
-==============================================
+Apache Jackrabbit: Board Report March 2025 (draft)
+==========================================
 
 ## Description: 
 The Apache Jackrabbit™ content repository is a fully conforming
@@ -33,9 +33,9 @@ implement all optional features from the JSR specifications, and it
 is not a reference implementation. 
 
 ## Project Status: 
-The project is ongoing with moderate activity.
+Current project status: Ongoing with moderate activity
 
-There are no issues requiring board attention at this time.
+Issues for the board: none
 
 ## Membership Data:
 Apache Jackrabbit was founded 2006-03-15 (19 years ago).
@@ -57,23 +57,24 @@ Apache Jackrabbit itself is mostly in maintenance mode with most of
 the work going into bug fixing and tooling. New features are mainly
 driven by dependencies from Jackrabbit Oak.
 
-The team reduced usage of Google's Guava library significantly and
+The team is further reducing usage of Google's Guava library and
 Jackrabbit Oak is now using Java features where possible. The long
-term goal is to remove the dependency on Guava.
+term goal is to remove the dependency on Guava. 
 
-Work on migrating Jackrabbit Oak from Azure SDK 8.x to 12.x has been
-picked up again and is ongoing. Azure SDK 8.x is no longer supported
-and a migration to 12.x is now required.
+Work on migrating Jackrabbit Oak from Azure SDK 8.x to 12.x continues.
+Azure SDK 8.x is no longer supported and a migration to 12.x is now
+required.
 
 ## Community Health:
 The project is generally healthy with a continuous stream of traffic
 mostly on JIRA issues and GitHub pull requests reflecting activity of
 the respective component. 
 
-In November, a vote was started to add a new committer and PMC member
-to the project. The vote was canceled due to lack of votes. Concerns
-raised on the private mailing list mentioned that the candidate has
-not been active in the project long enough. 
+The release of Jackrabbit Oak 1.76.0 had to be canceled due to a
+regression reported by downstream users. This sparked a discussion
+about lack of transparency because the details of the regression were
+not fully understood by the community. After reverting changes that
+were suspected to cause the regression, the release was re-started.
 
 Commit activity is moderate, mirroring the activity on the 
 JIRA issues and the desire of the individual contributors to bring
@@ -81,14 +82,10 @@ features and improvements in for the next Jackrabbit Oak release.
 
 ## Releases:
 
-- jackrabbit-oak-1.22.21 was released on 2024-09-12
-- jackrabbit-filevault-3.8.2 was released on 2024-09-25
-- filevault-package-maven-plugin-1.4.0 was released on 2024-10-01
-- jackrabbit-oak-1.70.0 was released on 2024-10-01
-- jackrabbit-2.23.1-beta was released on 2024-10-12
-- jackrabbit-oak-1.72.0 was released on 2024-11-14
+- jackrabbit-oak-1.74.0 was released on 2025-01-16
+- jackrabbit-oak-1.76.0 was released on 2025-02-13
 
 ## JIRA activity:
 
-- 226 JIRA tickets created in the last 3 months
-- 190 JIRA tickets closed/resolved in the last 3 months
+- 305 JIRA tickets created in the last 3 months
+- 252 JIRA tickets closed/resolved in the last 3 months
