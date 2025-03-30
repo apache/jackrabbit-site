@@ -17,13 +17,14 @@
 
 Continuous Integration
 ======================
-Apache Jackrabbit uses [Jenkins](https://www.jenkins.io/) for continuous integration builds.
+Apache Jackrabbit 2 uses [Jenkins](https://www.jenkins.io/) for continuous integration builds while
+Apache Jackrabbit Oak uses [GitHub Actions](https://github.com/features/actions).
 
 Build targets and schedule
 --------------------------
-See the [Jackrabbit page](https://ci-builds.apache.org/job/Jackrabbit/)
+See the [Jenkins Jackrabbit page](https://ci-builds.apache.org/job/Jackrabbit/)
 on the Jenkins server for the list of configured Jackrabbit builds and
-their current status.
+their current status. For Jackrabbit Oak, refer to the [GitHub Actions page](https://github.com/apache/jackrabbit-oak/actions/workflows/build.yml).
 
 The builds are configured to daily check the Git repository for updates
 and to run builds whenever there are changes (in the relevant branches). Build and test errors are
