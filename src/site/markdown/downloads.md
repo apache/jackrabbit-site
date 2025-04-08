@@ -49,6 +49,22 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='latest'></a>
+Apache Jackrabbit Oak 1.78.0 (April 8th, 2025)
+----------------------------------------------
+Apache Jackrabbit Oak 1.78.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x
+releases. This release is considered stable and targeted for
+production use.
+
+See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.78.0/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.78.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.78.0/jackrabbit-oak-1.78.0-src.zip)
+    (20M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.78.0/jackrabbit-oak-1.78.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.78.0/jackrabbit-oak-1.78.0-src.zip.sha512))
+
+
+
+
 <a class='anchor' name='oak1.22'></a>
 Apache Jackrabbit Oak 1.22.22 (March 27th, 2025)
 ----------------------------------------------------
@@ -61,22 +77,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.22.22
 
 * [jackrabbit-oak-1.22.22-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.22.22/jackrabbit-oak-1.22.22-src.zip)
     (17M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.22.22/jackrabbit-oak-1.22.22-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.22.22/jackrabbit-oak-1.22.22-src.zip.sha512))
-
-
-
-
-<a class='anchor' name='latest'></a>
-Apache Jackrabbit Oak 1.76.0 (February 13th, 2025)
---------------------------------------------------
-Apache Jackrabbit Oak 1.76.0 is an incremental feature release based
-on and compatible with earlier stable Jackrabbit Oak 1.x
-releases. This release is considered stable and targeted for
-production use.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.76.0/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.76.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.76.0/jackrabbit-oak-1.76.0-src.zip)
-    (20M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.76.0/jackrabbit-oak-1.76.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.76.0/jackrabbit-oak-1.76.0-src.zip.sha512))
 
 
 
