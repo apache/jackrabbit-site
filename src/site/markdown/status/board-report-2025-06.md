@@ -14,7 +14,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-Apache Jackrabbit: Board Report March 2025
+Apache Jackrabbit: Board Report June 2025 (draft)
 ==========================================
 
 ## Description: 
@@ -61,20 +61,14 @@ The team is further reducing usage of Google's Guava library and
 Jackrabbit Oak is now using Java features where possible. The long
 term goal is to remove the dependency on Guava. 
 
-Work on migrating Jackrabbit Oak from Azure SDK 8.x to 12.x continues.
-Azure SDK 8.x is no longer supported and a migration to 12.x is now
-required.
+The Solr integration module has been removed from Jackrabbit Oak,
+after deprecating it last year. Instead, the team invested heavily
+into integration with Elasticsearch and added AI/ML inference capabilities.
 
 ## Community Health:
 The project is generally healthy with a continuous stream of traffic
 mostly on JIRA issues and GitHub pull requests reflecting activity of
 the respective component. 
-
-The release of Jackrabbit Oak 1.76.0 had to be canceled due to a
-regression reported by downstream users. This sparked a discussion
-about lack of transparency because the details of the regression were
-not fully understood by the community. After reverting changes that
-were suspected to cause the regression, the release was re-started.
 
 Commit activity is moderate, mirroring the activity on the 
 JIRA issues and the desire of the individual contributors to bring
@@ -82,10 +76,12 @@ features and improvements in for the next Jackrabbit Oak release.
 
 ## Releases:
 
-- jackrabbit-oak-1.74.0 was released on 2025-01-16
-- jackrabbit-oak-1.76.0 was released on 2025-02-13
+- jackrabbit-oak-1.22.22 was released on 2025-03-27
+- jackrabbit-filevault-3.8.4 was released on 2025-03-28
+- jackrabbit-oak-1.78.0 was released on 2025-04-08
+- jackrabbit-oak-1.80.0 was released on 2025-05-21
 
 ## JIRA activity:
 
-- 305 JIRA tickets created in the last 3 months
-- 252 JIRA tickets closed/resolved in the last 3 months
+- 190 JIRA tickets created in the last 3 months
+- 186 JIRA tickets closed/resolved in the last 3 months
