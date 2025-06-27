@@ -36,6 +36,18 @@ announcement and a short description.
 | CVE-2023-37895 | Apache Jackrabbit RMI access can lead to RCE | 2.20.11, 2.21.18 |
 | | |
 
+### Jackrabbit's Security Model
+
+This section attempts to describe Jackrabbit's Security Model. It affects what the team will consider and treat
+as an actual security issue.
+
+ - Logs _should not_ be exposed to unauthorized persons. They may contain confidential information such as access
+ tokens or path names.
+ - Attacks which depend on write access to configuration files are not considered to be security relevant, because 
+write access to files on the server already implies control of the system.
+
+
+
 ### Reporting Vulnerabilities with Apache Jackrabbit
 
 The Apache Software Foundation takes an active stance in eliminating security problems. We strongly encourage everyone 
