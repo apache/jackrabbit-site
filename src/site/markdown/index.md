@@ -39,7 +39,7 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 #### 2025-07-14: Apache Jackrabbit 2.20.17 released
 Apache Jackrabbit 2.20.17 is an incremental feature release based on and
 compatible with earlier stable Jackrabbit 2.x releases. See the
-downloads](downloads.html#v2.20) page for more details.
+[downloads](downloads.html#v2.20) page for more details.
 
 #### 2025-07-14: Apache Jackrabbit 2.22.1 released
 Apache Jackrabbit 2.22.1 is an incremental feature release based on and
