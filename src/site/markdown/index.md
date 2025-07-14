@@ -41,15 +41,21 @@ Apache Jackrabbit 2.20.17 is an incremental feature release based on and
 compatible with earlier stable Jackrabbit 2.x releases. See the
 [downloads](downloads.html#v2.20) page for more details.
 
+_This release addresses [CVE-2025-53689](https://www.cve.org/CVERecord?id=CVE-2025-53689)._
+
 #### 2025-07-14: Apache Jackrabbit 2.22.1 released
 Apache Jackrabbit 2.22.1 is an incremental feature release based on and
 compatible with earlier stable Jackrabbit 2.x releases. See the
 [downloads](downloads.html#v2.22) page for more details.
 
+_This release addresses [CVE-2025-53689](https://www.cve.org/CVERecord?id=CVE-2025-53689)._
+
 #### 2025-07-14: Apache Jackrabbit 2.23.2-beta released
 Apache Jackrabbit 2.23.2-beta is an unstable release cut directly from trunk, with a
 focus on new features and other improvements. See the
 [downloads](downloads.html#v2.23) page for more details.
+
+_This release addresses [CVE-2025-53689](https://www.cve.org/CVERecord?id=CVE-2025-53689)._
 
 #### 2025-07-03: Apache Jackrabbit Oak 1.82.0 released
 Apache Jackrabbit Oak 1.82.0 is an incremental feature release based
