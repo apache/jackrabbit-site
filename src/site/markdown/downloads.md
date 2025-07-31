@@ -55,7 +55,7 @@ Jackrabbit FileVault 4.0.0 is the latest stable release of the repository conten
 
 See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/4.0.0/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-filevault-4.0.0-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/4.0.0/jackrabbit-filevault-3.8.4-source-release.zip)
+* [jackrabbit-filevault-4.0.0-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/4.0.0/jackrabbit-filevault-4.0.0-source-release.zip)
     (3M, source zip, [pgp](https://downloads.apache.org/jackrabbit/filevault/4.0.0/jackrabbit-filevault-4.0.0-source-release.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/filevault/jackrabbit-filevault-4.0.0-source-release.zip.sha512))
 * Binaries (and also sources) are provided via [Maven Central](https://central.sonatype.org/) with [group id `org.apache.jackrabbit.vault`](https://repo1.maven.org/maven2/org/apache/jackrabbit/vault/)
 
