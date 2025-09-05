@@ -47,8 +47,11 @@ These two configuration parameters are passed either directly to Jackrabbit
 when creating a repository instance or indirectly through settings for a
 JNDI object factory or some other component management system.
 
-Note that since Jackrabbit 2.22.1, JNDI is disabled by default. If you want to
+Note that since Jackrabbit 2.22.2, JNDI is disabled by default. If you want to
 use JNDI, you need to set the system property `jackrabbit.jndi.enabled` to `true`.
+If enabled, ensure repository registration and lookup through JNDI is done
+through configuration values. Using user supplied values is a potential security
+risk and should be avoided.
 
 For each workspace that was created, there will also be a `workspace.xml`
 file created inside the workspace home directory that will be used for the
