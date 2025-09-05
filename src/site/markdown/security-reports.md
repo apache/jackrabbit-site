@@ -34,7 +34,8 @@ announcement and a short description.
 | CVE-2015-1833 | XML external entity (XXE) vulnerability in Apache Jackrabbit before 2.0.6, 2.2.x before 2.2.14, 2.4.x before 2.4.6, 2.6.x before 2.6.6, 2.8.x before 2.8.1, and 2.10.x before 2.10.1 allows remote attackers to read arbitrary files and send requests to intranet servers via a crafted WebDAV request. | 2.2.14, 2.4.6, 2.6.6, 2.8.1, 2.10.1 |
 | CVE-2016-6801 | Cross-site request forgery (CSRF) vulnerability in the CSRF content-type check in Jackrabbit-Webdav in Apache Jackrabbit 2.4.x before 2.4.6, 2.6.x before 2.6.6, 2.8.x before 2.8.3, 2.10.x before 2.10.4, 2.12.x before 2.12.4, and 2.13.x before 2.13.3 allows remote attackers to hijack the authentication of unspecified victims for requests that create a resource via an HTTP POST request with a (1) missing or (2) crafted Content-Type header. | 2.4.6, 2.6.6, 2.8.3, 2.10.4, 2.12.4, 2.13.3 |
 | CVE-2023-37895 | Apache Jackrabbit RMI access can lead to RCE | 2.20.11, 2.21.18 |
-| CVE-2025-53689 | Blind XXE Vulnerabilities in jackrabbit-spi-commons and jackrabbit-core in Apache Jackrabbit < 2.23.2 due to usage of an unsecured document build to load privileges     | 2.23.1-beta, 2.22.1, 2.20.17   
+| CVE-2025-53689 | Blind XXE Vulnerabilities in jackrabbit-spi-commons and jackrabbit-core in Apache Jackrabbit < 2.23.2 due to usage of an unsecured document build to load privileges     | 2.23.1-beta, 2.22.1, 2.20.17 |
+| CVE-2025-58782 | JNDI injection risk with JndiRepositoryFactory | 2.22.2 |
 
 ### Jackrabbit's Security Model
 
