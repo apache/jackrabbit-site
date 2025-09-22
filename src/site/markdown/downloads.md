@@ -50,17 +50,17 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 <a class='anchor' name='latest'></a>
-Apache Jackrabbit Oak 1.84.0 (2025-08-14)
+Apache Jackrabbit Oak 1.86.0 (2025-09-22)
 -----------------------------------------
-Apache Jackrabbit Oak 1.84.0 is an incremental feature release based
+Apache Jackrabbit Oak 1.86.0 is an incremental feature release based
 on and compatible with earlier stable Jackrabbit Oak 1.x
 releases. This release is considered stable and targeted for
 production use.
 
-See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.84.0/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.86.0/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-oak-1.84.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.84.0/jackrabbit-oak-1.84.0-src.zip)
-    (20M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.84.0/jackrabbit-oak-1.84.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.84.0/jackrabbit-oak-1.84.0-src.zip.sha512))
+* [jackrabbit-oak-1.86.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.86.0/jackrabbit-oak-1.86.0-src.zip)
+    (20M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.86.0/jackrabbit-oak-1.86.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.86.0/jackrabbit-oak-1.86.0-src.zip.sha512))
 
 
 
