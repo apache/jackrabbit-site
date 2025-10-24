@@ -36,6 +36,11 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 
 ## Apache Jackrabbit News
 
+#### 2025-10-24: Apache Jackrabbit FileVault 4.1.4 released
+Apache Jackrabbit FileVault 4.1.4 is the current stable release
+of the repository content synchronization tool. It requires Java
+11 or newer. See the [downloads](downloads.html#vlt) page for more details.
+
 #### 2025-10-03: Apache Jackrabbit Oak 1.22.23 released
 Apache Jackrabbit Oak 1.22.23 is an incremental feature release based
 on and compatible with earlier stable Jackrabbit Oak 1.x releases.
