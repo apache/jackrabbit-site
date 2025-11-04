@@ -17,7 +17,7 @@
 
 Creating Releases
 =================
-This is a how to document for creating Apache Jackrabbit releases. It
+This is a "how to" document for creating Apache Jackrabbit (Oak) releases. It
 documents the current release process and needs to be updated as we move
 forward.
 
@@ -31,7 +31,8 @@ of fixes and other requested changes. Any committer can declare their plan
 to cut a release by sending a "Apache Jackrabbit (Oak) x.y.z Release Plan"
 message to the Jackrabbit Developers Mailing List - [dev@jackrabbit.apache.org](mailto:dev@jackrabbit.apache.org) or
 Oak Developers Mailing List - [oak-dev@jackrabbit.apache.org](mailto:dev@jackrabbit.apache.org).
-The plan should refer to Jira for the list of
+
+The plan should refer to project versionn for the list of
 fixes to be included in the release and give a rough estimate of the
 release schedule. It's OK to revise the plan if needed. Optimally, link to
 the candidate release notes.
@@ -74,7 +75,7 @@ See https://issues.apache.org/jira/browse/OAK-11840 for an example.
 
 1. Check the CI status of the project ([Jackrabbit Jenkins](https://ci-builds.apache.org/job/Jackrabbit/))
 2. Consider checking the CVE database for vulnerabilities in dependencies,
-   using `mvn org.owasp:dependency-check-maven:12.1.0:aggregate` (first run will be slow because CVE
+   using `mvn org.owasp:dependency-check-maven:aggregate` (first run will be slow because CVE
    databases are downloaded and parsed). If dependencies need action, open tickets and make sure they
    are marked as candidate backports where applicable.        
 3. Make sure that an appropriate version for the release is entered in Jira 
@@ -90,36 +91,34 @@ See https://issues.apache.org/jira/browse/OAK-11840 for an example.
     or [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page) page, 
     click on the release, then on the "Release Notes" link on the top.
     Double-check that all version numbers in the updated Release Notes are accurate.
-    If the project release has a `project.build.outputTimestamp` variable defined in the parent pom, and the release plugin in use does
+7.  If the project release has a `project.build.outputTimestamp` variable defined in the parent pom, and the release plugin in use does
     not yet support adjusting it upon release, do so now.
     When done, commit the file(s).
-7. Jackrabbit: If the branch is one that supports Java 8 or newer, make sure that the API docs can indeed be built with Java 8, using both `javadoc:javadoc` and `javadoc:aggregate`.
-   If the branch supports Java 11 or newer, repeat this with Java 11.
-8. Make sure that the build succeeds with all Java versions it is supposed to support (trying with the earliest and latest is ok).
-9. When releasing a Jackrabbit version that will be used in Oak, make sure it
-   doesn't break Oak.
+8.  Make sure that the API docs can be built, using both `javadoc:javadoc` and `javadoc:aggregate`.
+9.  Make sure that the build succeeds with all Java versions it is supposed to support (trying with the earliest and latest is ok).
+10. (Jackrabbit) Make sure that the release does not break Oak.
      * Check by building the applicable Oak version using `mvn clean install -PintegrationTesting -Djackrabbit.version=2.x.y-SNAPSHOT`
      * If the update does require changes in Oak, open JIRA tickets and link them to the JIRA tickets tracking the release activity.
-10. If this is a stable branch, review changes to export versions which should be avoided (see [OAK-6346](https://issues.apache.org/jira/browse/OAK-6346) for context). If there are indeed changes (as in the example below), see [Appendix E](#Appendix_E:_Version_Changes).
+11. If this is a stable branch, review changes to export versions which should be avoided (see [OAK-6346](https://issues.apache.org/jira/browse/OAK-6346) for context). If there are indeed changes (as in the example below), see [Appendix E](#Appendix_E:_Version_Changes).
 
         # Oak 1.8 as of November 2018
         git diff jackrabbit-oak-1.8.0 | grep -i "@Version" -B 6
         -@Version("1.5.0")
         +@Version("1.6.0")
-11. On the other hand, if this is a release from trunk, carefully review all
+12. On the other hand, if this is a release from trunk, carefully review all
     export versions and check that no change introduces new dependencies on
     Guava (see [OAK-7182](https://issues.apache.org/jira/browse/OAK-7182)).
 13. When doing "stable" release (even-numbered), check that we do not have
     dependencies to unstable releases. In particular, stable releases of Oak
     should not reference unstable Jackrabbit releases (if this is the case,
     a new stable Jackrabbit release might be required in order to proceed).
-14. If the project (parent) POM has a `project.build.outputTimestamp` property, make sure it is set to a current timestamp (otherwise Javadoc will be generated with an incorrect copyright date).
-15. Build and deploy the release artifacts with Maven. See [below](#Steps_to_build_the_release_artifacts) for the exact steps.
-16. Mark the version as released in Jira: [Jackrabbit Jira](https://issues.apache.org/jira/plugins/servlet/project-config/JCR/versions),
+15. If the project (parent) POM has a `project.build.outputTimestamp` property, make sure it is set to a current timestamp (otherwise Javadoc will be generated with an incorrect copyright date).
+16. Build and deploy the release artifacts with Maven. See [below](#Steps_to_build_the_release_artifacts) for the exact steps.
+17. Mark the version as released in Jira: [Jackrabbit Jira](https://issues.apache.org/jira/plugins/servlet/project-config/JCR/versions),
    [Oak Jira](https://issues.apache.org/jira/plugins/servlet/project-config/OAK/versions). You'll see all the defined project versions. From the settings menu, choose 'Release' on the version.
-17. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (~19 projects for Jackrabbit).
-18. Close the staged repository, giving it a meaningful name, such as "Apache Jackrabbit 2.x.y RC"
-19. Upload the artifacts to https://dist.apache.org/repos/dist/dev/jackrabbit/ as follows:
+18. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (~19 projects for Jackrabbit).
+19. Close the staged repository, giving it a meaningful name, such as "Apache Jackrabbit 2.x.y RC"
+20. Upload the artifacts to https://dist.apache.org/repos/dist/dev/jackrabbit/ as follows:
 
         # TARGET - where https://dist.apache.org/repos/dist/dev/jackrabbit/ is checked out
         # SOURCE - where the release was built
@@ -138,10 +137,12 @@ See https://issues.apache.org/jira/browse/OAK-11840 for an example.
         svn add oak/$version
         svn commit -m "Apache Jackrabbit Oak $version release candidate" oak/$version
 
-20. Find the "vote" template (`./target/checkout/target/vote.txt`) generated by the Maven build and follow the instructions to verify the build yourself
-21. Start the vote thread by emailing the applicable mailing list ([Jackrabbit](mailto:dev@jackrabbit.apache.org?subject=%5BVOTE%5D%20Release%20Apache%20Jackrabbit%20x.y.z), [Oak](mailto:oak-dev@jackrabbit.apache.org?subject=%5BVOTE%5D%20Release%20Apache%20Jackrabbit%20Oak%20x.y.z))
-22. Wait 72 hours (we usually allow three business days, so be careful when a weekend is ahead)
-23. Keep the "announcement" template (`./target/checkout/target/announcement.txt`) for later.
+20. Note the URL of the staging repository.
+21. Find the "vote" template (`./target/checkout/target/vote.txt`) generated by the Maven build and follow the instructions to verify the build yourself
+22. Optional: update the "vote" template to mention the concrete staging repository URL. 
+23. Start the vote thread by emailing the applicable mailing list ([Jackrabbit](mailto:dev@jackrabbit.apache.org?subject=%5BVOTE%5D%20Release%20Apache%20Jackrabbit%20x.y.z), [Oak](mailto:oak-dev@jackrabbit.apache.org?subject=%5BVOTE%5D%20Release%20Apache%20Jackrabbit%20Oak%20x.y.z))
+24. Wait 72 hours (we usually allow three business days, so be careful when a weekend is ahead)
+25. Keep the "announcement" template (`./target/checkout/target/announcement.txt`) for later.
 
 ### Part II: after the release vote
    
