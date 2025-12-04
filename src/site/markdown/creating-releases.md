@@ -219,20 +219,20 @@ to be run in a checkout of the [release folder](https://dist.apache.org/repos/di
 Usage:
 
         $ cd path-of-jackrabbit-releases
-        
+
 For Jackrabbit:
 
         $ sh create-download-md.sh version
-        
-such as:                
+
+such as:
 
         $ sh create-download-md.sh 2.14.4
 
 For Oak:
 
         $ sh create-download-md.sh oak/version
-   
-such as:                
+
+such as:
 
         $ sh create-download-md.sh oak/1.6.6
 
@@ -240,11 +240,11 @@ such as:
 
 Related Links
 -------------
-* http://www.apache.org/dev/release.html
-* http://www.apache.org/dev/release-signing.html
-* http://wiki.apache.org/incubator/SigningReleases
-* http://www.apache.org/dev/repository-faq.html
-
+* https://www.apache.org/dev/release.html
+* https://www.apache.org/dev/release-signing.html
+* https://wiki.apache.org/incubator/SigningReleases
+* https://www.apache.org/dev/repository-faq.html
+* https://maven.apache.org/guides/mini/guide-releasing.html
 
 Appendix A: Create and add your key to the Jackrabbit KEYS file
 ---------------------------------------------------------------
