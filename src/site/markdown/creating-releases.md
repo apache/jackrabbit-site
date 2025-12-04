@@ -323,10 +323,13 @@ Set the development version on the new branch:
 
     cd path-to-branch-checkout
     mvn release:update-versions -DautoVersionSubmodules=true -DdevelopmentVersion=2.16.0-SNAPSHOT
-    
+
 Open a ticket so that once the first release for the branch is made, the `comparisonVersion` for the `bundle:baseline` check is updated both in the branch and on trunk; example: [JCR-4218](https://issues.apache.org/jira/browse/JCR-4218).
 
-Create release notes to include all the changes accumulated - for 2.16.0 this means including all changes labeled with `fixVersion` set to `2.16`. Note that any change labeled with `fixVersion` set to any 2.15.* release should have `fixVersion: 2.16` as well, unless the change is irrelevant for the release notes.
+Create release notes to include all the changes accumulated - for a future 2.24.0 this means including
+all changes labeled with `fixVersion` set to `2.24`.
+Note that any change labeled with `fixVersion` set to any 2.23.* release should have `fixVersion: 2.24` as
+well, unless the change is irrelevant for the release notes.
 
 
 Appendix E: Version Changes
