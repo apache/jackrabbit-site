@@ -193,6 +193,7 @@ repository. Make sure upfront that non-interactive commits work
 the tagging step will fail.
 
 1. Execute mvn `release:prepare`. This will update the POM files and tag the release in Git (see [Appendix F](#Appendix_F:_Version_Numbers) for how version numbers change).
+   This will also create the file `release.properties` which is needed to do the next step.
 2. Execute mvn `release:perform`. This will build the tagged release and deploy the artifacts to a staging repository on repository.apache.org. The non-Maven release artifacts are automatically deployed to your home directory on people.apache.org. You only need to add the key name if you have multiple keys and the code signing keys is not your default key.
 3. Capture the URL of the staging repository; it can be added to the Vote email.
 
