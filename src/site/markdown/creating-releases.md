@@ -389,3 +389,21 @@ suggested by `mvn release:prepare` need to be overridden.
 For instance, when cutting "1.20.0", the next development release will be
 "1.21-SNAPSHOT", not "1.22-SNAPSHOT". The following stable release would then
 be "1.22.0".
+
+Appendix G: fixVersion and backports
+------------------------------------
+
+For backports to maintenance branches, usually;
+
+- wait for the change to be in a released version (this may be impossible for emergency changes)
+- for simple issues, just re-use the (now closed) ticket, and cherry-pick the changes (that gets harder when branches diverge)
+- when done, add to "fixVersion"
+
+**Jackrabbit**
+
+In Jackrabbit - where we have beta releases - once released, we backport *everything* into the newest stable branch
+(right now from trunk to 2.22 branch). As these do not diverge (mostly), we can just cherry-pick all changes (and
+update the fixVersion information). An exception would be SNAPSHOT dependencies.
+
+Also, every ticket resolved in a beta release also should have the next stable branch as "fixVersion" (such as
+2.23.n and 2.24). This ensures that 2.24.0, once it is released, will have complete release notes.
