@@ -21,18 +21,18 @@ This is a "how to" document for creating Apache Jackrabbit (Oak) releases. It
 documents the current release process and needs to be updated as we move
 forward.
 
-This applies to both Jackrabbit 2.x as well as Jackrabbit Oak releases. For Jackrabbit FileVault please use the specific documentation at <https://jackrabbit.apache.org/filevault/howto_release.html> and <https://jackrabbit.apache.org/filevault-package-maven-plugin/howto_release.html> respectively.
+This applies to both Jackrabbit 2.x and Jackrabbit Oak releases. For Jackrabbit FileVault please use the specific documentation at <https://jackrabbit.apache.org/filevault/howto_release.html> and <https://jackrabbit.apache.org/filevault-package-maven-plugin/howto_release.html> respectively.
 
 
 Release planning
 ----------------
 Jackrabbit releases are created based on user demand and the availability
 of fixes and other requested changes. Any committer can declare their plan
-to cut a release by sending a "Apache Jackrabbit (Oak) x.y.z Release Plan"
+to cut a release by sending an "Apache Jackrabbit (Oak) x.y.z Release Plan"
 message to the Jackrabbit Developers Mailing List - [dev@jackrabbit.apache.org](mailto:dev@jackrabbit.apache.org) or
 Oak Developers Mailing List - [oak-dev@jackrabbit.apache.org](mailto:dev@jackrabbit.apache.org).
 
-The plan should refer to project versionn for the list of
+The plan should refer to project version for the list of
 fixes to be included in the release and give a rough estimate of the
 release schedule. It's OK to revise the plan if needed. Optimally, link to
 the candidate release notes.
@@ -151,7 +151,7 @@ If the vote fails (easy case first):
 - remove the tag from source control,
 - drop the staged repository,
 - revert the version release in Jira,
-- check for JIRA issues that in the mean time have been resolved for the "next" version, and set that version to "this" version,
+- check for JIRA issues that in the meantime have been resolved for the "next" version, and set that version to "this" version,
 - and announce that the vote has failed by replying to the vote email.
 
 Otherwise:
@@ -166,11 +166,11 @@ Otherwise:
 3. Delete any older releases from the same branch (they're automatically archived)
 4. Release the [staged repository](https://repository.apache.org/index.html#stagingRepositories) for synchronization to Maven central.
     * make sure this step actually succeeded (we have seen a case where it failed and a retry was needed)
-5. Close all the issues included in the release: [Jackrabbit Jira](https://issues.apache.org/jira/projects/JCR?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&amp;status=released) or [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&amp;status=released) -> Choose the released version -> select "View in Issue Navigator". From the issue list you have the option to bulk update all of the included issues. Just 'Transition Issues' from 'Resolved' to 'Closed' and you are done!
-6. Update the Jackrabbit web site to point to the new release ([GIT](https://github.com/apache/jackrabbit-site)) (the date should be the day when the release was finished).
+5. Close all the issues included in the release: [Jackrabbit Jira](https://issues.apache.org/jira/projects/JCR?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&amp;status=released) or [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&amp;status=released) -> Choose the released version -> select "View in Issue Navigator". From the issue list you have the option to bulk update all the included issues. Just 'Transition Issues' from 'Resolved' to 'Closed' and you are done!
+6. Update the Jackrabbit website to point to the new release ([GIT](https://github.com/apache/jackrabbit-site)) (the date should be the day when the release was finished).
     * add an entry to `index.md`
     * update `downloads.md` (see [below](#Creating_Markdown_for_Downloads_Page)) - while doing so please a) remove obsoleted entries, and b) move new entries for Jackrabbit and/or Oak to the top)
-    * site will be updated by github actions (previously: by deploying the site (`mvn site-deploy`))
+    * site will be updated by GitHub actions (previously: by deploying the site (`mvn site-deploy`))
     * [example](https://github.com/apache/jackrabbit-site/commit/b13aef04ac89e9f447d5366670545261b5eee4dd)
 7. Jackrabbit: If the release was a Jackrabbit release used in Oak, make sure to also update the dependency (and potentially the Javadoc link) in oak-parent/pom.xml (example: [OAK-4743](https://issues.apache.org/jira/browse/OAK-4743) - the current mapping is Jackrabbit 2.22 -> Oak trunk, Jackrabbit 2.10 -> Oak 1.22)
 8. Oak: If the previous release was a release used in Jackrabbit (for jackrabbit-api), make sure to also update the dependency in jackrabbit-parent/pom.xml (example: [JCR-4492](https://issues.apache.org/jira/browse/JCR-4492) - the current mapping is Oak latest stable -> Jackrabbit trunk and 2.22
@@ -179,10 +179,10 @@ Otherwise:
 11. Oak: oak-doc and oak-doc-railroad-macro are not in the reactor pom, thus need a manual update of version numbers
 12. Send a release announcement to the
     [applicable mailing lists](mailto:announce@apache.org,announce@jackrabbit.apache.org,users@jackrabbit.apache.org,dev@jackrabbit.apache.org,oak-dev@jackrabbit.apache.org?subject=%5BANNOUNCE%5D%20Apache%20Jackrabbit%20...%20released)
-    once the web site and download mirrors have been synced (template generated in `./target/checkout/target/announcement.txt` -- note that mirrors may need up to 12 hours!).
-    Please note the announce mails needs to be sent from an @apache.org address.
+    once the website and download mirrors have been synced (template generated in `./target/checkout/target/announcement.txt` -- note that mirrors may need up to 12 hours!).
+    Please note the announcement mails needs to be sent from an @apache.org address.
     In case you are using a mailbox other than apache mailbox (such as gmail) to send mails for your apache address, make sure to send them in plain text format.
-    (Warning: the announce mailing lists are moderated. That means that mails could be rejected for various reasons, such as actual errors in the announcement or simply for the fact that the list moderators missed the requests. So check your inbox.)
+    (Warning: the announcement mailing lists are moderated. That means that mails could be rejected for various reasons, such as actual errors in the announcement or simply for the fact that the list moderators missed the requests. So check your inbox.)
 
 Steps to build the release artifacts
 ------------------------------------
@@ -196,8 +196,8 @@ repository. Make sure upfront that non-interactive commits work
 the tagging step will fail.
 
 1. Execute mvn `release:prepare`. This will update the POM files and tag the release in Git (see [Appendix F](#Appendix_F:_Version_Numbers) for how version numbers change).
-2. Execute mvn `release:perform`. This will build the tagged release and deploy the artifacts to a staging repository on repository.apache.org. The non-Maven release artifacts are automatically deployed to your home directory on people.apache.org. You only need to add the keyname if you have multiple keys and the code signing keys is not your default key.
-3. Capture the URL of the stanging repository; it can be added to the Vote email.
+2. Execute mvn `release:perform`. This will build the tagged release and deploy the artifacts to a staging repository on repository.apache.org. The non-Maven release artifacts are automatically deployed to your home directory on people.apache.org. You only need to add the key name if you have multiple keys and the code signing keys is not your default key.
+3. Capture the URL of the staging repository; it can be added to the Vote email.
 
 After this is done, you can remove the passwords from the file `~/.m2/settings.xml` if you don't want to keep it there.
 
@@ -270,7 +270,7 @@ You can (but don't need to) get your key [linked to the Apache web of trust](htt
 
 Appendix B: Maven settings
 --------------------------
-You need to change the `~/.m2/settings.xml` file as follows. PGP key id: this is the second part of your key in the KEYS file. For example, this is "F07CA77B" if the first line of your key in the KEYS file is "pub 4096R/F07CA77B 2014-07-31". In case you are not comfortable to keep passwords and key passphrases in human readable files, you can add them just before doing the release, and remove them just after the release. Instead of using the "gpg.passphrase" tag, you can try using `<gpg.executable>gpg2</gpg.executable>` (this should prompt you for the passphrase). For the ASF Maven repository passwords, you could use the [Maven password encryption](http://maven.apache.org/guides/mini/guide-encryption.html).
+You need to change the `~/.m2/settings.xml` file as follows. PGP key id: this is the second part of your key in the KEYS file. For example, this is "F07CA77B" if the first line of your key in the KEYS file is "pub 4096R/F07CA77B 2014-07-31". In case you are not comfortable to keep passwords and key passphrases in human-readable files, you can add them just before doing the release, and remove them just after the release. Instead of using the "gpg.passphrase" tag, you can try using `<gpg.executable>gpg2</gpg.executable>` (this should prompt you for the passphrase). For the ASF Maven repository passwords, you could use the [Maven password encryption](http://maven.apache.org/guides/mini/guide-encryption.html).
 
     <settings>
       <profiles>
@@ -329,7 +329,7 @@ Set the development version on the new branch:
     
 Open a ticket so that once the first release for the branch is made, the `comparisonVersion` for the `bundle:baseline` check is updated both in the branch and on trunk; example: [JCR-4218](https://issues.apache.org/jira/browse/JCR-4218).
 
-Create release notes to include all of the changes accumulated - for 2.16.0 this means including all changes labeled with `fixVersion` set to `2.16`. Note that any change labeled with `fixVersion` set to any 2.15.* release should have `fixVersion: 2.16` as well, unless the change is irrelevant for the release notes.
+Create release notes to include all the changes accumulated - for 2.16.0 this means including all changes labeled with `fixVersion` set to `2.16`. Note that any change labeled with `fixVersion` set to any 2.15.* release should have `fixVersion: 2.16` as well, unless the change is irrelevant for the release notes.
 
 
 Appendix E: Version Changes
