@@ -95,7 +95,7 @@ See https://issues.apache.org/jira/browse/OAK-11840 for an example.
 8.  Make sure that the API docs can be built, using both `mvn javadoc:javadoc` and `mvn javadoc:aggregate` from the reactor pom.
 9.  Make sure that the build succeeds with all Java versions it is supposed to support (trying with the earliest and latest is ok).
 10. (Jackrabbit) Make sure that the release does not break Oak.
-     * Check by building the applicable Oak version using `mvn clean install -PintegrationTesting -Djackrabbit.version=2.x.y-SNAPSHOT`
+     * Check by building the applicable Oak version locally using `mvn clean install -PintegrationTesting -Djackrabbit.version=2.x.y-SNAPSHOT`
      * If the update does require changes in Oak, open JIRA tickets and link them to the JIRA tickets tracking the release activity.
 11. If this is a stable branch, review changes to export versions which should be avoided (see [OAK-6346](https://issues.apache.org/jira/browse/OAK-6346) for context). If there are indeed changes (as in the example below), see [Appendix E](#Appendix_E:_Version_Changes).
 
@@ -119,16 +119,16 @@ See https://issues.apache.org/jira/browse/OAK-11840 for an example.
 
         # TARGET - where https://dist.apache.org/repos/dist/dev/jackrabbit/ is checked out
         # SOURCE - where the release was built
-    
+
      For Jackrabbit:
-        
+
         cd $TARGET
         scp -r $SOURCE/target/checkout/target/$version $version
         svn add $version
         svn commit -m "Apache Jackrabbit $version release candidate" $version
 
      For Oak:
-        
+
         cd $TARGET
         scp -r $SOURCE/target/checkout/target/$version oak/$version
         svn add oak/$version
