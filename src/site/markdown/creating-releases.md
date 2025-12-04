@@ -32,7 +32,7 @@ to cut a release by sending an "Apache Jackrabbit (Oak) x.y.z Release Plan"
 message to the Jackrabbit Developers Mailing List - [dev@jackrabbit.apache.org](mailto:dev@jackrabbit.apache.org) or
 Oak Developers Mailing List - [oak-dev@jackrabbit.apache.org](mailto:dev@jackrabbit.apache.org).
 
-The plan should refer to project version for the list of
+The plan should refer to the project version for the list of
 fixes to be included in the release and give a rough estimate of the
 release schedule. It's OK to revise the plan if needed. Optimally, link to
 the candidate release notes.
@@ -44,7 +44,7 @@ you need and a short rationale of why you need the release.
 
 Prerequisites for release managers
 ----------------------------------
-You need to be a Jackrabbit committer to prepare and perform a release, but
+You need to be a Jackrabbit (Oak) committer to prepare and perform a release, but
 anyone is welcome to help test the release candidates and comment on the
 release plans.
 
@@ -77,24 +77,22 @@ See https://issues.apache.org/jira/browse/OAK-11840 for an example.
 2. Consider checking the CVE database for vulnerabilities in dependencies,
    using `mvn org.owasp:dependency-check-maven:aggregate` (first run will be slow because CVE
    databases are downloaded and parsed). If dependencies need action, open tickets and make sure they
-   are marked as candidate backports where applicable.        
+   are marked as candidate backports where applicable.
 3. Make sure that an appropriate version for the release is entered in Jira 
    ([Jackrabbit Jira](https://issues.apache.org/jira/projects/JCR?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page),
    [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page))
-   and that all the related issues have been resolved. 
-4. Create a new version in JIRA for the next release.
+   and that all the related issues have been resolved.
+4. Create a new version in JIRA for the next release (if not present yet).
 5. Check for issues that have been resolved but do not have "fixVersion" set - these may need to be updated before creating the release notes ([Jackrabbit Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20JCR%20AND%20status%20%3D%20resolved%20AND%20fixVersion%20IS%20EMPTY%20ORDER%20BY%20issuekey%20DESC%20), [Oak Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20OAK%20AND%20status%20%3D%20resolved%20AND%20fixVersion%20IS%20EMPTY%20ORDER%20BY%20issuekey%20DESC%20)).
-6. Create a `RELEASE-NOTES.txt` file in the root folder of the project to be released. 
+6. If there are issues with a fixVersion but without a positive resolution (such as "abandoned", "won't do", "superceded"), remove all fixVersion entries.
+8. Create a `RELEASE-NOTES.txt` file in the root folder of the project to be released. 
     If such a file already exists, update it for the release. See a previous 
     release notes for examples of what to include. The release note report in Jira is a 
     useful source of required information: Open the [Jackrabbit Jira](https://issues.apache.org/jira/projects/JCR?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page)
-    or [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page) page, 
+    or [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page) page,
     click on the release, then on the "Release Notes" link on the top.
-    Double-check that all version numbers in the updated Release Notes are accurate.
-7.  If the project release has a `project.build.outputTimestamp` variable defined in the parent pom, and the release plugin in use does
-    not yet support adjusting it upon release, do so now.
-    When done, commit the file(s).
-8.  Make sure that the API docs can be built, using both `javadoc:javadoc` and `javadoc:aggregate`.
+    Double-check that all version numbers in the updated Release Notes are accurate. Commit with the Jira tracking issue for the release (if there is one).
+8.  Make sure that the API docs can be built, using both `mvn javadoc:javadoc` and `mvn javadoc:aggregate` from the reactor pom.
 9.  Make sure that the build succeeds with all Java versions it is supposed to support (trying with the earliest and latest is ok).
 10. (Jackrabbit) Make sure that the release does not break Oak.
      * Check by building the applicable Oak version using `mvn clean install -PintegrationTesting -Djackrabbit.version=2.x.y-SNAPSHOT`
@@ -108,11 +106,10 @@ See https://issues.apache.org/jira/browse/OAK-11840 for an example.
 12. On the other hand, if this is a release from trunk, carefully review all
     export versions and check that no change introduces new dependencies on
     Guava (see [OAK-7182](https://issues.apache.org/jira/browse/OAK-7182)).
-13. When doing "stable" release (even-numbered), check that we do not have
+13. When creating a "stable" release (even-numbered), check that we do not have
     dependencies to unstable releases. In particular, stable releases of Oak
     should not reference unstable Jackrabbit releases (if this is the case,
     a new stable Jackrabbit release might be required in order to proceed).
-15. If the project (parent) POM has a `project.build.outputTimestamp` property, make sure it is set to a current timestamp (otherwise Javadoc will be generated with an incorrect copyright date).
 16. Build and deploy the release artifacts with Maven. See [below](#Steps_to_build_the_release_artifacts) for the exact steps.
 17. Mark the version as released in Jira: [Jackrabbit Jira](https://issues.apache.org/jira/plugins/servlet/project-config/JCR/versions),
    [Oak Jira](https://issues.apache.org/jira/plugins/servlet/project-config/OAK/versions). You'll see all the defined project versions. From the settings menu, choose 'Release' on the version.
