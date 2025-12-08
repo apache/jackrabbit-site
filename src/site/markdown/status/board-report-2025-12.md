@@ -14,7 +14,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-Apache Jackrabbit: Board Report September 2025
+Apache Jackrabbit: Board Report December 2025 (draft)
 ==========================================
 
 ## Description: 
@@ -38,15 +38,15 @@ Current project status: Ongoing with moderate activity
 Issues for the board: none
 
 ## Membership Data:
-Apache Jackrabbit was founded 2006-03-15 (19 years ago).
+Apache Jackrabbit was founded 2006-03-15 (20 years ago).
 
 There are currently 60 committers and 60 PMC members in this project.
 The Committer-to-PMC ratio is 1:1, because all committers automatically
 become PMC members.
 
 Community changes, past quarter:
-- Alejandro Moratinos was added to the PMC on 2025-08-27
-- Alejandro Moratinos was added as committer on 2025-08-27
+- No new PMC members. Last addition was Alejandro Moratinos on 2025-08-27.
+- No new committers. Last addition was Alejandro Moratinos on 2025-08-27.
 
 ## Project Activity: 
 Apache Jackrabbit Oak receives most attention nowadays. All 
@@ -61,14 +61,10 @@ The team is further reducing usage of Google's Guava library and
 Jackrabbit Oak is now using Java features or Apache Commons alternatives
 where possible. The long term goal is to remove the dependency on Guava. 
 
-Jackrabbit Oak release 1.84.0 updated the MongoDB driver from 3.12.14 to
-5.2.1. This update required many code changes because the new MongoDB
-driver version is not backward compatible. The new driver version ensures
-compatibility with future MongoDB server versions and officially supports
-Java 21.
-
-Early July a security vulnerability (CVE-2025-53689) was reported. The
-team released fixes for multiple versions of Jackrabbit on July 14th.
+Jackrabbit Oak release 1.88.0 updated a first module to use the new AWS
+SDK for Java 2.x version. The previous version 1.x will be end-of-life
+by the end of 2025. Additional work is ongoing to update remaining usage
+of AWS SDK 1.x in future Jackrabbit Oak releases.
 
 ## Community Health:
 The project is generally healthy with a continuous stream of traffic
@@ -81,15 +77,12 @@ features and improvements in for the next Jackrabbit Oak release.
 
 ## Releases:
 
-- jackrabbit-oak-1.82.0 was released on 2025-07-03
-- jackrabbit-2.20.17 was released on 2025-07-14
-- jackrabbit-2.22.1 was released on 2025-07-14
-- jackrabbit-2.23.2-beta was released on 2025-07-14
-- jackrabbit-filevault-4.0.0 was released on 2025-07-31
-- jackrabbit-2.22.2 was released on 2025-08-01
-- jackrabbit-oak-1.84.0 was released on 2025-08-14
+- jackrabbit-oak-1.86.0 was released on 2025-09-22
+- jackrabbit-oak-1.22.23 was released on 2025-10-03
+- jackrabbit-filevault-4.1.4 was released on 2025-10-24
+- jackrabbit-oak-1.88.0 was released on 2025-11-04
 
 ## JIRA activity:
 
-- 187 JIRA tickets created in the last 3 months
-- 158 JIRA tickets closed/resolved in the last 3 months
+- 174 JIRA tickets created in the last 3 months
+- 148 JIRA tickets closed/resolved in the last 3 months
