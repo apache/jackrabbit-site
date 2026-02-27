@@ -130,14 +130,14 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.22.23
 
 
 <a class='anchor' name='vlt'></a>
-Apache Jackrabbit FileVault 4.1.4 (2025-10-24)
+Apache Jackrabbit FileVault 4.2.0 (2026-02-27)
 ----------------------------------------------------
-Jackrabbit FileVault 4.1.4 is the latest stable release of the repository content synchronization tool. This version is only compatible with Java 11 or newer. The OSGi bundles depend on Jackrabbit 2.20.17+ (JCR Commons, SPI, SPI Commons), Oak Jackrabbit API 1.22.4+, Commons IO 2.18.0+, Commons Collections 4.1+ and SLF4J 1.7+.
+Jackrabbit FileVault 4.2.0 is the latest stable release of the repository content synchronization tool. This version is only compatible with Java 11 or newer. The OSGi bundles depend on Jackrabbit 2.20.17+ (JCR Commons, SPI, SPI Commons), Oak Jackrabbit API 1.22.4+, Commons IO 2.18.0+, Commons Collections 4.1+ and SLF4J 1.7+.
 
-See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/4.1.4/RELEASE-NOTES.txt) for more details.
+See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/4.2.0/RELEASE-NOTES.txt) for more details.
 
-* [jackrabbit-filevault-4.1.4-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/4.1.4/jackrabbit-filevault-4.1.4-source-release.zip)
-    (3M, source zip, [pgp](https://downloads.apache.org/jackrabbit/filevault/4.1.4/jackrabbit-filevault-4.1.4-source-release.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/filevault/jackrabbit-filevault-4.1.4-source-release.zip.sha512))
+* [jackrabbit-filevault-4.2.0-source-release.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/filevault/4.2.0/jackrabbit-filevault-4.2.0-source-release.zip)
+    (3M, source zip, [pgp](https://downloads.apache.org/jackrabbit/filevault/4.2.0/jackrabbit-filevault-4.2.0-source-release.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/filevault/4.2.0/jackrabbit-filevault-4.2.0-source-release.zip.sha512))
 * Binaries (and also sources) are provided via [Maven Central](https://central.sonatype.org/) with [group id `org.apache.jackrabbit.vault`](https://repo1.maven.org/maven2/org/apache/jackrabbit/vault/)
 
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
