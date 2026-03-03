@@ -49,6 +49,22 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='latest'></a>
+Apache Jackrabbit Oak 1.92.0 (2026-03-03)
+-----------------------------------------
+Apache Jackrabbit Oak 1.92.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak 1.x
+releases. This release is considered stable and targeted for
+production use.
+
+See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.92.0/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-1.92.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.92.0/jackrabbit-oak-1.92.0-src.zip)
+    (20M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.92.0/jackrabbit-oak-1.92.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.92.0/jackrabbit-oak-1.92.0-src.zip.sha512))
+
+
+
+
 <a class='anchor' name='v2.22'></a>
 Apache Jackrabbit 2.22.3 (2026-01-16)
 -------------------------------------
@@ -69,22 +85,6 @@ See the [full release notes](https://www.apache.org/dist/jackrabbit/2.22.3/RELEA
 
 * [jackrabbit-jca-2.22.3.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.22.3/jackrabbit-jca-2.22.3.rar)
     (43M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.22.3/jackrabbit-jca-2.22.3.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.22.3/jackrabbit-jca-2.22.3.rar.sha512))
-
-
-
-
-<a class='anchor' name='latest'></a>
-Apache Jackrabbit Oak 1.90.0 (2026-01-07)
------------------------------------------
-Apache Jackrabbit Oak 1.90.0 is an incremental feature release based
-on and compatible with earlier stable Jackrabbit Oak 1.x
-releases. This release is considered stable and targeted for
-production use.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.90.0/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.90.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.90.0/jackrabbit-oak-1.90.0-src.zip)
-    (20M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.90.0/jackrabbit-oak-1.90.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.90.0/jackrabbit-oak-1.90.0-src.zip.sha512))
 
 
 
