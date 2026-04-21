@@ -29,7 +29,7 @@ on your preferred mirror.
 * Latest stable releases:
     * [Apache Jackrabbit 2.22.x](#v2.22) (Java 11 and later)
     * [Apache Jackrabbit 2.20.x](#v2.20) (Java 8 and later)
-    * [Apache Jackrabbit Oak 1.92.0](#latest) (Java 11 and later)
+    * [Apache Jackrabbit Oak 2.0.0](#latest) (Java 17 and later)
 * Latest unstable releases (from trunk):
     * [Apache Jackrabbit 2.23.x](#v2.23) (Java 11 and later)
 * Maintenance releases:
@@ -46,6 +46,21 @@ Apache Jackrabbit releases are available under the [Apache License, Version 2.0]
 See the `NOTICE.txt` file contained in each release artifact for applicable copyright attribution notices.
 Some Jackrabbit components contain external code with licenses that meet [Apache licensing policies](https://www.apache.org/legal/resolved.html).
 See the `LICENSE.txt` file contained in each release artifact for applicable licenses.
+
+
+
+<a class='anchor' name='latest'></a>
+Apache Jackrabbit Oak 2.0.0 (2026-04-21)
+----------------------------------------
+Apache Jackrabbit Oak 2.0.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak releases. This release is considered stable and targeted for
+production use.
+
+See the [full release notes](https://downloads.apache.org/jackrabbit/oak/2.0.0/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-oak-2.0.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/2.0.0/jackrabbit-oak-2.0.0-src.zip)
+    (20M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/2.0.0/jackrabbit-oak-2.0.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/2.0.0/jackrabbit-oak-2.0.0-src.zip.sha512))
+
 
 
 
@@ -70,22 +85,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/2.23.4-beta
 
 * [jackrabbit-jca-2.23.4-beta.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.23.4-beta/jackrabbit-jca-2.23.4-beta.rar)
     (44M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.23.4-beta/jackrabbit-jca-2.23.4-beta.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.23.4-beta/jackrabbit-jca-2.23.4-beta.rar.sha512))
-
-
-
-
-<a class='anchor' name='latest'></a>
-Apache Jackrabbit Oak 1.92.0 (2026-03-03)
------------------------------------------
-Apache Jackrabbit Oak 1.92.0 is an incremental feature release based
-on and compatible with earlier stable Jackrabbit Oak 1.x
-releases. This release is considered stable and targeted for
-production use.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.92.0/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-oak-1.92.0-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.92.0/jackrabbit-oak-1.92.0-src.zip)
-    (20M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.92.0/jackrabbit-oak-1.92.0-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.92.0/jackrabbit-oak-1.92.0-src.zip.sha512))
 
 
 
