@@ -41,7 +41,7 @@ Apache Jackrabbit Oak 2.2.0 is an incremental feature release based
 on and compatible with earlier stable Jackrabbit Oak releases.
 See the [downloads](downloads.html#latest) page for more details.
 
-#### 2025-10-03: Apache Jackrabbit Oak 1.22.24 released
+#### 2026-04-28: Apache Jackrabbit Oak 1.22.24 released
 Apache Jackrabbit Oak 1.22.24 is an incremental feature release based
 on and compatible with earlier stable Jackrabbit Oak 1.x releases.
 See the [downloads](downloads.html#oak1.22) page for more details.
