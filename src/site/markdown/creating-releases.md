@@ -85,6 +85,8 @@ See https://issues.apache.org/jira/browse/OAK-11840 for an example.
 4. Create a new version in JIRA for the next release (if not present yet).
 5. Check for issues that have been resolved but do not have "fixVersion" set - these may need to be updated before creating the release notes ([Jackrabbit Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20JCR%20AND%20status%20%3D%20resolved%20AND%20fixVersion%20IS%20EMPTY%20ORDER%20BY%20issuekey%20DESC%20), [Oak Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20OAK%20AND%20status%20%3D%20resolved%20AND%20fixVersion%20IS%20EMPTY%20ORDER%20BY%20issuekey%20DESC%20)).
 6. If there are issues with a fixVersion but without a positive resolution (such as "abandoned", "won't do", "superceded"), remove all fixVersion entries.
+7. It is recommended to release from a branch (if you have created a Jira ticket to track the release, use the ticket id as the branch name).
+   If you decide to do so, checkout your branch now.
 8. Create a `RELEASE-NOTES.txt` file in the root folder of the project to be released. 
     If such a file already exists, update it for the release. See a previous 
     release notes for examples of what to include. The release note report in Jira is a 
@@ -92,30 +94,30 @@ See https://issues.apache.org/jira/browse/OAK-11840 for an example.
     or [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page) page,
     click on the release, then on the "Release Notes" link on the top.
     Double-check that all version numbers in the updated Release Notes are accurate. Commit with the Jira tracking issue for the release (if there is one).
-8.  Make sure that the API docs can be built, using both `mvn javadoc:javadoc` and `mvn javadoc:aggregate` from the reactor pom.
-9.  Make sure that the build succeeds with all Java versions it is supposed to support (trying with the earliest and latest is ok).
-10. (Jackrabbit) Make sure that the release does not break Oak.
+9.  Make sure that the API docs can be built, using both `mvn javadoc:javadoc` and `mvn javadoc:aggregate` from the reactor pom.
+10.  Make sure that the build succeeds with all Java versions it is supposed to support (trying with the earliest and latest is ok).
+11. (Jackrabbit) Make sure that the release does not break Oak.
      * Check by building the applicable Oak version locally using `mvn clean install -PintegrationTesting -Djackrabbit.version=2.x.y-SNAPSHOT`
      * If the update does require changes in Oak, open JIRA tickets and link them to the JIRA tickets tracking the release activity.
-11. If this is a stable branch, review changes to export versions which should be avoided (see [OAK-6346](https://issues.apache.org/jira/browse/OAK-6346) for context). If there are indeed changes (as in the example below), see [Appendix E](#Appendix_E:_Version_Changes).
+12. If this is a stable branch, review changes to export versions which should be avoided (see [OAK-6346](https://issues.apache.org/jira/browse/OAK-6346) for context). If there are indeed changes (as in the example below), see [Appendix E](#Appendix_E:_Version_Changes).
 
         # Oak 1.8 as of November 2018
         git diff jackrabbit-oak-1.8.0 | grep -i "@Version" -B 6
         -@Version("1.5.0")
         +@Version("1.6.0")
-12. On the other hand, if this is a release from trunk, carefully review all
+13. On the other hand, if this is a release from trunk, carefully review all
     export versions and check that no change introduces new dependencies on
     Guava (see [OAK-7182](https://issues.apache.org/jira/browse/OAK-7182)).
-13. When creating a "stable" release (even-numbered), check that we do not have
+14. When creating a "stable" release (even-numbered), check that we do not have
     dependencies to unstable releases. In particular, stable releases of Oak
     should not reference unstable Jackrabbit releases (if this is the case,
     a new stable Jackrabbit release might be required in order to proceed).
-16. Build and deploy the release artifacts with Maven. See [below](#Steps_to_build_the_release_artifacts) for the exact steps.
-17. Mark the version as released in Jira: [Jackrabbit Jira](https://issues.apache.org/jira/plugins/servlet/project-config/JCR/versions),
+15. Build and deploy the release artifacts with Maven. See [below](#Steps_to_build_the_release_artifacts) for the exact steps.
+16. Mark the version as released in Jira: [Jackrabbit Jira](https://issues.apache.org/jira/plugins/servlet/project-config/JCR/versions),
    [Oak Jira](https://issues.apache.org/jira/plugins/servlet/project-config/OAK/versions). You'll see all the defined project versions. From the settings menu, choose 'Release' on the version.
-18. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (~19 projects for Jackrabbit).
-19. Close the staged repository, giving it a meaningful name, such as "Apache Jackrabbit 2.x.y RC"
-20. Upload the artifacts to https://dist.apache.org/repos/dist/dev/jackrabbit/ as follows:
+17. Do a sanity check that the [staged repository](https://repository.apache.org/index.html#stagingRepositories) on repository.apache.org contains all artifacts (~19 projects for Jackrabbit).
+18. Close the staged repository, giving it a meaningful name, such as "Apache Jackrabbit 2.x.y RC"
+19. Upload the artifacts to https://dist.apache.org/repos/dist/dev/jackrabbit/ as follows:
 
         # TARGET - where https://dist.apache.org/repos/dist/dev/jackrabbit/ is checked out
         # SOURCE - where the release was built
@@ -140,6 +142,7 @@ See https://issues.apache.org/jira/browse/OAK-11840 for an example.
 23. Start the vote thread by emailing the applicable mailing list ([Jackrabbit](mailto:dev@jackrabbit.apache.org?subject=%5BVOTE%5D%20Release%20Apache%20Jackrabbit%20x.y.z), [Oak](mailto:oak-dev@jackrabbit.apache.org?subject=%5BVOTE%5D%20Release%20Apache%20Jackrabbit%20Oak%20x.y.z))
 24. Wait 72 hours (we usually allow three business days, so be careful when a weekend is ahead)
 25. Keep the "announcement" template (`./target/checkout/target/announcement.txt`) for later.
+26. If you released from a branch, create a pull request to merge it into trunk. Merge or rebase (don't use a squash merge) and close the pull request.
 
 ### Part II: after the release vote
    
