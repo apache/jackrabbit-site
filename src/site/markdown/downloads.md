@@ -49,6 +49,31 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='v2.23'></a>
+Apache Jackrabbit 2.23.5-beta (2026-07-06)
+------------------------------------------
+Apache Jackrabbit 2.23.5-beta is an unstable release cut directly from
+Jackrabbit trunk, with a focus on new features and other
+improvements. For production use we recommend the latest 2.22.x
+release.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/2.23.5-beta/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-2.23.5-beta-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.23.5-beta/jackrabbit-2.23.5-beta-src.zip)
+    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-2.23.5-beta-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-2.23.5-beta-src.zip.sha512))
+
+* [jackrabbit-standalone-2.23.5-beta.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.23.5-beta/jackrabbit-standalone-2.23.5-beta.jar)
+    (100M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-standalone-2.23.5-beta.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-standalone-2.23.5-beta.jar.sha512))
+
+* [jackrabbit-webapp-2.23.5-beta.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.23.5-beta/jackrabbit-webapp-2.23.5-beta.war)
+    (45M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-webapp-2.23.5-beta.war.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-webapp-2.23.5-beta.war.sha512))
+
+* [jackrabbit-jca-2.23.5-beta.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.23.5-beta/jackrabbit-jca-2.23.5-beta.rar)
+    (44M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-jca-2.23.5-beta.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-jca-2.23.5-beta.rar.sha512))
+
+
+
+
 <a class='anchor' name='latest'></a>
 Apache Jackrabbit Oak 2.2.0 (2026-06-02)
 ----------------------------------------
@@ -76,31 +101,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/oak/1.22.24
 
 * [jackrabbit-oak-1.22.24-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/oak/1.22.24/jackrabbit-oak-1.22.24-src.zip)
     (17M, source zip, [pgp](https://downloads.apache.org/jackrabbit/oak/1.22.24/jackrabbit-oak-1.22.24-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/oak/1.22.24/jackrabbit-oak-1.22.24-src.zip.sha512))
-
-
-
-
-<a class='anchor' name='v2.23'></a>
-Apache Jackrabbit 2.23.5-beta (2026-07-06)
-------------------------------------------
-Apache Jackrabbit 2.23.5-beta is an unstable release cut directly from
-Jackrabbit trunk, with a focus on new features and other
-improvements. For production use we recommend the latest 2.22.x
-release.
-
-See the [full release notes](https://www.apache.org/dist/jackrabbit/2.23.5-beta/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-2.23.5-beta-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.23.5-beta/jackrabbit-2.23.5-beta-src.zip)
-    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-2.23.5-beta-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-2.23.5-beta-src.zip.sha512))
-
-* [jackrabbit-standalone-2.23.5-beta.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.23.5-beta/jackrabbit-standalone-2.23.5-beta.jar)
-    (100M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-standalone-2.23.5-beta.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-standalone-2.23.5-beta.jar.sha512))
-
-* [jackrabbit-webapp-2.23.5-beta.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.23.5-beta/jackrabbit-webapp-2.23.5-beta.war)
-    (45M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-webapp-2.23.5-beta.war.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-webapp-2.23.5-beta.war.sha512))
-
-* [jackrabbit-jca-2.23.5-beta.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.23.5-beta/jackrabbit-jca-2.23.5-beta.rar)
-    (44M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-jca-2.23.5-beta.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.23.5-beta/jackrabbit-jca-2.23.5-beta.rar.sha512))
 
 
 
