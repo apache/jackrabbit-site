@@ -176,7 +176,7 @@ Otherwise:
 11. Oak: oak-doc and oak-doc-railroad-macro are not in the reactor pom, thus need a manual update of version numbers
 12. Send a release announcement to the
     [applicable mailing lists](mailto:announce@apache.org,announce@jackrabbit.apache.org,users@jackrabbit.apache.org,dev@jackrabbit.apache.org,oak-dev@jackrabbit.apache.org?subject=%5BANNOUNCE%5D%20Apache%20Jackrabbit%20...%20released)
-    once the website and download mirrors have been synced (template generated in `./target/checkout/target/announcement.txt` -- note that mirrors may need up to 12 hours!).
+    once the website has been synced (template generated in `./target/checkout/target/announcement.txt`).
     Please note the announcement mails needs to be sent from an @apache.org address.
     In case you are using a mailbox other than apache mailbox (such as gmail) to send mails for your apache address, make sure to send them in plain text format.
     (Warning: the announcement mailing lists are moderated. That means that mails could be rejected for various reasons, such as actual errors in the announcement or simply for the fact that the [list moderators](https://webmod.apache.org/modreq.html?action=modreq) missed the requests. So check your inbox.)
