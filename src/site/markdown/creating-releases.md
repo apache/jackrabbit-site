@@ -83,7 +83,7 @@ See https://issues.apache.org/jira/browse/OAK-11840 for an example.
    [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page))
    and that all the related issues have been resolved.
 4. Create a new version in JIRA for the next release (if not present yet).
-5. Check for issues that have been resolved but do not have "fixVersion" set - these may need to be updated before creating the release notes ([Jackrabbit Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20JCR%20AND%20status%20%3D%20resolved%20AND%20fixVersion%20IS%20EMPTY%20ORDER%20BY%20issuekey%20DESC%20), [Oak Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20OAK%20AND%20status%20%3D%20resolved%20AND%20fixVersion%20IS%20EMPTY%20ORDER%20BY%20issuekey%20DESC%20)).
+5. Check for issues that have been resolved but do not have "fixVersion" set - these may need to be updated before creating the release notes ([Jackrabbit Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20JCR%20AND%20status%20%3D%20resolved%20AND%20fixVersion%20IS%20EMPTY%20ORDER%20BY%20issuekey%20DESC%20), [Oak Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20OAK%20AND%20status%20%3D%20resolved%20AND%20fixVersion%20IS%20EMPTY%20ORDER%20BY%20issuekey%20DESC%20)). Also: check for commits that have no JIRA id, or where the status is dubious (see [Appendix H](#appendix-h-checking-for-dubious-commits)).
 6. If there are issues with a fixVersion but without a positive resolution (such as "abandoned", "won't do", "superceded"), remove all fixVersion entries.
 7. It is recommended to release from a branch (if you have created a Jira ticket to track the release, use the ticket id as the branch name).
    If you decide to do so, checkout your branch now.
@@ -422,3 +422,46 @@ update the fixVersion information). An exception would be SNAPSHOT dependencies.
 
 Also, every ticket resolved in a beta release also should have the next stable branch as "fixVersion" (such as
 2.23.n and 2.24). This ensures that 2.24.0, once it is released, will have complete release notes.
+
+Appendix H: checking for dubious commits
+----------------------------------------
+
+There's a (AI generated) [shell script](https://https://dist.apache.org/repos/dist/dev/jackrabbit/check-commits.sh)!
+
+It will check commits since a given tag, and will check for properly set `fixVersion` fields. Take the output 
+with a grain of salt. Run it in a local checkout (non-destructive):
+
+    $ sh check-commits.sh --tag jackrabbit-oak-2.4.0 --fixVersion 2.6.0
+    Working in /tmp/tmp.OK6QSpweZs
+    Total commits: 43
+    Commits without JIRA: 3
+    Unique JIRA tickets: 42
+    Invalid JIRA tickets: 7
+    Commits with invalid JIRA: 6
+    Total problematic commits: 9
+
+    ========================================
+    ## Execution Summary
+    ========================================
+
+    ### ❌ Commits Without Jira (3)
+     * `ece05d0072816cc1024e48a5d88be85097db208b` - docs: wire threat model for agent discoverability + rename to THREAT_MODEL.md (#3042)
+     * `17358dee480d8e09f68b8f83e5ff8a60d4e4a23d` - Add draft project security threat-model document (#2923)
+     * `d1a2c1545612070c52df8729d2e24af1e18d2135` - [maven-release-plugin] prepare for next development iteration
+
+    ### ⚠️ Commits With Incorrect Jira Status/Version (6)
+     * `4be0b387f6ef0ddcf0cb89b92aa0d4cf3264846e` - OAK-12292: Oak 2.4.0 Release
+     * `7db18defef61a55b243d0b6f00ca40a6280ab883` - OAK-12326: Flacky test TokenCleanupTest#testBatchSizeLimitsCleanup (#3047)
+     * `a2416d3e4426672f903316dfe471c2d90acaa949` - OAK-12330 Simplified index management - allow updating secure (#3057)
+     * `b9b83ed38968c4d9ae04c8d8f62d2986aeedea17` - Revert "OAK-12319 : bump commons-io to 2.22.0 (#3036)" (#3053)
+     * `dae67c74198c9a84188d14fbacb1e5b0ceac11d0` - OAK-12295 : bump mongo version to 5.3.1 (#3031)
+     * `edee3fb58817ceeb2e813a75bd51f336fa973709` - OAK-12319 : bump commons-io to 2.22.0 (#3036)
+    
+    ========================================
+    Outputs generated:
+      commits_without_jira.txt
+      commits_with_invalid_jira.txt
+      problematic_commits.txt
+
+For instance, commits done by `maven-release-plugin` of course are ok.
+
