@@ -426,7 +426,7 @@ Also, every ticket resolved in a beta release also should have the next stable b
 Appendix H: checking for dubious commits
 ----------------------------------------
 
-There's a (AI generated) [shell script](https://https://dist.apache.org/repos/dist/dev/jackrabbit/check-commits.sh)!
+There's a (AI generated) [shell script](https://dist.apache.org/repos/dist/dev/jackrabbit/check-commits.sh)!
 
 It will check commits since a given tag, and will check for properly set `fixVersion` fields. Take the output 
 with a grain of salt. Run it in a local checkout (non-destructive):
