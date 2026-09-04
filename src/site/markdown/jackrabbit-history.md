@@ -26,14 +26,15 @@ For recent events, have a look at the [News Archive](news-archive.html).
 
 Jackrabbit in 2026
 ------------------
+* June 2026: [Jackrabbit Status June 2026](status/board-report-2026-06.html)
 * March 2026: [Jackrabbit Status March 2026](status/board-report-2026-03.html)
 
 Jackrabbit in 2025
 ------------------
-* March 2025: [Jackrabbit Status March 2025](status/board-report-2025-03.html)
-* June 2025: [Jackrabbit Status June 2025](status/board-report-2025-06.html)
-* September 2025: [Jackrabbit Status September 2025](status/board-report-2025-09.html)
 * December 2025: [Jackrabbit Status December 2025](status/board-report-2025-12.html)
+* September 2025: [Jackrabbit Status September 2025](status/board-report-2025-09.html)
+* June 2025: [Jackrabbit Status June 2025](status/board-report-2025-06.html)
+* March 2025: [Jackrabbit Status March 2025](status/board-report-2025-03.html)
 
 Jackrabbit in 2024
 ------------------

@@ -14,7 +14,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-Apache Jackrabbit: Board Report June 2026
+Apache Jackrabbit: Board Report September 2026 (draft)
 ==========================================
 
 ## Description: 
@@ -57,25 +57,33 @@ Apache Jackrabbit itself is mostly in maintenance mode with most of
 the work going into bug fixing and tooling. New features are mainly
 driven by dependencies from Jackrabbit Oak.
 
-Jackrabbit Oak 2.0.0 was released as the first major Oak release that
-requires Java 17. This follows the earlier work to raise the minimum
-Java version across build and CI, and gives the project a current Java
-baseline for future development while maintenance branches continue to
-serve older runtime requirements.
+Two more Jackrabbit Oak 2.x feature releases were cut in this period,
+Oak 2.4.0 in July and Oak 2.6.0 in August, continuing the regular
+release cadence on the current Java 17 baseline. The oak-blob-azure
+module gained support for the Azure SDK V12, a large change
+that modernizes the Azure blob storage integration. The build was also
+updated to Apache Parent POM 39, and Groovy was upgraded to 4.0.33 so
+that the project builds on Java 26. Routine dependency maintenance
+continued at a steady pace across the MongoDB, AWS, Netty, Jackson,
+Tomcat and testing libraries.
 
-The ongoing effort to reduce dependence on Google's Guava library made
-substantial progress. Oak introduced its own cache API and Caffeine based
-implementations, added compatibility tests, and migrated cache usage in
-document store, search, segment store, blob, S3 and Azure components.
-Follow-up work refined cache statistics, eviction behaviour and exception
-handling to preserve compatibility with existing Guava based behaviour.
-
-Indexing and query processing continued to receive significant attention.
-Changes improved index cost estimation, LIMIT aware index selection,
-Lucene and Elastic index version handling, Elastic async response
-processing, subtree deletion handling and diagnostics. Additional tests
-were added for facets, KNN queries, deleted Lucene documents and related
+Query processing and indexing again saw the most concentrated work,
+mostly on the Elasticsearch backend. Improvements covered index
+provisioning and more graceful handling of missing indexes, reduced
+document counts for dynamic boost, and better use of thread pools for
+async response processing. Fulltext indexing was made more robust
+around indexing-rule changes, overlong facet properties and other
 query edge cases.
+
+Work on the caching layer continued the migration towards Caffeine,
+with cache maintenance now running asynchronously, precomputed element
+count and weight in the persistent disk cache, a fixed bound for the
+disk cache and a new cache for service lookups. Several obsolete
+feature toggles were removed as the features they guarded became the
+default (full GC, embedded verification and the prefetch code path,
+among others). In addition, a project-level security threat model was
+contributed and wired for automated discoverability through
+THREAT_MODEL.md and the AGENTS.md / SECURITY.md chain.
 
 ## Community Health:
 The project is generally healthy with a continuous stream of traffic
@@ -88,12 +96,12 @@ features and improvements in for the next Jackrabbit Oak release.
 
 ## Releases:
 
-- jackrabbit-2.23.4-beta was released on 2026-04-10
-- jackrabbit-oak-2.0.0 was released on 2026-04-21
-- jackrabbit-oak-1.22.24 was released on 2026-04-28
-- jackrabbit-oak-2.2.0 was released on 2026-06-02
+- jackrabbit-2.23.5-beta was released on 2026-07-06
+- jackrabbit-oak-2.4.0 was released on 2026-07-14
+- jackrabbit-2.22.4 was released on 2026-08-06
+- jackrabbit-oak-2.6.0 was released on 2026-08-24
 
 ## JIRA activity:
 
-- 131 JIRA tickets created in the last 3 months
-- 101 JIRA tickets closed/resolved in the last 3 months
+- 166 JIRA tickets created in the last 3 months
+- 123 JIRA tickets closed/resolved in the last 3 months
