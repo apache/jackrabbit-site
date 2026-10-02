@@ -75,9 +75,9 @@ See https://issues.apache.org/jira/browse/OAK-11840 for an example.
 
 1. Check the CI status of the project ([Jackrabbit Jenkins](https://ci-builds.apache.org/job/Jackrabbit/))
 2. Consider checking the CVE database for vulnerabilities in dependencies,
-   using `mvn org.owasp:dependency-check-maven:aggregate` (first run will be slow because CVE
+   using `mvn org.owasp:dependency-check-maven:aggregate -Dnvd.api.key=x.y.z -fn` (first run will be slow because CVE
    databases are downloaded and parsed). If dependencies need action, open tickets and make sure they
-   are marked as candidate backports where applicable.
+   are marked as candidate backports where applicable. The API key can be obtained from https://nvd.nist.gov/developers/request-an-api-key.
 3. Make sure that an appropriate version for the release is entered in Jira 
    ([Jackrabbit Jira](https://issues.apache.org/jira/projects/JCR?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page),
    [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page))
