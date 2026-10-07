@@ -49,6 +49,29 @@ See the `LICENSE.txt` file contained in each release artifact for applicable lic
 
 
 
+<a class='anchor' name='v2.20'></a>
+Apache Jackrabbit 2.20.18 (2026-10-07)
+--------------------------------------
+Apache Jackrabbit 2.20.18 is an incremental feature release based on
+and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
+2.20.x releases are considered stable and targeted for production use.
+
+See the [full release notes](https://www.apache.org/dist/jackrabbit/2.20.18/RELEASE-NOTES.txt) for more details.
+
+* [jackrabbit-2.20.18-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.18/jackrabbit-2.20.18-src.zip)
+    (13M, source zip, [pgp](https://www.apache.org/dist/jackrabbit/2.20.18/jackrabbit-2.20.18-src.zip.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.20.18/jackrabbit-2.20.18-src.zip.sha512))
+
+* [jackrabbit-standalone-2.20.18.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.18/jackrabbit-standalone-2.20.18.jar)
+    (106M, standalone server, [pgp](https://www.apache.org/dist/jackrabbit/2.20.18/jackrabbit-standalone-2.20.18.jar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.20.18/jackrabbit-standalone-2.20.18.jar.sha512))
+
+* [jackrabbit-webapp-2.20.18.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.18/jackrabbit-webapp-2.20.18.war)
+    (48M, web application, [pgp](https://www.apache.org/dist/jackrabbit/2.20.18/jackrabbit-webapp-2.20.18.war.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.20.18/jackrabbit-webapp-2.20.18.war.sha512))
+
+* [jackrabbit-jca-2.20.18.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.18/jackrabbit-jca-2.20.18.rar)
+    (46M, JCA resource adapter, [pgp](https://www.apache.org/dist/jackrabbit/2.20.18/jackrabbit-jca-2.20.18.rar.asc), [sha512](https://www.apache.org/dist/jackrabbit/2.20.18/jackrabbit-jca-2.20.18.rar.sha512))
+
+
+
 <a class='anchor' name='v2.22'></a>
 Apache Jackrabbit 2.22.4 (2026-08-06)
 -------------------------------------
@@ -143,29 +166,6 @@ See the [full release notes](https://downloads.apache.org/jackrabbit/filevault/4
 Also see the Jackrabbit FileVault [documentation](/filevault/index.html) for more information about this project.
 
 
-
-
-
-<a class='anchor' name='v2.20'></a>
-Apache Jackrabbit 2.20.17 (2025-07-14)
---------------------------------------
-Apache Jackrabbit 2.20.17 is an incremental feature release based on
-and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
-2.20.x releases are considered stable and targeted for production use.
-
-See the [full release notes](https://downloads.apache.org/jackrabbit/2.20.17/RELEASE-NOTES.txt) for more details.
-
-* [jackrabbit-2.20.17-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.17/jackrabbit-2.20.17-src.zip)
-    (13M, source zip, [pgp](https://downloads.apache.org/jackrabbit/2.20.17/jackrabbit-2.20.17-src.zip.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.17/jackrabbit-2.20.17-src.zip.sha512))
-
-* [jackrabbit-standalone-2.20.17.jar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.17/jackrabbit-standalone-2.20.17.jar)
-    (105M, standalone server, [pgp](https://downloads.apache.org/jackrabbit/2.20.17/jackrabbit-standalone-2.20.17.jar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.17/jackrabbit-standalone-2.20.17.jar.sha512))
-
-* [jackrabbit-webapp-2.20.17.war](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.17/jackrabbit-webapp-2.20.17.war)
-    (48M, web application, [pgp](https://downloads.apache.org/jackrabbit/2.20.17/jackrabbit-webapp-2.20.17.war.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.17/jackrabbit-webapp-2.20.17.war.sha512))
-
-* [jackrabbit-jca-2.20.17.rar](https://www.apache.org/dyn/closer.lua/jackrabbit/2.20.17/jackrabbit-jca-2.20.17.rar)
-    (46M, JCA resource adapter, [pgp](https://downloads.apache.org/jackrabbit/2.20.17/jackrabbit-jca-2.20.17.rar.asc), [sha512](https://downloads.apache.org/jackrabbit/2.20.17/jackrabbit-jca-2.20.17.rar.sha512))
 
 
 
