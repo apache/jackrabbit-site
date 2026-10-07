@@ -36,6 +36,8 @@ announcement and a short description.
 | CVE-2023-37895 | Apache Jackrabbit RMI access can lead to RCE | 2.20.11, 2.21.18 |
 | CVE-2025-53689 | Blind XXE Vulnerabilities in jackrabbit-spi-commons and jackrabbit-core in Apache Jackrabbit < 2.23.2 due to usage of an unsecured document build to load privileges     | 2.23.1-beta, 2.22.1, 2.20.17 |
 | CVE-2025-58782 | JNDI injection risk with JndiRepositoryFactory | 2.22.2 |
+| CVE-2026-92414 | Pre-auth hijack of cached sessions via derivable WebDAV lock tokens | 2.20.18, 2.22.5, 2.23.6-beta |
+| CVE-2026-92415 | DavEx client runs Class.forName + (String)-constructor on server-controlled error bodies | 2.20.18, 2.22.5, 2.23.6-beta |
 
 ### Jackrabbit's Security Model
 

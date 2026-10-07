@@ -41,15 +41,21 @@ Apache Jackrabbit 2.23.6-beta is an unstable release cut directly from trunk, wi
 focus on new features and other improvements. See the
 [downloads](downloads.html#v2.23) page for more details.
 
+*This release addresses CVE-2026-92414 and CVE-2026-92415*.
+
 #### 2026-10-07: Apache Jackrabbit 2.22.5 released
 Apache Jackrabbit 2.22.5 is an incremental feature release based on and
 compatible with earlier stable Jackrabbit 2.x releases. See the
 [downloads](downloads.html#v2.22) page for more details.
 
+*This release addresses CVE-2026-92414 and CVE-2026-92415*.
+
 #### 2025-10-07: Apache Jackrabbit 2.20.18 released
 Apache Jackrabbit 2.20.18 is an incremental feature release based on and
 compatible with earlier stable Jackrabbit 2.x releases. See the
 [downloads](downloads.html#v2.20) page for more details.
+
+*This release addresses CVE-2026-92414 and CVE-2026-92415*.
 
 #### 2026-08-06: Apache Jackrabbit 2.22.4 released
 Apache Jackrabbit 2.22.4 is an incremental feature release based on and

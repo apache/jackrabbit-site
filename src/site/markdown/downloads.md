@@ -57,6 +57,8 @@ Jackrabbit trunk, with a focus on new features and other
 improvements. For production use we recommend the latest 2.22.x
 release.
 
+*This release addresses CVE-2026-92414 and CVE-2026-92415*.
+
 See the [full release notes](https://www.apache.org/dist/jackrabbit/2.23.6-beta/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-2.23.6-beta-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.23.6-beta/jackrabbit-2.23.6-beta-src.zip)
@@ -81,6 +83,8 @@ Apache Jackrabbit 2.22.5 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
 2.22.x releases are considered stable and targeted for production use.
 
+*This release addresses CVE-2026-92414 and CVE-2026-92415*.
+
 See the [full release notes](https://www.apache.org/dist/jackrabbit/2.22.5/RELEASE-NOTES.txt) for more details.
 
 * [jackrabbit-2.22.5-src.zip](https://www.apache.org/dyn/closer.lua/jackrabbit/2.22.5/jackrabbit-2.22.5-src.zip)
@@ -104,6 +108,8 @@ Apache Jackrabbit 2.20.18 (2026-10-07)
 Apache Jackrabbit 2.20.18 is an incremental feature release based on
 and compatible with earlier stable Jackrabbit 2.x releases. Jackrabbit
 2.20.x releases are considered stable and targeted for production use.
+
+*This release addresses CVE-2026-92414 and CVE-2026-92415*.
 
 See the [full release notes](https://www.apache.org/dist/jackrabbit/2.20.18/RELEASE-NOTES.txt) for more details.
 
