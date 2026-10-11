@@ -20,10 +20,10 @@ Website
 
 The [Apache Jackrabbit website](http://jackrabbit.apache.org/) is generated with the [maven-site-plugin](https://maven.apache.org/plugins/maven-site-plugin/) from Markdown sources in different Git repositories:
 
-1. <https://github.com/apache/jackrabbit-site> for the path [`\jcr`](https://jackrabbit.apache.org/jcr/)
-1. <https://github.com/apache/jackrabbit-oak/tree/trunk/oak-doc> for the path [`\oak`](https://jackrabbit.apache.org/oak/docs/)
-1. <https://github.com/apache/jackrabbit-filevault> for the path [`\filevault`](https://jackrabbit.apache.org/filevault/)
-1. <https://jackrabbit.apache.org/filevault-package-maven-plugin/> for the path [`\filevault-package-maven-plugin`](https://jackrabbit.apache.org/filevault-package-maven-plugin/)
+1. <https://github.com/apache/jackrabbit-site> for the path [`/jcr`](https://jackrabbit.apache.org/jcr/)
+1. <https://github.com/apache/jackrabbit-oak/tree/trunk/oak-doc> for the path [`/oak`](https://jackrabbit.apache.org/oak/docs/)
+1. <https://github.com/apache/jackrabbit-filevault> for the path [`/filevault`](https://jackrabbit.apache.org/filevault/)
+1. <https://jackrabbit.apache.org/filevault-package-maven-plugin/> for the path [`/filevault-package-maven-plugin`](https://jackrabbit.apache.org/filevault-package-maven-plugin/)
 1. Every other path is maintained directly within <https://svn.apache.org/repos/asf/jackrabbit/site/live/> only.
 
 Publishing works by committing the *generated* pages and assets to the dedicated SVN directory <https://svn.apache.org/repos/asf/jackrabbit/site/live/>.
