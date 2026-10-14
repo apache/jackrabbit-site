@@ -50,7 +50,7 @@ compatible with earlier stable Jackrabbit 2.x releases. See the
 
 *This release addresses [CVE-2026-92414](https://www.cve.org/CVERecord?id=CVE-2026-92414) and [CVE-2026-92415](https://www.cve.org/CVERecord?id=CVE-2026-92415)*.
 
-#### 2025-10-07: Apache Jackrabbit 2.20.18 released
+#### 2026-10-07: Apache Jackrabbit 2.20.18 released
 Apache Jackrabbit 2.20.18 is an incremental feature release based on and
 compatible with earlier stable Jackrabbit 2.x releases. See the
 [downloads](downloads.html#v2.20) page for more details.
