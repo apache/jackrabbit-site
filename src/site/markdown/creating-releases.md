@@ -94,7 +94,7 @@ See https://issues.apache.org/jira/browse/OAK-11840 for an example.
     or [Oak Jira](https://issues.apache.org/jira/projects/OAK?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page) page,
     click on the release, then on the "Release Notes" link on the top.
     Double-check that all version numbers in the updated Release Notes are accurate. Commit with the Jira tracking issue for the release (if there is one).
-9.  Make sure that the API docs can be built, using both `mvn javadoc:javadoc` and `mvn javadoc:aggregate` from the reactor pom.
+9.  (Jackrabbit) Make sure that the API docs can be built, using both `mvn javadoc:javadoc` and `mvn javadoc:aggregate` from the reactor pom.
 10.  Make sure that the build succeeds with all Java versions it is supposed to support (trying with the earliest and latest is ok).
 11. (Jackrabbit) Make sure that the release does not break Oak.
      * Check by building the applicable Oak version locally using `mvn clean install -PintegrationTesting -Djackrabbit.version=2.x.y-SNAPSHOT`
