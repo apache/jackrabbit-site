@@ -36,6 +36,11 @@ Apache Jackrabbit is a project of the [Apache Software Foundation](http://www.ap
 
 ## Apache Jackrabbit News
 
+#### 2026-10-20: Apache Jackrabbit Oak 2.8.0 released
+Apache Jackrabbit Oak 2.8.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak releases.
+See the [downloads](downloads.html#latest) page for more details.
+
 #### 2026-10-07: Apache Jackrabbit 2.23.6-beta released
 Apache Jackrabbit 2.23.6-beta is an unstable release cut directly from trunk, with a
 focus on new features and other improvements. See the
@@ -56,6 +61,11 @@ compatible with earlier stable Jackrabbit 2.x releases. See the
 [downloads](downloads.html#v2.20) page for more details.
 
 *This release addresses [CVE-2026-92414](https://www.cve.org/CVERecord?id=CVE-2026-92414) and [CVE-2026-92415](https://www.cve.org/CVERecord?id=CVE-2026-92415)*.
+
+#### 2026-08-19: Apache Jackrabbit Oak 2.6.0 released
+Apache Jackrabbit Oak 2.6.0 is an incremental feature release based
+on and compatible with earlier stable Jackrabbit Oak releases.
+See the [downloads](downloads.html#latest) page for more details.
 
 #### 2026-08-06: Apache Jackrabbit 2.22.4 released
 Apache Jackrabbit 2.22.4 is an incremental feature release based on and
