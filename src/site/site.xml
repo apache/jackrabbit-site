@@ -17,13 +17,18 @@
   limitations under the License.
   -->
 
-<project xmlns="http://maven.apache.org/DECORATION/1.8.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd"
-         name="Apache Jackrabbit">
+<site xmlns="http://maven.apache.org/SITE/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/SITE/2.0.0 https://maven.apache.org/xsd/site-2.0.0.xsd"
+    name="Apache Jackrabbit">
     <version position="none"/>
     <publishDate position="none"/>
     <edit>https://github.com/apache/jackrabbit-site/edit/main</edit>
+    <bannerLeft href="https://jackrabbit.apache.org/">
+        <image src="/images/logos/jlogo.gif" alt="Apache Jackrabbit Logo" height="70px" />
+    </bannerLeft>
+    <bannerRight href="https://apache.org/">
+        <image src="https://apache.org/images/asflogo_horizontal_color.svg" height="70px" alt="Apache Software Foundation (ASF) Logo" />
+    </bannerRight>
     <body>
         <!-- breadcrumb is necessary to render the edit button -->
         <breadcrumbs>
@@ -78,20 +83,13 @@
     <skin>
         <groupId>org.apache.maven.skins</groupId>
         <artifactId>maven-fluido-skin</artifactId>
-        <version>1.12.0</version>
+        <version>2.1.0</version>
     </skin>
 
     <custom>
         <fluidoSkin>
             <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
             <topBarEnabled>true</topBarEnabled>
-            <topBarContainerStyle>width: 90%;</topBarContainerStyle>
-            <topBarIcon>
-                <name>Apache Jackrabbit</name>
-                <alt>Apache Jackrabbit</alt>
-                <src>/images/logos/jlogo.gif</src>
-                <href>/index.html</href>
-            </topBarIcon>
             <sideBarEnabled>true</sideBarEnabled>
             <gitHub>
                 <projectId>apache/jackrabbit</projectId>
@@ -110,4 +108,4 @@
             </options>
         </matomo>
     </custom>
-</project>
+</site>

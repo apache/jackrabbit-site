@@ -19,6 +19,11 @@ body {
     font-size: 15px;
     line-height: 18px;
 }
+
+div.container-top, div.container-fluid-top {
+    padding-top: 0px;
+}
+
 tt {
     white-space: nowrap;
     border: 1px solid #eaeaea;
@@ -37,24 +42,6 @@ pre {
 
 .brand img {
     height: 70px;
-}
-
-#banner {
-    display: none;
-}
-
-body.topBarEnabled {
-    padding-top: 90px;
-}
-.navbar .nav {
-    margin: 30px 10px 0 0;
-    font-size: 16px;
-}
-
-#topbar .container-fluid {
-    background: url('../images/logos/asf-logo.gif') no-repeat;
-    background-size: 266px;
-    padding-left: 266px;
 }
 
 a.anchor {

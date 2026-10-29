@@ -25,7 +25,7 @@ This is the Git repository for the content of <https://jackrabbit.apache.org/jcr
 Further information in [website](src/site/markdown/website.md).
 
 The Jackrabbit site lives as Markdown files in `src/site/markdown` such
-that it easy to view e.g. from GitHub. This project only generates the
+that they are easy to view e.g. from GitHub. This project only generates the
 content below <https://svn.apache.org/repos/asf/jackrabbit/site/live/jcr>, otherwise
 the scm-publish mechanism is too slow, checking out the entire site.
 
